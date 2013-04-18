@@ -1,0 +1,3613 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.4em;	
+    font-family: Verdana, Sans-Serif, Arial;
+    }
+
+ 
+#sitewrapper {
+    display:block; 
+    width:100%; 
+    height:100%; 
+    margin:0; 
+    padding:0; 
+    _overflow-x:hidden;
+}
+#sitecontainer {
+    position: relative;
+    width: 760px;
+    margin: 0 auto;
+    background: #fff;
+    }
+
+#headernavigation {
+    position: relative;
+    width: 760px;
+    height: 105px;
+    z-index:100;
+    background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/header/grey/mainback.gif) top left no-repeat;
+    }
+    #logo {
+        position: absolute;
+        display: block;
+        margin: 0;
+        padding: 0;
+        top: 8px;
+        left: 18px;
+        height: 53px;
+        width: 150px;
+        }
+        a.logolink {
+            position: absolute;        
+            display: block;        
+            top: 0px;
+            left: 0px;
+            height: 53px;
+            width: 53px;
+            text-decoration: none;
+            background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/header/logo.gif) top left no-repeat;
+            }
+        a.textlink {
+            position: absolute;        
+            display: block;        
+            top: 3px;
+            left: 53px;       
+            height: 32px;
+            width: 77px;
+            text-decoration: none;
+            }            
+
+#headerextra {
+    width: 740px;
+    height: 20px;
+    margin: 3px auto 5px auto;
+    z-index: 1;
+    }
+.headerbar{
+    display: block;
+}
+
+#content {
+    position: relative;
+    width: 760px;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 1.1em;    
+    background-color: #fff;
+    }  
+
+#centercolumn {
+  position: relative;
+  left: 10px;
+  width: 740px;
+}
+
+#leftcolumn {
+  float: left;
+  display: inline;
+  width: 540px;
+}
+    
+#rightcolumn {
+  float: right;
+  display: inline;
+  width: 200px;
+}
+    
+#footer {
+  position: relative;
+  width: 760px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#footerclose {
+  display: block;
+  position: relative;
+  width: 760px;
+  height: 23px;
+}
+        
+ 
+#tagline {
+    position: relative;
+    display: block;
+    height: 35px;
+    margin-bottom: 2px;
+    }
+    #tagline.deluxe,
+    #tagline.hybrid,
+    #tagline.online {
+        width: 600px;
+    }
+    #tagline h1 {
+        float: left;
+        width: 500px;
+        display: inline;
+        margin-left: 5px;
+        padding-top: 1px;
+
+        }
+   #tagline .players {
+        float: right;
+        display: inline;
+        margin-right: 15px;        
+       }        
+   #rightcolumn .players {
+        margin-bottom:8px;
+       }
+
+#featuredbox {
+    display: block;
+    width: 510px;
+    margin-bottom: 10px;
+    background-color: #fcc;
+    }    
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+    margin-left: 1em;
+    line-height: 1em;
+    }
+    li.glitem, .gltopitem {
+        margin: 0;
+        padding: 0;
+        background: none;
+        list-style-type: none;
+        }    
+
+.gltopitem {
+    width:220px;
+    height:50px;
+    overflow:hidden;
+    line-height: 11px;
+    }
+.glitem {
+    width:220px;
+    height:30px;
+    overflow:hidden;
+    line-height: 11px;
+    }
+
+
+.moregamesitemimage {
+    float:left;
+    height:90px;
+    width:90px;
+    }
+.moregamesitemdescription {
+    padding-top: 2px;
+    line-height: 1.1em;
+    }
+.moregamesitemlinks {
+    display:block;
+    clear:both;
+    padding:0px 0px 0px 8px;
+    height:20px;
+    }
+    
+    
+#footer .footerlinks,
+#footer .footercountrylinks,
+#footer .footerpromotext,
+#footer h2.new,
+#footer .footercopyright {
+        display: block;
+        text-align: center;
+        padding: 0 10px;
+        }        
+#footer .footercopyright {margin-bottom: 12px;}
+.footerlogos img {vertical-align: middle;}
+
+     
+      
+
+#tagline h1 {
+    color: #333;
+    font-weight: normal;
+    font-size: 1em;
+    }
+
+a {
+    color: #000;
+    }
+    
+.players {
+    color: #993333;
+    font-weight: normal;
+    }
+
+#headernavigationsubnavigation a {color: #5e7850;}
+#headerextra a {color: #333;}
+    #headerextra a:hover {color: #5e7850;}
+
+
+.playgamepageheader {
+        float: left;
+        width: 240px;
+        text-align: center;
+        padding: 10px 0px 10px 10px;
+        }
+    .playgamepagecategory {
+        margin-bottom: 6px;
+        }
+    a.playgamepagecategorytext {
+        text-decoration: none;
+        font-size: 12px;
+        }
+    .playgamepagedescription {
+        text-align: left;
+        margin-bottom: 12px;
+        }
+     .playgamepagedescription a{
+        color:5E7850;
+        font-weight:bold;
+        }
+     .playgamepagedescription a:hover{
+        color:#bae024;
+        }
+    .playgamepageimage {
+        float: right;
+        width: 250px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-right: 3px;
+        }
+    .playgamepageothergames {
+        display: block;
+        clear: both;
+        text-align: left; 
+        margin-left: 150px;
+        width: 200px;
+        line-height: 24px;
+        }
+     .playgamepageothergameslist {
+        float: right;
+        }
+     .onlineplus_sidead {
+        display: block;
+        height: 306px;
+        width: 200px;
+        margin-bottom: 17px;
+        }
+
+
+  .downloadgamepage a {
+      color: #993333;
+  }
+    .downloadgamepage a:hover {
+        color: #FF7000;
+    }
+    .downloadgamepage ul {
+        line-height: 14px;
+    }
+  .downloadgamepage li { 
+	background-image: url(http://cdn.ghstatic.com/images/site/zylom/deluxe/page/bullit.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding-left: 20px;
+  }
+  
+  
+  .gamepage_extra_text{
+        text-align:left;
+        padding:0px 15px;
+  }
+  
+  .downloadgamepage .info_logo{
+        display:inline-block;
+        height:13px;
+        width:13px;
+        background-image: url(http://cdn.ghstatic.com/images/site/zylom/sprites/common.png);
+	background-repeat: no-repeat;
+	background-position: -577px -46px; 
+        margin-left: 5px;
+  }
+  .gamepage_extra_text li { 
+        background-image: url(http://cdn.ghstatic.com/images/site/zylom/sprites/common.png);
+	background-repeat: no-repeat;
+	background-position: -604px -35px;
+        padding: 0 0 5px 9px;
+  }
+  .gamepage_ads {
+
+    margin: 0 auto;
+    width: 200px;
+}
+  
+  .categorycolor {
+      color: #993333;
+      font-size: 12px;
+      font-weight: bold;
+  }
+  .categorycolor a {
+      color: #993333;
+      font-size: 12px;
+      font-weight: bold;
+  }
+  .banner {
+      width: 440px;
+      height: 120px;
+      padding-left: 15px;
+      padding-bottom: 15px;
+  }
+  
+  .scalabledivflatgreen,
+  .scalabledivflatorange {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+.downloadgamepage,
+.playgamepage {
+      width: 710px;
+      margin-left: 10px;
+      }
+.downloadgamepageleft,
+.playgamepageleft {
+    margin: 0;
+    padding-top: 2px;
+    display: inline;
+    float: left;
+    width: 250px;
+    text-align: center;
+    }
+.downloadgamepageright,
+.playgamepageright {
+    margin: 0;
+    padding: 0;
+    display:inline;
+    float:right;
+    width:440px;
+    }
+.downloadgamepageleft p,
+.playgamepageleft p {
+    padding: 0 4px;
+    margin-bottom: 12px;
+    }
+.rating {
+    float: right;
+    margin-top: 2px;
+    }
+.alsolike {
+    display: inline;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    width: 85px;
+    height: 94px;
+    line-height: 12px; 
+    margin: 0 7px;
+    }
+.dlxgamepage_alsolike {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 185px;
+    height: 53px;
+    line-height: 12px; 
+    margin: 0 7px;
+    }
+.dlxgamepage_alsolike img{
+    float:left;
+    margin-right: 5px;
+}
+.dlxgamepage_alsolike .name_recommend,
+.dlxgamepage_alsolike .rating_recommend,
+.dlxgamepage_alsolike .rating_recommend img{
+    float: none;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: medium none;
+}
+
+.dlxgamepage_alsolike .name_recommend{
+    color: #000000;
+}
+.dlxgamepage_alsolike .gamelistdownload_recommend{
+    display:block;
+}
+
+ .alsolikeweb {
+    display: inline;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    width: 110px;
+    height: 90px;
+    line-height: 12px; 
+    margin: 0 7px;
+    }
+
+ .allgamesleft {
+    display: inline;
+    float: left;
+    width: 230px;
+    margin-left: 16px;
+    }
+ .allgamesright {
+    display: inline;     
+    float: right;
+    width: 230px;
+    margin-right: 15px;
+    }
+
+.allgamesleft .glplayers, 
+.allgamesright .glplayers {
+    float:right;
+    clear: both;
+    text-align: right;
+    }
+
+.allgamesleft .glplayers, 
+.allgamesright .glplayers,
+.allgamesleft .glgamename, 
+.allgamesright .glgamename {
+    display: block;
+    padding-top: 2px;
+    }
+
+.allgamesleft ul, 
+.allgamesright ul {
+    display: block;
+    clear: both;
+    margin: 0;
+    }
+    .allgamesleft ul li, 
+    .allgamesright ul li {
+        width: 230px;
+        }
+        
+
+    .activelink
+    {
+        background: transparent url(http://cdn.ghstatic.com/images/site/zylom/promo/deluxefeature/button_down.gif) left top no-repeat;
+        cursor: pointer; cursor: hand;
+        width:93;
+        height:30;
+        font-family: Verdana;
+        font-size: 14px;
+        font-weight: bold;
+        color: #993333;
+        text-decoration:none;
+        padding-top:7px;
+    }
+
+    .inactivelink
+    {
+        background: transparent url(http://cdn.ghstatic.com/images/site/zylom/promo/deluxefeature/button_up.gif) left top no-repeat;
+        width:93;
+        height:30;
+        cursor: pointer; cursor: hand;
+        font-family: Verdana;
+        font-size: 14px;
+        font-weight: bold;
+        color: #5E7850;
+        text-decoration:none;
+        padding-top:7px;
+    }
+
+
+
+.greenlink {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #5E7850;
+    text-decoration: underline;
+    font-weight: normal
+    }
+    a:hover.greenlink {color: #BAE024}
+.orangelink {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #8A502B;
+    text-decoration: underline;
+    font-weight: normal
+    }
+    a:hover.orangelink {color: #FF7000}
+
+a.headline, a:hover.headline {color: #000000;}
+a.bottomline, a:hover.bottomline {color: #000000;}
+a.plainlink, a:hover.plainlink {color: #000000; font-weight:normal;}
+
+#footer .footerlinks,
+#footer .footercountrylinks,
+#footer .footerpromotext,
+#footer h2.new,
+#footer .footercopyright {
+        font-size: 0.9em;	
+        }          
+
+.optfooterlinks, .genericfooterlinks {
+	font-size: 9px;
+	font-weight: lighter;
+	color: #333333;
+	line-height: normal;
+	text-decoration: none;
+}        
+
+
+.clearer {
+    display:block;
+    height:1px;
+    line-height:0px;
+    font-size:0px;
+    clear:both;
+    }
+   
+    
+    
+.benefitstable th 
+{
+  color: #FFFFFF; 
+  font-size :12px; 
+  font-family: verdana;
+}
+
+.benefitstable td 
+{
+  border-collapse: collapse; 
+  font-size :10px; 
+  font-family: verdana; 
+  border-style: solid; 
+  border-width:1px; 
+  border-color: #9C36AB;
+  background-color: #FEF4FE;
+ }
+.benefitstable td.check
+{
+  background-color: #e9b7e9;
+ }
+ 
+.benefitstext 
+{
+  color: #9C36AB; 
+  font-size: 26px; 
+  font-family: verdana; 
+  font-weight: bold;
+}      
+
+button.videobutton {
+    margin: 0;
+    padding: 0;
+    margin-top: 4px;
+    background-color: #fcc;
+    border: 1px solid #f00;
+    cursor: hand;
+}
+
+
+
+.breadcrumbs {
+    position: relative;
+    width: 530px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding-left: 8px;
+    font-size: 9px;
+    line-height: 16px;
+}
+.breadcrumbs a.breadcrumb {color:#808483; text-decoration:none; font-weight:normal; }
+.breadcrumbs a:hover.breadcrumb {color:#000;}
+.breadcrumbs a.breadcrumbactive, 
+.breadcrumbs a:hover.breadcrumbactive {font-weight:bold; color:#625d61; text-decoration:none;}
+
+.nocrumbstext {
+  font-weight: bold;
+  margin-left: 5px;
+  padding-top: 1px;
+}
+
+
+.nocrumbstext h1{
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 5px;
+  padding-top: 1px;
+  line-height: 16px;
+  width: 595px;
+}
+
+
+.nocrumbstext p{
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  padding-top: 1px;
+  line-height: 13px;
+  width: 500px;
+  height: 35px;
+  position: static;
+  float: left;
+  display: block;
+  cursor: auto;
+}
+
+
+
+
+a.greenbutton110px, a.bluebutton110px, a.orangebutton110px, a.purplebutton110px {display: block; margin: 0 auto; width: 110px; height: 23px;}
+a.greenbutton110px {color: #5E7850; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/110/greenbutton.gif) center 0px no-repeat;}
+a.bluebutton110px {color: #23436B; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/110/bluebutton.gif) center 0px no-repeat;}
+a.orangebutton110px {color: #794336; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/110/orangebutton.gif) center 0px no-repeat;}
+a.purplebutton110px {color: #A926BD; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/110/purplebutton.gif) center 0px no-repeat;}
+
+a:hover.greenbutton110px {color: #5E7850; background-position: center -23px;}
+a:hover.bluebutton110px {color: #23436B; background-position: center -23px;}
+a:hover.orangebutton110px {color: #794336; background-position: center -23px;}
+a:hover.purplebutton110px {color: #A926BD; background-position: center -23px;}
+
+a.greenbutton110px span, a.bluebutton110px span, a.orangebutton110px span, a.purplebutton110px span {display: block; padding-top: 3px; font-size: 11px; font-weight: bold; text-align: center;}
+
+
+a.greenbutton130px, a.bluebutton130px, a.orangebutton130px, a.purplebutton130px {display: block; margin: 0 auto; width: 130px; height: 23px;}
+a.greenbutton130px {color: #5E7850; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/130/greenbutton.gif) center 0px no-repeat;}
+a.bluebutton130px {color: #23436B; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/130/bluebutton.gif) center 0px no-repeat;}
+a.orangebutton130px {color: #794336; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/130/orangebutton.gif) center 0px no-repeat;}
+a.purplebutton130px {color: #A926BD; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/130/purplebutton.gif) center 0px no-repeat;}
+
+a:hover.greenbutton130px {color: #5E7850; background-position: center -23px;}
+a:hover.bluebutton130px {color: #23436B; background-position: center -23px;}
+a:hover.orangebutton130px {color: #794336; background-position: center -23px;}
+a:hover.purplebutton130px {color: #A926BD; background-position: center -23px;}
+
+a.greenbutton130px span, a.bluebutton130px span, a.orangebutton130px span, a.purplebutton130px span {display: block; padding-top: 3px; font-size: 11px; font-weight: bold; text-align: center;}
+
+
+a.greenbutton150px, a.bluebutton150px, a.orangebutton150px, a.purplebutton150px {display: block; margin: 0 auto; width: 150px; height: 23px;}
+a.greenbutton150px {color: #5E7850; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/150/greenbutton.gif) center 0px no-repeat;}
+a.bluebutton150px {color: #23436B; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/150/bluebutton.gif) center 0px no-repeat;}
+a.orangebutton150px {color: #794336; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/150/orangebutton.gif) center 0px no-repeat;}
+a.purplebutton150px {color: #A926BD; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/150/purplebutton.gif) center 0px no-repeat;}
+
+a:hover.greenbutton150px {color: #5E7850; background-position: center -23px;}
+a:hover.bluebutton150px {color: #23436B; background-position: center -23px;}
+a:hover.orangebutton150px {color: #794336; background-position: center -23px;}
+a:hover.purplebutton150px {color: #A926BD; background-position: center -23px;}
+
+a.greenbutton150px span, a.bluebutton150px span, a.orangebutton150px span, a.purplebutton150px span {display: block; padding-top: 3px; font-size: 11px; font-weight: bold; text-align: center;}
+
+
+
+
+a.fancygreen {
+display: block;
+margin: 0 auto;
+padding: 8px 0px 0px 0px;
+width: 165px;
+height: 26px !important;
+height: 34px;
+font-weight: bold;
+font-size: 14px;
+color: #fff;
+text-decoration: none;
+background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/fancygreen.gif) 0px 0px no-repeat;
+}
+a.fancygreen:hover {
+background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/fancygreen.gif) 0px -34px no-repeat;
+}
+
+a.fancyblue {
+display: block;
+margin: 0 auto;
+padding: 8px 0px 0px 0px;
+width: 165px;
+height: 26px !important;
+height: 34px;
+font-weight: bold;
+font-size: 14px;
+color: #fff;
+text-decoration: none;
+background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/fancyblue.gif) 0px 0px no-repeat;
+}
+a.fancyblue:hover {
+background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/fancyblue.gif) 0px -34px no-repeat;
+}
+    
+ 
+.externalcsiiframe
+{
+  border: 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+ 
+.zsm_container {
+    background: transparent url(http://cdn.ghstatic.com/images/site/zylom/promo/supermarket/gamepage/background/background.jpg) top center no-repeat;
+    margin: 50px 0 0 -10px;
+    width: 760px;
+    height: 755px;
+    padding-top: 15px;
+}
+
+.zsm_container.game{
+    margin: 0 0 0 -10px;
+}
+ 
+.zsm_gp_container {
+    position: relative;
+    display: block;
+    width: 726px;
+    height: 613px;
+    margin: 0 auto;
+}
+
+.extra_box_no_trial {
+  position: relative;
+  display: block;
+  width: 727px;
+  height: 149px;
+  margin: 0 auto;
+}
+
+.extra_box_no_trial .content {
+  width: 675px;
+  height: 120px;
+  padding: 15px 0px 0px 35px;
+  font-size: 12px;
+}
+
+.extra_box_no_trial .content span {
+  font-weight: bold;
+  color: #FF0000;
+}
+
+.extra_box_no_trial .content p {
+  margin-bottom: 10px;
+}
+
+.zsm_lp_container {
+    float: left;
+    display: block;
+    width: 726px;
+    height: 165px;
+    margin: -215px 0 0 15px;
+}
+
+.zsm_lp_container_text{
+    font-size: 12px; 
+    height: 85px; 
+    width: 410px; 
+    margin: 55px 0 0 45px;
+}
+
+.zsm_logo{
+    background: transparent url(http://cdn.ghstatic.com/images/site/zylom/promo/supermarket/landingpage/sticker/sticker.png) 0 0 no-repeat; 
+    top: 22px; 
+    height: 77px; 
+    width: 75px; 
+    margin: -80px 0 0 15px; 
+    position: relative;
+}
+
+.zsm_character{
+    background: transparent url(http://cdn.ghstatic.com/images/site/zylom/promo/supermarket/landingpage/character/character.png) 0 0 no-repeat; 
+    height: 243px; 
+    width: 240px; 
+    margin: -65px 0 0 490px; 
+    position: relative;
+}
+
+.zsm_gp_content {
+    position: relative;
+    display: block;
+    width: 726px;
+    margin: -25px auto;
+    font-size: 12px;
+}
+
+.zsm_range_container{
+    float: left; 
+    margin: -50px 0 25px 38px; 
+    height: 330px; 
+    width: 700px;
+}
+
+.zsm_range_container.container1{
+    height: 625px;
+}
+
+.zsm_toprange, .zsm_mediumrange, .zsm_lowrange{
+    height: 285px; 
+    width: 201px; 
+    float: left; 
+    margin-left: 38px;
+}
+
+.zsm_toprange{background: transparent url(http://cdn.ghstatic.com/images/site/zylom/promo/supermarket/landingpage/box/200px/yellow/background.png) 0 0 no-repeat;}
+.zsm_mediumrange{background: transparent url(http://cdn.ghstatic.com/images/site/zylom/promo/supermarket/landingpage/box/200px/orange/background.png) 0 0 no-repeat;}
+.zsm_lowrange{background: transparent url(http://cdn.ghstatic.com/images/site/zylom/promo/supermarket/landingpage/box/200px/red/background.png) 0 0 no-repeat; margin-bottom: 15px;}
+
+.box1{
+    margin-left: 0;
+}
+
+.zsm_lowrange img, .zsm_mediumrange img, .zsm_toprange img{
+    margin: -32px -15px;
+}
+
+.zsm_toprange h2, .zsm_mediumrange h2, .zsm_lowrange h2{
+    font-size: 14px; 
+    font-variant: small-caps; 
+    font-weight: normal; 
+    line-height: 14px; 
+    margin: 10px 0 0 60px; 
+    text-decoration: none;
+}
+
+.supermarket_lowrange_gameimage img{
+    margin: 5px 0 0 25px;
+}
+
+span.lowrange_gamename{
+    float: left; 
+    margin: 5px 0 0 23px; 
+    font-size: 12px; 
+    font-weight: bold; 
+    color: #FF0000;
+}
+
+.range_categoryname{
+    float: left; 
+    margin-left: 23px; 
+    font-size: 10px; 
+    font-weight: bold; 
+    color: #666666; 
+    width: 170px;
+}
+
+.range_buttons{
+    float: left; 
+    height: 28px; 
+    width: 152px; 
+    margin: 15px 0 0 23px; 
+    text-align: center;
+}
+
+a.redbutton150px{background: transparent url(http://cdn.ghstatic.com/images/site/zylom/promo/supermarket/landingpage/button/red/button.png) no-repeat scroll 0 0; width: 152px; height: 28px; display: block; color: #5B1400; }
+
+a.redbutton150px:hover{
+    background-position: 0 -32px;
+}
+
+a.redbutton150px span{
+    display: block; 
+    padding-top: 4px; 
+    font-weight: bold; 
+    line-height: 20px; 
+    height: 25px;
+}
+
+a{text-decoration: none;}
+
+.price, .newprice{
+    color: #FF0000; 
+    float: left; 
+    font-weight: bold;
+}
+
+.price{
+    font-size: 14px; 
+    text-decoration: line-through; 
+    margin: 5px 0 0 35px;
+    width: 165px;
+}
+
+.newprice{
+    float: left;
+    font-size: 19px; 
+    margin: 10px 0 0 45px;
+    width: 155px;
+}
+
+.zsm_gp_content a.zsm_gp_sticker {
+    float: right;
+    margin: 5px 75px 15px 0;
+}
+
+    .zsm_gp_left {
+        float: left;
+        display: inline-block;
+        width: 470px;
+        margin: 25px 0 0 20px;
+    }
+    .zsm_gp_right {
+        float: right;
+        display: inline-block;
+        width: 180px;
+        margin: 0px 10px 20px 0px;
+        text-align: center;
+    }
+.zsm_gp_footer {
+    position: relative;
+    display: block;
+    width: 726px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.zsm_gp_content p {
+    margin: 0px 0px 12px 0px;
+}
+.zsm_gp_content a {
+    color: #FB0200;
+}
+
+.zsm_gp_content a:hover,
+.zsm_gp_content .categorycolor a:hover {
+    text-decoration: underline;
+}
+
+.zsm_gp_content .categorycolor a{
+    color: #666666
+}
+
+.zsm_gp_screenshots {
+    margin-bottom: 25px;
+}
+
+.zsm_gp_content .zsm_gp_notes {
+    position: relative;
+    display: block;
+    width: 280px;
+    margin: 0px 0px 0px 90px;
+    text-align: center;
+}
+.zsm_gp_content a.zsm_gp_buybutton {
+    position: relative;
+    display: block;
+    margin: 0px auto 16px auto;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    text-indent: -1000px;
+    text-decoration: none;
+}
+.zsm_gp_content a:hover.zsm_gp_buybutton {
+    text-decoration: none;
+    background-position: 0px -155px;
+}
+.zsm_gp_content a.zsm_gp_downloadbutton {
+    position: relative;
+    display: block;
+    margin: 0px auto 16px auto;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    text-indent: -1000px;
+    text-decoration: none;
+}
+.zsm_gp_content a:hover.zsm_gp_downloadbutton {
+    text-decoration: none;
+    background-position: 0px -154px;
+}
+
+.zsm_gp_content .zsm_gp_termslink a {
+    color: #FB0200;
+    font-weight: bold;
+    text-decoration: none;
+}
+.zsm_gp_content .zsm_gp_termslink a:hover {
+    color: #FB0200;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.zsm_gp_footer .zsm_gp_offline {
+    display: block;
+    clear: both;
+    text-align: center;
+}
+.zsm_gp_footer .zsm_gp_offline a:hover {
+    color: #FB0200;
+    text-decoration: underline;
+}
+
+
+.zylom_privacypage,
+.zylom_termspage {
+  display: block;
+  padding: 14px
+}
+.zylom_privacypage h1,
+.zylom_termspage h1 {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px 0px 12px 0px;
+}
+.zylom_privacypage h2,
+.zylom_termspage h2 {
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 24px 0px 6px 0px;
+}
+.zylom_privacypage h3,
+.zylom_termspage h3 {
+  display: block;
+  font-weight: normal;
+  font-size: 11px;
+}
+.zylom_privacypage p,
+.zylom_termspage p {
+  margin: 0px 0px 12px 0px;
+}
+.zylom_privacypage ul,
+.zylom_termspage ul {
+  list-style-type: disc;
+  margin: 0px 0px 12px 0px;
+}
+.zylom_privacypage li,
+.zylom_termspage li {
+  margin: 0px 0px 6px 20px;
+}
+
+
+#socialshare .socialshare_text_deluxe { margin-top: 40px; }
+#socialshare .socialshare_text_online {
+  margin-top: 0px;
+  color: #516C43;
+  width: 190px;
+  float: left;
+  padding-left: 20px;
+}
+#socialshare .socialshare_deluxe {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 5px;
+    text-align: center;
+}
+#socialshare .socialshare_online { text-align: right; }
+#socialshare a.socialshare_item_deluxe,
+#socialshare a.socialshare_item_online {
+    text-align: left;
+    overflow: hidden;
+    color: #333;
+}
+#socialshare a.socialshare_item {cursor: hand; cursor: pointer;}
+#socialshare a img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.googleplus {
+  display: block;
+  float: right;
+  height: 35px;
+  width: 35px;
+  overflow: hidden;
+}
+
+
+.mcafee_container {
+  display: block;
+  float: right;
+  height: 35px;
+  width: 80px;
+  overflow: hidden;
+}
+
+.boxcontent .mcafee_container_explanation {
+  display: inline-block;
+  overflow: hidden;
+  height: 45px;
+  width: 165px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.mcafee_container_explanation .mcafee {
+    display: block;
+    float: left;
+    width: 62px;
+    height: 43px;
+    margin-right: 10px;
+}
+
+.mcafee_container_explanation .verisign {
+    display: block;
+    float: left;
+    width: 84px;
+    height: 43px;
+}
+
+.downloadgamepageleft .mcafee_container,
+.playgamepageimage .mcafee_container,
+#superpackgamepage .mcafee_container {
+  display: block;
+  position: relative;
+  float: none;
+  height: 50px;
+  width: 170px;
+  margin: 0 auto 6px auto;
+  overflow: hidden;
+}
+
+.mcafee_container .mcafee {
+    display: block;
+    float: left;
+    width: 62px;
+    height: 43px;
+    margin-right: 10px;
+}
+.mcafee_container .verisign {
+    display: block;
+    float: left;
+    width: 84px;
+    height: 43px;
+}
+
+.webgamepage_facebookbuttons .iframelikegame {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border:none;
+  overflow:hidden;
+  width:360px;
+  height:50px;
+  margin: 0;
+}
+.webgamepage_facebookbuttons {
+  display: block;
+  position: relative;
+  margin: 0px 28px 20px 20px;
+}
+.webgamepage_facebookbuttons h3 {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #333;
+  border-bottom: 2px solid #3a58a1;
+  line-height: 20px;
+  padding-left: 20px;
+  background: #fff url(http://cdn.ghstatic.com/images/site/zylom/facebook/facebook_minilogo.gif) 2px 3px no-repeat;
+}
+.webgamepage_facebookbuttons .facebookbuttons_row1,
+.webgamepage_facebookbuttons .facebookbuttons_row2 {
+  display: block;
+  position: relative;
+  margin: 0;
+}
+.webgamepage_facebookbuttons .facebookbuttons_row1 {
+  height: 29px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #dadada;
+}
+.webgamepage_facebookbuttons .facebookbuttons_row2 {
+  height: 50px;
+  margin-bottom: 12px;
+}
+.webgamepage_facebookbuttons a.facebook_buttonscalable {
+  display: inline-block;
+  height: 23px;
+  margin: 0;
+  text-decoration: none;
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/facebook/button_scalable.gif) 0px 0px no-repeat;
+}
+.webgamepage_facebookbuttons a.facebook_buttonscalable span {
+  display: inline-block;
+  line-height: 23px;
+  margin: 0;
+  padding: 0px 10px 0px 28px;
+  color: #3B5998;
+  font-size: 11px;
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+  text-align: center;
+  font-weight: normal;
+  cursor: pointer; cursor: hand;
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/facebook/button_scalable.gif) right -23px no-repeat;
+}
+.webgamepage_facebookbuttons a:hover.facebook_buttonscalable { background-position: 0px -46px; }
+.webgamepage_facebookbuttons a:hover.facebook_buttonscalable span { background-position: right -69px; }
+
+  float: right;
+}
+
+.webgamepage_facebookbuttons .available_text {
+  display: block;
+  float: left;
+  width: 360px;
+  font-weight: bold;
+  color: #3b5999;
+  line-height: 23px;
+}
+
+.webgamepage_facebookbuttons .available_text a{
+  color: #3b5999;
+}
+
+.webgamepage_facebookbuttons .available_text a:hover{
+  color: #000000;
+}
+
+
+.sub_headline1{
+    color: #9f9f9f;
+    height:55px;
+}
+.sub_headline2{
+    height:55px;
+}
+
+
+.sub_headline1 .tooltip {
+    font-size: 10px;
+  display: none;
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/headline_tooltip/tooltip_home_gray.png) no-repeat;
+  width: 480px;
+  height:115px;
+  z-index: 10000;
+}
+.sub_headline1 .tooltip a{
+    color: #6E8900;
+    text-decoration: underline;
+}
+
+.sub_headline1 .tooltip a:hover{
+    color:#bae024;
+}
+.sub_headline1 .tooltip div {
+  position: relative;
+  left: 20px;
+  top: 30px;
+  width: 450px;
+  color: #5F5F5F;
+  line-height: 1.2em;
+}
+
+.sub_headline1 .moreinfo_tooltip{
+    font-size: 10px;
+    font-weight: bold;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.sub_headline1 h1{
+    color: #747474;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+
+
+    .reviewbox{
+        display: block;
+        position: relative;
+        width: 522px;
+        height: 216px;
+        background: #fcc url(http://cdn.ghstatic.com/images/site/zylom/review/paper.jpg) 0px 0px no-repeat;
+    }
+
+    .reviewbox .header{
+        color:#6d6d6d;
+        width:258;
+        margin-left: 0px;
+        position: absolute;
+        top:10px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .reviewbox .review1{
+        color:#6d6d6d;
+        width:250;
+        margin-left: 8px;
+        position: absolute;
+        top:55px;
+        font-family: Arial;
+        font-weight: bold;
+        font-style: italic;
+        font-size:15px;
+        width: 240px;
+    }
+    .reviewbox .review2{
+        color:#7b7154;
+        width:249;
+        margin-left: 8px;
+        position: absolute;
+        top:107px;
+        font-family: Times;
+        font-size:12px;
+        width: 245px;
+    }
+    .reviewbox .review3{
+        color:#474747;
+        width:222;
+        margin-left: 14px;
+        position: absolute;
+        top:162px;
+        font-family: Verdana;
+        font-weight: bold;
+        font-style: italic;
+        font-size:12px;
+    }
+    .reviewbox .review4{
+        color:#5d5d5d;
+        width:239;
+        margin-right: 7px;
+        position: absolute;
+        top:13px;
+        right:0px;
+        font-family: Times;
+        font-size:16px;
+        width: 215px;
+    }
+    .reviewbox .review5{
+        color:#383838;
+        width:246;
+        margin-right: 8px;
+        position: absolute;
+        top:70px;
+        right:0px;
+        font-family: Verdana;
+        font-weight: bold;
+        font-style: italic;
+        font-size:12px;
+        width: 243px;
+    }
+    .reviewbox .review6{
+        color:#021e70;
+        width:234;
+        margin-right: 17px;
+        position: absolute;
+        top:144px;
+        right:0px;
+        font-family: Arial;
+        font-weight: bold;
+        font-size:15px;
+        width: 240px;
+    }
+
+    .reviewbox span{
+        display:block;
+        text-align:right;
+        font-size:10px;
+        margin-right: 0px;
+    }
+
+
+
+    .reviewbox_online{
+        display: block;
+        position: relative;
+        width: 522px;
+        height: 216px;
+        background: #fcc url(http://cdn.ghstatic.com/images/site/zylom/review/paper.jpg) 0px 0px no-repeat;
+    }
+
+    .reviewbox_online .header{
+        color:#6d6d6d;
+        width:258;
+        margin-left: 0px;
+        position: absolute;
+        top:10px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .reviewbox_online .review1{
+        color:#6d6d6d;
+        width:250;
+        margin-left: 8px;
+        position: absolute;
+        top:55px;
+        font-family: Arial;
+        font-weight: bold;
+        font-style: italic;
+        font-size:15px;
+    }
+    .reviewbox_online .review2{
+        color:#7b7154;
+        width:249;
+        margin-left: 8px;
+        position: absolute;
+        top:107px;
+        font-family: Times;
+        font-size:12px;
+    }
+    .reviewbox_online .review3{
+        color:#474747;
+        width:222;
+        margin-left: 14px;
+        position: absolute;
+        top:162px;
+        font-family: Verdana;
+        font-weight: bold;
+        font-style: italic;
+        font-size:12px;
+    }
+    .reviewbox_online .review4{
+        color:#5d5d5d;
+        width:239;
+        margin-right: 7px;
+        position: absolute;
+        top:13px;
+        right:0px;
+        font-family: Times;
+        font-size:15px;
+    }
+    .reviewbox_online .review5{
+        color:#383838;
+        width:246;
+        margin-right: 8px;
+        position: absolute;
+        top:70px;
+        right:0px;
+        font-family: Verdana;
+        font-weight: bold;
+        font-style: italic;
+        font-size:10px;
+    }
+    .reviewbox_online .review6{
+        color:#021e70;
+        width:234;
+        margin-right: 20px;
+        position: absolute;
+        top:144px;
+        right:0px;
+        font-family: Arial;
+        font-weight: bold;
+        font-size:13px;
+    }
+
+    .reviewbox_online span{
+        display:block;
+        text-align:right;
+        font-size:10px;
+        margin-right: 0px;
+    }
+
+
+
+
+    .reviewbox_deluxe{
+        display: block;
+        position: relative;
+        width: 522px;
+        height: 216px;
+        background: #fcc url(http://cdn.ghstatic.com/images/site/zylom/review/paper.jpg) 0px 0px no-repeat;
+    }
+
+    .reviewbox_deluxe .header{
+        color:#6d6d6d;
+        width:258;
+        margin-left: 0px;
+        position: absolute;
+        top:10px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .reviewbox_deluxe .review1{
+        color:#6d6d6d;
+        width:250;
+        margin-left: 8px;
+        position: absolute;
+        top:55px;
+        font-family: Arial;
+        font-weight: bold;
+        font-style: italic;
+        font-size:15px;
+    }
+    .reviewbox_deluxe .review2{
+        color:#7b7154;
+        width:249;
+        margin-left: 8px;
+        position: absolute;
+        top:107px;
+        font-family: Times;
+        font-size:11px;
+    }
+    .reviewbox_deluxe .review3{
+        color:#474747;
+        width:222;
+        margin-left: 14px;
+        position: absolute;
+        top:162px;
+        font-family: Verdana;
+        font-weight: bold;
+        font-style: italic;
+        font-size:12px;
+    }
+    .reviewbox_deluxe .review4{
+        color:#5d5d5d;
+        width:239;
+        margin-right: 7px;
+        position: absolute;
+        top:13px;
+        right:0px;
+        font-family: Times;
+        font-size:14px;
+    }
+    .reviewbox_deluxe .review5{
+        color:#383838;
+        width:246;
+        margin-right: 8px;
+        position: absolute;
+        top:70px;
+        right:0px;
+        font-family: Verdana;
+        font-weight: bold;
+        font-style: italic;
+        font-size:10px;
+    }
+    .reviewbox_deluxe .review6{
+        color:#021e70;
+        width:234;
+        margin-right: 20px;
+        position: absolute;
+        top:144px;
+        right:0px;
+        font-family: Arial;
+        font-weight: bold;
+        font-size:12px;
+    }
+
+    .reviewbox_deluxe span{
+        display:block;
+        text-align:right;
+        font-size:10px;
+        margin-right: 0px;
+    }
+
+
+.star60x10 {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/review/rating/orange/stars_60x10.gif) 0 0 no-repeat;
+  width: 60px;
+  height: 10px;
+  overflow: hidden;
+}
+.star60x10_05 { background-position: 0 -10px; }
+.star60x10_1 { background-position: 0 -20px; }
+.star60x10_15 { background-position: 0 -30px; }
+.star60x10_2 { background-position: 0 -40px; }
+.star60x10_25 { background-position: 0 -50px; }
+.star60x10_3 { background-position: 0 -60px; }
+.star60x10_35 { background-position: 0 -70px; }
+.star60x10_4 { background-position: 0 -80px; }
+.star60x10_45 { background-position: 0 -90px; }
+.star60x10_5 { background-position: 0 -100px; }
+
+.star73x13_orangebg {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/review/rating/orange/small_stars/stars_73x13orangebg.gif) 0 0 no-repeat;
+  width: 73px;
+  height: 13px;
+  overflow: hidden;
+}
+.star73x13_whitebg {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/review/rating/orange/small_stars/stars_73x13whitebg.gif) 0 0 no-repeat;
+  width: 73px;
+  height: 13px;
+  overflow: hidden;
+}
+.star73x13_0 { background-position:0 0; }
+.star73x13_05 { background-position:0 -13px; }
+.star73x13_1 { background-position:0 -26px; }
+.star73x13_15 { background-position:0 -39px; }
+.star73x13_2 { background-position:0 -52px; }
+.star73x13_25 { background-position:0 -65px; }
+.star73x13_3 { background-position:0 -78px; }
+.star73x13_35 { background-position:0 -91px; }
+.star73x13_4 { background-position:0 -104px; }
+.star73x13_45 { background-position:0 -117px; }
+.star73x13_5 { background-position:0 -130px; }
+
+
+
+
+.popup_overlay {
+    display:none;
+    width:450px;
+    min-height:100px;
+    background: transparent;
+    z-index:100000;
+}
+
+.popup_overlay .dynamic_box .boxheader_container,
+.popup_overlay .dynamic_box .boxheader,
+.popup_overlay .dynamic_box .boxheader_right,
+.popup_overlay .dynamic_box .boxcontent_container,
+.popup_overlay .dynamic_box .boxcontent,
+.popup_overlay .dynamic_box .boxcontent_right,
+.popup_overlay .dynamic_box .boxbottom_container,
+.popup_overlay .dynamic_box .boxbottom,
+.popup_overlay .dynamic_box .boxbottom_right
+{
+    background-color: #999999;
+}
+
+
+  .sideadpromo {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 318px;
+    margin-bottom: 5px;
+  }
+  .sideadpromo a.sidead_click {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 306px;
+  }
+
+
+
+
+  .footermenu {
+    display: block;
+    position: relative;
+    width: 730px;
+    height: auto;
+    margin: 0px auto 30px auto;
+    padding: 0px;
+  }
+  .footermenuitem {
+    float: left;
+    position: relative;
+    width: 152px;
+    margin: 0px 40px 0px 0px;
+    text-align: left;
+  }
+  .footermenuitem_4 {
+    margin: 0px;
+  }
+  .footermenuitem h3 {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    padding-bottom: 4px;
+    margin-bottom: 13px;
+    border-bottom: 1px dotted #333;
+  }
+  .footermenuitem ul.footermenulist {
+    margin: 0px;
+    padding: 0px;
+  }
+  .footermenuitem ul.footermenulist li {
+    display: block;
+    position: relative;
+    font-size: 11px;
+    line-height: 13px;
+    color: #333;
+    margin: 0px 0px 8px 0px;
+    padding: 0px;
+    background: none;
+  }
+  .footermenuitem ul.footermenulist li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: normal;
+  }
+
+
+#onlineoverview .jcarousel-clip-vertical, 
+#onlineoverview .jcarousel-next-vertical,
+#onlineoverview .jcarousel-prev-vertical,
+.landingpage_middle .jcarousel-clip-vertical,
+.landingpage_middle .jcarousel-next-vertical,
+.landingpage_middle .jcarousel-prev-vertical,
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel/carousel_green.png');
+background-color:transparent;}
+#downloadoverview .jcarousel-clip-vertical,
+#downloadoverview .jcarousel-next-vertical,
+#downloadoverview .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel/carousel_brown.png');
+background-color:transparent;}
+#multiplayeroverview .jcarousel-clip-vertical, 
+#multiplayeroverview .jcarousel-next-vertical,
+#multiplayeroverview .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel/carousel_yellow_multi.png');
+background-color:transparent;}
+#giftoverview .jcarousel-clip-vertical, 
+#giftoverview .jcarousel-next-vertical,
+#giftoverview .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel/carousel_yellow.png');
+background-color:transparent;}
+#multiplayeroverview .jcarousel-clip-vertical, 
+#multiplayeroverview .jcarousel-next-vertical,
+#multiplayeroverview .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel/carousel_yellow_multi.png');
+background-color:transparent;}
+#downloadoverview .supermarketbox_side_ad_content .jcarousel-container, 
+#downloadoverview .supermarketbox_side_ad_content .jcarousel-next-vertical, 
+#downloadoverview .supermarketbox_side_ad_content .jcarousel-prev-vertical
+{ background-image: none; background-color: transparent; }
+
+.carousel_red { color: #CF2F53 !important; }
+.carousel_red .jcarousel-clip-vertical, 
+.carousel_red .jcarousel-next-vertical,
+.carousel_red .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel/carousel_red.png') !important;
+background-color:transparent;}
+
+.carousel_yellow { color: #FFE87B !important; }
+.carousel_yellow .jcarousel-clip-vertical, 
+.carousel_yellow .jcarousel-next-vertical,
+.carousel_yellow .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel/carousel_yellow.png') !important;
+background-color:transparent;}
+
+.carousel_brown { color: #92571D !important;}
+.carousel_brown .jcarousel-clip-vertical, 
+.carousel_brown .jcarousel-next-vertical,
+.carousel_brown .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel/carousel_brown.png') !important;
+background-color:transparent;}
+
+.carousel_green { color: #5E7A63 !important;}
+.carousel_green .jcarousel-clip-vertical, 
+.carousel_green .jcarousel-next-vertical,
+.carousel_green .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel/carousel_green.png') !important;
+background-color:transparent;}
+
+.carousel_yellow_multi { color: #785201 !important;}
+.carousel_yellow_multi .jcarousel-clip-vertical, 
+.carousel_yellow_multi .jcarousel-next-vertical,
+.carousel_yellow_multi .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel/carousel_yellow_multi.png') !important;
+background-color:transparent;}
+
+.carousel_purple { color: #64354C !important;}
+.carousel_purple .jcarousel-clip-vertical, 
+.carousel_purple .jcarousel-next-vertical,
+.carousel_purple .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel/carousel_purple.png') !important;
+background-color:transparent;}
+
+.carousel_green_239px { color: #5E7A63 !important;}
+.carousel_green_239px .jcarousel-clip-vertical, 
+.carousel_green_239px .jcarousel-next-vertical,
+.carousel_green_239px .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel_239px/carousel_green.png') !important;
+background-color:transparent;}
+
+.carousel_yellow_239px { color: #5E7A63 !important;}
+.carousel_yellow_239px .jcarousel-clip-vertical, 
+.carousel_yellow_239px .jcarousel-next-vertical,
+.carousel_yellow_239px .jcarousel-prev-vertical
+{ background-image: url('http://cdn.ghstatic.com/images/site/zylom/sprites/carousel_239px/carousel_yellow.png') !important;
+background-color:transparent;}
+
+.landingpage_middle .jcarousel-prev-vertical {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 239px;
+  height: 53px;
+  cursor: pointer;
+  background-position:-2156px 0px;
+}
+
+.landingpage_middle .jcarousel-next-vertical {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 239px;
+  height: 60px;
+  cursor: pointer;
+  background-position:-539px 0px;
+}
+
+.landingpage_middle .jcarousel-clip-vertical {
+  width: 219px;
+  height: 150px;
+  padding: 5px 10px 0px;
+  margin: 0px;
+}
+
+.landingpage_middle .jcarousel-next-vertical:hover,
+.landingpage_middle .jcarousel-next-vertical:focus,
+.landingpage_middle .jcarousel-next-vertical:active{
+  background-position: -1617px 0;
+}
+
+.landingpage_middle .jcarousel-prev-vertical:hover,
+.landingpage_middle .jcarousel-prev-vertical:focus,
+.landingpage_middle .jcarousel-prev-vertical:active {
+  background-position: -4312px 0;
+}
+
+.landingpage_middle .jcarousel-container{width: 239px;}
+
+.landingpage_middle ul.jcarousel li {
+  background: none;
+  padding: 0;
+  display: block;
+  position: relative;
+  width: 230px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+#onlineoverview ul.jcarousel-list, .landingpage_middle ul.jcarousel-list {
+  display: block;
+}
+#multiplayeroverview ul.jcarousel-list {
+  display: block;
+}
+.jcarousel-container
+ {
+  display: block;
+  position: relative;
+  margin: 0px 0px 12px 0px;
+  padding: 44px 0px 50px;
+  width: 200px;
+  background-repeat:repeat-y;
+  background-position: 0px 0px;
+}
+
+.jcarousel-clip {
+  overflow: hidden;
+}
+.jcarousel-clip-vertical {
+  width:  180px;
+  height: 300px;
+  padding: 10px 10px 0px;
+  margin:0px;
+}
+
+.landingpage_middle ul.jcarousel li {
+  margin-bottom: 0px;
+}
+
+#multiplayeroverview .jcarousel-clip-vertical {
+    height: 327px;
+    width: 180px;
+}
+
+.jcarousel-item-placeholder{
+  background: #fff;
+  color: #000;
+}
+
+.jcarousel-next-vertical {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+  background-position:-500px 0px;
+}
+
+.jcarousel-prev-vertical {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+  background-position:-2000px 0px;
+}
+
+.jcarousel-next-vertical:hover,
+.jcarousel-next-vertical:focus,
+.jcarousel-next-vertical:active{
+  background-position: -1500px 0;
+}
+.jcarousel-prev-vertical:hover,
+.jcarousel-prev-vertical:focus,
+.jcarousel-prev-vertical:active {
+  background-position: -4000px 0;
+}
+.jcarousel-next-disabled-vertical,
+.jcarousel-next-disabled-vertical:hover,
+.jcarousel-next-disabled-vertical:focus,
+.jcarousel-next-disabled-vertical:active{
+  cursor: default;
+  background-position: -1000px 0;
+}
+.jcarousel-prev-disabled-vertical,
+.jcarousel-prev-disabled-vertical:hover,
+.jcarousel-prev-disabled-vertical:focus,
+.jcarousel-prev-disabled-vertical:active{
+  cursor: default;
+  background-position: -2000px 0;
+}
+
+
+
+ul.jcarousel li {
+  background: none;
+  padding: 0;
+  display: block;
+  position: relative;
+  width: 180px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+ul.jcarousel li .gamesbox_image {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+ul.jcarousel li .gamesbox_name {
+    height: 33px;
+}
+
+ul.jcarousel li .gamesbox_name h4{
+    font-size: 11px;
+}
+
+ul.jcarousel li a .gamesbox_name {
+  font-weight: bold;
+  color: #000000;
+  line-height: 14px;
+}
+ul.jcarousel li a:hover .gamesbox_name { color:#000000; }
+ul.jcarousel li a .gamesbox_dowloadlink h5{
+  font-size: 10px;
+  color: #BA6036;
+}
+ul.jcarousel li a:hover .gamesbox_dowloadlink h5 { color:#ff7000; }
+
+ul.jcarousel li a .gamesbox_onlinelink h5{
+  font-size: 10px;
+  color: #5E7850;
+}
+ul.jcarousel li a:hover .gamesbox_onlinelink h5 { color:#bae024; }
+
+ul.jcarousel li a .gamesbox_giftlink h5 {
+  font-size: 10px;
+  color: #D2B221;
+}
+ul.jcarousel li a:hover .gamesbox_giftlink h5 { color:#917B1B; }
+
+
+
+ul#topsupermarketgamescarousel li .gamesbox_name {
+  height: 18px;
+}
+ul#topsupermarketgamescarousel li a .gamesbox_buylink h5 { font-size: 11px; color:#CF2F53; }
+ul#topsupermarketgamescarousel li a:hover .gamesbox_buylink h5 { color:#821C32; }
+ul#topsupermarketgamescarousel li .gamesbox_name a:hover { color:#821C32; }
+ul#topsupermarketgamescarousel li .gamelistprice { 
+  color:#565656; 
+  height:16px; 
+}
+
+
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+
+
+
+
+
+.clickablegutter {
+    position: absolute;
+    display: block;
+    height: 810px;
+    width: 385px;
+    top: 0px;
+    left: -385px;
+    z-index: 10;
+}
+.clickablegutter a {
+    display: block;
+    height: 810px;
+    width: 385px;
+}
+
+.clickablegutter_right {
+    position: absolute;
+    display: block;
+    height: 1000px;
+    width: 385px;
+    top: 0px;
+    right: -385px;
+    z-index: 10;
+}
+.clickablegutter_right a {
+    display: block;
+    height: 1000px;
+    width: 385px;
+}
+
+.button_green,
+ .button_blue,
+ .button_blue2,
+ .button_orange,
+ .button_purple,
+ .button_yellow ,
+ .button_brown,
+ .button_yellow_multi{
+  float: left;
+  width: 121px;
+  height: 31px;
+  margin-right: 5px;
+  background: transparent url('http://cdn.ghstatic.com/images/site/zylom/sprites/buttons.png') 0px 0px no-repeat;
+}
+
+.button_blue{ background-position: 0 0;  } 
+.button_blue2{ background-position: -400px 0;  } 
+.button_brown{ background-position: -800px 0;  } 
+.button_gray{ background-position: -1200px 0;  } 
+.button_green{ background-position: -1600px 0;  } 
+.button_orange{ background-position: -2000px 0;  } 
+.button_purple{ background-position: -2400px 0;  } 
+.button_red{ background-position: -2800px 0;  } 
+.button_yellow{ background-position: -3200px 0;  } 
+.button_yellow_multi{ background-position: -3600px 0;  } 
+
+.button_blue:hover{ background-position: 0 -32px;  } 
+.button_blue2:hover{ background-position: -400px -32px;  } 
+.button_brown:hover{ background-position: -800px -32px;  } 
+.button_gray:hover{ background-position: -1200px -32px;  } 
+.button_green:hover{ background-position: -1600px -32px;  } 
+.button_orange:hover{ background-position: -2000px -32px;  } 
+.button_purple:hover{ background-position: -2400px -32px;  } 
+.button_red:hover{ background-position: -2800px -32px;  } 
+.button_yellow:hover{ background-position: -3200px -32px;  } 
+.button_yellow_multi:hover{ background-position: -3600px -32px;  } 
+
+ .button_green span,
+ .button_blue span,
+ .button_blue2 span,
+ .button_orange span,
+ .button_purple span,
+ .button_yellow span,
+ .button_brown span,
+ .button_yellow_multi span {
+  display: block;
+  color: #4c4b4b;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+}
+.button_blue span,  .button_blue2 span{
+  color: #0c374a;
+}
+.button_orange span{
+  color: #783b09;
+} 
+.button_purple span{
+  color: #333333;
+} 
+.button_yellow_multi span{
+  color: #765100;
+} 
+.button_brown span{
+ color: #783b09;
+}
+.button_delicious_big {
+  display:block;
+  width: 202px;
+  height: 52px;
+  margin-right: 5px;
+  background: transparent url('http://cdn.ghstatic.com/images/site/zylom/buttons/delicious_buttons/button_orange_big/button_orange.png') 0px 0px no-repeat;
+}
+.button_delicious_big:hover {
+  background-position: 0px -56px;
+  text-decoration:none !important;  
+}
+.button_delicious_big span {
+  display: block;
+  color: #783b09;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 42px;
+  text-align: center;
+  text-decoration:none;
+}
+.button_delicious_big:hover span{
+  text-decoration:none !important;
+}
+a.purplewidebutton {display: block; margin: 0 auto; width: 179px; height: 23px; color: #A926BD; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/optimages/buttons/purplewidebutton.gif) center 0px no-repeat;}
+a:hover.purplewidebutton {color: #A926BD; background-position: center -23px;}
+a.purplewidebutton span {display: block; padding-top: 3px; font-size: 11px; font-weight: bold; text-align: center;}
+
+a.orangewidebutton {display: block; margin: 0 auto; margin-bottom: 8px; width: 200px; height: 37px; color: #8D5202; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/buttons/home_zylom/button_orange/button_orange.png) center 0px no-repeat;}
+a:hover.orangewidebutton {color: #754402; background-position: center -39px;}
+a.orangewidebutton span {display: block; padding-top: 10px; font-size: 11px; font-weight: bold; text-align: center;}
+
+a.brownwidebutton {display: block; margin: 0 auto; margin-bottom: 8px; width: 200px; height: 31px; color: #8D5202; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/buttons/home_zylom/button_brown/button_brown.png) center 0px no-repeat;}
+a:hover.brownwidebutton {color: #754402; background-position: center -32px;}
+a.brownwidebutton span {display: block; color: #783b09; padding-top: 5px; font-size: 11px; font-weight: bold; text-align: center;}
+
+a.yellowwidebutton {display: block; margin: 0 auto; margin-bottom: 8px; width: 200px; height: 31px; color: #8D5202; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/buttons/home_zylom/button_yellow/button_yellow.png) center 0px no-repeat;}
+a:hover.yellowwidebutton {color: #754402; background-position: center -32px;}
+a.yellowwidebutton span {display: block; color: #783b09; padding-top: 5px; font-size: 11px; font-weight: bold; text-align: center;}
+
+a.redwidebutton {display: block; margin: 0 auto; margin-bottom: 8px; width: 200px; height: 31px; color: #8D5202; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/buttons/home_zylom/button_red/button_red.png) center 0px no-repeat;}
+a:hover.redwidebutton {color: #754402; background-position: center -32px;}
+a.redwidebutton span {display: block; color: #783b09; padding-top: 5px; font-size: 11px; font-weight: bold; text-align: center;}
+
+a.listingmoreinfoblue, a.listingbuyblue, a.listingdownloadblue, a.listingplayblue,
+a.listingbuygreen, a.listingdownloadgreen, a.listingplaygreen,
+a.listingbuyorange, a.listingdownloadorange, a.listingplayorange,
+a.listingbuypurple, a.listingdownloadpurple, a.listingplaypurple,
+a:hover.listingbuyblue, a:hover.listingdownloadblue, a:hover.listingplayblue,
+a:hover.listingbuygreen, a:hover.listingdownloadgreen, a:hover.listingplaygreen, 
+a:hover.listingbuyorange, a:hover.listingdownloadorange, a:hover.listingplayorange,
+a:hover.listingbuypurple, a:hover.listingdownloadpurple, a:hover.listingplaypurple {
+    display: block;
+    padding: 4px 0px 0px 0px;
+    height: 24px !important; 
+    height: 30px;            
+    width: 91px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; 
+    border-style: none;
+}
+
+a.listingmoreinfoblue {color:#0c374a; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/buttons/allgames_buttons_91x61/button_blue/button_blue.png) 0px 0px no-repeat;}
+a.listingbuyblue, a.listingdownloadblue, a.listingplayblue {color:#0c374a; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/buttons/allgames_buttons_91x61/button_blue2/button_blue2.png) 0px 0px no-repeat;}
+a.listingbuygreen, a.listingdownloadgreen, a.listingplaygreen {color:#4C4B4B; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/buttons/allgames_buttons_91x61/button_green/button_green.png) 0px 0px no-repeat;}
+a.listingbuyorange, a.listingdownloadorange, a.listingplayorange {color:#783b09; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/buttons/allgames_buttons_91x61/button_orange/button_orange.png) 0px 0px no-repeat;}
+a.listingbuypurple, a.listingdownloadpurple, a.listingplaypurple {color:#A926BD; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/buttons/allgames_buttons_91x61/button_purple/button_purple.png) 0px 0px no-repeat;}
+
+a:hover.listingmoreinfoblue {background-position: 0px -32px;color:#0c374a !important;}
+a:hover.listingbuyblue, a:hover.listingdownloadblue, a:hover.listingplayblue {background-position: 0px -32px;color:#0c374a !important;}
+a:hover.listingbuygreen, a:hover.listingdownloadgreen, a:hover.listingplaygreen {background-position: 0px -32px;color:#4C4B4B !important;}
+a:hover.listingbuyorange, a:hover.listingdownloadorange, a:hover.listingplayorange {background-position: 0px -32px;color:#783b09 !important;}
+a:hover.listingbuypurple, a:hover.listingdownloadpurple, a:hover.listingplaypurple {background-position: 0px -32px;color:#A926BD !important;}
+
+a .gamedescription .moreinfolink { color: #BA6036; }
+
+
+a.plainlink .downloadBoxorange .listingdownloadorange {padding-top: 4px; font-weight: bold; margin-left: 4px; margin-top: 35px; height: 25px; color:#783b09; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/buttons/allgames_buttons_91x61/button_orange/button_orange.png) 0px 0px no-repeat;}
+.plainlink .downloadBoxorange .listingdownloadorange:hover {background-position: 0px -32px;color:#783b09 !important;}
+
+
+
+.gamerow {
+  display: block;
+  height: 119px;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 14px;
+}
+
+.gamerow.smalloverviewRow {
+  display: block;
+  width: 498px;
+  height: 134px;
+}
+.gamerow.smalloverviewRow.row_even {
+    background: transparent url(http://cdn.ghstatic.com/images/site/zylom/abtest/overviewpages/downloadoverview/overviewgame_small_uneven.jpg) no-repeat;
+}
+.onlineRow.row_even {
+  background: #fff url('http://cdn.ghstatic.com/images/site/zylom/abtest/overviewpages/onlineoverview/overviewgame_uneven.png') 0px 0px no-repeat;
+  width: 520px;
+}
+.downloadRow.row_even {
+  background: #fff url('http://cdn.ghstatic.com/images/site/zylom/abtest/overviewpages/downloadoverview/overviewgame_uneven.png') 0px 0px no-repeat;
+  width: 520px;
+}
+.multiplayerRow.row_even {
+  background: #fff url('http://cdn.ghstatic.com/images/site/zylom/abtest/overviewpages/multiplayeroverview/overviewgame_uneven.png') 0px 0px no-repeat;
+  width: 520px;
+}
+.searchRow.row_even {
+    background: url("http://cdn.ghstatic.com/images/site/zylom/searchnew/background/big/background.png") no-repeat scroll 0 0 #FFFFFF;
+    width: 520px;
+}
+
+.gamerow.customtrue {
+  height: 140px;
+}
+
+.customtrue .rowcontent{
+  height: 130px;
+}
+
+.row_uneven {
+  background: #fff;
+}
+
+.row_even {
+  background: #fff url('http://cdn.ghstatic.com/images/site/zylom/abtest/overviewpages/downloadoverview/overviewgame_uneven.png') 0px 0px no-repeat;
+  width: 520px;
+}
+
+.rowcontent {
+  display: block;
+  position: relative;
+  width: 500px;
+  height: 105px;
+  top: 10px;
+  left: 9px;
+}
+.rowcontent .gameimage {
+  float: left;
+  width: 120px;
+  height: 90px;
+  margin-top: 4px;
+  margin-right: 10px;
+  position: relative;
+}
+.rowcontent.customSearchResult .gameimage {
+  width: 200px;
+  height: 120px;
+}
+
+.rowcontent.customSearchResult .customLink{
+  font-weight:bold;
+}
+
+.smalloverviewRow .rowcontent{
+    width: 475px;
+}
+
+.smalloverviewRow .rowcontent .gameimage {
+  width: 100px;
+  height: 100px;
+}
+
+.gamename {
+  display: block;
+  height: 17px;
+}
+.gamename .customerrating {
+  float: right;
+  margin-top: 0px;
+}
+.star75x16 {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/review/rating/new_stars/stars_small.png) 0 -160px no-repeat;
+  width: 75px;
+  height: 16px;
+}
+.star75x16_0 {background-position: 0 -160px;}
+.star75x16_05 {background-position: 0 -144px;}
+.star75x16_1 {background-position: 0 -128px;}
+.star75x16_15 {background-position: 0 -112px;}
+.star75x16_2 {background-position: 0 -96px;}
+.star75x16_25 {background-position: 0 -80px;}
+.star75x16_3 {background-position: 0 -64px;}
+.star75x16_35 {background-position: 0 -48px;}
+.star75x16_4 {background-position: 0 -32px;}
+.star75x16_45 {background-position: 0 -16px;}
+.star75x16_5 {background-position: 0 0;}
+
+.gamename img {
+  float: left;
+  margin-right: 4px;
+}
+.gamecategory{
+  font-weight: bold;
+  color: #787878;
+}
+
+a .gamename  {
+  height: 18px;
+  line-height: 15px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #ba6036;
+}
+.overviewRow.onlineRow a .gamename { color: #5e7a63; }
+.overviewRow.downloadRow a .gamename { color: #ba6036; }
+.overviewRow.multiplayerRow a .gamename { color: #785201; }
+.overviewRow.searchRow a .gamename { color: #226699; }
+
+
+ a:hover .gamename  {
+  text-decoration: underline;
+}
+
+ a .gamedescription {
+  display: block;
+  height: 45px;
+  overflow: hidden;
+  padding-bottom:3px;
+  color: #000000;
+  font-size: 11px;
+}
+.overviewRow.doublepackRow a .gamedescription {
+    margin-top:7px;
+    height: 35px;
+}
+
+.overviewRow .gift_promosticker {
+    background: url("http://cdn.ghstatic.com/images/site/zylom/zylomgift/nl/sticker_small.png") no-repeat scroll center center transparent;
+    float: right;
+    height: 19px;
+    margin-top: -4px;
+    position: absolute;
+    right: 4px;
+    width: 93px;
+}
+
+.gamerow.overviewRow .gameimage .giftimage_corner {
+    background: url("http://cdn.ghstatic.com/images/site/zylom/abtest/overviewpages/giftcorner.png") no-repeat scroll 0 0 transparent;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    display: block;
+    height: 49px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+}
+
+.overviewRow.supermarketRow a .gamedescription,
+.overviewRow.doublepackRow a .gamedescription { width:290px; }
+
+.overview_gameslist_bottom {
+  display: block;
+  position: relative;
+  height: 100px;
+}
+
+#subtext a{cursor: pointer;}
+
+
+#supermarketgameslist .gamedescription,
+#doublepackgameslist .gamedescription { width:290px; }
+
+.gamerow.overviewRow .gameprice {
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: -5px;
+    top: 17px;
+    width: 80px;
+}
+.gamerow.overviewRow .gameprice p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: right;
+    color:#BA6036;
+}
+.gamerow.overviewRow .gameprice span {
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+.gamerow.overviewRow .superpack_nrgames_price {
+    float: left;
+    height: 115px;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 93px;
+}
+.gamerow.overviewRow .superpack_nrgames {
+    color: #666563;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.gamerow.overviewRow .superpack_nrgames span {
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}
+.gamerow.overviewRow .superpack_price span {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+#onlineoverview a .gamename,
+#downloadoverview a .gamename ,
+#multiplayeroverview a .gamename {
+  /*float: left;*/
+  height: 17px;
+  line-height: 15px;
+  font-weight: bold;
+  font-size: 12px;
+}
+#onlineoverview a .gamename { color: #5e7a63; }
+#downloadoverview a .gamename { color: #ba6036; }
+#multiplayeroverview a .gamename { color: #785201; }
+a .gamename:hover {
+  text-decoration: underline;
+}
+
+#onlineoverview a .gamedescription { color: #000000; }
+#downloadoverview a .gamedescription { color: #000000; }
+#multiplayeroverview a .gamedescription { color: #000000; }
+
+#supermarketgameslist .gamedescription,
+#doublepackgameslist .gamedescription { width:290px; }
+
+a.gamename .customerrating {
+  float: right;
+  margin-top: 0px;
+}
+a.gamename .customerrating .star75x16 {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/review/rating/new_stars/stars_small.png) 0 -160px no-repeat;
+  width: 75px;
+  height: 16px;
+}
+a.gamename .customerrating .star75x16_0 {background-position: 0 -160px;}
+a.gamename .customerrating .star75x16_05 {background-position: 0 -144px;}
+a.gamename .customerrating .star75x16_1 {background-position: 0 -128px;}
+a.gamename .customerrating .star75x16_15 {background-position: 0 -112px;}
+a.gamename .customerrating .star75x16_2 {background-position: 0 -96px;}
+a.gamename .customerrating .star75x16_25 {background-position: 0 -80px;}
+a.gamename .customerrating .star75x16_3 {background-position: 0 -64px;}
+a.gamename .customerrating .star75x16_35 {background-position: 0 -48px;}
+a.gamename .customerrating .star75x16_4 {background-position: 0 -32px;}
+a.gamename .customerrating .star75x16_45 {background-position: 0 -16px;}
+a.gamename .customerrating .star75x16_5 {background-position: 0 0;}
+
+.rowcontent a span.gameimage {
+  float: left;
+  width: 120px;
+  height: 90px;
+  margin-top: 4px;
+  margin-right: 10px;
+  position: relative;
+}
+
+a .gamedescription p {
+  display: block;
+  height: 45px;
+  overflow: hidden;
+  padding-bottom:3px;
+  float: left;
+}
+
+
+
+a p.button_blue {
+  float: left;
+  width: 121px;
+  height: 31px;
+  margin-right: 5px;
+  background: transparent url('http://cdn.ghstatic.com/images/site/zylom/buttons/allgames_buttons_121x62/button_blue/button_blue.png') 0px 0px no-repeat;
+}
+
+a p.button_blue:hover {
+  background-position: 0px -32px;
+}
+
+a p.button_blue span {
+  display: block;
+  color: #4c4b4b;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+}
+a p.button_blue span{
+  color: #0c374a;
+}
+
+a .gamenamegenre span.plainlink, a:hover .gamenamegenre span.plainlink {color: #000000; font-weight:normal;}
+
+a span.listingbuyblue, a:hover span.listingbuyblue {
+    display: block;
+    padding: 4px 0px 0px 0px;
+    height: 24px !important; 
+    height: 30px;            
+    width: 91px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; 
+    border-style: none;
+}
+
+a span.listingbuyblue {color:#0c374a; background: transparent url(http://cdn.ghstatic.com/images/site/zylom/buttons/allgames_buttons_91x61/button_blue2/button_blue2.png) 0px 0px no-repeat;}
+a:hover span.listingbuyblue {background-position: 0px -32px;color:#0c374a !important;}
+
+a p.button_green {
+  float: left;
+  width: 121px;
+  height: 31px;
+  margin-right: 5px;
+  background: transparent url('http://cdn.ghstatic.com/images/site/zylom/buttons/allgames_buttons_121x62/button_green/button_green.png') 0px 0px no-repeat;
+}
+
+a p.button_green:hover {
+  background-position: 0px -32px;
+}
+
+a p.button_green span {
+  display: block;
+  color: #4c4b4b;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+}
+
+a .gamenamegenre span.plainlink strong {color: #BA6036; }
+a:hover .gamenamegenre span.plainlink strong {color: #FF7000; }
+
+a .gamecategorydescription .descriptiontext {color: #000000; }
+a:hover .gamecategorydescription .descriptiontext {color: #000000; }
+
+a .gamecategorydescription .descriptiontext .moreinfolink {color: #BA6036; }
+a:hover .gamecategorydescription .descriptiontext .moreinfolink {color: #FF6000; }
+
+a .descriptiontext {color: #000000; }
+a:hover .descriptiontext {color: #000000; }
+
+
+#headernavigation, .headerbar, 
+#headernavigation #headernavigationbuttons a{background-image: url(http://cdn.ghstatic.com/images/site/zylom/sprites/header_grey.png)}
+
+#headernavigation.grey, .headerbar.grey,
+#headernavigation.grey #headernavigationbuttons a{background-image: url(http://cdn.ghstatic.com/images/site/zylom/sprites/header_grey.png)}
+#headernavigation.green, .headerbar.green,
+#headernavigation.green #headernavigationbuttons a{background-image: url(http://cdn.ghstatic.com/images/site/zylom/sprites/header_green.png)}
+#headernavigation.orange, .headerbar.orange,
+#headernavigation.orange #headernavigationbuttons a{background-image: url(http://cdn.ghstatic.com/images/site/zylom/sprites/header_orange.png)}
+#headernavigation.blue, .headerbar.blue,
+#headernavigation.blue #headernavigationbuttons a{background-image: url(http://cdn.ghstatic.com/images/site/zylom/sprites/header_blue.png)}
+#headernavigation.episodic, .headerbar.episodic,
+#headernavigation.episodic #headernavigationbuttons a{background-image: url(http://cdn.ghstatic.com/images/site/zylom/sprites/header_grey.png)}
+#headernavigation.purple, .headerbar.purple,
+#headernavigation.purple #headernavigationbuttons a{background-image: url(http://cdn.ghstatic.com/images/site/zylom/sprites/header_purple.png)}
+#headernavigation.red, .headerbar.red,
+#headernavigation.red #headernavigationbuttons a{background-image: url(http://cdn.ghstatic.com/images/site/zylom/sprites/header_red.png)}
+
+
+
+#headernavigation .mainback { background-position: -0px -0px; }
+
+#headernavigation #headernavigationbuttons a.download { background-position: -305px -105px; }
+#headernavigation #headernavigationbuttons a.play { background-position: -0px -105px; }
+#headernavigation #headernavigationbuttons a.offer { background-position: -478px -105px; }
+#headernavigation #headernavigationbuttons a.funpass { background-position: -197px -105px; }
+#headernavigation #headernavigationbuttons a.support { background-position: -108px -105px; }
+
+#headernavigation #headernavigationbuttons a:hover.download { background-position: -305px -146px; }
+#headernavigation #headernavigationbuttons a:hover.play { background-position: -0px -146px; }
+#headernavigation #headernavigationbuttons a:hover.offer { background-position: -478px -146px; }
+#headernavigation #headernavigationbuttons a:hover.funpass { background-position: -197px -146px; }
+#headernavigation #headernavigationbuttons a:hover.support { background-position: -108px -146px; }
+
+#headernavigation.orange #headernavigationbuttons a.download { cursor:default }
+#headernavigation.green #headernavigationbuttons a.play { cursor:default }
+#headernavigation.episodic #headernavigationbuttons a.episodic { cursor:default }
+#headernavigation.purple #headernavigationbuttons a.funpass { cursor:default }
+#headernavigation.blue #headernavigationbuttons a.support { cursor:default }
+#headernavigation.red #headernavigationbuttons a.offer{ cursor:default }
+
+.orange #headernavigationsubnavigation a, 
+#headernavigation.orange  #headernavigationsubnavigation a, 
+#headernavigation.orange  #headernavigationchoosecountry a:hover, 
+#headerextra.orange a:hover {color: #794336;}
+
+.green #headernavigationsubnavigation a, 
+#headernavigation.green #headernavigationsubnavigation a, 
+#headernavigation.green #headernavigationchoosecountry a:hover, 
+#headerextra.green a:hover {color: #5E7850;}
+
+.episodic #headernavigationsubnavigation a, 
+#headernavigation.episodic #headernavigationsubnavigation a, 
+#headernavigation.episodic #headernavigationchoosecountry a:hover, 
+#headerextra.episodic a:hover {color: #7F3402;}
+
+.grey #headernavigationsubnavigation a, 
+#headernavigation.grey #headernavigationsubnavigation a, 
+#headernavigation.grey #headernavigationchoosecountry a:hover, 
+#headerextra.grey a:hover {color: #333333;}
+
+.blue #headernavigationsubnavigation a, 
+#headernavigation.blue #headernavigationsubnavigation a, 
+#headernavigation.blue #headernavigationchoosecountry a:hover, 
+#headerextra.blue a:hover {color: #23436B;}
+
+.purple #headernavigationsubnavigation a, 
+#headernavigation.purple #headernavigationsubnavigation a, 
+#headernavigation.purple #headernavigationchoosecountry a:hover, 
+#headerextra.purple a:hover {color: #A926BD;}
+
+.red #headernavigationsubnavigation a, 
+#headernavigation.red #headernavigationsubnavigation a, 
+#headernavigation.red #headernavigationchoosecountry a:hover, 
+#headerextra.red a:hover {color: #FF0000;}
+
+.headerbar { background-position: -0px -187px; width: 760px; height: 12px; }
+
+
+
+
+.rowcontent img {
+    border: 0 none;
+}
+.sprite_common_image {background-image: url(http://cdn.ghstatic.com/images/site/zylom/sprites/common.png); }
+
+.footerlogos span, .footerlogos a  {vertical-align: middle;}
+
+#gamehouse_logo{background-position: -316px -0px; width: 204px; height: 61px;display:inline-block;}
+#oba{background-position: -617px -0px; width: 31px; height: 33px;display:inline-block;}
+#woty{background-position: -520px -0px; width: 56px; height: 59px;display:inline-block;}
+#mcafee_small { background-position: -696px -0px; width: 62px; height: 21px;display:inline-block; }
+#footerclose { background-position: -0px -291px; width: 760px; height: 23px; }
+/* SEARCH HEADER */
+     a.listingplayblue2 {
+        background-color: transparent;
+        background-position: -576px -0px;
+        height: 23px;
+        width: 23px;
+        border: 0;
+        cursor: pointer;
+        margin-left:10px;
+        position: absolute;
+        top: 0;
+        left: 155px;
+    }
+    a.listingplayblue2:hover{
+        background-position: -576px -23px;
+        height: 23px;
+        width: 23px;
+    }
+    .input{
+        background-color: #ffffff;
+        font-size: 12px;
+        font-style: italic;
+        color: #adadad;
+        padding-left: 5px;
+    }
+    input:focus, .input_focus { 
+        color: #000000; 
+        font-size: 12px;
+        padding-left: 5px;
+        font-style: normal;
+    }
+ 
+.slidingbutton {
+    display: inline-block;
+    height: 25px;
+    padding-right: 10px;
+    min-width: 115px;
+    background: url(http://cdn.ghstatic.com/images/site/zylom/sprites/slidingbuttons_v2.png) no-repeat right -300px transparent;
+}
+.slidingbutton_container .slidingbutton, .slidingbutton_container_promobox .slidingbutton{
+    margin-top: 10px;
+}
+.slidingbutton span {
+    height: 25px;
+    line-height: 20px;
+    padding-left: 10px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    background: url(http://cdn.ghstatic.com/images/site/zylom/sprites/slidingbuttons_v2.png) no-repeat left -200px transparent;
+}
+
+.slidingbutton.slidingbuttondownload {background-position: right -700px; *width: 200px;}
+.slidingbutton.slidingbuttondownload:hover {background-position: right -500px;}
+
+.slidingbutton.slidingbuttondownload span {color: #783B09; background-position: left -600px;}
+.slidingbutton.slidingbuttondownload:hover span {background-position: left -400px;}
+
+.slidingbutton.slidingbuttononline {background-position: right -1100px; *width: 150px;}
+.slidingbutton.slidingbuttononline:hover {background-position: right -900px;}
+
+.slidingbutton.slidingbuttononline span {color: #4C4B4B; background-position: left -1000px;}
+.slidingbutton.slidingbuttononline:hover span {background-position: left -800px;}
+
+.slidingbutton.slidingbuttonfunpass {background-position: right -1500px;}
+.slidingbutton.slidingbuttonfunpass:hover {background-position: right -1300px;}
+
+.slidingbutton.slidingbuttonfunpass span {color: #64354C; background-position: left -1400px;}
+.slidingbutton.slidingbuttonfunpass:hover span {background-position: left -1200px;}
+
+.slidingbutton.slidingbuttonbuy {background-position: right -300px; *width: 115px; *position: relative; *top: -25px; *left: 350px;}
+.slidingbutton.slidingbuttonbuy:hover {background-position: right -100px;}
+.gamesBoxorange .slidingbutton.slidingbuttonbuy{*left: 218px;}
+
+.slidingbutton.slidingbuttonbuy span {color: #0C374A; background-position: left -200px;}
+.slidingbutton.slidingbuttonbuy:hover span {background-position: left 0px;}
+
+.slidingbutton.slidingbuttonmoreinfo {background-position: right -300px;}
+.slidingbutton.slidingbuttonmoreinfo:hover {background-position: right -100px;}
+
+.slidingbutton.slidingbuttonmoreinfo span {color: #0C374A; background-position: left -200px;}
+.slidingbutton.slidingbuttonmoreinfo:hover span {background-position: left 0px;}
+
+
+
+.gameimage .tooltip {
+  font-size: 10px;
+  display: none;
+  background: transparent
+  width: 445px;
+  z-index: 10000;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 250px;
+  z-index: 50;
+  *visibility: hidden;
+}
+
+.gameimage .tooltip.online .tooltipBG {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/tooltip/tooltip_big_green.png) no-repeat;
+}
+.gameimage .tooltip .tooltipBG{
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/tooltip/tooltip_big.png) no-repeat;
+  width: 445px;
+  position: relative;
+}
+.gameimage .tooltip .tooltipBottom{
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/tooltip/tooltip_big.png) left bottom no-repeat;
+  width: 445px;
+  height:20px;
+}
+.gameimage .tooltip.online .tooltipBottom{
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/tooltip/tooltip_big_green.png) left bottom no-repeat;
+}
+.tooltip.tooltipSubText {
+  display: none;
+  width: 445px;
+  z-index: 10000;
+  position: relative;
+
+  z-index: 50;
+}
+
+.tooltip.tooltipSubText .tooltipBG {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/tooltip/tooltip_big_right.png) no-repeat;
+  padding: 10px 0;
+}
+.tooltip.tooltipSubText.online .tooltipBG {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/tooltip/tooltip_big_right_green.png) no-repeat;
+}
+.tooltip.tooltipSubText .tooltipBottom{
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/tooltip/tooltip_big_right.png) left bottom no-repeat;
+  width: 445px;
+  height:20px;
+}
+.tooltip.tooltipSubText.online .tooltipBottom{
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/tooltip/tooltip_big_right_green.png) left bottom no-repeat;
+}
+.gameimage .tooltip a{
+  color: #6E8900;
+  text-decoration: underline;
+}
+
+.gameimage .tooltip a:hover{
+  color:#bae024;
+}
+.gameimage .tooltip .tooltip_content {
+  margin-left: 30px;
+  padding-top: 10px;
+  width: 405px;
+  color: #5F5F5F;
+  line-height: 1.2em;
+}
+.tooltip_content.tooltipSubText.content {
+  margin-top: 10px;
+  width: 405px;
+  color: #5F5F5F;
+  margin-left: 10px;
+  font-size: 12px; 
+  line-height: 14px; 
+  text-align: left;
+}
+.tooltip_content.tooltipSubText.content.online {
+  line-height: 14px; 
+}
+
+.gameimage .tooltip .moreinfo_tooltip{
+  color: #6E8900;
+  text-decoration: underline;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.gameimage .tooltip .tooltip_content .gamename{
+    width: 390px;
+    margin-left: 11px;
+}
+
+.gameimage .tooltip .tooltip_content .container{
+    width: 395px;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+.gameimage .tooltip .screenshots{
+    float: left;
+    display: block;
+    margin-top: 15px;
+    margin-left: 3px;
+    width: 390px;
+}
+
+.gameimage .tooltip .playforfree_moreinfo{
+    float: left;
+    display: block;
+    width: 390px;   
+    margin: 5px 5px 10px 5px;
+    font-size: 11px;
+}
+
+.gameimage .tooltip .button_container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+a .tooltip .tooltip_content .container .screenshots img, 
+a:hover .tooltip .tooltip_content .container .screenshots img {
+    border: none;
+}
+
+
+/**************** SELECTION BOX *****************/
+
+.subgenregreen,
+.subgenreorange {
+  float:right;
+  padding-right:15px;
+  display:inline;
+}
+
+#selectiondropdown {
+    display: block;
+    position: absolute;
+    left: 330px;
+    width: 170px;
+    float: left;
+    z-index: 3;
+}
+
+#selectbox_value {
+    display: block;
+    width: 170px;
+    height: 20px !important;
+    height: 22px;                                
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.subgenregreen #selectbox_value {
+    background: #fff url(http://cdn.media.zylom.com/images/site/zylom/arrowbutton_green.gif) right 0px no-repeat;
+}
+.subgenreorange #selectbox_value {
+    background: #fff url(http://cdn.media.zylom.com/images/site/zylom/arrowbutton_orange.gif) right 0px no-repeat;
+}
+
+.selectbox_selected {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 1px 6px 0px 2px;
+}
+#selectbox_list {
+    position: absolute;
+    width: 172px;
+    _width: 170px;                                  
+    top: 22;
+    left: 0;
+    background: #fff;
+}
+ul.selectbox_options {
+    margin: 0;
+    padding: 4px 0px 2px 0px;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+ul.selectbox_options li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: none;
+}                            
+ul.selectbox_options li a {
+    display: block;
+    margin: 0;
+    height: 13px;
+    padding: 2px 4px;
+}
+ul.selectbox_options li a:hover {
+    color: #000;
+    background: #ccc;
+}
+
+.resultsortorange, .resultsortgreen {
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+.sortby_txt{
+  position: absolute;
+  font-size: 11px;
+  font-weight: bold;
+  width: 110px;
+  height: 20px;
+  left: 0px;
+  text-align: left;
+  color: #757575;
+}
+#selectbox_value2 {
+    display: block;
+    width: 170px;
+    height: 20px !important;
+    height: 22px;                                
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+#selectiondropdown2 {
+    display: block;
+    position: absolute;
+    left: 100px;
+    width: 170px;
+    float: left;
+}
+
+#selectbox_value2 {
+    display: block;
+    width: 170px;
+    height: 20px !important;
+    height: 22px;                                
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.resultsortgreen #selectbox_value2 {
+    background: #fff url(http://cdn.media.zylom.com/images/site/zylom/arrowbutton_green.gif) right 0px no-repeat;
+}
+.resultsortorange #selectbox_value2 {
+    background: #fff url(http://cdn.media.zylom.com/images/site/zylom/arrowbutton_orange.gif) right 0px no-repeat;
+}
+.selectbox_selected2 {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 1px 6px 0px 2px;
+}
+#selectbox_list2 {
+    position: absolute;
+    width: 172px;
+    _width: 170px;                                  
+    top: 22;
+    left: 0;
+    background: #fff;
+}
+ul.selectbox_options2 {
+    margin: 0;
+    padding: 4px 0px 2px 0px;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+ul.selectbox_options2 li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: none;
+}                            
+ul.selectbox_options2 li a {
+    display: block;
+    margin: 0;
+    height: 13px;
+    padding: 2px 4px;
+}
+#selectiondropdown li a:hover,
+#selectiondropdown2 li a:hover {
+    color: #000;
+    background: #ccc;
+    cursor: pointer;
+}
+
+
+  #selectbox_value3 {
+    display: block;
+    width: 170px;
+    height: 20px !important;
+    height: 22px;                                
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+#selectbox_value3 {
+    background: #fff url(http://cdn.ghstatic.com/images/site/zylom/arrowbutton_green.gif) right 0px no-repeat;
+}
+
+#selectbox_value3 {
+    display: block;
+    width: 170px;
+    height: 20px !important;
+    height: 22px;                                
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+#selectiondropdown3 {
+    display: block;
+    position: absolute;
+    left: 325px;
+    top: 5px;
+    width: 170px;
+    z-index: 10;
+    float: left;
+}
+
+#selectbox_value3 {
+    display: block;
+    width: 170px;
+    height: 20px !important;
+    height: 22px;                                
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.resultsortgreen #selectbox_value3 {
+    background: #fff url(http://cdn.media.zylom.com/images/site/zylom/arrowbutton_green.gif) right 0px no-repeat;
+}
+.resultsortorange #selectbox_value3 {
+    background: #fff url(http://cdn.media.zylom.com/images/site/zylom/arrowbutton_orange.gif) right 0px no-repeat;
+}
+.selectbox_selected3 {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 1px 6px 0px 2px;
+}
+#selectbox_list3 {
+    position: absolute;
+    width: 172px;
+    _width: 170px;                                  
+    top: 22;
+    left: 0;
+    background: #fff;
+}
+ul.selectbox_options3 {
+    margin: 0;
+    padding: 4px 0px 2px 0px;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+ul.selectbox_options3 li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: none;
+}                            
+ul.selectbox_options3 li a {
+    display: block;
+    margin: 0;
+    height: 13px;
+    padding: 2px 4px;
+}
+ul.selectbox_options3 li a:hover {
+    color: #000;
+    background: #ccc;
+}
+  
+.showBygreen{
+  border-bottom: 1px dotted #5e7862;
+  margin: 0;
+  position: relative;
+  left:10px;
+
+  width: 520px;
+}
+.showByorange{
+  border-bottom: 1px dotted #5e7862;
+  margin: 0;
+  position: relative;
+  left:10px;
+
+  width: 520px;
+}
+.sortgreen, .sortorange {
+  margin: 5px 0 0 0;
+  left: 172px;
+  padding: 0;
+  text-align: right;
+  color: #cccccc;
+  position: relative;
+  float: left;
+  width: 316px;
+}
+
+
+  
+  .dropdownContainer{
+    height: 30px;
+  
+  }
+  .alphabeticalContainer{
+    margin: 5px;
+  }
+  .alphabeticalContainer li {
+    background: none repeat scroll 0 0 transparent;
+    display: inline;
+    margin-right: 5px;
+    padding-left: 0;
+  }
+  .alphabeticalContainer li a{
+    text-decoration:underline;
+  }
+  .alphabeticalContainer li .selectedLetter{
+    font-weight:bold;
+  }
+  .showAllGamesContainer{
+    text-align:right;
+    margin:5px
+  }
+  .showAllGamesContainer a{
+    text-decoration:underline;
+  }    
+
+
+  .singlecontent_loggedin_content{margin-left: 10px;}
+  #funpass_singlecontent_loggedin h1.header {height: 25px; padding-top: 125px; text-align: center; color: #832d78; font-size: 15px;}
+  .box258.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader, .box200.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader, .dynamic_box .boxheader_container .boxbottom{background-color: transparent;}
+  .box258.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader_right, .box200.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader_right{background-color: #F7DAF9;}  
+  .box528.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader_right{background-color: #FFFFFF;} 
+  .box200.box_singlelink.boxpurple.dynamic_box{margin-left:-10px;}
+  .boxcontent_content{display: block;padding: 5px 10px 0;}
+  .boxcontent.funpass.advantages{min-height: 500px !important; height: auto !important;}
+  .boxcontent.funpass.big{width: 505px; min-height: 175px !important; height: auto !important;}
+  .boxcontent.funpass.big ol{list-style-type: decimal;margin-left: 20px;margin-top: 10px;line-height: 15px;}
+  .boxcontent.funpass.big ol li {margin-bottom: 10px;}
+  .boxcontent.funpass.big a{color: #692272;text-decoration: none;font-weight: bold;}
+  .boxcontent.funpass.big a:hover{color: #E248F9;}
+  .boxcontent.funpass .small{font-size: 11px;color: #000000;}
+  .boxcontent.funpass .funpass_slidingbutton_container{margin: 0 auto -3px 0; text-align: center; width: 240px;}
+  a .slidingbutton.slidingbuttonfunpass{height: 27px;}
+  .boxcontent.funpass .content p{margin-bottom:15px;}
+  #funpass_singlecontent_loggedin .dynamic_box .boxheader h2{font-weight: bold;color: #82247C;}
+  .boxcontent.funpass.big .new_funpass_text{float: left; height: 50px;}
+  .boxcontent.funpass.big .faqquestions{width:490px;}
+  .boxcontent.funpass.big .faqquestions ol li {line-height: 17px;, color: #692272;text-decoration: none;font-weight: bold;}
+  .boxcontent.funpass.big .faqquestions ol li:hover {color: #E248F9;}
+  .boxcontent.funpass.big .faqquestions span{color: #676767; font-weight: normal; font-style: italic; width:365px;}
+  .boxcontent.funpass.big .faqquestions a.readmore{width: 100px; color: #B25BAA; font-style: italic; font-size: 9px;}
+  .boxcontent.funpass.big .faqquestions .links{margin-left: 25px;}
+  .boxcontent.funpass.big .scrollitem{font-size: 11px;list-style-type: none;float: left;width:250px;height:55px;margin-top: 10px;}
+  .boxcontent.funpass.big .scrollitem .gamesbox_image{float: left;width: 60px;}
+  .boxcontent.funpass.big .scrollitem .gamesbox_date{color: #000000;}
+  .boxcontent.funpass.big .scrollitem .gamesbox_category{font-weight: normal;}
+  #funpass_singlecontent_loggedin .jcarousel-clip-vertical{height:558px;}
+  #funpass_singlecontent_loggedin .slidingbuttonfunpass{min-width: 170px;}
+  #funpass_singlecontent_loggedin .slidingbuttonfunpass.benefits{min-width: 135px;}
+  #funpass_singlecontent_loggedin .price_container{position: relative;width: 205px; padding: 0px 0px 10px 25px;}
+  #funpass_singlecontent_loggedin .price_container .mask {display: block;position: absolute;top: 0;left: 0;right: 0;bottom: 0;}
+  #funpass_singlecontent_loggedin .price_item{width:205px;height:75px;}
+  #funpass_singlecontent_loggedin .left{float: left; color: #C066BD; font-size: 80px; font-weight: bold; height: 75px; line-height: 80px; top: 0;}
+  #funpass_singlecontent_loggedin .right {margin-left: 61px;}
+  #funpass_singlecontent_loggedin .right .years, .right .price{width:185px;font-size: 20px;font-weight: bold; line-height: 21px;}
+  #funpass_singlecontent_loggedin .right .years{color: #C066BD; padding-top: 6px; font-size: 21px;}
+  #funpass_singlecontent_loggedin .right .price{color: #E75FFD; font-size: 22px;margin: 0px; text-decoration: none;}
+  #funpass_singlecontent_loggedin .right .per{width:130px; color: #C066BD; font-size: 14px; font-weight: bold; line-height: 14px;}
+  #funpass_singlecontent_loggedin .carousel_purple a {text-decoration: none;}
+  #funpass_singlecontent_loggedin ul.jcarousel li a .gamesbox_dowloadlink h5{color: #692272;}
+  #funpass_singlecontent_loggedin ul.jcarousel li a:hover .gamesbox_dowloadlink h5{color: #E248F9;}
+  #funpass_singlecontent_loggedin .content b{color: #6E1370;}
+#poweredbyGH {
+  background: #fff url("http://cdn.ghstatic.com/images/site/zylom/win8/powered_by_gamehouse.jpg") 0 0 no-repeat;  
+  height:39px;
+  width:122px;
+  float: right;
+  position: absolute;
+  top: 0px;
+  right:0px;
+
+}
+.gamepage_funpass{
+  width:202px;
+  margin: 0 auto;
+}
+.gamepageSmallBoxTop {
+  background: #fff url("http://cdn.ghstatic.com/images/site/zylom/win8/box_top.png") 0 0 no-repeat;  
+  height:45px;
+  width:202px;
+}
+.gamepageSmallBoxTopTxt {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 11px;
+}
+.gamepageSmallBoxContent {
+  background: #fff url("http://cdn.ghstatic.com/images/site/zylom/win8/box_content.png") 0 0 no-repeat;  
+  height:271px;
+  width:202px;
+}
+.gamepageSmallBoxContentTxt{
+  padding:0 10px;
+}
+.downloadgamepage .gamepageSmallBoxContentTxt li{
+  background-image: url("http://cdn.ghstatic.com/images/site/zylom/win8/arrow/arrow.png"); 
+  background-position: 0 5px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  text-align: left;
+}
+
+
+
+
+.downloadgamepage_reviewbox .boxcontent { padding-top:0; }
+
+a.yellowbutton {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/review/button.png) no-repeat;
+  color: #333333;
+  display: block;
+  font-size: 10px;
+  height: 26px;
+  text-align: center;
+  width: 148px;
+}
+a:hover.yellowbutton { color:#333333; background-position:0 -26px; }
+a.yellowbutton span {
+  display: block;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.reviewheader {
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: normal;
+  width: 550px;
+}
+.tabcontent_review .yellowbutton { float:right; }
+.screenname_header {
+  border-top: 1px solid #864A25;
+  border-bottom: 1px solid #864A25;
+  height: 30px;
+  position: relative;
+}
+.screenname_date {
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5px 0 0 5px;
+  color: #864A25;
+}
+.screenname_date .age,
+.screenname_date .date {
+  color: #333333;
+  font-weight: normal;
+  font-size: 11px;
+}
+.screenname_date .date { color:#9FA09D; }
+.total_score_img {
+  float: right;
+  margin-top: 3px;
+}
+.reviewstars {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/review/ratingstars.png) 0 0 no-repeat;
+  height: 23px;
+  width: 111px;
+}
+.reviewtext { margin-left:5px; }
+.reviewcontent {
+  clear: both;
+  float: left;
+  height: 65px;
+  margin-top: 5px;
+  overflow: hidden;
+  width: 650px;
+}
+.reviewquote {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/review/commentqoute.png) no-repeat;
+  float: right;
+  height: 21px;
+  margin-top: 5px;
+  width: 28px;
+}
+.readmore {
+  clear: both;
+  text-align: right;
+  margin-right: 30px;
+  position: relative;
+  top: 4px;
+}
+.social, .social div { float:left; }
+.social_useful_box {
+  width: 685px;
+  margin-top: 10px;
+}
+.useful {
+  color: #9FA09D;
+  float: right;
+  position: relative;
+}
+.decision {
+  color: #9FA09D;
+  display: inline;
+}
+.decision span {
+  color: #9FA09D;
+  font-weight: bold;
+}
+a:hover.decision span { color:#FF7000; }
+
+.tooltip_review {
+  display: none;
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/abtest/gamepage_c/tooltip.png) no-repeat;
+  width: 241px;
+  height: 69px;
+  z-index: 10000;
+}
+.tooltip_review div {
+  font-size: 11px;
+  position: relative;
+  top: 30px;
+  left: 15px;
+  line-height: 12px;
+  color: #333333;
+}
+
+.reviewlist {
+  position: relative;
+  width: 707px;
+  margin-top: 20px;
+}
+.reviewaction_postbox {
+  position: relative;
+  margin-top: 80px;
+}
+.reviewactionbox {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/abtest/gamepage_c/review_smallbox.png) no-repeat;
+  width: 707px;
+  height: 110px;
+  position: relative;
+}
+.reviewactionheader {
+  font-weight: bold;
+  padding: 15px 40px 0 15px;
+  font-size: 12px;
+}
+.reviewactiontext {
+  padding-left: 15px;
+  width: 555px;
+  line-height: 14px;
+}
+.reviewactionbanner {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/review/reviewarrow.png) no-repeat;
+  width: 387px;
+  height: 83px;
+  position: absolute;
+  left: -12px;
+  top: 68px;
+}
+.reviewactionbanner span {
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  top: 10px;
+  left: 205px;
+  display: block;
+  text-align: right;
+  width: 165px;
+}
+.review_evelyn {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/review/evelyn_neutral.png) no-repeat;
+  width: 128px;
+  height: 295px;
+  position: absolute;
+  right: 0;
+  top: -85px;
+}
+.reviewpostbox {
+  position: relative;
+  margin-top: 45px;
+}
+.review_top {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/abtest/gamepage_c/reviewbox_top.png) center top no-repeat;
+  width: 707px;
+  height: 8px;
+  position: relative;
+  line-height: 12px;
+}
+.review_content {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/abtest/gamepage_c/reviewbox_content.png) 0 0 repeat-y;
+  width: 707px;
+  position: relative;
+}
+.review_bottom {
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/abtest/gamepage_c/reviewbox_bottom.png) center bottom no-repeat;
+  width: 707px;
+  height: 8px;
+  position: relative;
+  line-height: 12px;
+}
+.review_padding { padding:0 10px; }
+.review_ratingheader {
+  font-weight: bold;
+  font-size: 12px;
+  float: left;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+#half { width:235px; }
+.review_logintowrite {
+  background-color: #FFFFFF;
+  border: 1px solid #939393;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  height: 36px;
+  position: relative;
+}
+.review_logintowrite span {
+  display: block;
+  padding: 10px;
+}
+.review_logintowrite a {
+  color: #993333;
+  text-decoration: underline;
+}
+.writereview_charcounter {
+  font-size: 10px;
+  color: #777873;
+  line-height: 10px;
+  width: 500px;
+}
+.review_tip {
+  clear: both;
+  color: #777873;
+  padding-top: 10px;
+  position: relative;
+}
+.review_tip span { font-weight:bold; }
+.error {
+  display: none;
+  position: relative;
+  margin-top: 10px;
+  color: #ff0000;
+  font-weight: bold;
+  line-height: 12px;
+  width: 500px;
+}
+.reviewpostbox .yellowbutton { margin-top:10px; }
+.textareabox {
+  overflow: auto;
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+#review_thankyou {
+  display: none;
+  background-color: #FFFFFF;
+  border: 1px solid #939393;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  position: relative;
+}
+#review_thankyou span {
+  display: block;
+  padding: 10px;
+}
+#postreview_loader {
+  display: none;
+  float: right;
+  margin-right: 40px;
+  position: relative;
+}
+
+
+.tabbedbox{
+  margin:0 0 10px;
+  float: left;
+}
+
+.tabbedbox_header {
+  display: block;
+  position: relative;
+  height: 42px;
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/abtest/gamepage_c/tabbox_top.png) 0px 36px no-repeat;
+}
+.tabbedbox_header.roundheader {
+  display: block;
+  position: relative;
+  height: 22px;
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/abtest/gamepage_c/tabbox_top_rounded.png) 0px 0px no-repeat;
+}
+.tabbedbox_content {
+  display: block;
+  position: relative;
+  margin: 0px; padding: 0px;
+  width: 740px;
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/abtest/gamepage_c/tabbox_content.png) 0px 0px repeat-y;
+}
+.tabbedbox_content_content {
+  display: block;
+  position: relative;
+  margin: 0 15px;
+  padding-top: 10px;
+}
+.tabbedbox_footer {
+  display: block;
+  position: relative;
+  height: 15px;
+  background: transparent url(http://cdn.ghstatic.com/images/site/zylom/abtest/gamepage_c/tabbox_bottom.png) 0px bottom no-repeat;
+}
+
+
+.no_flash_box {
+    height: 113px;
+    width: 455px;
+    background: transparent url(http://cdn.ghstatic.com/images/site/zylom/promo/flash/bg_alert_plugin.png) 0px bottom no-repeat;
+    left: 50%;
+    margin-left: -227px;
+    margin-top: -57px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+}
+
+.no_flash_box_text {
+    color: #FFFFFF;
+    float: right;
+    height: 80px;
+    margin-right: 15px;
+    margin-top: 10px;
+    width: 345px;
+}
+
+.no_flash_box_text a{
+    color: #F90000;
+    text-decoration: underline;
+}
+
+#no_flash_box a {
+    display: inline;
+    background: none;
+    height: auto;
+    width: auto;
+}
+
+#no_flash_holder {display:none;}
+
+li.win8extra_requirement a {
+    color: #333333;
+}

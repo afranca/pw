@@ -1,0 +1,373 @@
+
+
+.faqitem {
+display: block;
+margin-bottom: 0px;
+}
+
+.faqitem h4 {
+background: transparent;
+border: 0;
+color: #9CA1A5;
+padding-left: 0px;
+font-size: 14px;
+}
+
+.faqitem a.mediumbuttonblue {
+margin-left: 0px;
+}
+
+.faqitem a:hover.mediumbuttonblue {
+margin-left: 0px
+}
+
+.faqitem input, .faqitem select, .faqitem textarea {
+    border: 1px solid #ccc;
+}
+
+.stage {
+    color: #A2A2A2;
+}
+.stagebusy {
+    font-weight: bold;
+}
+
+.faqwelcome {
+    float: left;
+    display: inline;
+    width: 415px;
+}
+.faqwelcomeimg {
+    float: left;
+    width: 109px;
+}
+.faqwelcomemsg p {
+    float: right;
+    padding-top: 30px;
+    padding-left: 3px;
+    width: 300px;
+}
+.faqmessageboard {
+    float: right;
+    display: inline;
+    width: 258px;
+    margin-top: 10px;
+}
+.faqmessageboard .boxcontent a:hover { color:#0F79FB; }
+
+/* ------------- faq pop-up box nogradient ------------- */ 
+
+.faqpopup-boxtop {
+   position: relative;
+   display: block;
+   width: 360px;
+   height: 40px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/360px/blue/white/header.png) top left no-repeat;
+   }
+
+.faqpopup-boxcontent {
+   position: relative;
+   display: block;
+   width: 360px;
+   padding-bottom: 10px;
+   font-size: 1.1em;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/360px/blue/white/content.png) top left repeat-y;
+   }
+
+.faqpopup-boxbottom {
+   position: relative;
+   display: block;
+   width: 360px;
+   height: 20px;
+   font-size: 0px;
+   line-height: 0px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/360px/blue/white/bottom.png) top left no-repeat;
+   }
+
+.faqpopup-boxtop a.faqclosebutton {
+   display: block;
+   position:absolute;
+   top: 13px;
+   right: 13px;
+   width: 20px;
+   height: 20px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/x/blue.gif) top left no-repeat;
+   }
+.faqpopup-boxtop a:hover.faqclosebutton {
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/x/blue.gif) 0px -20px no-repeat;
+   }
+   .popup-boxtop a.closebutton i {display: none}
+
+.faqpopup-boxtop h1 {
+   display: block;
+   padding: 14px 0px 0px 10px;
+   color: #23436B;
+   font-size: 14px;
+   text-align: left;
+   font-weight: normal;
+   }
+
+.faqpopup-boxcontent h2 {
+   color: #333;
+   margin-bottom: 8px;
+   text-align: left;
+   }
+
+  .faqboxtopblue {background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/360px/blue/white/header.png) top left no-repeat}
+  .faqboxcontentblue {background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/360px/blue/white/content.png) top left repeat-y}
+  .faqboxbottomblue {background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/360px/blue/white/bottom.png) top left no-repeat}
+  .faqboxtopblue a.closebutton {background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/x/blue.gif) top left no-repeat}
+  .faqboxtopblue a:hover.closebutton {background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/x/blue.gif) 0px -20px no-repeat}
+  .faqboxtopblue h1 { color:#142f52; }
+  .faqboxcontentblue h2 { color:#333; }
+         
+
+/* ------------- list styles ------------- */ 
+
+a.faqlink {
+    color: #216A95;    
+    font-weight: bold;
+    font-size: 11px;
+}
+a:hover.faqlink {
+    color: #0F79FB;
+}
+
+.faqitem ol, .faqitem ul {
+    color: #216A95;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 11px;
+    padding-left:10px;
+}
+.faqitem ol {
+    list-style-type: decimal;    
+}
+.faqitem ul {
+    list-style-type: disc;
+}
+
+.faqitem .faqmargin {
+    margin-left: 30px;
+}
+.faqitemsleft {
+    width: 270px;
+}
+.faqitemsright {
+    left: 280px;
+    position: relative;
+    top: -72px;
+    width: 270px;
+}
+.screenshotText {
+    width: 380px;
+    height: 100px;
+}
+.faqtooltip {
+  display: none;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/faq/contact_form/tooltip-ballon.png) no-repeat;
+  width: 339px;
+  height: 362px;
+  z-index: 10000;
+  position: absolute;
+  z-index: 50;
+}
+.faqtooltipcontent {
+    margin-top: 35px;
+  width: 319px;
+  line-height: 14px;
+  margin-left: 10px;
+  font-size: 11px; 
+}
+.faqtooltipclose {
+    background: transparent url(http://cdn.media.zylom.com/images/site/zylom/faq/contact_form/tooltip-sluiten_hover.png) no-repeat;
+    width: 30px;
+    height: 28px;
+    float: right;
+    margin-top: 3px;
+}
+.faqtooltipclose:hover {
+    background-position: -1px -30px;
+}
+.faqtooltipheader {
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    text-align: center;
+    color: #1F75BD;
+}
+.faqtooltipcontent ol {
+    color: #000000;
+    font-weight: normal;
+    margin-left: 10px;
+}
+/* - medium button ---------------------------------------------------------- */
+a.mediumbuttongrey, a:hover.mediumbuttongrey, a:visited.mediumbuttongrey,
+a.mediumbuttonblue, a:hover.mediumbuttonblue, a:visited.mediumbuttonblue {
+    display: block;
+    margin: 10px auto 0px auto;
+    padding: 4px 0px 2px 0px;
+    width: 125px;
+    height: 24px !important;
+    height:31px;    
+    color: #606060;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.mediumbuttongrey {background: transparent url(http://cdn.media.zylom.com/images/site/zylom/buttons/help_buttons/button_grey/button_grey.png) 0px 0px no-repeat;}
+a.mediumbuttonblue {background: transparent url(http://cdn.media.zylom.com/images/site/zylom/buttons/help_buttons/button_blue/button_blue.png) 0px 0px no-repeat;}
+
+a:hover.mediumbuttonblue, a:hover.mediumbuttongrey {background-position: 0px -32px;}
+a:active.mediumbuttonblue, a:active.mediumbuttongrey {background-position: 0px -0px;}
+
+/* - big blue button ---------------------------------------------------------- */
+a.bigbuttonblue, a:hover.bigbuttonblue, a:visited.bigbuttonblue {
+    display: block;
+    margin: 10px auto 0px auto;
+    padding: 4px 0px 2px 0px;
+    width: 170px;
+    height: 24px !important;
+    height:31px;    
+    color: #1c5e7b;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.bigbuttonblue {background: transparent url(http://cdn.media.zylom.com/images/site/zylom/buttons/help_buttons/button_blue_big/button_blue.png) 0px 0px no-repeat;}
+
+a:hover.bigbuttonblue {background-position: 0px -32px;} 
+a:active.bigbuttonblue {background-position: 0px -0px;}
+
+/* - go to homepage button (after contact form) ---------------------------------------------------------- */
+a.homepagebuttongrey, a:hover.homepagebuttongrey, a:visited.homepagebuttongrey {
+    display: block;
+    margin: 10px auto 0px auto;
+    padding: 4px 0px 2px 0px;
+    width: 180px;
+    height: 24px !important;
+    height:31px;
+    color: #606060;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.homepagebuttongrey {background: transparent url(http://cdn.media.zylom.com/images/site/zylom/buttons/help_buttons/button_grey_big/button_grey.png) 0px 0px no-repeat;}
+a:hover.homepagebuttongrey {background-position: 0px -32px;}
+a:active.homepagebuttongrey {background-position: 0px -0px;}
+
+/* - button position ---------------------------------------------------------- */
+.onebuttonposition {
+  margin-left: 0px !important; 
+  margin-left: 300px;
+  }
+.twobuttonsposition {
+  margin-left: 215px; 
+  width: 270px;
+  }
+ 
+.faq_header h1
+{
+   color: #1F559D;
+   font-weight: normal;
+   font-size: 15.4px;
+   line-height: 16px;
+}
+
+
+
+.faqpopupfound-boxtop {
+   position: relative;
+   display: block;
+   width: 505px;
+   height: 40px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/faq/popup/Help_popup_header.png) top left no-repeat;
+   }
+
+.faqpopupfound-boxcontent {
+   position: relative;
+   display: block;
+   width: 505px;
+   height: 250px;
+   padding-bottom: 10px;
+   font-size: 1.1em;
+   background: url('http://cdn.media.zylom.com/images/site/zylom/faq/popup/Help_popup_bg.png') no-repeat 0 0 transparent;
+   }
+
+.faqpopupfound-boxbottom {
+   position: relative;
+   display: block;
+   width: 505px;
+   height: 20px;
+   font-size: 0px;
+   line-height: 0px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/360px/blue/white/bottom.png) top left no-repeat;
+   }
+   
+.faqpopupfound-boxtop h1 {
+   display: block;
+   padding: 14px 0px 0px 10px;
+   color: #23436B;
+   font-size: 14px;
+   text-align: left;
+   font-weight: normal;
+}
+
+.faqpopupfound-boxtop a.faqclosebutton {
+   display: block;
+   position:absolute;
+   top: 6px;
+   right: 17px;
+   width: 28px;
+   height: 26px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/faq/popup/Help_popup_close.png) top left no-repeat;
+}
+
+.popup-boxtop a.closebutton i {display: none}
+
+.faqpopupfound-boxcontent .content{
+    float: right;
+    width: 260px;
+    height: 150px;
+    padding-left: 215px;
+    padding-top: 25px;
+}
+
+.faqpopupfound-boxcontent .content h1 {
+    color: #23436B;
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+}
+
+.faqpopupfound-boxcontent .content p {
+    float: left;
+    text-align: justify;
+    width: 225px;
+    word-spacing: -2px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.faqpopupfound-boxcontent a {
+    background: transparent url(http://cdn.media.zylom.com/images/site/zylom/faq/popup/Help_popup_button.png) 0 0 no-repeat;
+    float: left;
+    text-align: center;
+    width: 241px;
+    height: 23px;
+    color: #23436B;
+    font-weight: bold;
+    margin-bottom: 2px;
+    padding-top: 6px;
+    font-size: 12px;
+}
+
+.faqpopupfound-boxcontent a:hover {
+    background-position: 0 -29px;
+}

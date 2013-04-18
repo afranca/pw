@@ -1,0 +1,137 @@
+
+.floor_wrapper {
+  display: block;
+  margin-left: -380px;
+  position:  fixed;
+  bottom: 0;
+  left: 50%;
+  width: 760px;
+  z-index: 150;
+}
+  .floorad {
+    background: url('http://cdn.media.zylom.com/images/site/zylom/sprites/common.png') -0px -251px; no-repeat;
+    height: 40px;
+    width: 760px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    cursor: pointer;
+  }
+  .ad_txt {
+    position: absolute;
+    width: 372px;
+    bottom: 8px;
+    left: 198px;
+    font-size: 13px;
+    color: #507600;
+  }
+  .ad_txt span{
+    font-weight: bold;
+  }  
+  .ad {
+    width:113px;
+    height:69px;
+    display: block;
+    position: absolute;
+    top: -35px;
+    right: 20px;
+    z-index:120;
+  }
+  .ad_full {
+      height: 15px;
+      width: 316px;
+      display: block;
+      background: url('http://cdn.media.zylom.com/images/site/zylom/sprites/common.png') 0px 0; no-repeat;
+      position: absolute;
+      right: 15px;
+      z-index: 5;
+      bottom: 0px;
+      text-align: left;
+      cursor: pointer;
+  }
+  .ad_header {
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    color: #5c8408;
+    top: 15px;
+    left: 30px;
+    width: 250px;
+    height: 45px;
+  }
+  .ad_header span{
+    color: #3d5902;
+  }
+  .ad_image{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+  }
+  .ad_text{
+    position: absolute;
+    top: 65px;
+    left: 165px; 
+    height: 110px;
+    width: 135px;
+    font-size: 13px;
+  }
+  .ad_readmore{
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    color: #b35199;
+    top: 175px;
+    left: 165px;
+  }
+  .ad_game_name{
+    position: absolute;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 11px;
+    top: 65px;
+    left: 165px;
+    width: 135px;
+  }
+  .ad_game_genre{
+    position: absolute;
+    font-size: 11px;
+    font-style: italic;
+    color: #757575;
+    width: 135px;
+    top: 85px;
+    left: 165px;
+  }
+  .ad_game_text{
+    position: absolute;
+    font-size: 11px;
+    color: #5c5a5b;
+    line-height: 11px;
+    width: 135px;
+    left: 165px;
+    top: 102px;
+    height: 70px;
+  }
+  .ad_game_readmore{
+    position: absolute;
+    font-size: 11px;
+    font-weight: bold;
+    color: #b35199;
+    width: 135px;
+    top: 175px;
+    left: 165px;
+  }
+  a.ad_close {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 18px;
+    height: 18px;
+    background: url('http://cdn.media.zylom.com/images/site/zylom/sprites/common.png') -599px 0; no-repeat;
+    z-index: 120;
+  }
+  a:hover.ad_close {background-position: -599px -18px;}
+
+  .opened {height: 275px;}

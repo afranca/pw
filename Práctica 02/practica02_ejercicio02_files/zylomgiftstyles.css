@@ -1,0 +1,80 @@
+
+.zylomgift_gamepage .downloadgamepageleft p {
+  padding: 0;
+  margin: 0px 4px 12px 4px;
+}
+.zylomgift_gamepage p.infotext,
+.zylomgift_gamepage #socialshare {
+  margin: 0px 8px;
+}
+.zylomgift_gamepage p.gameimage {
+  display: block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+.zylomgift_gamepage .gameimage .gameimage_corner {
+  display: block;
+  position: absolute;
+  width: 62px;
+  height: 61px;
+  top: 11px;
+  right: 54px;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/zylomgift/hoekje1.png) 0 0 no-repeat;
+}
+.zylomgift_gamepage a.download_button {
+ width:150px;
+ height:150px;
+ display:block;
+ margin:0 auto;
+}
+.zylomgift_gamepage a:hover.download_button { background-position:0 -155px; }
+
+a .download_button {
+ width:150px;
+ height:150px;
+ display:block;
+ margin:0 auto;
+}
+a .download_button:hover { background-position:0 -155px; }
+
+.zylomgift_gamepage #socialshare .socialshare_text_deluxe {
+  margin-top: 20px;
+}
+
+
+.zylomgift_allgamepage .imgLeftorange {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+}
+.zylomgift_allgamepage .imgLeftorange img {
+  margin: 0; padding: 0;
+  border: 0;
+}
+.zylomgift_allgamepage .imgLeftorange .gameimage_corner {
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 35px;
+  top: 0px;
+  right: 0px;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/zylomgift/hoekje2.png) 0 0 no-repeat;
+}
+
+.zylomgift_gamepage .promosticker,
+.zylomgift_allgamepage .promosticker {
+  float:right;
+  width: 93px;
+  height: 19px;
+}
+.zylomgift_gamepage .promosticker {
+  height: 24px;
+}
+.zylomgift_gamepage .promosticker a {
+  display: block;
+  line-height: 24px;
+}
+
+.gamenamegenre { width:348px; }

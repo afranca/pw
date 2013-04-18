@@ -1,0 +1,1077 @@
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-position: outside;
+  line-height: 1em;
+}
+  li.gamelistitem, .gamelisttopitem {
+    margin: 0;
+    padding: 0;
+    background: none;
+    list-style-type: none;
+  }
+
+.gamelisttopitem {
+  width:220px;
+  height:50px;
+  overflow:hidden;
+  line-height: 11px;
+}
+.gamelistitem {
+  overflow: hidden;
+  line-height: 11px;
+  height: 55px;
+}
+
+
+
+
+.box740 {
+  display: block;
+  position: relative;
+  width: 740px;
+  margin: 0 0 10px 0;
+}
+.box528 {
+  display: block;
+  position: relative;
+  width: 528px;
+  margin: 0 0 10px 0;
+}
+.box258 {
+  float: left;
+  display: inline;
+  width: 258px;
+  margin: 0 10px 10px 0;
+}
+
+.box254 {
+  float: left;
+  display: inline;
+  width: 254px;
+  margin: 0 10px 10px 0;
+}
+
+.box200 {
+  display: block;
+  position: relative;
+  width: 200px;
+  margin: 0 0 10px 0;
+}
+
+.rightcolumnbox {
+  margin: 0 0 10px 0;
+}
+
+.boxheader {
+  display: block;
+  position: relative;
+  height: 44px;
+  padding: 0;
+
+}
+.boxtop {
+  display: block;
+  position: relative;
+  height: 15px;
+  padding: 0;
+}
+.boxheadertable {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.boxcontent {
+  display: block;
+  padding: 5px 10px 0 10px;
+  height: auto!important; 
+  height: 100%;           
+}
+
+.boxcontent.funpass{
+  height: 450px !important;
+}
+
+.boxcontent ul {
+  margin: 0;
+}
+.boxbottom {
+  display: block;
+  position: relative;
+  height: 15px;
+}
+
+
+.box740orange .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/orange/white/top.png) 0px 0px no-repeat;}
+.box740orange .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/orange/white/header.png) 0px -5px no-repeat;}
+.box740orange .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/orange/white/content.png) 0px 0px repeat-y;}
+.box740orange .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/orange/white/bottom.png) 0px bottom no-repeat;}
+
+.box740green .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/green/white/top.png) 0px 0px no-repeat;}
+.box740green .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/green/white/header.png) 0px -5px no-repeat;}
+.box740green .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/green/white/content.png) 0px 0px repeat-y;}
+.box740green .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/green/white/bottom.png) 0px bottom no-repeat;}
+
+.box740darkgreen .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkgreen/white/top.png) 0px 0px no-repeat;}
+.box740darkgreen .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkgreen/white/header.png) 0px -5px no-repeat;}
+.box740darkgreen .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkgreen/white/content.png) 0px 0px repeat-y;}
+.box740darkgreen .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkgreen/white/bottom.png) 0px bottom no-repeat;}
+
+.box740purple .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/purple/white/top.png) 0px 0px no-repeat;}
+.box740purple .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/purple/white/header.png) 0px -5px no-repeat;}
+.box740purple .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/purple/white/content.png) 0px 0px repeat-y;}
+.box740purple .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/purple/white/bottom.png) 0px bottom no-repeat;}
+
+.box740blue .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/blue/white/top.png) 0px 0px no-repeat;}
+.box740blue .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/blue/white/header.png) 0px -5px no-repeat;}
+.box740blue .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/blue/white/content.png) 0px 0px repeat-y;}
+.box740blue .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/blue/white/bottom.png) 0px bottom no-repeat;}
+
+.box740darkblue .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkblue/white/top.png) 0px 0px no-repeat;}
+.box740darkblue .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkblue/white/header.png) 0px -5px no-repeat;}
+.box740darkblue .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkblue/white/content.png) 0px 0px repeat-y;}
+.box740darkblue .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkblue/white/bottom.png) 0px bottom no-repeat;}
+
+
+.box740orangefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/orange/filled/top.png) 0px 0px no-repeat;}
+.box740orangefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/orange/filled/header.png) 0px -5px no-repeat;}
+.box740orangefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/orange/filled/content.png) 0px 0px repeat-y;}
+.box740orangefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/orange/filled/bottom.png) 0px bottom no-repeat;}
+
+.box740greenfill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/green/filled/top.png) 0px 0px no-repeat;}
+.box740greenfill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/green/filled/header.png) 0px -5px no-repeat;}
+.box740greenfill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/green/filled/content.png) 0px 0px repeat-y;}
+.box740greenfill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/green/filled/bottom.png) 0px bottom no-repeat;}
+
+.box740darkgreenfill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkgreen/filled/top.png) 0px 0px no-repeat;}
+.box740darkgreenfill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkgreen/filled/header.png) 0px -5px no-repeat;}
+.box740darkgreenfill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkgreen/filled/content.png) 0px 0px repeat-y;}
+.box740darkgreenfill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkgreen/filled/bottom.png) 0px bottom no-repeat;}
+
+.box740purplefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/purple/filled/top.png) 0px 0px no-repeat;}
+.box740purplefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/purple/filled/header.png) 0px -5px no-repeat;}
+.box740purplefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/purple/filled/content.png) 0px 0px repeat-y;}
+.box740purplefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/purple/filled/bottom.png) 0px bottom no-repeat;}
+
+.box740bluefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/blue/filled/top.png) 0px 0px no-repeat;}
+.box740bluefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/blue/filled/header.png) 0px 0px no-repeat;}
+.box740bluefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/blue/filled/content.png) 0px 0px repeat-y;}
+.box740bluefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/blue/filled/bottom.png) 0px bottom no-repeat;}
+
+.box740darkbluefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkblue/filled/top.png) 0px 0px no-repeat;}
+.box740darkbluefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkblue/filled/header.png) 0px -5px no-repeat;}
+.box740darkbluefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkblue/filled/content.png) 0px 0px repeat-y;}
+.box740darkbluefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/740px/darkblue/filled/bottom.png) 0px bottom no-repeat;}
+
+
+.box528orange .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/orange/white/top.png) 0px 0px no-repeat;}
+.box528orange .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/orange/white/header.png) 0px -5px no-repeat;}
+.box528orange .boxcontent {background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/orange/white/content.png) 0 0 repeat-y;}
+.box528orange .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/orange/white/bottom.png) 0px bottom no-repeat;}
+
+.box528green .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/green/white/top.png) 0px 0px no-repeat;}
+.box528green .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/green/white/header.png) 0px -5px no-repeat;}
+.box528green .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/green/white/content.png) 0px 0px repeat-y;}
+.box528green .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/green/white/bottom.png) 0px bottom no-repeat;}
+
+.box528darkgreen .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkgreen/white/top.png) 0px 0px no-repeat;}
+.box528darkgreen .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkgreen/white/header.png) 0px -5px no-repeat;}
+.box528darkgreen .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkgreen/white/content.png) 0px 0px repeat-y;}
+.box528darkgreen .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkgreen/white/bottom.png) 0px bottom no-repeat;}
+
+.box528purple .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/purple/white/top.png) 0px 0px no-repeat;}
+.box528purple .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/purple/white/header.png) 0px -5px no-repeat;}
+.box528purple .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/purple/white/content.png) 0px 0px repeat-y;}
+.box528purple .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/purple/white/bottom.png) 0px bottom no-repeat;}
+
+.box528blue .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/blue/white/top.png) 0px 0px no-repeat;}
+.box528blue .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/blue/white/header.png) 0px 0px no-repeat;}
+.box528blue .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/blue/white/content.png) 0px 0px repeat-y;}
+.box528blue .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/blue/white/bottom.png) 0px bottom no-repeat;}
+
+.box528darkblue .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkblue/white/top.png) 0px 0px no-repeat;}
+.box528darkblue .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkblue/white/header.png) 0px -5px no-repeat;}
+.box528darkblue .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkblue/white/content.png) 0px 0px repeat-y;}
+.box528darkblue .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkblue/white/bottom.png) 0px bottom no-repeat;}
+
+
+.box528orangefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/orange/filled/top.png) 0px 0px no-repeat;} 
+.box528orangefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/orange/filled/header.png) 0px -5px no-repeat;}
+.box528orangefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/orange/filled/content.png) 0px 0px repeat-y;}
+.box528orangefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/orange/filled/bottom.png) 0px bottom no-repeat;}
+
+
+
+.box528greenfill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/green/filled/top.png) 0px 0px no-repeat;}
+.box528greenfill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/green/filled/header.png) 0px -5px no-repeat;}
+.box528greenfill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/green/filled/content.png) 0px 0px repeat-y;}
+.box528greenfill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/green/filled/bottom.png) 0px bottom no-repeat;}
+
+.box528darkgreenfill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkgreen/filled/top.png) 0px 0px no-repeat;}
+.box528darkgreenfill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkgreen/filled/header.png) 0px -5px no-repeat;}
+.box528darkgreenfill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkgreen/filled/content.png) 0px 0px repeat-y;}
+.box528darkgreenfill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkgreen/filled/bottom.png) 0px bottom no-repeat;}
+
+.box528purplefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/purple/filled/top.png) 0px 0px no-repeat;}
+.box528purplefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/purple/filled/header.png) 0px -5px no-repeat;}
+.box528purplefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/purple/filled/content.png) 0px 0px repeat-y;}
+.box528purplefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/purple/filled/bottom.png) 0px bottom no-repeat;}
+
+.box528bluefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/blue/filled/top.png) 0px 0px no-repeat;}
+.box528bluefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/blue/filled/header.png) 0px -5px no-repeat;}
+.box528bluefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/blue/filled/content.png) 0px 0px repeat-y;}
+.box528bluefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/blue/filled/bottom.png) 0px bottom no-repeat;}
+
+.box528darkbluefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkblue/filled/top.png) 0px 0px no-repeat;}
+.box528darkbluefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkblue/filled/header.png) 0px -5px no-repeat;}
+.box528darkbluefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkblue/filled/content.png) 0px 0px repeat-y;}
+.box528darkbluefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkblue/filled/bottom.png) 0px bottom no-repeat;}
+
+
+.box258orange .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/top.png) 0px 0px no-repeat;}
+.box258orange .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/header_bottom.png) 0px -5px no-repeat;}
+.box258orange .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/content.png) 0px 0px repeat-y;}
+.box258orange .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/header_bottom.png) 0px bottom no-repeat;}
+
+
+
+
+
+
+
+.box258green .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/top.png) 0px 0px no-repeat;}
+.box258green .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/header.png) 0px -5px no-repeat;}
+.box258green .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/content.png) 0px 0px repeat-y;}
+.box258green .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/bottom.png) 0px bottom no-repeat;}
+
+.box258darkgreen .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkgreen/white/top.png) 0px 0px no-repeat;}
+.box258darkgreen .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkgreen/white/header.png) 0px -5px no-repeat;}
+.box258darkgreen .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkgreen/white/content.png) 0px 0px repeat-y;}
+.box258darkgreen .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkgreen/white/bottom.png) 0px bottom no-repeat;}
+
+.box258purple .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/purple/white/top.png) 0px 0px no-repeat;}
+.box258purple .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/purple/white/header.png) 0px -5px no-repeat;}
+.box258purple .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/purple/white/content.png) 0px 0px repeat-y;}
+.box258purple .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/purple/white/bottom.png) 0px bottom no-repeat;}
+
+.box258blue .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/blue/white/top.png) 0px 0px no-repeat;}
+.box258blue .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/blue/white/header.png) 0px 0px no-repeat;}
+.box258blue .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/blue/white/content.png) 0px 0px repeat-y;}
+.box258blue .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/blue/white/bottom.png) 0px bottom no-repeat;}
+
+.box258darkblue .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkblue/white/top.png) 0px 0px no-repeat;}
+.box258darkblue .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkblue/white/header.png) 0px -5px no-repeat;}
+.box258darkblue .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkblue/white/content.png) 0px 0px repeat-y;}
+.box258darkblue .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkblue/white/bottom.png) 0px bottom no-repeat;}
+
+
+.box258orangefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/filled/top.png) 0px 0px no-repeat;}
+.box258orangefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/filled/header.png) 0px -5px no-repeat;}
+.box258orangefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/filled/content.png) 0px 0px repeat-y;}
+.box258orangefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/filled/bottom.png) 0px bottom no-repeat;}
+
+.box258greenfill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/filled/top.png) 0px 0px no-repeat;}
+.box258greenfill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/filled/header.png) 0px -5px no-repeat;}
+.box258greenfill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/filled/content.png) 0px 0px repeat-y;}
+.box258greenfill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/filled/bottom.png) 0px bottom no-repeat;}
+
+.box258darkgreenfill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkgreen/filled/top.png) 0px 0px no-repeat;}
+.box258darkgreenfill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkgreen/filled/header.png) 0px 0px no-repeat;}
+.box258darkgreenfill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkgreen/filled/content.png) 0px 0px repeat-y;}
+.box258darkgreenfill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkgreen/filled/bottom.png) 0px bottom no-repeat;}
+
+.box258purplefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/purple/filled/top.png) 0px 0px no-repeat;}
+.box258purplefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/purple/filled/header.png) 0px -5px no-repeat;}
+.box258purplefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/purple/filled/content.png) 0px 0px repeat-y;}
+.box258purplefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/purple/filled/bottom.png) 0px bottom no-repeat;}
+
+.box258bluefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/blue/filled/top.png) 0px 0px no-repeat;}
+.box258bluefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/blue/filled/header.png) 0px -5px no-repeat;}
+.box258bluefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/blue/filled/content.png) 0px 0px repeat-y;}
+.box258bluefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/blue/filled/bottom.png) 0px bottom no-repeat;}
+
+.box258darkbluefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkblue/filled/top.png) 0px 0px no-repeat;}
+.box258darkbluefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkblue/filled/header.png) 0px -5px no-repeat;}
+.box258darkbluefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkblue/filled/content.png) 0px 0px repeat-y;}
+.box258darkbluefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/darkblue/filled/bottom.png) 0px bottom no-repeat;}
+
+
+.box200orange .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/white/top.png) 0px 0px no-repeat;}
+.box200orange .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/white/header.png) 0px -5px no-repeat;}
+.box200orange .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/white/content.png) 0px 0px repeat-y;}
+.box200orange .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/white/bottom.png) 0px bottom no-repeat;}
+
+.box200green .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/white/top.png) 0px 0px no-repeat;}
+.box200green .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/white/header.png) 0px -5px no-repeat;}
+.box200green .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/white/content.png) 0px 0px repeat-y;}
+.box200green .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/white/bottom.png) 0px bottom no-repeat;}
+
+.box200darkgreen .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/white/top.png) 0px 0px no-repeat;}
+.box200darkgreen .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/white/header.png) 0px -5px no-repeat;}
+.box200darkgreen .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/white/content.png) 0px 0px repeat-y;}
+.box200darkgreen .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/white/bottom.png) 0px bottom no-repeat;}
+
+.box200purple .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/purple/white/top.png) 0px 0px no-repeat;}
+.box200purple .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/purple/white/header.png) 0px -5px no-repeat;}
+.box200purple .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/purple/white/content.png) 0px 0px repeat-y;}
+.box200purple .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/purple/white/bottom.png) 0px bottom no-repeat;}
+
+.box200blue .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/blue/white/top.png) 0px 0px no-repeat;}
+.box200blue .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/blue/white/header.png) 0px -5px no-repeat;}
+.box200blue .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/blue/white/content.png) 0px 0px repeat-y;}
+.box200blue .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/blue/white/bottom.png) 0px bottom no-repeat;}
+
+.box200darkblue .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkblue/white/top.png) 0px 0px no-repeat;}
+.box200darkblue .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkblue/white/header.png) 0px -5px no-repeat;}
+.box200darkblue .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkblue/white/content.png) 0px 0px repeat-y;}
+.box200darkblue .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkblue/white/bottom.png) 0px bottom no-repeat;}
+
+
+.box200orangefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/filled/top.png) 0px 0px no-repeat;}
+.box200orangefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/filled/header_bottom.png) 0px -5px no-repeat;}
+.box200orangefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/filled/content.png) 0px 0px repeat-y;}
+.box200orangefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/filled/header_bottom.png) 0px bottom no-repeat;}
+
+.box200greenfill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/filled/top.png) 0px 0px no-repeat;}
+.box200greenfill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/filled/header.png) 0px -5px no-repeat;}
+.box200greenfill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/filled/content.png) 0px 0px repeat-y;}
+.box200greenfill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/filled/bottom.png) 0px bottom no-repeat;}
+
+.box200darkgreenfill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/filled/top.png) 0px 0px no-repeat;}
+.box200darkgreenfill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/filled/header.png) 0px -5px no-repeat;}
+.box200darkgreenfill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/filled/content.png) 0px 0px repeat-y;}
+.box200darkgreenfill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/filled/bottom.png) 0px bottom no-repeat;}
+
+.box200purplefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/purple/filled/top.png) 0px 0px no-repeat;}
+.box200purplefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/purple/filled/header.png) 0px -5px no-repeat;}
+.box200purplefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/purple/filled/content.png) 0px 0px repeat-y;}
+.box200purplefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/purple/filled/bottom.png) 0px bottom no-repeat;}
+
+.box200bluefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/blue/filled/top.png) 0px 0px no-repeat;}
+.box200bluefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/blue/filled/header.png) 0px -5px no-repeat;}
+.box200bluefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/blue/filled/content.png) 0px 0px repeat-y;}
+.box200bluefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/blue/filled/bottom.png) 0px bottom no-repeat;}
+
+.box200darkbluefill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkblue/filled/top.png) 0px 0px no-repeat;}
+.box200darkbluefill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkblue/filled/header.png) 0px -5px no-repeat;}
+.box200darkbluefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkblue/filled/content.png) 0px 0px repeat-y;}
+.box200darkbluefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkblue/filled/bottom.png) 0px bottom no-repeat;}
+
+
+
+
+.box200darkbluefill a:hover, .box200darkblue a:hover,
+.box258darkbluefill a:hover, .box258darkblue a:hover,
+.box528darkbluefill a:hover, .box528darkblue a:hover,
+.box740darkbluefill a:hover, .box740darkblue a:hover { color:#5E8DF4; }
+
+.box200orangefill a:hover, .box200orange a:hover,
+.box258orangefill a:hover, .box258orange a:hover,
+.box528orangefill a:hover, .box528orange a:hover,
+.box740orangefill a:hover, .box740orange a:hover { color:#FF7000; }
+
+.box200greenfill a:hover, .box200green a:hover,
+.box258greenfill a:hover, .box258green a:hover,
+.box528greenfill a:hover, .box528green a:hover,
+.box740greenfill a:hover, .box740green a:hover { color:#BAE024; }
+
+.box200darkgreenfill a:hover, .box200darkgreen a:hover,
+.box258darkgreenfill a:hover, .box258darkgreen a:hover,
+.box528darkgreenfill a:hover, .box528darkgreen a:hover,
+.box740darkgreenfill a:hover, .box740darkgreen a:hover { color:#BAE024; }
+
+.box200purplefill a:hover, .box200purple a:hover,
+.box258purplefill a:hover, .box258purple a:hover,
+.box528purplefill a:hover, .box528purple a:hover,
+.box740purplefill a:hover, .box740purple a:hover { color:#E248F9; }
+
+.box200bluefill a:hover, .box200blue a:hover,
+.box258bluefill a:hover, .box258blue a:hover,
+.box528bluefill a:hover, .box528blue a:hover,
+.box740bluefill a:hover, .box740blue a:hover { color:#0F79FB; }
+
+
+
+.boxheader h2 {
+  display: block;
+  margin: 0px 10px;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 14px;
+  font-variant: small-caps;
+}
+.boxheader a { font-weight: normal; text-decoration: none; }
+.boxheader a:hover { text-decoration: none; }
+
+.box200orange .boxheader h2, .box258orange .boxheader h2,.box528orange .boxheader h2, .box740orange .boxheader h2 {color: #573001;}
+.box200orange .boxheader h2 a, .box258orange .boxheader h2 a,.box528orange .boxheader h2 a, .box740orange .boxheader h2 a {color: #573001;}
+.box200orangefill .boxheader h2, .box258orangefill .boxheader h2, .box528orangefill .boxheader h2, .box740orangefill .boxheader h2 {color: #573001;}
+.box200orangefill .boxheader h2 a, .box258orangefill .boxheader h2 a, .box528orangefill .boxheader h2 a, .box740orangefill .boxheader h2 a {color: #573001;}
+
+.box200green .boxheader h2, .box258green .boxheader h2, .box528green .boxheader h2, .box740green .boxheader h2 {color: #3e5b01;}
+.box200green .boxheader h2 a, .box258green .boxheader h2 a, .box528green .boxheader h2 a, .box740green .boxheader h2 a {color: #3e5b01;}
+.box200greenfill .boxheader h2, .box258greenfill .boxheader h2, .box528greenfill .boxheader h2, .box740greenfill .boxheader h2 {color: #3e5b01;}
+.box200greenfill .boxheader h2 a, .box258greenfill .boxheader h2 a, .box528greenfill .boxheader h2 a, .box740greenfill .boxheader h2 a {color: #3e5b01;}
+
+.box200darkgreen .boxheader h2, .box258darkgreen .boxheader h2, .box528darkgreen .boxheader h2, .box740darkgreen .boxheader h2 {color: #DDDEE0;}
+.box200darkgreen .boxheader h2 a, .box258darkgreen .boxheader h2 a, .box528darkgreen .boxheader h2 a, .box740darkgreen .boxheader h2 a {color: #DDDEE0;}
+.box200darkgreenfill .boxheader h2, .box258darkgreenfill .boxheader h2, .box528darkgreenfill .boxheader h2, .box740darkgreenfill .boxheader h2 {color: #DDDEE0;}
+.box200darkgreenfill .boxheader h2 a, .box258darkgreenfill .boxheader h2 a, .box528darkgreenfill .boxheader h2 a, .box740darkgreenfill .boxheader h2 a {color: #DDDEE0;}
+
+.box200purple .boxheader h2, .box258purple .boxheader h2, .box528purple .boxheader h2, .box740purple .boxheader h2 {color: #64354c;}
+.box200purple .boxheader h2 a, .box258purple .boxheader h2 a, .box528purple .boxheader h2 a, .box740purple .boxheader h2 a {color: #64354c;}
+.box200purplefill .boxheader h2, .box258purplefill .boxheader h2, .box528purplefill .boxheader h2, .box740purplefill .boxheader h2 {color: #64354c;}
+.box200purplefill .boxheader h2 a, .box258purplefill .boxheader h2 a, .box528purplefill .boxheader h2 a, .box740purplefill .boxheader h2 a {color: #64354c;}
+
+.box200blue .boxheader h2, .box258blue .boxheader h2, .box528blue .boxheader h2, .box740blue .boxheader h2 {color: #142f52;}
+.box200blue .boxheader h2 a, .box258blue .boxheader h2 a, .box528blue .boxheader h2 a, .box740blue .boxheader h2 a {color: #142f52;}
+.box200bluefill .boxheader h2, .box258bluefill .boxheader h2, .box528bluefill .boxheader h2, .box740bluefill .boxheader h2 {color: #142f52;}
+.box200bluefill .boxheader h2 a, .box258bluefill .boxheader h2 a, .box528bluefill .boxheader h2 a, .box740bluefill .boxheader h2 a {color: #142f52;}
+
+.box200darkblue .boxheader h2, .box258darkblue .boxheader h2, .box528darkblue .boxheader h2, .box740darkblue .boxheader h2 {color: #fff;}
+.box200darkblue .boxheader h2 a, .box258darkblue .boxheader h2 a, .box528darkblue .boxheader h2 a, .box740darkblue .boxheader h2 a {color: #fff;}
+.box200darkbluefill .boxheader h2, .box258darkbluefill .boxheader h2, .box528darkbluefill .boxheader h2, .box740darkbluefill .boxheader h2 {color: #fff;}
+.box200darkbluefill .boxheader h2 a, .box258darkbluefill .boxheader h2 a, .box528darkbluefill .boxheader h2 a, .box740darkbluefill .boxheader h2 a {color: #fff;}
+
+.box200lightorange .boxheader h2, .box258lightorange .boxheader h2,.box528lightorange .boxheader h2, .box740lightorange .boxheader h2 {color: #573001;}
+.box200lightorange .boxheader h2 a, .box258lightorange .boxheader h2 a,.box528lightorange .boxheader h2 a, .box740lightorange .boxheader h2 a {color: #573001;}
+.box200lightorangefill .boxheader h2, .box258lightorangefill .boxheader h2, .box528lightorangefill .boxheader h2, .box740lightorangefill .boxheader h2 {color: #573001;}
+.box200lightorangefill .boxheader h2 a, .box258lightorangefill .boxheader h2 a, .box528lightorangefill .boxheader h2 a, .box740lightorangefill .boxheader h2 a {color: #573001;}
+
+
+.boxheadertable a { font-weight: normal; text-decoration: none; }
+.boxheadertable a:hover { text-decoration: none; }
+
+.box200orange .boxheadertable h2, .box258orange .boxheadertable h2, .box528orange .boxheadertable h2, .box740orange .boxheadertable h2 {color: #573001;}
+.box200orange .boxheadertable h2 a, .box258orange .boxheadertable h2 a, .box528orange .boxheadertable h2 a, .box740orange .boxheadertable h2 a {color: #573001;}
+.box200orangefill .boxheadertable h2, .box258orangefill .boxheadertable h2, .box528orangefill .boxheadertable h2, .box740orangefill .boxheadertable h2 {color: #573001;}
+.box200orangefill .boxheadertable h2 a, .box258orangefill .boxheadertable h2 a, .box528orangefill .boxheadertable h2 a, .box740orangefill .boxheadertable h2 a {color: #573001;}
+
+.box200green .boxheadertable h2, .box258green .boxheadertable h2, .box528green .boxheadertable h2, .box740green .boxheadertable h2 {color: #3e5b01;}
+.box200green .boxheadertable h2 a, .box258green .boxheadertable h2 a, .box528green .boxheadertable h2 a, .box740green .boxheadertable h2 a {color: #3e5b01;}
+.box200greenfill .boxheadertable h2, .box258greenfill .boxheadertable h2, .box528greenfill .boxheadertable h2, .box740greenfill .boxheadertable h2 {color: #3e5b01;}
+.box200greenfill .boxheadertable h2 a, .box258greenfill .boxheadertable h2 a, .box528greenfill .boxheadertable h2 a, .box740greenfill .boxheadertable h2 a {color: #3e5b01;}
+
+.box200darkgreen .boxheadertable h2, .box258darkgreen .boxheadertable h2, .box528darkgreen .boxheadertable h2, .box740darkgreen .boxheadertable h2 {color: #DDDEE0;}
+.box200darkgreen .boxheadertable h2 a, .box258darkgreen .boxheadertable h2 a, .box528darkgreen .boxheadertable h2 a, .box740darkgreen .boxheadertable h2 a {color: #DDDEE0;}
+.box200darkgreenfill .boxheadertable h2, .box258darkgreenfill .boxheadertable h2, .box528darkgreenfill .boxheadertable h2, .box740darkgreenfill .boxheadertable h2 {color: #DDDEE0;}
+.box200darkgreenfill .boxheadertable h2 a, .box258darkgreenfill .boxheadertable h2 a, .box528darkgreenfill .boxheadertable h2 a, .box740darkgreenfill .boxheadertable h2 a {color: #DDDEE0;}
+
+.box200purple .boxheadertable h2, .box258purple .boxheadertable h2, .box528purple .boxheadertable h2, .box740purple .boxheadertable h2 {color: #64354c;}
+.box200purple .boxheadertable h2 a, .box258purple .boxheadertable h2 a, .box528purple .boxheadertable h2 a, .box740purple .boxheadertable h2 a {color: #64354c;}
+.box200purplefill .boxheadertable h2, .box258purplefill .boxheadertable h2, .box528purplefill .boxheadertable h2, .box740purplefill .boxheadertable h2 {color: #64354c;}
+.box200purplefill .boxheadertable h2 a, .box258purplefill .boxheadertable h2 a, .box528purplefill .boxheadertable h2 a, .box740purplefill .boxheadertable h2 a {color: #64354c;}
+
+.box200blue .boxheadertable h2, .box258blue .boxheadertable h2, .box528blue .boxheadertable h2, .box740blue .boxheadertable h2 {color: #142f52;}
+.box200blue .boxheadertable h2 a, .box258blue .boxheadertable h2 a, .box528blue .boxheadertable h2 a, .box740blue .boxheadertable h2 a {color: #142f52;}
+.box200bluefill .boxheadertable h2, .box258bluefill .boxheadertable h2, .box528bluefill .boxheadertable h2, .box740bluefill .boxheadertable h2 {color: #142f52;}
+.box200bluefill .boxheadertable h2 a, .box258bluefill .boxheadertable h2 a, .box528bluefill .boxheadertable h2 a, .box740bluefill .boxheadertable h2 a {color: #142f52;}
+
+.box200darkblue .boxheadertable h2, .box258darkblue .boxheadertable h2, .box528darkblue .boxheadertable h2, .box740darkblue .boxheadertable h2 {color: #fff;}
+.box200darkblue .boxheadertable h2 a, .box258darkblue .boxheadertable h2 a, .box528darkblue .boxheadertable h2 a, .box740darkblue .boxheadertable h2 a {color: #fff;}
+.box200darkbluefill .boxheadertable h2, .box258darkbluefill .boxheadertable h2, .box528darkbluefill .boxheadertable h2, .box740darkbluefill .boxheadertable h2 {color: #fff;}
+.box200darkbluefill .boxheadertable h2 a, .box258darkbluefill .boxheadertable h2 a, .box528darkbluefill .boxheadertable h2 a, .box740darkbluefill .boxheadertable h2 a {color: #fff;}
+
+
+
+.boxtop h2 {
+  display: block;
+  margin: 0px 10px;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 18px;
+  text-align: center;
+  font-variant: small-caps;
+}
+.boxtop a { font-weight: normal; text-decoration: none; }
+.boxtop a:hover { text-decoration: none; }
+
+.box200orange .boxtop h2, .box258orange .boxtop h2, .box528orange .boxtop h2, .box740orange .boxtop h2 {color: #573001;}
+.box200orange .boxtop h2 a, .box258orange .boxtop h2 a, .box528orange .boxtop h2 a, .box740orange .boxtop h2 a {color: #573001;}
+.box200orangefill .boxtop h2, .box258orangefill .boxtop h2, .box528orangefill .boxtop h2, .box740orangefill .boxtop h2 {color: #573001;}
+.box200orangefill .boxtop h2 a, .box258orangefill .boxtop h2 a, .box528orangefill .boxtop h2 a, .box740orangefill .boxtop h2 a {color: #573001;}
+
+.box200green .boxtop h2, .box258green .boxtop h2, .box528green .boxtop h2, .box740green .boxtop h2 {color: #3e5b01;}
+.box200green .boxtop h2 a, .box258green .boxtop h2 a, .box528green .boxtop h2 a, .box740green .boxtop h2 a {color: #3e5b01;}
+.box200greenfill .boxtop h2, .box258greenfill .boxtop h2, .box528greenfill .boxtop h2, .box740greenfill .boxtop h2 {color: #3e5b01;}
+.box200greenfill .boxtop h2 a, .box258greenfill .boxtop h2 a, .box528greenfill .boxtop h2 a, .box740greenfill .boxtop h2 a {color: #3e5b01;}
+
+.box200darkgreen .boxtop h2, .box258darkgreen .boxtop h2, .box528darkgreen .boxtop h2, .box740darkgreen .boxtop h2 {color: #DDDEE0;}
+.box200darkgreen .boxtop h2 a, .box258darkgreen .boxtop h2 a, .box528darkgreen .boxtop h2 a, .box740darkgreen .boxtop h2 a {color: #DDDEE0;}
+.box200darkgreenfill .boxtop h2, .box258darkgreenfill .boxtop h2, .box528darkgreenfill .boxtop h2, .box740darkgreenfill .boxtop h2 {color: #DDDEE0;}
+.box200darkgreenfill .boxtop h2 a, .box258darkgreenfill .boxtop h2 a, .box528darkgreenfill .boxtop h2 a, .box740darkgreenfill .boxtop h2 a {color: #DDDEE0;}
+
+.box200purple .boxtop h2, .box258purple .boxtop h2, .box528purple .boxtop h2, .box740purple .boxtop h2 {color: #64354c;}
+.box200purple .boxtop h2 a, .box258purple .boxtop h2 a, .box528purple .boxtop h2 a, .box740purple .boxtop h2 a {color: #64354c;}
+.box200purplefill .boxtop h2, .box258purplefill .boxtop h2, .box528purplefill .boxtop h2, .box740purplefill .boxtop h2 {color: #64354c;}
+.box200purplefill .boxtop h2 a, .box258purplefill .boxtop h2 a, .box528purplefill .boxtop h2 a, .box740purplefill .boxtop h2 a {color: #64354c;}
+
+.box200blue .boxtop h2, .box258blue .boxtop h2, .box528blue .boxtop h2, .box740blue .boxtop h2 {color: #142f52;}
+.box200blue .boxtop h2 a, .box258blue .boxtop h2 a, .box528blue .boxtop h2 a, .box740blue .boxtop h2 a {color: #142f52;}
+.box200bluefill .boxtop h2, .box258bluefill .boxtop h2, .box528bluefill .boxtop h2, .box740bluefill .boxtop h2 {color: #142f52;}
+.box200bluefill .boxtop h2 a, .box258bluefill .boxtop h2 a, .box528bluefill .boxtop h2 a, .box740bluefill .boxtop h2 a {color: #142f52;}
+
+.box200darkblue .boxtop h2, .box258darkblue .boxtop h2, .box528darkblue .boxtop h2, .box740darkblue .boxtop h2 {color: #fff;}
+.box200darkblue .boxtop h2 a, .box258darkblue .boxtop h2 a, .box528darkblue .boxtop h2 a, .box740darkblue .boxtop h2 a {color: #fff;}
+.box200darkbluefill .boxtop h2, .box258darkbluefill .boxtop h2, .box528darkbluefill .boxtop h2, .box740darkbluefill .boxheader h2 {color: #fff;}
+.box200darkbluefill .boxtop h2 a, .box258darkbluefill .boxtop h2 a, .box528darkbluefill .boxtop h2 a, .box740darkbluefill .boxheader h2 a {color: #fff;}
+
+.headerinfo {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 16px;
+  heigh: 16px;
+}
+.headerinfo span {
+  display: block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background: #0f0;
+  cursor: default;
+  font-size: 1px; line-height: 16px; text-indent: -10000px;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/info/allcolors.png) 0px 0px no-repeat;
+}
+.headerinfo .tooltip {
+  display: none;
+  position: absolute;
+  width: 247px;
+  height: 76px;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/info/boxheadertooltip.png) 0px 0px no-repeat;
+}
+.headerinfo .tooltip p {
+  color: #5F5F5F;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 20px 10px 10px 10px;
+}
+.headerinfo_green span { background-position:0px 0px; }
+.headerinfo_orange span { background-position:-32px 0px; }
+
+
+
+
+
+.gamelistgameimg {
+    display: block;
+    float:left;
+    height:45px;
+    width:60px;
+    margin-right: 5px;
+    }
+    .gamelistitem .gamelistgameimg { width:60px; height:45px; }
+.gamelistgamename a, .gamelistgamename a:hover,
+.gamelistmoregames a, .gamelistmoregames a:hover { font-weight: normal; text-decoration: none; }
+
+.gamelistitem .gamelistgamename a { overflow:hidden; color:#333333; }
+    
+.gamelistitem .gamelistgamename,
+.gamelistitem .gamelistgamerating,
+.gamelistitem .gamelistdownload,
+.gamelistitem .gamelistplay,
+.gamelistitem .gamelistplayers,
+.gamelistitem .gamelistfacebook { height:15px; }
+.gamelistitem .gamelistgamename a { font-weight:bold; }
+.gamelistitem .gamelistgamename a:hover { font-weight:bold; }
+ a li.gamelistitem p.gamelistgamename { font-weight:bold; }
+ a li.gamelistitem p.gamelistgamename:hover { font-weight:bold; }
+ a.green li.gamelistitem { font-weight:bold; }
+ a.green li.gamelistitem:hover { font-weight:bold; color:#BAE024; }
+.gamelistitem .gamelistgamerating,
+.gamelistitem .gamelistplayers { color:#868283; font-size:0.9em; }
+.gamelistitem .gamelistdownload,
+.gamelistitem .gamelistplay,
+.gamelistitem .gamelistfacebook { font-size:0.9em; }
+.gamelistitem .gamelistdownload a,
+.gamelistitem .gamelistplay a,
+.gamelistitem .gamelistplaywin a,
+.gamelistitem .gamelistfacebook a { font-weight:bold; text-decoration:none; }
+.gamelistmoregames { text-align:center; padding-top:5px;}
+
+.gamelistitem .gamelistplay a { color:#5E7850; }
+.gamelistitem .gamelistplay a:hover { color:#BAE024; }
+.gamelistitem .gamelistdownload a { color:#B35182; }
+.gamelistitem .gamelistdownload a:hover { color:#ff7000; }
+.gamelistitem .gamelistfacebook a { color:#46A3E6; }
+.gamelistitem .gamelistfacebook a:hover { color:#466399; }
+
+
+.box200orangefill .gamelistgamename a:hover, .box200orange .gamelistgamename a:hover,
+.box258orangefill .gamelistgamename a:hover, .box258orange .gamelistgamename a:hover,
+.box528orangefill .gamelistgamename a:hover, .box528orange .gamelistgamename a:hover,
+.box740orangefill .gamelistgamename a:hover, .box740orange .gamelistgamename a:hover { color:#ff7000; }
+
+.box200greenfill .gamelistgamename a:hover, .box200green .gamelistgamename a:hover,
+.box258greenfill .gamelistgamename a:hover, .box258green .gamelistgamename a:hover,
+.box528greenfill .gamelistgamename a:hover, .box528green .gamelistgamename a:hover,
+.box740greenfill .gamelistgamename a:hover, .box740green .gamelistgamename a:hover { color:#BAE024; }
+
+.box200darkgreenfill .gamelistgamename a:hover, .box200darkgreen .gamelistgamename a:hover,
+.box258darkgreenfill .gamelistgamename a:hover, .box258darkgreen .gamelistgamename a:hover,
+.box528darkgreenfill .gamelistgamename a:hover, .box528darkgreen .gamelistgamename a:hover,
+.box740darkgreenfill .gamelistgamename a:hover, .box740darkgreen .gamelistgamename a:hover { color:#BAE024; }
+
+.box200purplefill .gamelistgamename a:hover, .box200purple .gamelistgamename a:hover,
+.box258purplefill .gamelistgamename a:hover, .box258purple .gamelistgamename a:hover,
+.box528purplefill .gamelistgamename a:hover, .box528purple .gamelistgamename a:hover,
+.box740purplefill .gamelistgamename a:hover, .box740purple .gamelistgamename a:hover { color:#A926BD; }
+
+.box200darkbluefill .gamelistgamename a:hover, .box200darkblue .gamelistgamename a:hover,
+.box258darkbluefill .gamelistgamename a:hover, .box258darkblue .gamelistgamename a:hover,
+.box528darkbluefill .gamelistgamename a:hover, .box528darkblue .gamelistgamename a:hover,
+.box740darkbluefill .gamelistgamename a:hover, .box740darkblue .gamelistgamename a:hover { color:#466399; }
+
+.box200bluefill .gamelistgamename a:hover, .box200blue .gamelistgamename a:hover,
+.box258bluefill .gamelistgamename a:hover, .box258blue .gamelistgamename a:hover,
+.box528bluefill .gamelistgamename a:hover, .box528blue .gamelistgamename a:hover,
+.box740bluefill .gamelistgamename a:hover, .box740blue .gamelistgamename a:hover { color:#0F79FB; }
+
+.gamelistitem .gamelistgamename a:hover.orange { color:#ff7000; }
+.gamelistitem .gamelistgamename a:hover.green { color:#BAE024; }
+.gamelistitem .gamelistgamename a:hover.purple { color:#A926BD; }
+.gamelistitem .gamelistgamename a:hover.blue { color:#0F79FB; }
+.gamelistitem .gamelistgamename a:hover.darkblue { color:#466399; }
+
+.gamelistitem .gamelistgamename a.orange,
+.gamelistitem .gamelistgamename a.green,
+.gamelistitem .gamelistgamename a.purple,
+.gamelistitem .gamelistgamename a.blue,
+.gamelistitem .gamelistgamename a.darkblue { background:none; } 
+.box200orangefill .gamelistmoregames a, .box200orange .gamelistmoregames a,
+.box258orangefill .gamelistmoregames a, .box258orange .gamelistmoregames a,
+.box528orangefill .gamelistmoregames a, .box528orange .gamelistmoregames a,
+.box740orangefill .gamelistmoregames a, .box740orange .gamelistmoregames a { color:#8A502B; }
+
+.box200greenfill .gamelistmoregames a, .box200green .gamelistmoregames a,
+.box258greenfill .gamelistmoregames a, .box258green .gamelistmoregames a,
+.box528greenfill .gamelistmoregames a, .box528green .gamelistmoregames a,
+.box740greenfill .gamelistmoregames a, .box740green .gamelistmoregames a { color:#5E7850; }
+
+.box200darkgreenfill .gamelistmoregames a, .box200darkgreen .gamelistmoregames a,
+.box258darkgreenfill .gamelistmoregames a, .box258darkgreen .gamelistmoregames a,
+.box528darkgreenfill .gamelistmoregames a, .box528darkgreen .gamelistmoregames a,
+.box740darkgreenfill .gamelistmoregames a, .box740darkgreen .gamelistmoregames a { color:#5E7850; }
+
+.box200darkbluefill .gamelistmoregames a, .box200darkblue .gamelistmoregames a,
+.box258darkbluefill .gamelistmoregames a, .box258darkblue .gamelistmoregames a,
+.box528darkbluefill .gamelistmoregames a, .box528darkblue .gamelistmoregames a,
+.box740darkbluefill .gamelistmoregames a, .box740darkblue .gamelistmoregames a { color:#3B5998; }
+
+.box200purplefill .gamelistmoregames a, .box200purple .gamelistmoregames a,
+.box258purplefill .gamelistmoregames a, .box258purple .gamelistmoregames a,
+.box528purplefill .gamelistmoregames a, .box528purple .gamelistmoregames a,
+.box740purplefill .gamelistmoregames a, .box740purple .gamelistmoregames a { color:#A926BD; }
+
+.box200darkbluefill .gamelistmoregames a:hover, .box200darkblue .gamelistmoregames a:hover,
+.box258darkbluefill .gamelistmoregames a:hover, .box258darkblue .gamelistmoregames a:hover,
+.box528darkbluefill .gamelistmoregames a:hover, .box528darkblue .gamelistmoregames a:hover,
+.box740darkbluefill .gamelistmoregames a:hover, .box740darkblue .gamelistmoregames a:hover { color:#5E8DF4; }
+
+.box200orangefill .gamelistmoregames a:hover, .box200orange .gamelistmoregames a:hover,
+.box258orangefill .gamelistmoregames a:hover, .box258orange .gamelistmoregames a:hover,
+.box528orangefill .gamelistmoregames a:hover, .box528orange .gamelistmoregames a:hover,
+.box740orangefill .gamelistmoregames a:hover, .box740orange .gamelistmoregames a:hover { color:#FF7000; }
+
+.box200greenfill .gamelistmoregames a:hover, .box200green .gamelistmoregames a:hover,
+.box258greenfill .gamelistmoregames a:hover, .box258green .gamelistmoregames a:hover,
+.box528greenfill .gamelistmoregames a:hover, .box528green .gamelistmoregames a:hover,
+.box740greenfill .gamelistmoregames a:hover, .box740green .gamelistmoregames a:hover { color:#BAE024; }
+
+.box200darkgreenfill .gamelistmoregames a:hover, .box200darkgreen .gamelistmoregames a:hover,
+.box258darkgreenfill .gamelistmoregames a:hover, .box258darkgreen .gamelistmoregames a:hover,
+.box528darkgreenfill .gamelistmoregames a:hover, .box528darkgreen .gamelistmoregames a:hover,
+.box740darkgreenfill .gamelistmoregames a:hover, .box740darkgreen .gamelistmoregames a:hover { color:#BAE024; }
+
+.box200purplefill .gamelistmoregames a:hover, .box200purple .gamelistmoregames a:hover,
+.box258purplefill .gamelistmoregames a:hover, .box258purple .gamelistmoregames a:hover,
+.box528purplefill .gamelistmoregames a:hover, .box528purple .gamelistmoregames a:hover,
+.box740purplefill .gamelistmoregames a:hover, .box740purple .gamelistmoregames a:hover { color:#E248F9; }
+
+.box200lightorangefill .gamelistmoregames a, .box200lightorange .gamelistmoregames a,
+.box258lightorangefill .gamelistmoregames a, .box258lightorange .gamelistmoregames a,
+.box528lightorangefill .gamelistmoregames a, .box528lightorange .gamelistmoregames a,
+.box740lightorangefill .gamelistmoregames a, .box740lightorange .gamelistmoregames a { color:#8A502B; }
+
+.box200lightorangefill .gamelistmoregames a:hover, .box200lightorange .gamelistmoregames a:hover,
+.box258lightorangefill .gamelistmoregames a:hover, .box258lightorange .gamelistmoregames a:hover,
+.box528lightorangefill .gamelistmoregames a:hover, .box528lightorange .gamelistmoregames a:hover,
+.box740lightorangefill .gamelistmoregames a:hover, .box740lightorange .gamelistmoregames a:hover { color:#FF7000; }
+
+
+
+.skillgamelistbox ul {margin: 0;}
+.skillgamelistbox ul.left {width: 250px; float: left;}
+.skillgamelistbox ul.right {float:right; width:250px;}
+
+.skillgamelistbox .gamelistitem {width:250px;}
+
+.skillgamelistbox .gamelistgamename,
+.skillgamelistbox .gamelistjackpot,
+.skillgamelistbox .gamelistplaywin { height:15px; }
+
+.skillgamelistbox .gamelistjackpot {color:#868283; font-size:0.9em;}
+.skillgamelistbox .gamelistplaywin a { font-weight:bold; font-size:0.9em;}
+
+.box200orangefill .gamelistplaywin a, .box200orange .gamelistplaywin a,
+.box258orangefill .gamelistplaywin a, .box258orange .gamelistplaywin a,
+.box528orangefill .gamelistplaywin a, .box528orange .gamelistplaywin a,
+.box740orangefill .gamelistplaywin a, .box740orange .gamelistplaywin a { color:#B35182; }
+
+.box200greenfill .gamelistplaywin a, .box200green .gamelistplaywin a,
+.box258greenfill .gamelistplaywin a, .box258green .gamelistplaywin a,
+.box528greenfill .gamelistplaywin a, .box528green .gamelistplaywin a,
+.box740greenfill .gamelistplaywin a, .box740green .gamelistplaywin a { color:#5E7850; }
+
+.box200darkgreenfill .gamelistplaywin a, .box200darkgreen .gamelistplaywin a,
+.box258darkgreenfill .gamelistplaywin a, .box258darkgreen .gamelistplaywin a,
+.box528darkgreenfill .gamelistplaywin a, .box528darkgreen .gamelistplaywin a,
+.box740darkgreenfill .gamelistplaywin a, .box740darkgreen .gamelistplaywin a { color:#5E7850; }
+
+.box200orangefill .gamelistplaywin a:hover, .box200orange .gamelistplaywin a:hover,
+.box258orangefill .gamelistplaywin a:hover, .box258orange .gamelistplaywin a:hover,
+.box528orangefill .gamelistplaywin a:hover, .box528orange .gamelistplaywin a:hover,
+.box740orangefill .gamelistplaywin a:hover, .box740orange .gamelistplaywin a:hover { color:#FF7000; }
+
+.box200greenfill .gamelistplaywin a:hover, .box200green .gamelistplaywin a:hover,
+.box258greenfill .gamelistplaywin a:hover, .box258green .gamelistplaywin a:hover,
+.box528greenfill .gamelistplaywin a:hover, .box528green .gamelistplaywin a:hover,
+.box740greenfill .gamelistplaywin a:hover, .box740green .gamelistplaywin a:hover { color:#BAE024; }
+
+
+
+.gamelistbox_small .gamelistitem {
+  width: 180px;
+  height: 30px;
+  line-height: 11px;
+  overflow: hidden;
+}
+.gamelistbox_small .gamelistgameimg {
+  height: 25px;
+  width: 25px;
+}
+.gamelistbox_small .gamelistgamename {
+  height: 24px;
+  font-size: 10px;
+  line-height: 12px;
+  overflow: hidden;
+}
+
+.boxcontent.categorybox { padding: 5px 2px 0; }
+.gamelistbox_small .boxheadertable {
+  position: relative;
+  top: -15px;
+  text-align: center;
+  height: 0;
+  width: 180px;
+}
+.boxcontent.gamelistbox_small .boxheadertable h2,
+.boxcontent.gamelistbox_small .boxheadertable h2 a {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+
+/*.box200redfill .boxheader {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/red.jpg) top left no-repeat;
+  height: 42px;
+  width: 200px;
+}
+.box200redfill .boxcontent {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/red_middle.png) repeat-y;
+}
+.box200redfill .boxbottom {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/red.jpg) bottom left no-repeat; 
+  height: 18px;
+  width: 200px;
+}
+.box200redfill h2 {
+  display: block;
+  font-size: 14px;
+  font-variant: small-caps;
+  font-weight: normal;
+  line-height: 14px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  padding-top: 14px;
+}
+.box200redfill h2 a,
+.box200redfill h2 a:hover { color:#fff; }
+.box200redfill .gamelistitem .gamelistdownload a,
+.box200redfill .gamelistmoregames a {
+  color: #cf2f53;
+}
+.box200redfill a:hover {
+  color: #821C32;
+}
+.box200redfill .gamelistdownload a:hover{
+  color: #821C32 !important;   
+}
+.box200redfill .gamelistprice {
+  color: #565656;
+  font-weight: bold;
+  height: 15px;
+}*/
+
+
+/*.box200yellowfill .boxheader {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/yellow_top.jpg) no-repeat;
+  height: 42px;
+  width: 200px;
+}
+.box200yellowfill .boxcontent {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/yellow_middle.png) repeat-y;   
+}
+.box200yellowfill .boxbottom {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/yellow_bottom.png) no-repeat;  
+  height: 18px;
+  width: 200px;
+}
+.box200yellowfill h2 {
+  display: block;
+  font-size: 14px;
+  font-variant: small-caps;
+  font-weight: normal;
+  line-height: 14px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #573001;
+  padding-top: 14px;
+}
+.box200yellowfill h2 a, 
+.box200yellowfill h2 a:hover { color:#573001; }
+.box200yellowfill .gamelistcategoryname {
+  color: #A4A4A4;
+  font-size: 10px;
+  height: 15px;
+}
+.box200yellowfill .gamelistplayfree a {
+  color: #d2b221;   
+  font-weight: bold;
+  font-size: 10px;
+}
+.box200yellowfill .gamelistmoregames a {
+  color: #d2b221;  
+}
+.box200yellowfill a:hover{
+  color: #917B1B;
+}
+
+.box200yellowfill a .gamelistplayfree {
+  color: #d2b221;   
+  font-weight: bold;
+  font-size: 10px;
+}
+.box200yellowfill a .gamelistplayfree:hover{
+  color: #917B1B;
+}*/
+
+
+.gamelistbox_2lines .gamelistitem .gamelistgamename,
+.gamelistbox_2lines .gamelistitem .gamelistdownload,
+.gamelistbox_2lines .gamelistitem .gamelistplay,
+.gamelistbox_2lines .gamelistitem .gamelistplayanddownload {
+    height: 30px;
+    line-height: 14px;
+}
+
+
+.box_singlelink .gamelistdownload,
+.box_singlelink .gamelistplay,
+.box_singlelink .gamelistfacebook,
+.box_singlelink .gamelistbuy,
+.box_singlelink .gamelistplayfree,
+.box_singlelink .gamelistplaywin
+.box_singlelink .gamelistplayanddownload { font-weight: bold; font-size:0.9em; }
+
+.gamelistitem a .gamelistgamename { font-weight:bold; }
+.gamelistitem a:hover gamelistgamename { font-weight: bold; }
+
+
+.box_singlelink a:hover .gamelistgamename{ color: #000000; !important }
+
+
+.box_singlelink a .gamelistdownload,
+.box_singlelink a .gamelistplay,
+.box_singlelink a .gamelistplaywin,
+.box_singlelink a .gamelistfacebook,
+.box_singlelink a .gamelistbuy,
+.box_singlelink a .gamelistplayfree
+.box_singlelink a .gamelistplaywin,
+.box_singlelink a .gamelistplayanddownload { font-weight:bold; text-decoration:none; }
+
+.box_singlelink a .gamelistplayanddownload { 
+    display: table-cell;
+    vertical-align: bottom;
+    font-size:0.9em;
+    height: 30px;
+}
+
+.box_singlelink a .gamelistplay { color:#5E7850; }
+.box_singlelink a:hover .gamelistplay { color:#BAE024; }
+.box_singlelink a .gamelistdownload { color:#BA6036; }
+.box_singlelink a:hover .gamelistdownload { color:#ff7000; }
+.box_singlelink a .gamelistplayanddownload { color: #BA6036; }
+.box_singlelink a:hover .gamelistplayanddownload { color: #FF7000; }
+.box_singlelink a .gamelistfacebook { color:#46A3E6; }
+.box_singlelink a:hover .gamelistfacebook { color:#466399; }
+.box_singlelink a .gamelistbuy { color:#cf2f53; }
+.box_singlelink a:hover .gamelistbuy { color:#821C32; }
+.box_singlelink a .gamelistplayfree { color:#d2b221; }
+.box_singlelink a:hover .gamelistplayfree { color:#917b1b; }
+.box_singlelink a .gamelistplaywin { color:#5E7850; }
+.box_singlelink a:hover .gamelistplaywin { color:#BAE024; }
+.box_singlelink a .gamelistprice { color: #000000; }
+.box_singlelink a:hover .gamelistprice { color: #000000; }
+
+.box_singlelink.box_myfavorite a .gamelistplayanddownload { color: #B35182; }
+.box_singlelink.box_myfavorite a:hover .gamelistplayanddownload { color: #FF7000; }
+
+.dynamic_box .boxheader h2 {
+    display: table-cell;
+    height: inherit;
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+}
+.dynamic_box .headerinfo {
+    display: block;
+    float: right;
+    margin: 0px -5px 0 5px;
+    position: relative;
+    right: 0;
+}
+.dynamic_box .boxheader_container,
+.dynamic_box .boxcontent_container,
+.dynamic_box .boxbottom_container{
+position:relative;
+}
+.dynamic_box .boxheader{
+background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/all_boxes.png) 0 0 no-repeat;
+}
+.dynamic_box .boxheader_right{
+height:44px;width:13px; position:relative;right:0px; float:right;
+background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/all_boxes.png) 0 0 no-repeat;
+}
+.dynamic_box .boxcontent{
+background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/all_boxes.png) 0 0 repeat-y;
+}
+.dynamic_box .boxcontent_right{
+height:100%;width:13px; position:absolute;right:0px;
+background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/all_boxes.png) 0 0 repeat-y;
+}
+.dynamic_box .boxbottom_right{
+height:20px;width:13px; position:relative;right:0px; float:right;
+background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/all_boxes.png) 0 0 no-repeat;
+}
+.dynamic_box .boxbottom {
+height:20px;
+background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/all_boxes.png) 0 0 no-repeat;
+}
+
+.dynamic_box.boxblue .boxheader_right{background-position: -2727px -5px; }
+.dynamic_box.boxblue .boxheader {background-position: -2000px -5px;  }
+
+.dynamic_box.boxblue .boxcontent_right{background-position: -1727px 0px;}
+.dynamic_box.boxblue .boxcontent {background-position: -1000px 0;}
+
+.dynamic_box.boxblue .boxbottom_right{background-position: -727px 0px;}
+.dynamic_box.boxblue .boxbottom {background-position: 0px 0px;}
+
+.dynamic_box.boxgreen .boxheader_right{background-position: -5727px -5px; }
+.dynamic_box.boxgreen .boxheader {background-position: -5000px -5px;  }
+
+.dynamic_box.boxgreen .boxcontent_right{background-position: -4727px 0px;}
+.dynamic_box.boxgreen .boxcontent {background-position: -4000px 0;}
+
+.dynamic_box.boxgreen .boxbottom_right{background-position: -3727px 0px;}
+.dynamic_box.boxgreen .boxbottom {background-position: -3000px 0px;}
+
+.dynamic_box.boxorange .boxheader_right{background-position: -8727px -5px; }
+.dynamic_box.boxorange .boxheader {background-position: -8000px -5px;  }
+
+.dynamic_box.boxorange .boxcontent_right{background-position: -7727px 0px;}
+.dynamic_box.boxorange .boxcontent {background-position: -7000px 0;}
+
+.dynamic_box.boxorange .boxbottom_right{background-position: -6727px 0px;}
+.dynamic_box.boxorange .boxbottom {background-position: -6000px 0px;}
+
+.dynamic_box.boxpurple .boxheader_right{background-position:-11727px -5px; }
+.dynamic_box.boxpurple .boxheader {background-position: -11000px -5px;  }
+
+.dynamic_box.boxpurple .boxcontent_right{background-position: -10727px 0px;}
+.dynamic_box.boxpurple .boxcontent {background-position: -10000px 0;}
+
+.dynamic_box.boxpurple .boxbottom_right{background-position: -9727px 0px;}
+.dynamic_box.boxpurple .boxbottom {background-position: -9000px 0px;}
+
+.dynamic_box.boxred .boxheader_right{background-position: -14727px -5px; }
+.dynamic_box.boxred .boxheader {background-position: -14000px -5px; }
+
+.dynamic_box.boxred .boxcontent_right{background-position: -13727px 0px;}
+.dynamic_box.boxred .boxcontent {background-position: -13000px 0;}
+
+.dynamic_box.boxred .boxbottom_right{background-position: -12727px 0px;}
+.dynamic_box.boxred .boxbottom {background-position: -12000px 0px;}
+
+.dynamic_box.boxyellow .boxheader_right{background-position: -17727px -5px; }
+.dynamic_box.boxyellow .boxheader {background-position: -17000px -5px;  }
+
+.dynamic_box.boxyellow .boxcontent_right{background-position: -16727px 0px;}
+.dynamic_box.boxyellow .boxcontent {background-position: -16000px 0;}
+
+.dynamic_box.boxyellow .boxbottom_right{background-position: -15727px 0px;}
+.dynamic_box.boxyellow .boxbottom {background-position: -15000px 0px;}
+
+
+.dynamic_box.boxlightorange .boxheader_right{
+background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_headerTop.png) right 0 no-repeat;}
+.dynamic_box.boxlightorange .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_headerTop.png) 0 0 no-repeat;}
+
+.dynamic_box.boxlightorange .boxcontent_right{
+background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_content.png) right 0 repeat-y;}
+.dynamic_box.boxlightorange .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_content.png) 0 0 repeat-y;}
+
+.dynamic_box.boxlightorange .boxbottom_right{
+background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_bottom.png) right -19px no-repeat;}
+.dynamic_box.boxlightorange .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_bottom.png) 0 -19px no-repeat;}
+
+
+.dynamic_box.noheader .boxheader{
+height:20px;background: transparent url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) -2000px 0 no-repeat;
+}
+.dynamic_box.noheader .boxheader_right{
+height:20px;width:13px; position:relative;right:0px; float:right;
+background: #fff url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) -2550px 0 no-repeat;
+}
+.dynamic_box.noheader .boxcontent{
+background: transparent url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) -1000px 0 repeat-y;
+}
+.dynamic_box.noheader .boxcontent_right{
+height:100%;width:13px; position:absolute;right:0px;z-index:1;
+background: transparent url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) -1550px 0 repeat-y;
+}
+.dynamic_box.noheader .boxbottom_right{
+height:20px;width:13px; position:relative;right:0px; float:right;
+background: #fff url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) -550px 0 no-repeat;
+}
+.dynamic_box.noheader .boxbottom {
+height:20px;
+background: transparent url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) 0 0 no-repeat;
+}
+
+
+.headerinfo span {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/sprites/common.png) 0px 0px no-repeat;
+}
+
+.headerinfo_green span { background-position:-648px 0px; }
+.headerinfo_orange span { background-position:-680px 0px; }
+.headerinfo_purple span { background-position:-664px 0px; }

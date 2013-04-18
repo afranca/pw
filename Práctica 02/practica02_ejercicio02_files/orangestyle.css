@@ -1,0 +1,29 @@
+
+body {background-color: #FDF9F5;}
+
+
+
+#headernavigation #headernavigationbuttonsnofunpass a.play {background-image: url(http://cdn.media.zylom.com/images/site/zylom/optimages/nofunpassheader/orange/greenbutton.gif)}
+#headernavigation #headernavigationbuttonsnofunpass a.download {background-image: url(http://cdn.media.zylom.com/images/site/zylom/optimages/nofunpassheader/orange/orangebutton.gif)}
+#headernavigation #headernavigationbuttonsnofunpass a.support {background-image: url(http://cdn.media.zylom.com/images/site/zylom/optimages/nofunpassheader/orange/bluebutton.gif)}
+
+#headernavigation #headernavigationbuttonsmac a.play {background-image: url(http://cdn.media.zylom.com/images/site/zylom/optimages/macheader/orange/greenbutton.gif)}
+#headernavigation #headernavigationbuttonsmac a.download {background-image: url(http://cdn.media.zylom.com/images/site/zylom/optimages/macheader/orange/orangebutton.gif)}
+#headernavigation #headernavigationbuttonsmac a.support {background-image: url(http://cdn.media.zylom.com/images/site/zylom/optimages/macheader/orange/bluebutton.gif)}
+
+#headernavigation #headernavigationsubnavigation a, #headernavigation #headernavigationchoosecountry a:hover, #headerextra a:hover{color: #794336;}
+
+#headernavigation #headernavigationsubnavigation div {
+    background:  #f1d4b4;
+    border-right: 1px solid #c87335;
+    border-bottom: 1px solid #c87335;
+    border-left: 1px solid #c87335;
+    background: #f1d4b4 url(http://cdn.media.zylom.com/images/site/zylom/optimages/header/orange/dropdownbg.gif) top left repeat-x;
+}
+
+
+.footermenuitem h3 {
+  color: #794336;
+  border-bottom: 1px dotted #794336;
+}
+.footermenuitem ul.footermenulist li a:hover {color: #ff7000;}

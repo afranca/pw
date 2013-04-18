@@ -1,0 +1,281 @@
+
+ .popup-boxtop-cookies {
+   position: relative;
+   display: block;
+   width: 503px;
+   height: 42px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/header.png) top left no-repeat;
+   }
+
+.popup-boxtop-cookies a.closebutton {
+   display: block;
+   position:absolute;
+   top: 8px;
+   right: 13px;
+   width: 31px;
+   height: 30px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/close.jpg) top left no-repeat;
+   }
+   .popup-boxtop-cookies a.closebutton i {display: none}
+
+.popup-boxtop-cookies h1 {
+   display: block;
+   padding: 14px 0 0 10px;
+   color: #23436B;
+   font-size: 14px;
+   text-align: left;
+   font-weight: normal;
+   font-variant: small-caps;
+   }
+
+.accepted {
+   position: relative;
+   display: block;
+   width: 503px;
+   height: 313px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/background/lightbox_1/lightbox.png) top left no-repeat;
+}
+
+.content_accepted {
+    height: 213px;
+    left: 205px;
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    width: 270px;    
+}
+.accepted_text {
+    color: #9B6000;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.accepted_text a {
+    color: #9B6000;
+    text-decoration: underline;
+}
+.button_accepted {
+    position: relative;
+    float: left;
+}
+a.button_accepted {
+    background-image: url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/button/lightbox_1/button_hover.png);
+    height: 57px;
+    width: 259px;
+    float: left;
+    margin-top: 20px;
+}
+a.button_accepted:hover{
+  background-position: 0px -57px;
+}
+
+.question_send {
+   position: relative;
+   display: block;
+   width: 503px;
+   height: 313px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/background/lightbox_2/lightbox.png) top left no-repeat;
+}
+
+.content_question_send {
+    height: 193px;
+    left: 205px;
+    position: absolute;
+    top: 120px;
+    width: 270px;    
+}
+.question_send_text {
+    color: #9B6000;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.question_send_text a {
+    color: #9B6000;
+    text-decoration: underline;
+    background-image: url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/arrow/2/arrow.png);
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    font-weight: bold;
+    display: block;
+    height: 25px;
+}
+
+.survey {
+   position: relative;
+   display: block;
+   width: 503px;
+   height: 342px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/background/lightbox_3/lightbox.png) top left no-repeat;
+}
+
+.content_survey {
+    height: 213px;
+    left: 190px;
+    position: absolute;
+    text-align: left;
+    top: 80px;
+    width: 300px;    
+}
+.survey_text {
+    color: #9B6000;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1.1em;
+}
+.radio_text {
+    padding-left: 5px;
+}
+
+.survey_rb {
+
+}
+
+.survey_text a {
+    color: #9B6000;
+    text-decoration: underline;
+    font-weight: bold;
+    float: left;
+    margin-top: 15px;
+}
+.button_survey {
+    position: relative;
+    float: left;
+}
+a.button_survey {
+    background-image: url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/button/lightbox_3/button_hover.png);
+    height: 57px;
+    width: 200px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+a.button_survey:hover{
+  background-position: 0px -57px;
+}
+
+.refused {
+   position: relative;
+   display: block;
+   width: 503px;
+   height: 342px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/background/lightbox_6/lightbox.png) top left no-repeat;
+}
+
+.content_refused {
+    height: 140px;
+    left: 165px;
+    position: absolute;
+    top: 15px;
+    width: 300px;    
+}
+.refused_text {
+    color: #9B6000;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.refused_text a {
+    color: #9B6000;
+    text-decoration: underline;
+    background-image: url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/arrow/1/arrow.png);
+    background-repeat: no-repeat;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+
+.accept {
+   position: relative;
+   display: block;
+   width: 503px;
+   height: 342px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/background/lightbox_5/lightbox.png) top left no-repeat;
+}
+
+.content_accept {
+    height: 332px;
+    left: 190px;
+    position: absolute;
+    text-align: left;
+    top: 5px;
+    width: 305px;    
+}
+.accept_text {
+    color: #9B6000;
+    position: relative;
+    float: left;
+    text-align: left;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.accept_text a {
+    color: #9B6000;
+    font-weight: bold;
+}
+.content_accept .button_container {
+    position: relative;
+    float: left;
+}
+a.button_accept1 {
+    background-image: url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/button/lightbox_5/1/button_hover.png);
+    height: 45px;
+    width: 139px;
+    float: left;
+}
+a.button_info {
+    background-image: url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/button/lightbox_5/2/button_hover.png);
+    height: 45px;
+    width: 139px;
+    float: left;
+}
+a.button_accept1:hover,
+a.button_info:hover{
+  background-position: 0px -45px;
+}
+
+.attention {
+   position: relative;
+   display: block;
+   width: 503px;
+   height: 313px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/background/lightbox_6/lightbox.png) top left no-repeat;
+}
+
+.content_attention {
+    height: 193px;
+    left: 175px;
+    position: absolute;
+    width: 285px;    
+}
+.attention_text {
+    color: #9B6000;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+    text-align: left;
+    line-height: 13px;
+}
+
+.attention_text a {
+    color: #9B6000;
+    text-decoration: underline;
+    background-image: url(http://cdn.media.zylom.com/images/site/zylom/cookies/lightbox/arrow/1/arrow.png);
+    background-repeat: no-repeat;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+}
