@@ -4425,9 +4425,6 @@ ul, ol {
   height: 100%;           
 }
 
-.boxcontent.funpass{
-  height: 450px !important;
-}
 
 .boxcontent ul {
   margin: 0;
@@ -4452,15 +4449,11 @@ ul, ol {
 .box258orange .boxbottom {background: #fff url(header_bottom.png) 0px bottom no-repeat;}
 
 
-
-
-
-
-
 .box258green .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/top.png) 0px 0px no-repeat;}
 .box258green .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/header.png) 0px -5px no-repeat;}
 .box258green .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/content.png) 0px 0px repeat-y;}
 .box258green .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/bottom.png) 0px bottom no-repeat;}
+
 
 .box258orangefill .boxtop {
 	background: #fff url(top.png) 0px 0px no-repeat;
@@ -4480,16 +4473,6 @@ ul, ol {
 	0px -5px no-repeat;
 	*/
 }
-.box258orangefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/filled/content.png) 0px 0px repeat-y;}
-.box258orangefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/filled/bottom.png) 0px bottom no-repeat;}
-
-
-
-.box200orange .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/white/top.png) 0px 0px no-repeat;}
-.box200orange .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/white/header.png) 0px -5px no-repeat;}
-.box200orange .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/white/content.png) 0px 0px repeat-y;}
-.box200orange .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/white/bottom.png) 0px bottom no-repeat;}
-
 
 
 
@@ -4534,14 +4517,6 @@ ul, ol {
 }
 
 
-.box200orangefill a:hover, .box200orange a:hover,
-.box258orangefill a:hover, .box258orange a:hover,
-
-.box258greenfill a:hover, .box258green a:hover,
-
-.box258darkgreenfill a:hover, .box258darkgreen a:hover,
-
-
 .boxheader h2 {
   display: block;
   margin: 0px 10px;
@@ -4559,19 +4534,13 @@ ul, ol {
 .box200orangefill .boxheader h2, .box258orangefill .boxheader h2, .box528orangefill .boxheader h2, .box740orangefill .boxheader h2 {color: #573001;}
 .box200orangefill .boxheader h2 a, .box258orangefill .boxheader h2 a, .box528orangefill .boxheader h2 a, .box740orangefill .boxheader h2 a {color: #573001;}
 
-.box200lightorange .boxheader h2, .box258lightorange .boxheader h2,.box528lightorange .boxheader h2, .box740lightorange .boxheader h2 {color: #573001;}
-.box200lightorange .boxheader h2 a, .box258lightorange .boxheader h2 a,.box528lightorange .boxheader h2 a, .box740lightorange .boxheader h2 a {color: #573001;}
-.box200lightorangefill .boxheader h2, .box258lightorangefill .boxheader h2, .box528lightorangefill .boxheader h2, .box740lightorangefill .boxheader h2 {color: #573001;}
-.box200lightorangefill .boxheader h2 a, .box258lightorangefill .boxheader h2 a, .box528lightorangefill .boxheader h2 a, .box740lightorangefill .boxheader h2 a {color: #573001;}
-
-
 .boxheadertable a { font-weight: normal; text-decoration: none; }
 .boxheadertable a:hover { text-decoration: none; }
 
-.box200orange .boxheadertable h2, .box258orange .boxheadertable h2, .box528orange .boxheadertable h2, .box740orange .boxheadertable h2 {color: #573001;}
-.box200orange .boxheadertable h2 a, .box258orange .boxheadertable h2 a, .box528orange .boxheadertable h2 a, .box740orange .boxheadertable h2 a {color: #573001;}
-.box200orangefill .boxheadertable h2, .box258orangefill .boxheadertable h2, .box528orangefill .boxheadertable h2, .box740orangefill .boxheadertable h2 {color: #573001;}
-.box200orangefill .boxheadertable h2 a, .box258orangefill .boxheadertable h2 a, .box528orangefill .boxheadertable h2 a, .box740orangefill .boxheadertable h2 a {color: #573001;}
+.box200orange .boxheadertable h2, .box258orange .boxheadertable h2 a{color: #573001;}
+.box200orange .boxheadertable h2 a, .box258orange .boxheadertable h2 a{color: #573001;}
+.box200orangefill .boxheadertable h2, .box258orangefill .boxheadertable h2 a{color: #573001;}
+.box200orangefill .boxheadertable h2 a, .box258orangefill .boxheadertable h2 a {color: #573001;}
 
 
 
