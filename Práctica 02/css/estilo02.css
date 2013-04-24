@@ -5820,9 +5820,9 @@ a:hover.spotlight_play { background-position:-55px -341px; }
     display: block;
 }
 
-/* login overlay (for personal offers) */
+/* layer over the top panel  */
 .spotlight_loginoverlay {
-  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/registration/spotlight/overlay.png) no-repeat;  
+  background: transparent url(../images/toppannel_overlay.png) no-repeat;  
   position: absolute;
   top: 0;
   left: 0;
