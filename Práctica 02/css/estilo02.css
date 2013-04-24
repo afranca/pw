@@ -11,6 +11,7 @@
 
 #body_bg_img {	background:  url(../images/bg_image6.jpg) center 0px no-repeat;}
 
+#tabulae {font-weight: bold; font-size:11px;}
 
 /* **** BEGIN MAIN **** */
 
@@ -3202,7 +3203,13 @@ ul.selectbox_options3 li a:hover {
 
 
   .singlecontent_loggedin_content{margin-left: 10px;}
-  #funpass_singlecontent_loggedin h1.header {height: 25px; padding-top: 125px; text-align: center; color: #832d78; font-size: 15px;}
+  #funpass_singlecontent_loggedin h1.header   {
+  	height: 25px;   
+  	padding-top: 125px; 
+  	text-align: center; 
+  	color: #832d78; 
+  	font-size: 15px;
+  }
   .box258.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader, .box200.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader, .dynamic_box .boxheader_container .boxbottom{background-color: transparent;}
   .box258.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader_right, .box200.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader_right{background-color: #F7DAF9;}  
   .box528.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader_right{background-color: #FFFFFF;} 
@@ -4570,8 +4577,14 @@ ul, ol {
 .box528darkbluefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/528px/darkblue/filled/bottom.png) 0px bottom no-repeat;}
 
 
-.box258orange .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/top.png) 0px 0px no-repeat;}
-.box258orange .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/header_bottom.png) 0px -5px no-repeat;}
+.box258orange .boxtop {
+	background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/top.png) 0px 0px no-repeat;
+}
+.box258orange .boxheader {
+	background: #fff 
+	url() 
+	0px -5px no-repeat;
+}
 .box258orange .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/content.png) 0px 0px repeat-y;}
 .box258orange .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/header_bottom.png) 0px bottom no-repeat;}
 
