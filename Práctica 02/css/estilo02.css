@@ -4440,17 +4440,16 @@ ul, ol {
 
 
 
-
 .box258orange .boxtop {
-	background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/top.png) 0px 0px no-repeat;
+	background: #fff url(top.png) 0px 0px no-repeat;
 }
 .box258orange .boxheader {
 	background: #fff 
-	url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/header_bottom.png) 
+	url(header_bottom.png) 
 	0px -5px no-repeat;
 }
-.box258orange .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/content.png) 0px 0px repeat-y;}
-.box258orange .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/white/header_bottom.png) 0px bottom no-repeat;}
+.box258orange .boxcontent {background: #fff url(content.png) 0px 0px repeat-y;}
+.box258orange .boxbottom {background: #fff url(header_bottom.png) 0px bottom no-repeat;}
 
 
 
@@ -4482,15 +4481,6 @@ ul, ol {
 .box200orange .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/white/content.png) 0px 0px repeat-y;}
 .box200orange .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/white/bottom.png) 0px bottom no-repeat;}
 
-.box200green .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/white/top.png) 0px 0px no-repeat;}
-.box200green .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/white/header.png) 0px -5px no-repeat;}
-.box200green .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/white/content.png) 0px 0px repeat-y;}
-.box200green .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/green/white/bottom.png) 0px bottom no-repeat;}
-
-.box200darkgreen .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/white/top.png) 0px 0px no-repeat;}
-.box200darkgreen .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/white/header.png) 0px -5px no-repeat;}
-.box200darkgreen .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/white/content.png) 0px 0px repeat-y;}
-.box200darkgreen .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/white/bottom.png) 0px bottom no-repeat;}
 
 
 
@@ -4499,46 +4489,13 @@ ul, ol {
 .box200orangefill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/filled/content.png) 0px 0px repeat-y;}
 .box200orangefill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/filled/header_bottom.png) 0px bottom no-repeat;}
 
-.box200darkgreenfill .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/filled/top.png) 0px 0px no-repeat;}
-.box200darkgreenfill .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/filled/header.png) 0px -5px no-repeat;}
-.box200darkgreenfill .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/filled/content.png) 0px 0px repeat-y;}
-.box200darkgreenfill .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/darkgreen/filled/bottom.png) 0px bottom no-repeat;}
-
-
-
-
-
-
-.box200darkbluefill a:hover, .box200darkblue a:hover,
-.box258darkbluefill a:hover, .box258darkblue a:hover,
-.box528darkbluefill a:hover, .box528darkblue a:hover,
-.box740darkbluefill a:hover, .box740darkblue a:hover { color:#5E8DF4; }
 
 .box200orangefill a:hover, .box200orange a:hover,
 .box258orangefill a:hover, .box258orange a:hover,
-.box528orangefill a:hover, .box528orange a:hover,
-.box740orangefill a:hover, .box740orange a:hover { color:#FF7000; }
 
-.box200greenfill a:hover, .box200green a:hover,
 .box258greenfill a:hover, .box258green a:hover,
-.box528greenfill a:hover, .box528green a:hover,
-.box740greenfill a:hover, .box740green a:hover { color:#BAE024; }
 
-.box200darkgreenfill a:hover, .box200darkgreen a:hover,
 .box258darkgreenfill a:hover, .box258darkgreen a:hover,
-.box528darkgreenfill a:hover, .box528darkgreen a:hover,
-.box740darkgreenfill a:hover, .box740darkgreen a:hover { color:#BAE024; }
-
-.box200purplefill a:hover, .box200purple a:hover,
-.box258purplefill a:hover, .box258purple a:hover,
-.box528purplefill a:hover, .box528purple a:hover,
-.box740purplefill a:hover, .box740purple a:hover { color:#E248F9; }
-
-.box200bluefill a:hover, .box200blue a:hover,
-.box258bluefill a:hover, .box258blue a:hover,
-.box528bluefill a:hover, .box528blue a:hover,
-.box740bluefill a:hover, .box740blue a:hover { color:#0F79FB; }
-
 
 
 .boxheader h2 {
@@ -4568,21 +4525,6 @@ ul, ol {
 .box200darkgreenfill .boxheader h2, .box258darkgreenfill .boxheader h2, .box528darkgreenfill .boxheader h2, .box740darkgreenfill .boxheader h2 {color: #DDDEE0;}
 .box200darkgreenfill .boxheader h2 a, .box258darkgreenfill .boxheader h2 a, .box528darkgreenfill .boxheader h2 a, .box740darkgreenfill .boxheader h2 a {color: #DDDEE0;}
 
-.box200purple .boxheader h2, .box258purple .boxheader h2, .box528purple .boxheader h2, .box740purple .boxheader h2 {color: #64354c;}
-.box200purple .boxheader h2 a, .box258purple .boxheader h2 a, .box528purple .boxheader h2 a, .box740purple .boxheader h2 a {color: #64354c;}
-.box200purplefill .boxheader h2, .box258purplefill .boxheader h2, .box528purplefill .boxheader h2, .box740purplefill .boxheader h2 {color: #64354c;}
-.box200purplefill .boxheader h2 a, .box258purplefill .boxheader h2 a, .box528purplefill .boxheader h2 a, .box740purplefill .boxheader h2 a {color: #64354c;}
-
-.box200blue .boxheader h2, .box258blue .boxheader h2, .box528blue .boxheader h2, .box740blue .boxheader h2 {color: #142f52;}
-.box200blue .boxheader h2 a, .box258blue .boxheader h2 a, .box528blue .boxheader h2 a, .box740blue .boxheader h2 a {color: #142f52;}
-.box200bluefill .boxheader h2, .box258bluefill .boxheader h2, .box528bluefill .boxheader h2, .box740bluefill .boxheader h2 {color: #142f52;}
-.box200bluefill .boxheader h2 a, .box258bluefill .boxheader h2 a, .box528bluefill .boxheader h2 a, .box740bluefill .boxheader h2 a {color: #142f52;}
-
-.box200darkblue .boxheader h2, .box258darkblue .boxheader h2, .box528darkblue .boxheader h2, .box740darkblue .boxheader h2 {color: #fff;}
-.box200darkblue .boxheader h2 a, .box258darkblue .boxheader h2 a, .box528darkblue .boxheader h2 a, .box740darkblue .boxheader h2 a {color: #fff;}
-.box200darkbluefill .boxheader h2, .box258darkbluefill .boxheader h2, .box528darkbluefill .boxheader h2, .box740darkbluefill .boxheader h2 {color: #fff;}
-.box200darkbluefill .boxheader h2 a, .box258darkbluefill .boxheader h2 a, .box528darkbluefill .boxheader h2 a, .box740darkbluefill .boxheader h2 a {color: #fff;}
-
 .box200lightorange .boxheader h2, .box258lightorange .boxheader h2,.box528lightorange .boxheader h2, .box740lightorange .boxheader h2 {color: #573001;}
 .box200lightorange .boxheader h2 a, .box258lightorange .boxheader h2 a,.box528lightorange .boxheader h2 a, .box740lightorange .boxheader h2 a {color: #573001;}
 .box200lightorangefill .boxheader h2, .box258lightorangefill .boxheader h2, .box528lightorangefill .boxheader h2, .box740lightorangefill .boxheader h2 {color: #573001;}
@@ -4607,21 +4549,6 @@ ul, ol {
 .box200darkgreenfill .boxheadertable h2, .box258darkgreenfill .boxheadertable h2, .box528darkgreenfill .boxheadertable h2, .box740darkgreenfill .boxheadertable h2 {color: #DDDEE0;}
 .box200darkgreenfill .boxheadertable h2 a, .box258darkgreenfill .boxheadertable h2 a, .box528darkgreenfill .boxheadertable h2 a, .box740darkgreenfill .boxheadertable h2 a {color: #DDDEE0;}
 
-.box200purple .boxheadertable h2, .box258purple .boxheadertable h2, .box528purple .boxheadertable h2, .box740purple .boxheadertable h2 {color: #64354c;}
-.box200purple .boxheadertable h2 a, .box258purple .boxheadertable h2 a, .box528purple .boxheadertable h2 a, .box740purple .boxheadertable h2 a {color: #64354c;}
-.box200purplefill .boxheadertable h2, .box258purplefill .boxheadertable h2, .box528purplefill .boxheadertable h2, .box740purplefill .boxheadertable h2 {color: #64354c;}
-.box200purplefill .boxheadertable h2 a, .box258purplefill .boxheadertable h2 a, .box528purplefill .boxheadertable h2 a, .box740purplefill .boxheadertable h2 a {color: #64354c;}
-
-.box200blue .boxheadertable h2, .box258blue .boxheadertable h2, .box528blue .boxheadertable h2, .box740blue .boxheadertable h2 {color: #142f52;}
-.box200blue .boxheadertable h2 a, .box258blue .boxheadertable h2 a, .box528blue .boxheadertable h2 a, .box740blue .boxheadertable h2 a {color: #142f52;}
-.box200bluefill .boxheadertable h2, .box258bluefill .boxheadertable h2, .box528bluefill .boxheadertable h2, .box740bluefill .boxheadertable h2 {color: #142f52;}
-.box200bluefill .boxheadertable h2 a, .box258bluefill .boxheadertable h2 a, .box528bluefill .boxheadertable h2 a, .box740bluefill .boxheadertable h2 a {color: #142f52;}
-
-.box200darkblue .boxheadertable h2, .box258darkblue .boxheadertable h2, .box528darkblue .boxheadertable h2, .box740darkblue .boxheadertable h2 {color: #fff;}
-.box200darkblue .boxheadertable h2 a, .box258darkblue .boxheadertable h2 a, .box528darkblue .boxheadertable h2 a, .box740darkblue .boxheadertable h2 a {color: #fff;}
-.box200darkbluefill .boxheadertable h2, .box258darkbluefill .boxheadertable h2, .box528darkbluefill .boxheadertable h2, .box740darkbluefill .boxheadertable h2 {color: #fff;}
-.box200darkbluefill .boxheadertable h2 a, .box258darkbluefill .boxheadertable h2 a, .box528darkbluefill .boxheadertable h2 a, .box740darkbluefill .boxheadertable h2 a {color: #fff;}
-
 
 
 .boxtop h2 {
@@ -4642,30 +4569,6 @@ ul, ol {
 .box200orangefill .boxtop h2, .box258orangefill .boxtop h2, .box528orangefill .boxtop h2, .box740orangefill .boxtop h2 {color: #573001;}
 .box200orangefill .boxtop h2 a, .box258orangefill .boxtop h2 a, .box528orangefill .boxtop h2 a, .box740orangefill .boxtop h2 a {color: #573001;}
 
-.box200green .boxtop h2, .box258green .boxtop h2, .box528green .boxtop h2, .box740green .boxtop h2 {color: #3e5b01;}
-.box200green .boxtop h2 a, .box258green .boxtop h2 a, .box528green .boxtop h2 a, .box740green .boxtop h2 a {color: #3e5b01;}
-.box200greenfill .boxtop h2, .box258greenfill .boxtop h2, .box528greenfill .boxtop h2, .box740greenfill .boxtop h2 {color: #3e5b01;}
-.box200greenfill .boxtop h2 a, .box258greenfill .boxtop h2 a, .box528greenfill .boxtop h2 a, .box740greenfill .boxtop h2 a {color: #3e5b01;}
-
-.box200darkgreen .boxtop h2, .box258darkgreen .boxtop h2, .box528darkgreen .boxtop h2, .box740darkgreen .boxtop h2 {color: #DDDEE0;}
-.box200darkgreen .boxtop h2 a, .box258darkgreen .boxtop h2 a, .box528darkgreen .boxtop h2 a, .box740darkgreen .boxtop h2 a {color: #DDDEE0;}
-.box200darkgreenfill .boxtop h2, .box258darkgreenfill .boxtop h2, .box528darkgreenfill .boxtop h2, .box740darkgreenfill .boxtop h2 {color: #DDDEE0;}
-.box200darkgreenfill .boxtop h2 a, .box258darkgreenfill .boxtop h2 a, .box528darkgreenfill .boxtop h2 a, .box740darkgreenfill .boxtop h2 a {color: #DDDEE0;}
-
-.box200purple .boxtop h2, .box258purple .boxtop h2, .box528purple .boxtop h2, .box740purple .boxtop h2 {color: #64354c;}
-.box200purple .boxtop h2 a, .box258purple .boxtop h2 a, .box528purple .boxtop h2 a, .box740purple .boxtop h2 a {color: #64354c;}
-.box200purplefill .boxtop h2, .box258purplefill .boxtop h2, .box528purplefill .boxtop h2, .box740purplefill .boxtop h2 {color: #64354c;}
-.box200purplefill .boxtop h2 a, .box258purplefill .boxtop h2 a, .box528purplefill .boxtop h2 a, .box740purplefill .boxtop h2 a {color: #64354c;}
-
-.box200blue .boxtop h2, .box258blue .boxtop h2, .box528blue .boxtop h2, .box740blue .boxtop h2 {color: #142f52;}
-.box200blue .boxtop h2 a, .box258blue .boxtop h2 a, .box528blue .boxtop h2 a, .box740blue .boxtop h2 a {color: #142f52;}
-.box200bluefill .boxtop h2, .box258bluefill .boxtop h2, .box528bluefill .boxtop h2, .box740bluefill .boxtop h2 {color: #142f52;}
-.box200bluefill .boxtop h2 a, .box258bluefill .boxtop h2 a, .box528bluefill .boxtop h2 a, .box740bluefill .boxtop h2 a {color: #142f52;}
-
-.box200darkblue .boxtop h2, .box258darkblue .boxtop h2, .box528darkblue .boxtop h2, .box740darkblue .boxtop h2 {color: #fff;}
-.box200darkblue .boxtop h2 a, .box258darkblue .boxtop h2 a, .box528darkblue .boxtop h2 a, .box740darkblue .boxtop h2 a {color: #fff;}
-.box200darkbluefill .boxtop h2, .box258darkbluefill .boxtop h2, .box528darkbluefill .boxtop h2, .box740darkbluefill .boxheader h2 {color: #fff;}
-.box200darkbluefill .boxtop h2 a, .box258darkbluefill .boxtop h2 a, .box528darkbluefill .boxtop h2 a, .box740darkbluefill .boxheader h2 a {color: #fff;}
 
 .headerinfo {
   display: block;
