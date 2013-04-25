@@ -3193,10 +3193,7 @@ ul.selectbox_options3 li a:hover {
   	color: #832d78; 
   	font-size: 15px;
   }
-  .box258.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader, .box200.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader, .dynamic_box .boxheader_container .boxbottom{background-color: transparent;}
-  .box258.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader_right, .box200.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader_right{background-color: #F7DAF9;}  
-  .box528.box_singlelink.boxpurple.dynamic_box .boxheader_container .boxheader_right{background-color: #FFFFFF;} 
-  .box200.box_singlelink.boxpurple.dynamic_box{margin-left:-10px;}
+  
   .boxcontent_content{display: block;padding: 5px 10px 0;}
   .boxcontent.funpass.advantages{min-height: 500px !important; height: auto !important;}
   .boxcontent.funpass.big{width: 505px; min-height: 175px !important; height: auto !important;}
