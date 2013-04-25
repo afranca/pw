@@ -1,0 +1,210 @@
+/* **** BEGIN FIXEDBOX **** */
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-position: outside;
+  line-height: 1em;
+}
+  li.gamelistitem, .gamelisttopitem {
+    margin: 0;
+    padding: 0;
+    background: none;
+    list-style-type: none;
+  }
+
+.gamelisttopitem {
+  width:220px;
+  height:50px;
+  overflow:hidden;
+  line-height: 11px;
+}
+.gamelistitem {
+  overflow: hidden;
+  line-height: 11px;
+  height: 55px;
+}
+
+
+
+
+.box258 {
+  float: left;
+  
+  width: 258px;
+  margin: 0 10px 10px 0;
+}
+
+
+.box200 {
+  display: block;
+  position: relative;
+  width: 200px;
+  margin: 0 0 10px 0;
+}
+
+.boxcontent {
+  display: block;
+  padding: 5px 10px 0 10px;
+  height: auto!important; 
+  height: 100%;           
+}
+
+.box258orangefill .boxheader {
+	width: 258px;	
+	background-image:url(images/box_header_brown.jpg);
+	background-repeat:repeat-x;
+	height:35px;
+	border:1px;
+	color:#243356;
+	
+}
+
+.boxtop h2 {
+  display: block;
+  margin: 0px 10px;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 18px;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+
+.gamelistgameimg {
+    display: block;
+    float:left;
+    height:45px;
+    width:60px;
+    margin-right: 5px;
+}
+.gamelistitem .gamelistgameimg { width:60px; height:45px; }
+.gamelistgamename a, .gamelistgamename a:hover,
+.gamelistmoregames a, .gamelistmoregames a:hover { font-weight: normal; text-decoration: none; }
+.gamelistitem .gamelistgamename a { overflow:hidden; color:#333333; }
+.gamelistitem .gamelistgamename,
+.gamelistitem .gamelistgamerating,
+.gamelistitem .gamelistdownload,
+.gamelistitem .gamelistplay,
+.gamelistitem .gamelistplayers,
+.gamelistitem .gamelistfacebook { height:15px; }
+.gamelistitem .gamelistgamename a { font-weight:bold; }
+.gamelistitem .gamelistgamename a:hover { font-weight:bold; }
+ a li.gamelistitem p.gamelistgamename { font-weight:bold; }
+ a li.gamelistitem p.gamelistgamename:hover { font-weight:bold; }
+ a.green li.gamelistitem { font-weight:bold; }
+ a.green li.gamelistitem:hover { font-weight:bold; color:#BAE024; }
+.gamelistitem .gamelistgamerating,
+.gamelistitem .gamelistplayers { color:#868283; font-size:0.9em; }
+.gamelistitem .gamelistdownload,
+.gamelistitem .gamelistplay,
+.gamelistitem .gamelistfacebook { font-size:0.9em; }
+.gamelistitem .gamelistdownload a,
+.gamelistitem .gamelistplay a,
+.gamelistitem .gamelistplaywin a,
+.gamelistitem .gamelistfacebook a { font-weight:bold; text-decoration:none; }
+.gamelistmoregames { text-align:center; padding-top:5px;}
+
+.gamelistitem .gamelistplay a { color:#5E7850; }
+.gamelistitem .gamelistplay a:hover { color:#BAE024; }
+.gamelistitem .gamelistdownload a { color:#B35182; }
+.gamelistitem .gamelistdownload a:hover { color:#ff7000; }
+
+
+.gamelistitem .gamelistgamename a:hover.orange { color:#ff7000; }
+.gamelistitem .gamelistgamename a:hover.green { color:#BAE024; }
+
+.gamelistitem .gamelistgamename a.orange,
+.gamelistitem .gamelistgamename a.green,
+
+
+.gamelistbox_2lines .gamelistitem .gamelistgamename,
+.gamelistbox_2lines .gamelistitem .gamelistdownload,
+.gamelistbox_2lines .gamelistitem .gamelistplay,
+.gamelistbox_2lines .gamelistitem .gamelistplayanddownload {
+    height: 30px;
+    line-height: 14px;
+}
+
+
+.gamelistitem a .gamelistgamename { font-weight:bold; }
+.gamelistitem a:hover gamelistgamename { font-weight: bold; }
+
+
+.dynamic_box .boxheader h2 {
+    display: table-cell;
+    height: inherit;
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+}
+.dynamic_box .headerinfo {
+    display: block;
+    float: right;
+    margin: 0px -5px 0 5px;
+    position: relative;
+    right: 0;
+}
+.dynamic_box .boxheader_container,
+.dynamic_box .boxcontent_container,
+.dynamic_box .boxbottom_container{
+	position:relative;
+}
+
+/*   BOX GENERIC*/
+
+
+/*
+.dynamic_box .boxheader{
+	width: 258px;	
+	background-image:url(images/box_header_brown.jpg);
+	background-repeat:repeat-x;
+	height:35px;
+	border:1px solid #808080;
+	color:#243356;
+}
+*/
+.dynamic_box .boxheader{ background: #fff url(../images/all_boxes.png) 0 0 no-repeat;} 
+
+.dynamic_box .boxheader_right{
+	height:44px;width:13px; position:relative;right:0px; float:right;
+	background: #fff url(../images/all_boxes.png) 0 0 no-repeat;
+}
+.dynamic_box .boxcontent{
+background: #fff url(../images/all_boxes.png) 0 0 repeat-y;
+}
+.dynamic_box .boxcontent_right{
+height:100%;width:13px; position:absolute;right:0px;
+background: #fff url(../images/all_boxes.png) 0 0 repeat-y;
+}
+.dynamic_box .boxbottom_right{
+height:20px;width:13px; position:relative;right:0px; float:right;
+background: #fff url(../images/all_boxes.png) 0 0 no-repeat;
+}
+.dynamic_box .boxbottom {
+height:20px;
+background: #fff url(../images/all_boxes.png) 0 0 no-repeat;
+}
+
+
+.dynamic_box.boxgreen .boxheader_right{background-position: -5727px -5px; }
+.dynamic_box.boxgreen .boxheader {background-position: -5000px -5px;  }
+
+.dynamic_box.boxgreen .boxcontent_right{background-position: -4727px 0px;}
+.dynamic_box.boxgreen .boxcontent {background-position: -4000px 0;}
+
+.dynamic_box.boxgreen .boxbottom_right{background-position: -3727px 0px;}
+.dynamic_box.boxgreen .boxbottom {background-position: -3000px 0px;}
+
+.dynamic_box.boxorange .boxheader_right{background-position: -8727px -5px; }
+.dynamic_box.boxorange .boxheader {background-position: -8000px -5px;  }
+
+.dynamic_box.boxorange .boxcontent_right{background-position: -7727px 0px;}
+.dynamic_box.boxorange .boxcontent {background-position: -7000px 0;}
+
+.dynamic_box.boxorange .boxbottom_right{background-position: -6727px 0px;}
+.dynamic_box.boxorange .boxbottom {background-position: -6000px 0px;}
+
+
+/* **** END FIXEDBOX **** */
