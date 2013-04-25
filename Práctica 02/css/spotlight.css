@@ -1,0 +1,354 @@
+/* **** BEGIN SPOTLIGHT **** */
+
+.spotlightbox {
+  position: relative;
+  display: block;
+  width: 528px;
+  height: 323px  
+}
+
+#spotlightboxbackground {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 528px;
+    height:323px;
+    background: url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight.png) 0 0 no-repeat;
+
+}
+
+#spotlightcorner_lu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height:19px;
+    background: url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight.png) -200px -323px; no-repeat;
+    z-index:3
+}
+
+#spotlightcorner_lb {
+    position: absolute;
+    top: 271px;
+    left: 0px;
+    width: 22px;
+    height: 23px;
+    background: url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight.png) -152px -323px; no-repeat;
+    z-index:3
+}
+
+#spotlightcorner_ru {
+    position: absolute;
+    top: 0px;
+    left: 504px;
+    width: 23px;
+    height: 19px;
+    background: url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight.png) -224px -323px; no-repeat;
+    z-index:3
+}
+
+#spotlightcorner_rb {
+    position: absolute;
+    top: 270px;
+    left: 505px;
+    width: 24px;
+    height: 19px;
+    background: url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight.png) -177px -323px; no-repeat;
+    z-index:3
+}
+
+#multiplayeroverview #spotlightboxbackground {
+    background: url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight_multi.png) 0 0 no-repeat;
+}
+
+#multiplayeroverview #spotlightcorner_lu {
+    background: url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight_multi.png) -200px -323px; no-repeat;
+    height:18px;
+}
+
+#multiplayeroverview #spotlightcorner_lb {
+    background: url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight_multi.png) -152px -323px; no-repeat;
+}
+
+#multiplayeroverview #spotlightcorner_ru {
+    background: url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight_multi.png) -224px -323px; no-repeat;
+    height:18px;
+}
+
+#multiplayeroverview #spotlightcorner_rb {
+    background: url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight_multi.png) -177px -323px; no-repeat;
+    left: 506px;
+}
+
+#overlay,
+#overlayA {
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  background-color: #fff;
+  width: 505px;
+  height: 274px;
+  display: none;
+  z-index:2;
+  opacity:0;
+}
+
+
+
+.spotlightcontrol {
+  position: absolute;
+  top: 285px;
+  left: 60px;
+  width: 420px;
+  z-index: 4;
+}
+.spotlightcontrolitems {
+   float: left;
+}
+.spotlightcontrolitems a {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight.png) 0 -323px no-repeat;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  float: left;
+  margin-right: 3px;
+  overflow: hidden;
+}
+a.spotlight_tab1 { background-position:-74px -323px; }
+a.spotlight_tab1_active { background-position:-74px -336px; }
+a.spotlight_tab2 { background-position:-87px -323px; }
+a.spotlight_tab2_active { background-position:-87px -336px; }
+a.spotlight_tab3 { background-position:-100px -323px; }
+a.spotlight_tab3_active { background-position:-100px -336px; }
+a.spotlight_tab4 { background-position:-113px -323px; }
+a.spotlight_tab4_active { background-position:-113px -336px; }
+a.spotlight_tab5 { background-position:-126px -323px; }
+a.spotlight_tab5_active { background-position:-126px -336px; }
+a.spotlight_tab6 { background-position:-139px -323px; }
+a.spotlight_tab6_active { background-position:-139px -336px; }
+
+.spotlightcontrolcurrentitem {
+    float: left;
+    text-align: center;
+    width: 250px;
+}
+.spotlightcontrolbuttons {
+    float: right;
+}
+.spotlightpromo {
+    position: absolute;
+    left: 11px;
+    top: 8px;
+}
+.spotlightcontrolbuttons a {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight.png) 0 -323px no-repeat;
+  display: block;
+  float: left;
+  width: 19px;
+  height: 18px;
+  text-decoration: none;
+}
+a.spotlight_previous { background-position:0 -323px; }
+a:hover.spotlight_previous { background-position:0 -341px; }
+a.spotlight_next { background-position:-19px -323px; width:17px; }
+a:hover.spotlight_next { background-position:-19px -341px; }
+a.spotlight_pause { background-position:-36px -323px; }
+a:hover.spotlight_pause { background-position:-36px -341px; }
+a.spotlight_play { background-position:-55px -323px; }
+a:hover.spotlight_play { background-position:-55px -341px; }
+
+#multiplayeroverview .spotlightcontrolitems a {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight.png) 0 -323px no-repeat;
+}
+#multiplayeroverview a.spotlight_tab1 { background-position:-74px -323px; }
+#multiplayeroverview a.spotlight_tab1_active { background-position:-74px -336px; }
+#multiplayeroverview a.spotlight_tab2 { background-position:-87px -323px; }
+#multiplayeroverview a.spotlight_tab2_active { background-position:-87px -336px; }
+#multiplayeroverview a.spotlight_tab3 { background-position:-100px -323px; }
+#multiplayeroverview a.spotlight_tab3_active { background-position:-100px -336px; }
+#multiplayeroverview a.spotlight_tab4 { background-position:-113px -323px; }
+#multiplayeroverview a.spotlight_tab4_active { background-position:-113px -336px; }
+#multiplayeroverview a.spotlight_tab5 { background-position:-126px -323px; }
+#multiplayeroverview a.spotlight_tab5_active { background-position:-126px -336px; }
+#multiplayeroverview a.spotlight_tab6 { background-position:-139px -323px; }
+#multiplayeroverview a.spotlight_tab6_active { background-position:-139px -336px; }
+
+#multiplayeroverview .spotlightcontrolbuttons a {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/sprites/spotlight.png) 0 -323px no-repeat;
+}
+#multiplayeroverview a.spotlight_previous { background-position:0 -323px; }
+#multiplayeroverview a:hover.spotlight_previous { background-position:0 -341px; }
+#multiplayeroverview a.spotlight_next { background-position:-19px -323px; width:17px; }
+#multiplayeroverview a:hover.spotlight_next { background-position:-19px -341px; }
+#multiplayeroverview a.spotlight_pause { background-position:-36px -323px; }
+#multiplayeroverview a:hover.spotlight_pause { background-position:-36px -341px; }
+#multiplayeroverview a.spotlight_play { background-position:-55px -323px; }
+#multiplayeroverview a:hover.spotlight_play { background-position:-55px -341px; }
+
+.spotlightitem {
+  display: block;
+  width: 202px;
+  height: 46px;
+  padding: 0;
+  color: #000;
+  font-size: 0.9em;
+  line-height: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  opacity:.5; filter:alpha(opacity=50);
+  background: transparent;
+}
+.spotlightitem span {
+  display: block;
+  height: 29px !important;
+  height: 33px;
+  padding: 6px 6px 0px 25px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.spotlightitemhover {
+  display: block;
+  width: 202px;
+  height: 46px;
+  padding: 0;
+  color: #000;
+  font-size: 0.9em;
+  line-height: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  background: transparent;
+  opacity:1; filter:alpha(opacity=100);
+}  
+.spotlightitemhover span {
+  display: block;
+  height: 29px !important;
+  height: 33px;
+  padding: 6px 6px 0px 25px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.spotlightitem img, .spotlightitemhover img {
+  float: left;
+  margin: 2px 6px 0px 0px;
+  border: 0;
+}
+
+.spotlightsinglegameplacer {
+    display: block;
+    position: absolute;
+    width: 505px;
+    height: 274px;
+}
+.spotlightsinglegameplacer a.clickbox {
+    display: block;
+    position: absolute;
+    width: 505px;
+    height: 274px;
+    text-decoration: none;
+}
+.spotlightsinglegameplacer a.clickbox span {
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+}
+.spotlightsinglegameplacer .infobuttontext, .spotlightsinglegameplacer .playbuttontext_dl, .spotlightsinglegameplacer .downloadbuttontext, .spotlightsinglegameplacer .playbuttontext {
+    display: block;
+    position: absolute;
+    top: 233px;
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+    width: 168px;
+    height: 37px;
+}
+.spotlightsinglegameplacer .infobuttontext {left: 152px;}
+.spotlightsinglegameplacer .playbuttontext_dl {left: 152px;}
+.spotlightsinglegameplacer .downloadbuttontext, .playbuttontext {left: 327px;}
+
+.infobuttontext {
+   background: transparent url('http://cdn.media.zylom.com/images/site/zylom/buttons/spotlight_buttons/button_blue/button_blue.png') 0px 0px no-repeat;
+}
+.playbuttontext_dl {
+   background: transparent url('http://cdn.media.zylom.com/images/site/zylom/buttons/spotlight_buttons/button_green/button_green.png') 0px 0px no-repeat;
+}
+.downloadbuttontext {
+   background: transparent url('http://cdn.media.zylom.com/images/site/zylom/buttons/spotlight_buttons/button_brown/button_brown.png') 0px 0px no-repeat;
+}
+.playbuttontext {
+   background: transparent url('http://cdn.media.zylom.com/images/site/zylom/buttons/spotlight_buttons/button_green/button_green.png') 0px 0px no-repeat;
+}
+
+.infobuttontext:hover,
+.playbuttontext_dl:hover,
+.downloadbuttontext:hover,
+.playbuttontext:hover {
+  background-position: 0px -40px;
+}
+.infobuttontext span,
+.playbuttontext_dl span,
+.downloadbuttontext span,
+.playbuttontext span {
+  display: block;
+  color: #4f6f11;
+  font-size: 11px !important;
+  font-weight: bold;
+  line-height: 29px !important;
+  text-align: center;
+  visibility: visible !important;
+}
+
+.infobuttontext span{color: #1c5e7b;}
+.playbuttontext_dl span{color: #4f6f11;}
+.downloadbuttontext span{color: #783b09;}
+.playbuttontext span{color: #4f6f11;}
+
+
+
+/* banner overlays (supermarket, doublepacks) */
+.spotlightsinglegameplacer .spotlight_overlay {
+    position: absolute;
+    top: 224px;
+    width: 505px;
+    height: 49px;
+    display: block;
+}
+
+.spotlightsinglegameplacer .spotlight_overlay_zsm {
+    position: absolute;
+    top: 214px;
+    width: 505px;
+    height: 63px;
+    display: block;
+}
+
+/* layer over the top panel  */
+.spotlight_loginoverlay {
+  background: transparent url(../images/toppannel_overlay.png) no-repeat;  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 506px;
+  height: 38px;
+}
+.spotlight_loginoverlay div {
+  position: absolute; 
+  width: 460px;
+  color: #BFB9B9;
+  font-size: 12px;
+  line-height: 13px;
+  margin: 5px 0 0 10px;
+}
+.spotlight_loginoverlay span { 
+  color: #FE6B57;
+  font-weight: bold;
+}
+.spotlight_loginoverlay a {
+  display: block;  
+  position: absolute;
+  top: 10px;
+  left: 480px;  
+  width: 16px;
+  height: 16px;
+}
+/* **** END SPOTLIGHT **** */

@@ -1,0 +1,319 @@
+/* **** BEGIN TOPNAVIGATION **** */
+#headernavigationchoosecountry {
+    text-align: right;
+    padding: 8px 26px 0px 0px;
+    font-size: 0.9em;
+    }
+    #headernavigationchoosecountry a {
+        color: #333;
+        text-decoration: none;
+        }
+    #headernavigationchoosecountry a:hover {
+        color: #5e7850;
+        }
+#headernavigationbuttons {
+    position: absolute;
+    top: 30px;
+    left: 117px;
+    width: 635px;
+    height: 40px;
+    font-variant:small-caps;
+    }
+    #headernavigationbuttons a.funpass,
+    #headernavigationbuttons a.play,
+    #headernavigationbuttons a.download,
+    #headernavigationbuttons a.support {
+        display: block;
+        float: left;
+        width: 158px;
+        height: 28px;
+        height: 40px\9;
+        padding-top: 12px;
+        text-align: center;
+        font-weight: bold;
+        font-family: verdana;
+        font-size: 1.4em;
+        text-decoration: none;
+        display: inline;
+        }
+
+    #headernavigationbuttons a.funpass {
+        color: #a926bd;
+        padding-left: 30px;
+        background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/header/grey/purplebutton.gif) top left no-repeat;
+        }
+        html>body #headernavigationbuttons a.funpass {width: 128px;}
+    #headernavigationbuttons a.play {
+        color: #5e7850;
+        background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/header/grey/greenbutton.gif) top left no-repeat;
+        }
+    #headernavigationbuttons a.download {
+        color: #794336;
+        background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/header/grey/orangebutton.gif) top left no-repeat;
+        }
+    #headernavigationbuttons a.support {
+        color: #23436b;
+        padding-right: 30px;
+        width: 128px;
+        width: 158px\9;
+        background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/header/grey/bluebutton.gif) top left no-repeat;
+        }
+
+    #headernavigationbuttons a:hover.funpass,
+    #headernavigationbuttons a:hover.play,
+    #headernavigationbuttons a:hover.download,
+    #headernavigationbuttons a:hover.support {background-position: 0px -40px;}
+
+    #headernavigationbuttons .active {cursor: default;}
+
+
+
+#headernavigationbuttonsnofunpass {
+    position: absolute;
+    top: 30px;
+    left: 117px;
+    width: 635px;
+    height: 40px;
+    font-variant:small-caps;
+    }
+    #headernavigationbuttonsnofunpass a.play,
+    #headernavigationbuttonsnofunpass a.download,
+    #headernavigationbuttonsnofunpass a.support {
+        display: block;
+        float: left;
+        height: 28px;
+        height: 40px\9;
+        padding-top: 12px;
+        text-align: center;
+        font-weight: bold;
+        font-family: verdana;
+        font-size: 1.4em;
+        text-decoration: none;
+        }
+    #headernavigationbuttonsnofunpass a.play {
+        color: #5e7850;
+        padding-left: 30px;
+        width: 181px;
+        width: 211px\9;
+        background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/nofunpassheader/grey/orangebutton.gif) top left no-repeat;
+        }
+    #headernavigationbuttonsnofunpass a.download {
+        color: #794336;
+        width: 211px;
+        background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/nofunpassheader/grey/greenbutton.gif) top left no-repeat;
+        }
+    #headernavigationbuttonsnofunpass a.support {
+        color: #23436b;
+        padding-right: 30px;
+        width: 180px;
+        width: 210px\9;
+        background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/nofunpassheader/grey/bluebutton.gif) top left no-repeat;
+        }
+
+    #headernavigationbuttonsnofunpass a:hover.play,
+    #headernavigationbuttonsnofunpass a:hover.download,
+    #headernavigationbuttonsnofunpass a:hover.support {background-position: 0px -40px;}
+
+    #headernavigationbuttonsnofunpass .active {cursor: default;}
+
+
+#headernavigationbuttonsmac {
+    position: absolute;
+    top: 30px;
+    left: 117px;
+    width: 635px;
+    height: 40px;
+    font-variant:small-caps;
+    }
+    #headernavigationbuttonsmac a.play,
+    #headernavigationbuttonsmac a.download,
+    #headernavigationbuttonsmac a.support {
+        display: block;
+        float: left;
+        height: 28px;
+        height: 40px\9;
+        padding-top: 12px;
+        text-align: center;
+        font-weight: bold;
+        font-family: verdana;
+        font-size: 1.4em;
+        text-decoration: none;
+        }
+    #headernavigationbuttonsmac a.play {
+        color: #5e7850;
+        padding-left: 30px;
+        width: 181px;
+        width: 211px\9;
+        background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/macheader/grey/greenbutton.gif) top left no-repeat;
+        }
+    #headernavigationbuttonsmac a.download {
+        color: #794336;
+        width: 211px;
+        background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/macheader/grey/orangebutton.gif) top left no-repeat;
+        cursor: default;
+        }
+    #headernavigationbuttonsmac a.support {
+        color: #23436b;
+        padding-right: 30px;
+        width: 180px;
+        width: 210px\9;
+        background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/macheader/grey/bluebutton.gif) top left no-repeat;
+        }
+
+    #headernavigationbuttonsmac a:hover.play,
+    #headernavigationbuttonsmac a:hover.download,
+    #headernavigationbuttonsmac a:hover.support {background-position: 0px -40px;}
+
+    #headernavigationbuttonsmac .active {cursor: default;}
+
+
+
+#headernavigationsubnavigation {
+    position: absolute;
+    top: 78px;
+    left: 2px;
+    width: 748px;
+    text-align: center;
+    font-variant:small-caps;
+    }
+    #headernavigationsubnavigation a {
+        padding: 0px 6px 0px 6px;
+        text-align: center;
+        font-weight: normal;
+        font-family: verdana;
+        font-size: 1.2em;
+        text-decoration: none;
+        }
+    #headernavigationsubnavigation a:hover {
+        text-decoration: underline;
+        }
+
+    #headerextra a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1em;
+        }
+     .headerextralogin {
+         float: left;
+         font-weight: bold;
+         font-size: 1.1em;
+         }
+     .headerextramyaccount {
+          float:right;
+          }
+
+
+        #headernavigationsubnavigation li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            float: left;
+            font: bold 11px arial;
+            background: transparent;
+            }
+
+        #headernavigationsubnavigation li a.grouplink {
+            display: inline;
+            margin: 0 1px 0 0;
+            padding: 5px 1px 4px 1px; 
+            height: 18px;
+            background: transparent;
+            text-align: center;
+            text-decoration: none;
+            }
+
+        #headernavigationsubnavigation li a:hover.grouplink {
+            text-decoration: underline;
+            }
+
+        #headernavigationsubnavigation div {
+            position: absolute;
+            visibility: hidden;
+            top: 27px;
+            margin-left: 2px;
+            margin: 0!ie7;
+            padding: 0px 10px 0px 5px;
+            background: #e9e9e9;
+            border: 0;
+            z-index: 1000;
+            border-right: 1px solid #807f7c;
+            border-bottom: 1px solid #807f7c;
+            border-left: 1px solid #807f7c;
+            background: #e9e9e9 url(http://cdn.media.zylom.com/images/site/zylom/optimages/header/grey/dropdownbg.gif) top left repeat-x;
+            }
+
+        #headernavigationsubnavigation div a {
+            position: relative;
+            display: block;
+            margin: 0;
+            padding: 5px 0px;
+            width: 125px;
+            white-space: nowrap;
+            text-align: left;
+            text-decoration: none;
+            font: 11px arial
+            }
+
+        #headernavigationsubnavigation div a:hover	{
+            text-decoration: underline;
+            }
+
+.headerbar_cookies {
+   position: relative;
+   display: block;
+   width: 760px;
+   height: 39px;
+   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/cookies/cookiebalk/background/background.png) top left no-repeat;
+   z-index: 500;
+   opacity: 0.6;
+   }
+
+.headerbar_content {
+    width: 760px;
+}
+
+.headerbar_text {
+    color: #FFFFFF;
+    position: relative;
+    float: left;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 450px;
+}
+
+.headerbar_buttons {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+
+a.button_accept_header {
+    background-image: url(http://cdn.media.zylom.com/images/site/zylom/cookies/cookiebalk/button/1/button_hover.png);
+    height: 20px;
+    width: 90px;
+    float: left;
+}
+
+a.button_info_header{
+    height: 20px;
+    width: 90px;
+    float: left;
+}
+
+a.button_close_header {
+    height: 20px;
+    width: 90px;
+    float: left;
+    cursor: pointer;
+}
+
+a.button_accept_header:hover,
+a.button_info_header:hover,
+a.button_close_header:hover {
+    background-position: 0px -20px;
+}
+
+
+/* **** END TOPNAVIGATION **** */

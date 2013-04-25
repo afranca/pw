@@ -1,0 +1,75 @@
+/* **** BEGIN TOPNAVIGATION1 **** */
+
+#logo {left: 15px;}
+a.logolink {background: transparent}
+a.textlink {left: 58px}
+
+#headernavigationbuttons {
+    position: absolute;
+    top:  29px;
+    left: 152px;
+    width: 590px;
+    height: 40px;
+    }
+#headernavigationbuttons a.download,
+#headernavigationbuttons a.play,
+#headernavigationbuttons a.offer,
+#headernavigationbuttons a.funpass,
+#headernavigationbuttons a.support {
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 41px;
+  text-decoration: none;
+}
+#headernavigationbuttons a.download span,
+#headernavigationbuttons a.play span,
+#headernavigationbuttons a.offer span,
+#headernavigationbuttons a.funpass span,
+#headernavigationbuttons a.support span {
+  line-height: 41px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-family: verdana;
+  font-variant:small-caps;
+}
+#headernavigationbuttons a.download:hover,
+#headernavigationbuttons a.play:hover,
+#headernavigationbuttons a.offer:hover,
+#headernavigationbuttons a.funpass:hover,
+#headernavigationbuttons a.support:hover {background-position: 0px 0px;}
+
+#headernavigation {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/optimages/headeroffer/grey/mainback.jpg) 0px 0px no-repeat}
+
+#headernavigationbuttons a.download {
+  color: #794336;
+  width: 173px !important;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/headeroffer/grey/orangebutton.jpg) 0px -41px no-repeat;
+}
+#headernavigationbuttons a.play {
+  color: #5e7850;
+  width: 108px !important;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/headeroffer/grey/greenbutton.jpg) 0px -41px no-repeat;
+}
+#headernavigationbuttons a.offer {
+  color: #a54a06;
+  width: 108px !important;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/headeroffer/grey/redbutton.jpg) 0px -41px no-repeat;
+}
+#headernavigationbuttons a.funpass {
+  color: #a926bd;
+  width: 108px !important;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/headeroffer/grey/purplebutton.jpg) 0px -41px no-repeat;
+}
+#headernavigationbuttons a.support {
+  color: #23436b;
+  width: 89px !important;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/headeroffer/grey/bluebutton.jpg) 0px -41px no-repeat;
+}
+
+#headernavigationbuttons a.download span {padding-left: 19px}
+#headernavigationbuttons a.support span {padding-right: 15px}
+
+/* **** END TOPNAVIGATION1 **** */

@@ -1,0 +1,383 @@
+/* **** BEGIN SEARCH **** */
+
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style:  normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	line-height: 16px;
+}
+.main {
+	font-size: 11px;
+}
+.supportHeader {
+	font-size: 15px;
+	font-weight: bold;
+}
+h1 {
+	font-weight: bold;
+	font-size: 16px;
+	color: #333333;
+	line-height: normal;
+}
+
+h2 {
+	font-size: 12px;
+}
+
+h1.new {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+        color: #333333;
+        line-height: 16px;
+        padding-top: 0px;
+        padding-bottom:0px;
+        margin-top: 0px;
+        margin-bottom:0px;
+}
+
+h2.new {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        font-weight: lighter;
+	font-variant: normal;
+        color: #333333;
+        line-height: normal;
+        text-decoration: none;
+        padding-top: 0px;
+        padding-bottom:0px;
+        margin-top: 0px;
+        margin-bottom:0px;
+}
+
+h3.new {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+        color: #333333;
+        line-height: 16px;
+        text-decoration: none;
+        padding-top: 0px;
+        padding-bottom:0px;
+        margin-top: 0px;
+        margin-bottom:0px;
+}
+
+.glnumbers {
+	font-size: 11px;
+	font-weight: normal;
+	color: #993333;
+	line-height: 16px;
+	text-decoration: none;
+}
+.glmain {
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	line-height: 16px;
+	text-decoration: none;
+}
+.top5 {
+	font-size: 10px;
+	line-height: 18px;
+	color: #333333;
+	text-decoration: none;
+	font-weight: normal
+}
+.mainpurple {
+	font-size: 10px;
+	font-weight: lighter;
+	color: #996666;
+	line-height: 18px;
+}
+.mainnieuw {
+	font-size: 10px;
+	color: #333333;
+	line-height: normal;
+}
+.small {
+	font-size: 9px;
+	font-weight: lighter;
+	color: #996666;
+	line-height: normal;
+}
+.smallblack {
+	font-size: 9px;
+	font-weight: lighter;
+	color: #333333;
+	line-height: normal;
+	text-decoration: none;
+}
+.purple2 {
+	font-size: 10px;
+	font-weight: lighter;
+	color: #996666;
+	line-height: normal;
+	text-decoration: none;
+}
+  .purple2 A:visited {
+      color: #996666;
+  }
+  .purple2 A:hover {
+      color: #0F79FB;
+  }
+.purple2green {
+	font-size: 10px;
+	font-weight: lighter;
+	color: #996666;
+	line-height: normal;
+	text-decoration: none;
+}
+  .purple2green A:visited {
+      color: #996666;
+  }
+  .purple2green A:hover {
+      color: #BAE024;
+  } 
+.purple2blue {
+	font-size: 10px;
+	font-weight: lighter;
+	color: #996666;
+	line-height: normal;
+	text-decoration: none;
+}
+  .purple2blue A:visited {
+      color: #996666;
+  }
+  .purple2blue A:hover {
+      color: #0F79FB;
+  }
+.blue {
+	font-size: 10px;
+	font-weight: lighter;
+	color: #666699;
+	line-height: normal;
+}
+.bluelarger {
+	font-size: 11px;
+	color: #666699;
+	line-height: normal;
+}
+.smallwhite {
+	font-size: 9px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	line-height: normal;
+}
+.bluelbold {
+	font-size: 11px;
+	font-weight: bold;
+	color: #666699;
+	line-height: normal;
+}
+.mainbold {
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	line-height: 16px;
+}
+.smallblue {
+	font-size: 9px;
+	font-weight: lighter;
+	color:  #666699;
+	line-height: normal;
+}
+.smallbrown {
+	font-size: 9px;
+	font-weight: lighter;
+	color: #663333;
+	line-height: normal;
+}
+.brownlarger {
+	font-size: 11px;
+	font-weight: bold;
+	color: #663333;
+	line-height: normal;
+}
+.mainunderline {
+	font-size: 11px;
+	color: #333333;
+	line-height: 16px;
+	text-decoration: underline;
+}
+.numbersunderline {
+	font-size: 11px;
+	color: #993333;
+	line-height: 16px;
+	text-decoration: underline;
+}
+.bluelargerunderline {
+	font-size: 11px;
+	color: #666699;
+	line-height: normal;
+	text-decoration: underline;
+}
+.brownlargerunderline {
+	font-size: 11px;
+	font-weight: bold;
+	color: #663333;
+	line-height: normal;
+	text-decoration: underline;
+}
+.smallbrownunderline {
+	font-size: 9px;
+	font-weight: lighter;
+	color: #333333;
+	line-height: normal;
+	text-decoration: underline;
+}
+.brownBIG {
+	font-size: 18px;
+	font-weight: bold;
+	color: #996633;
+	line-height: normal;
+}
+.mainBIG {
+	font-size: 18px;
+	color: #333333;
+	line-height: normal;
+
+}
+.greenweb {
+	font-size: 13px;
+	font-weight: normal;
+	color: #5E7850;
+	font-style: normal;
+	font-variant: small-caps;
+	white-space: normal;
+	letter-spacing: 1px;
+	text-decoration: none
+}
+.browndeluxe {
+	font-size: 13px;
+	font-weight: normal;
+	color: #8A502B;
+	font-style: normal;
+	font-variant: small-caps;
+	white-space: normal;
+	letter-spacing: 1px;
+   text-decoration: none;
+}
+
+.corpheading {
+	font-size: 11px;
+	color: #999999;
+	font-weight: bold
+}
+.corpmenu {
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 150%
+}
+
+.greenlink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #5E7850;
+	text-decoration: underline;
+	font-weight: normal
+}
+.brownlink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #8A502B;
+	text-decoration: underline;
+	font-weight: normal
+}
+.purplefavs {
+	font-size: 15px;
+	font-weight: bold;
+	color: #A926BD;
+	font-style: normal;
+	font-variant: small-caps;
+	white-space: normal;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.navigation
+{
+   color: #333333;
+}
+.navigation table, td
+{
+   padding: 0px;
+   margin: 0px;
+}
+.navigation a
+{
+   font-size: 11px;
+   color: #333333;
+   text-decoration: none;
+   font-weight: bold;
+}
+/* custombox logos */
+ .arrow
+ { 
+     float: left; 
+     background: transparent url(http://cdn.media.zylom.com/images/site/zylom/custombox/logo/arrow.gif)  
+     no-repeat top left; 
+     width: 63px; 
+     height: 56px;    
+     margin-top: 0; 
+     margin-left: -5; 
+     z-index: 1; 
+     position: relative; 
+ }
+ .exclamation
+ { 
+     float: left; 
+     background: transparent url(http://cdn.media.zylom.com/images/site/zylom/custombox/logo/exclamation.gif)  
+     no-repeat top left; 
+     width: 63px; 
+     height: 56px;    
+     margin-top: 0; 
+     margin-left: -5; 
+     z-index: 1; 
+     position: relative; 
+ }
+ .help
+{ 
+     float: left; 
+     background: transparent url(http://cdn.media.zylom.com/images/site/zylom/custombox/logo/help.gif)  
+     no-repeat top left; 
+     width: 63px; 
+     height: 56px;    
+     margin-top: 0; 
+     margin-left: -5; 
+     z-index: 1; 
+     position: relative; 
+ }
+ 
+ a.subnavigation
+ {
+ 	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+  color: #6F3C30;
+  font-variant: small-caps;
+ }
+
+ a:hover.subnavigation
+ {
+  text-decoration: underline;
+ }
+
+ 
+a:hover.promogreen
+{
+  color:#BAE024;
+}
+ a:hover.promoorange
+{
+  color:#FF7000;
+}
+
+
+/* **** END SEARCH **** */
+

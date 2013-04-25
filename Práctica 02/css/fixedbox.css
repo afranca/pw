@@ -1,0 +1,698 @@
+/* **** BEGIN FIXEDBOX **** */
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-position: outside;
+  line-height: 1em;
+}
+  li.gamelistitem, .gamelisttopitem {
+    margin: 0;
+    padding: 0;
+    background: none;
+    list-style-type: none;
+  }
+
+.gamelisttopitem {
+  width:220px;
+  height:50px;
+  overflow:hidden;
+  line-height: 11px;
+}
+.gamelistitem {
+  overflow: hidden;
+  line-height: 11px;
+  height: 55px;
+}
+
+
+
+
+.box258 {
+  float: left;
+  display: inline;
+  width: 258px;
+  margin: 0 10px 10px 0;
+}
+
+.box254 {
+  float: left;
+  display: inline;
+  width: 254px;
+  margin: 0 10px 10px 0;
+}
+
+.box200 {
+  display: block;
+  position: relative;
+  width: 200px;
+  margin: 0 0 10px 0;
+}
+
+.rightcolumnbox {
+  margin: 0 0 10px 0;
+}
+
+.boxheader {
+  display: block;
+  position: relative;
+  height: 44px;
+  padding: 0;
+
+}
+.boxtop {
+  display: block;
+  position: relative;
+  height: 15px;
+  padding: 0;
+}
+.boxheadertable {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.boxcontent {
+  display: block;
+  padding: 5px 10px 0 10px;
+  height: auto!important; 
+  height: 100%;           
+}
+
+
+.boxcontent ul {
+  margin: 0;
+}
+.boxbottom {
+  display: block;
+  position: relative;
+  height: 15px;
+}
+
+
+
+.box258orange .boxtop {
+	background: #fff url(top.png) 0px 0px no-repeat;
+}
+.box258orange .boxheader {
+	background: #fff 
+	url(header_bottom.png) 
+	0px -5px no-repeat;
+}
+.box258orange .boxcontent {background: #fff url(content.png) 0px 0px repeat-y;}
+.box258orange .boxbottom {background: #fff url(header_bottom.png) 0px bottom no-repeat;}
+
+
+.box258green .boxtop {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/top.png) 0px 0px no-repeat;}
+.box258green .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/header.png) 0px -5px no-repeat;}
+.box258green .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/content.png) 0px 0px repeat-y;}
+.box258green .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/green/white/bottom.png) 0px bottom no-repeat;}
+
+
+.box258orangefill .boxtop {
+	background: #fff url(top.png) 0px 0px no-repeat;
+}
+
+.box258orangefill .boxheader {
+	width: 200px;	
+	background-image:url(images/box_header_brown.jpg);
+	background-repeat:repeat-x;
+	height:35px;
+	border:1px;
+	color:#243356;
+	
+	/*	
+	background: #fff 
+	url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/258px/orange/filled/header.png) 
+	0px -5px no-repeat;
+	*/
+}
+
+
+
+.box200orangefill .boxtop {
+	background: #fff url(top.png) 0px 0px no-repeat;}
+
+.box200orangefill .boxheader {
+
+	width: 200px;	
+	background-image:url(images/box_header_brown.jpg);
+	background-repeat:repeat-x;
+	height:35px;
+	border:0px;
+	color:#243356;
+	
+	/*
+	background: #fff 
+	url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/filled/header_bottom.png) 
+	0px -5px no-repeat;
+	*/
+}
+
+.box200orangefill .boxcontent {
+	background: #fff 
+	url(content.png) 
+	0px 0px repeat-y;
+}
+.box200orangefill .boxbottom {
+
+	width: 200px;	
+	background-image:url(images/box_bottom_brown.jpg);
+	background-repeat:repeat-x;
+	height:26px;
+	border:0px;
+	color:#243356;
+
+	/*
+	background: #fff 
+	url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/200px/orange/filled/header_bottom.png) 
+	0px bottom no-repeat;
+	*/
+}
+
+
+.boxheader h2 {
+  display: block;
+  margin: 0px 10px;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 14px;
+  font-variant: small-caps;
+}
+.boxheader a { font-weight: normal; text-decoration: none; }
+.boxheader a:hover { text-decoration: none; }
+
+.box200orange .boxheader h2, .box258orange .boxheader h2,.box528orange .boxheader h2, .box740orange .boxheader h2 {color: #573001;}
+.box200orange .boxheader h2 a, .box258orange .boxheader h2 a,.box528orange .boxheader h2 a, .box740orange .boxheader h2 a {color: #573001;}
+.box200orangefill .boxheader h2, .box258orangefill .boxheader h2, .box528orangefill .boxheader h2, .box740orangefill .boxheader h2 {color: #573001;}
+.box200orangefill .boxheader h2 a, .box258orangefill .boxheader h2 a, .box528orangefill .boxheader h2 a, .box740orangefill .boxheader h2 a {color: #573001;}
+
+.boxheadertable a { font-weight: normal; text-decoration: none; }
+.boxheadertable a:hover { text-decoration: none; }
+
+.box200orange .boxheadertable h2, .box258orange .boxheadertable h2 a{color: #573001;}
+.box200orange .boxheadertable h2 a, .box258orange .boxheadertable h2 a{color: #573001;}
+.box200orangefill .boxheadertable h2, .box258orangefill .boxheadertable h2 a{color: #573001;}
+.box200orangefill .boxheadertable h2 a, .box258orangefill .boxheadertable h2 a {color: #573001;}
+
+
+
+.boxtop h2 {
+  display: block;
+  margin: 0px 10px;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 18px;
+  text-align: center;
+  font-variant: small-caps;
+}
+.boxtop a { font-weight: normal; text-decoration: none; }
+.boxtop a:hover { text-decoration: none; }
+
+.box200orange .boxtop h2, .box258orange .boxtop h2, .box528orange .boxtop h2, .box740orange .boxtop h2 {color: #573001;}
+.box200orange .boxtop h2 a, .box258orange .boxtop h2 a, .box528orange .boxtop h2 a, .box740orange .boxtop h2 a {color: #573001;}
+.box200orangefill .boxtop h2, .box258orangefill .boxtop h2, .box528orangefill .boxtop h2, .box740orangefill .boxtop h2 {color: #573001;}
+.box200orangefill .boxtop h2 a, .box258orangefill .boxtop h2 a, .box528orangefill .boxtop h2 a, .box740orangefill .boxtop h2 a {color: #573001;}
+
+
+.headerinfo {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 16px;
+  heigh: 16px;
+}
+.headerinfo span {
+  display: block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background: #0f0;
+  cursor: default;
+  font-size: 1px; line-height: 16px; text-indent: -10000px;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/info/allcolors.png) 0px 0px no-repeat;
+}
+.headerinfo .tooltip {
+  display: none;
+  position: absolute;
+  width: 247px;
+  height: 76px;
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/fixedboximages/info/boxheadertooltip.png) 0px 0px no-repeat;
+}
+.headerinfo .tooltip p {
+  color: #5F5F5F;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 20px 10px 10px 10px;
+}
+.headerinfo_green span { background-position:0px 0px; }
+.headerinfo_orange span { background-position:-32px 0px; }
+
+
+
+
+
+.gamelistgameimg {
+    display: block;
+    float:left;
+    height:45px;
+    width:60px;
+    margin-right: 5px;
+    }
+    .gamelistitem .gamelistgameimg { width:60px; height:45px; }
+.gamelistgamename a, .gamelistgamename a:hover,
+.gamelistmoregames a, .gamelistmoregames a:hover { font-weight: normal; text-decoration: none; }
+
+.gamelistitem .gamelistgamename a { overflow:hidden; color:#333333; }
+    
+.gamelistitem .gamelistgamename,
+.gamelistitem .gamelistgamerating,
+.gamelistitem .gamelistdownload,
+.gamelistitem .gamelistplay,
+.gamelistitem .gamelistplayers,
+.gamelistitem .gamelistfacebook { height:15px; }
+.gamelistitem .gamelistgamename a { font-weight:bold; }
+.gamelistitem .gamelistgamename a:hover { font-weight:bold; }
+ a li.gamelistitem p.gamelistgamename { font-weight:bold; }
+ a li.gamelistitem p.gamelistgamename:hover { font-weight:bold; }
+ a.green li.gamelistitem { font-weight:bold; }
+ a.green li.gamelistitem:hover { font-weight:bold; color:#BAE024; }
+.gamelistitem .gamelistgamerating,
+.gamelistitem .gamelistplayers { color:#868283; font-size:0.9em; }
+.gamelistitem .gamelistdownload,
+.gamelistitem .gamelistplay,
+.gamelistitem .gamelistfacebook { font-size:0.9em; }
+.gamelistitem .gamelistdownload a,
+.gamelistitem .gamelistplay a,
+.gamelistitem .gamelistplaywin a,
+.gamelistitem .gamelistfacebook a { font-weight:bold; text-decoration:none; }
+.gamelistmoregames { text-align:center; padding-top:5px;}
+
+.gamelistitem .gamelistplay a { color:#5E7850; }
+.gamelistitem .gamelistplay a:hover { color:#BAE024; }
+.gamelistitem .gamelistdownload a { color:#B35182; }
+.gamelistitem .gamelistdownload a:hover { color:#ff7000; }
+.gamelistitem .gamelistfacebook a { color:#46A3E6; }
+.gamelistitem .gamelistfacebook a:hover { color:#466399; }
+
+
+.box200orangefill .gamelistgamename a:hover, .box200orange .gamelistgamename a:hover,
+.box258orangefill .gamelistgamename a:hover, .box258orange .gamelistgamename a:hover,
+
+.box200greenfill .gamelistgamename a:hover, .box200green .gamelistgamename a:hover,
+.box258greenfill .gamelistgamename a:hover, .box258green .gamelistgamename a:hover,
+
+.box200darkgreenfill .gamelistgamename a:hover, .box200darkgreen .gamelistgamename a:hover,
+.box258darkgreenfill .gamelistgamename a:hover, .box258darkgreen .gamelistgamename a:hover,
+
+
+.gamelistitem .gamelistgamename a:hover.orange { color:#ff7000; }
+.gamelistitem .gamelistgamename a:hover.green { color:#BAE024; }
+.gamelistitem .gamelistgamename a:hover.purple { color:#A926BD; }
+.gamelistitem .gamelistgamename a:hover.blue { color:#0F79FB; }
+.gamelistitem .gamelistgamename a:hover.darkblue { color:#466399; }
+
+.gamelistitem .gamelistgamename a.orange,
+.gamelistitem .gamelistgamename a.green,
+.gamelistitem .gamelistgamename a.purple,
+.gamelistitem .gamelistgamename a.blue,
+.gamelistitem .gamelistgamename a.darkblue { background:none; } 
+.box200orangefill .gamelistmoregames a, .box200orange .gamelistmoregames a,
+.box258orangefill .gamelistmoregames a, .box258orange .gamelistmoregames a,
+
+.box200greenfill .gamelistmoregames a, .box200green .gamelistmoregames a,
+.box258greenfill .gamelistmoregames a, .box258green .gamelistmoregames a,
+
+.box200darkgreenfill .gamelistmoregames a, .box200darkgreen .gamelistmoregames a,
+.box258darkgreenfill .gamelistmoregames a, .box258darkgreen .gamelistmoregames a,
+
+.box200orangefill .gamelistmoregames a:hover, .box200orange .gamelistmoregames a:hover,
+.box258orangefill .gamelistmoregames a:hover, .box258orange .gamelistmoregames a:hover,
+
+.box200greenfill .gamelistmoregames a:hover, .box200green .gamelistmoregames a:hover,
+.box258greenfill .gamelistmoregames a:hover, .box258green .gamelistmoregames a:hover,
+
+.box200darkgreenfill .gamelistmoregames a:hover, .box200darkgreen .gamelistmoregames a:hover,
+.box258darkgreenfill .gamelistmoregames a:hover, .box258darkgreen .gamelistmoregames a:hover,
+
+
+.box200lightorangefill .gamelistmoregames a, .box200lightorange .gamelistmoregames a,
+.box258lightorangefill .gamelistmoregames a, .box258lightorange .gamelistmoregames a,
+
+.box200lightorangefill .gamelistmoregames a:hover, .box200lightorange .gamelistmoregames a:hover,
+.box258lightorangefill .gamelistmoregames a:hover, .box258lightorange .gamelistmoregames a:hover,
+
+
+
+.skillgamelistbox ul {margin: 0;}
+.skillgamelistbox ul.left {width: 250px; float: left;}
+.skillgamelistbox ul.right {float:right; width:250px;}
+
+.skillgamelistbox .gamelistitem {width:250px;}
+
+.skillgamelistbox .gamelistgamename,
+.skillgamelistbox .gamelistjackpot,
+.skillgamelistbox .gamelistplaywin { height:15px; }
+
+.skillgamelistbox .gamelistjackpot {color:#868283; font-size:0.9em;}
+.skillgamelistbox .gamelistplaywin a { font-weight:bold; font-size:0.9em;}
+
+.box200orangefill .gamelistplaywin a, .box200orange .gamelistplaywin a,
+.box258orangefill .gamelistplaywin a, .box258orange .gamelistplaywin a,
+.box528orangefill .gamelistplaywin a, .box528orange .gamelistplaywin a,
+.box740orangefill .gamelistplaywin a, .box740orange .gamelistplaywin a { color:#B35182; }
+
+.box200greenfill .gamelistplaywin a, .box200green .gamelistplaywin a,
+.box258greenfill .gamelistplaywin a, .box258green .gamelistplaywin a,
+.box528greenfill .gamelistplaywin a, .box528green .gamelistplaywin a,
+.box740greenfill .gamelistplaywin a, .box740green .gamelistplaywin a { color:#5E7850; }
+
+.box200darkgreenfill .gamelistplaywin a, .box200darkgreen .gamelistplaywin a,
+.box258darkgreenfill .gamelistplaywin a, .box258darkgreen .gamelistplaywin a,
+.box528darkgreenfill .gamelistplaywin a, .box528darkgreen .gamelistplaywin a,
+.box740darkgreenfill .gamelistplaywin a, .box740darkgreen .gamelistplaywin a { color:#5E7850; }
+
+.box200orangefill .gamelistplaywin a:hover, .box200orange .gamelistplaywin a:hover,
+.box258orangefill .gamelistplaywin a:hover, .box258orange .gamelistplaywin a:hover,
+.box528orangefill .gamelistplaywin a:hover, .box528orange .gamelistplaywin a:hover,
+.box740orangefill .gamelistplaywin a:hover, .box740orange .gamelistplaywin a:hover { color:#FF7000; }
+
+.box200greenfill .gamelistplaywin a:hover, .box200green .gamelistplaywin a:hover,
+.box258greenfill .gamelistplaywin a:hover, .box258green .gamelistplaywin a:hover,
+.box528greenfill .gamelistplaywin a:hover, .box528green .gamelistplaywin a:hover,
+.box740greenfill .gamelistplaywin a:hover, .box740green .gamelistplaywin a:hover { color:#BAE024; }
+
+
+
+.gamelistbox_small .gamelistitem {
+  width: 180px;
+  height: 30px;
+  line-height: 11px;
+  overflow: hidden;
+}
+.gamelistbox_small .gamelistgameimg {
+  height: 25px;
+  width: 25px;
+}
+.gamelistbox_small .gamelistgamename {
+  height: 24px;
+  font-size: 10px;
+  line-height: 12px;
+  overflow: hidden;
+}
+
+.boxcontent.categorybox { padding: 5px 2px 0; }
+.gamelistbox_small .boxheadertable {
+  position: relative;
+  top: -15px;
+  text-align: center;
+  height: 0;
+  width: 180px;
+}
+.boxcontent.gamelistbox_small .boxheadertable h2,
+.boxcontent.gamelistbox_small .boxheadertable h2 a {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+
+/*.box200redfill .boxheader {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/red.jpg) top left no-repeat;
+  height: 42px;
+  width: 200px;
+}
+.box200redfill .boxcontent {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/red_middle.png) repeat-y;
+}
+.box200redfill .boxbottom {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/red.jpg) bottom left no-repeat; 
+  height: 18px;
+  width: 200px;
+}
+.box200redfill h2 {
+  display: block;
+  font-size: 14px;
+  font-variant: small-caps;
+  font-weight: normal;
+  line-height: 14px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  padding-top: 14px;
+}
+.box200redfill h2 a,
+.box200redfill h2 a:hover { color:#fff; }
+.box200redfill .gamelistitem .gamelistdownload a,
+.box200redfill .gamelistmoregames a {
+  color: #cf2f53;
+}
+.box200redfill a:hover {
+  color: #821C32;
+}
+.box200redfill .gamelistdownload a:hover{
+  color: #821C32 !important;   
+}
+.box200redfill .gamelistprice {
+  color: #565656;
+  font-weight: bold;
+  height: 15px;
+}*/
+
+
+/*.box200yellowfill .boxheader {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/yellow_top.jpg) no-repeat;
+  height: 42px;
+  width: 200px;
+}
+.box200yellowfill .boxcontent {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/yellow_middle.png) repeat-y;   
+}
+.box200yellowfill .boxbottom {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/boxes/yellow_bottom.png) no-repeat;  
+  height: 18px;
+  width: 200px;
+}
+.box200yellowfill h2 {
+  display: block;
+  font-size: 14px;
+  font-variant: small-caps;
+  font-weight: normal;
+  line-height: 14px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #573001;
+  padding-top: 14px;
+}
+.box200yellowfill h2 a, 
+.box200yellowfill h2 a:hover { color:#573001; }
+.box200yellowfill .gamelistcategoryname {
+  color: #A4A4A4;
+  font-size: 10px;
+  height: 15px;
+}
+.box200yellowfill .gamelistplayfree a {
+  color: #d2b221;   
+  font-weight: bold;
+  font-size: 10px;
+}
+.box200yellowfill .gamelistmoregames a {
+  color: #d2b221;  
+}
+.box200yellowfill a:hover{
+  color: #917B1B;
+}
+
+.box200yellowfill a .gamelistplayfree {
+  color: #d2b221;   
+  font-weight: bold;
+  font-size: 10px;
+}
+.box200yellowfill a .gamelistplayfree:hover{
+  color: #917B1B;
+}*/
+
+
+.gamelistbox_2lines .gamelistitem .gamelistgamename,
+.gamelistbox_2lines .gamelistitem .gamelistdownload,
+.gamelistbox_2lines .gamelistitem .gamelistplay,
+.gamelistbox_2lines .gamelistitem .gamelistplayanddownload {
+    height: 30px;
+    line-height: 14px;
+}
+
+
+.box_singlelink .gamelistdownload,
+.box_singlelink .gamelistplay,
+.box_singlelink .gamelistfacebook,
+.box_singlelink .gamelistbuy,
+.box_singlelink .gamelistplayfree,
+.box_singlelink .gamelistplaywin
+.box_singlelink .gamelistplayanddownload { font-weight: bold; font-size:0.9em; }
+
+.gamelistitem a .gamelistgamename { font-weight:bold; }
+.gamelistitem a:hover gamelistgamename { font-weight: bold; }
+
+
+.box_singlelink a:hover .gamelistgamename{ color: #000000; !important }
+
+
+.box_singlelink a .gamelistdownload,
+.box_singlelink a .gamelistplay,
+.box_singlelink a .gamelistplaywin,
+.box_singlelink a .gamelistfacebook,
+.box_singlelink a .gamelistbuy,
+.box_singlelink a .gamelistplayfree
+.box_singlelink a .gamelistplaywin,
+.box_singlelink a .gamelistplayanddownload { font-weight:bold; text-decoration:none; }
+
+.box_singlelink a .gamelistplayanddownload { 
+    display: table-cell;
+    vertical-align: bottom;
+    font-size:0.9em;
+    height: 30px;
+}
+
+.box_singlelink a .gamelistplay { color:#5E7850; }
+.box_singlelink a:hover .gamelistplay { color:#BAE024; }
+.box_singlelink a .gamelistdownload { color:#BA6036; }
+.box_singlelink a:hover .gamelistdownload { color:#ff7000; }
+.box_singlelink a .gamelistplayanddownload { color: #BA6036; }
+.box_singlelink a:hover .gamelistplayanddownload { color: #FF7000; }
+.box_singlelink a .gamelistfacebook { color:#46A3E6; }
+.box_singlelink a:hover .gamelistfacebook { color:#466399; }
+.box_singlelink a .gamelistbuy { color:#cf2f53; }
+.box_singlelink a:hover .gamelistbuy { color:#821C32; }
+.box_singlelink a .gamelistplayfree { color:#d2b221; }
+.box_singlelink a:hover .gamelistplayfree { color:#917b1b; }
+.box_singlelink a .gamelistplaywin { color:#5E7850; }
+.box_singlelink a:hover .gamelistplaywin { color:#BAE024; }
+.box_singlelink a .gamelistprice { color: #000000; }
+.box_singlelink a:hover .gamelistprice { color: #000000; }
+
+.box_singlelink.box_myfavorite a .gamelistplayanddownload { color: #B35182; }
+.box_singlelink.box_myfavorite a:hover .gamelistplayanddownload { color: #FF7000; }
+
+.dynamic_box .boxheader h2 {
+    display: table-cell;
+    height: inherit;
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+}
+.dynamic_box .headerinfo {
+    display: block;
+    float: right;
+    margin: 0px -5px 0 5px;
+    position: relative;
+    right: 0;
+}
+.dynamic_box .boxheader_container,
+.dynamic_box .boxcontent_container,
+.dynamic_box .boxbottom_container{
+position:relative;
+}
+
+/*   BOX GENERIC*/
+
+
+/*
+.dynamic_box .boxheader{
+	width: 258px;	
+	background-image:url(images/box_header_brown.jpg);
+	background-repeat:repeat-x;
+	height:35px;
+	border:1px solid #808080;
+	color:#243356;
+}
+*/
+.dynamic_box .boxheader{ background: #fff url(../images/all_boxes.png) 0 0 no-repeat;} 
+
+.dynamic_box .boxheader_right{
+height:44px;width:13px; position:relative;right:0px; float:right;
+background: #fff url(../images/all_boxes.png) 0 0 no-repeat;
+}
+.dynamic_box .boxcontent{
+background: #fff url(../images/all_boxes.png) 0 0 repeat-y;
+}
+.dynamic_box .boxcontent_right{
+height:100%;width:13px; position:absolute;right:0px;
+background: #fff url(../images/all_boxes.png) 0 0 repeat-y;
+}
+.dynamic_box .boxbottom_right{
+height:20px;width:13px; position:relative;right:0px; float:right;
+background: #fff url(../images/all_boxes.png) 0 0 no-repeat;
+}
+.dynamic_box .boxbottom {
+height:20px;
+background: #fff url(../images/all_boxes.png) 0 0 no-repeat;
+}
+
+
+.dynamic_box.boxgreen .boxheader_right{background-position: -5727px -5px; }
+.dynamic_box.boxgreen .boxheader {background-position: -5000px -5px;  }
+
+.dynamic_box.boxgreen .boxcontent_right{background-position: -4727px 0px;}
+.dynamic_box.boxgreen .boxcontent {background-position: -4000px 0;}
+
+.dynamic_box.boxgreen .boxbottom_right{background-position: -3727px 0px;}
+.dynamic_box.boxgreen .boxbottom {background-position: -3000px 0px;}
+
+.dynamic_box.boxorange .boxheader_right{background-position: -8727px -5px; }
+.dynamic_box.boxorange .boxheader {background-position: -8000px -5px;  }
+
+.dynamic_box.boxorange .boxcontent_right{background-position: -7727px 0px;}
+.dynamic_box.boxorange .boxcontent {background-position: -7000px 0;}
+
+.dynamic_box.boxorange .boxbottom_right{background-position: -6727px 0px;}
+.dynamic_box.boxorange .boxbottom {background-position: -6000px 0px;}
+
+
+.dynamic_box.boxlightorange .boxheader_right{
+	background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_headerTop.png) right 0 no-repeat;}
+.dynamic_box.boxlightorange .boxheader {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_headerTop.png) 0 0 no-repeat;}
+
+.dynamic_box.boxlightorange .boxcontent_right{
+	background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_content.png) right 0 repeat-y;}
+.dynamic_box.boxlightorange .boxcontent {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_content.png) 0 0 repeat-y;}
+
+.dynamic_box.boxlightorange .boxbottom_right{
+	background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_bottom.png) right -19px no-repeat;}
+.dynamic_box.boxlightorange .boxbottom {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/multiplayer/iframe_page/box_742_bottom.png) 0 -19px no-repeat;}
+
+
+.dynamic_box.noheader .boxheader{
+	height:20px;background: transparent url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) -2000px 0 no-repeat;
+}
+.dynamic_box.noheader .boxheader_right{
+	height:20px;width:13px; position:relative;right:0px; float:right;
+	background: #fff url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) -2550px 0 no-repeat;
+}
+.dynamic_box.noheader .boxcontent{
+	background: transparent url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) -1000px 0 repeat-y;
+}
+.dynamic_box.noheader .boxcontent_right{
+	height:100%;width:13px; position:absolute;right:0px;z-index:1;
+	background: transparent url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) -1550px 0 repeat-y;
+}
+.dynamic_box.noheader .boxbottom_right{
+	height:20px;width:13px; position:relative;right:0px; float:right;
+	background: #fff url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) -550px 0 no-repeat;
+}
+.dynamic_box.noheader .boxbottom {
+	height:20px;
+	background: transparent url(http://cdn.media.zylom.com/images/site/zylom/funpass/orderpath/box/noheader.png) 0 0 no-repeat;
+}
+
+
+.headerinfo span {
+  background: transparent url(http://cdn.media.zylom.com/images/site/zylom/sprites/common.png) 0px 0px no-repeat;
+}
+
+.headerinfo_green span { background-position:-648px 0px; }
+.headerinfo_orange span { background-position:-680px 0px; }
+
+/* **** END FIXEDBOX **** */
