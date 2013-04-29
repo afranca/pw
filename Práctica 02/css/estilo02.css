@@ -47,9 +47,9 @@
 .box258left {
   float: left;
   border: 0px solid blue;
-  height:100px;  
+  height:200px;  
   width: 258px;
-  margin: 1px 5px 5px 10x;	
+  margin: 0px 5px 5px 0x;	
 }
 
 
@@ -57,9 +57,9 @@
 .box258right {
   float: right;
   border: 0px solid black;
-  height:100px;  
+  height:200px;  
   width: 258px;
-  margin: 5px 10px 10px 5px;	
+  margin: 0px 1px 1px 0px;	
 }
 
 
