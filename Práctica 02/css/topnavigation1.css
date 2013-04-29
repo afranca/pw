@@ -1,8 +1,5 @@
 /* **** BEGIN TOPNAVIGATION1 **** */
 
-#logo {left: 15px;}
-a.logolink {background: transparent}
-a.textlink {left: 58px}
 
 #headernavigationbuttons {
     position: absolute;
@@ -23,6 +20,7 @@ a.textlink {left: 58px}
   height: 41px;
   text-decoration: none;
 }
+
 #headernavigationbuttons a.download span,
 #headernavigationbuttons a.play span,
 #headernavigationbuttons a.offer span,
@@ -41,7 +39,6 @@ a.textlink {left: 58px}
 #headernavigationbuttons a.funpass:hover,
 #headernavigationbuttons a.support:hover {background-position: 0px 0px;}
 
-#headernavigation {background: #fff url(http://cdn.media.zylom.com/images/site/zylom/optimages/headeroffer/grey/mainback.jpg) 0px 0px no-repeat}
 
 #headernavigationbuttons a.download {
   color: #794336;
@@ -69,7 +66,5 @@ a.textlink {left: 58px}
   background: transparent url(http://cdn.media.zylom.com/images/site/zylom/optimages/headeroffer/grey/bluebutton.jpg) 0px -41px no-repeat;
 }
 
-#headernavigationbuttons a.download span {padding-left: 19px}
-#headernavigationbuttons a.support span {padding-right: 15px}
 
 /* **** END TOPNAVIGATION1 **** */
