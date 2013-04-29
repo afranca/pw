@@ -49,7 +49,7 @@
   border: 0px solid blue;
   height:200px;  
   width: 258px;
-  margin: 0px 5px 5px 0x;	
+  margin: 0px 0px 0px 0x;	
 }
 
 
@@ -59,7 +59,7 @@
   border: 0px solid black;
   height:200px;  
   width: 258px;
-  margin: 0px 1px 1px 0px;	
+  margin: 0px 10px 0px 0px;	
 }
 
 
@@ -213,8 +213,7 @@
 }
 
 .box200brown_fill {
-	float: left;
- 	
+	float: left; 	
 	width: 164px;	
 	background-image:url(../images/box_header_brown.jpg);
 	background-repeat:repeat-x;
@@ -225,8 +224,7 @@
 
 .box200brown_top_left {
 	width: 13px;	
-	float: left;
- 	
+	float: left; 	
 	background-image:url(../images/top_left_brown.png);
 	height:48px;
 	border:0px;
@@ -234,8 +232,7 @@
 }
 
 .box200brown_top_right {
-	float: left;
- 	
+	float: left; 	
 	width: 13px;	
 	background-image:url(../images/top_right_brown.png);
 	height:48px;
@@ -247,8 +244,7 @@
 
 .box200brown_bottom_left {
 	width: 13px;	
-	float: left;
- 	
+	float: left; 	
 	background-image:url(../images/bottom_left_brown.png);
 	height:25px;
 	border:0px;
@@ -256,8 +252,7 @@
 }
 
 .box200brown_bottom_right {
-	float: left;
- 	
+	float: left; 	
 	width: 13px;	
 	background-image:url(../images/bottom_right_brown.png);
 	height:25px;
@@ -266,8 +261,7 @@
 }
 
 .box200brown_bottom_fill {
-	float: left;
- 	
+	float: left; 	
 	width: 164px;	
 	background-image:url(../images/bottom_brown.png);
 	background-repeat:repeat-x;
@@ -337,16 +331,10 @@
 
 
 
-
-
-
-
-
 /*  green box */
 
 .box258green_fill {
-	float: left;
- 
+	float: left; 
 	width: 222px;	
 	background-image:url(../images/box_header_green.jpg);
 	background-repeat:repeat-x;
@@ -357,8 +345,7 @@
 
 .box258green_top_left {
 	width: 13px;	
-	float: left;
- 	
+	float: left; 	
 	background-image:url(../images/top_left_green.png);
 	height:48px;
 	border:0px;
@@ -366,8 +353,7 @@
 }
 
 .box258green_top_right {
-	float: left;
- 	
+	float: left; 	
 	width: 13px;	
 	background-image:url(../images/top_right_green.png);
 	height:48px;
@@ -379,8 +365,7 @@
 
 .box258green_bottom_left {
 	width: 13px;	
-	float: left;
- 	
+	float: left; 	
 	background-image:url(../images/bottom_left_green.png);
 	height:25px;
 	border:0px;
@@ -388,8 +373,7 @@
 }
 
 .box258green_bottom_right {
-	float: left;
- 	
+	float: left; 	
 	width: 13px;	
 	background-image:url(../images/bottom_right_green.png);
 	height:25px;
