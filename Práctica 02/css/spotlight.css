@@ -574,6 +574,114 @@ ul, ol {
         padding-left: 5px;
         font-style: normal;
     }
+    
+    
+    
+ /* **** BEGIN TOPNAVIGATION **** */
+#headernavigationchoosecountry {
+    text-align: right;
+    padding: 8px 26px 0px 0px;
+    font-size: 0.9em;
+    }
+
+
+#headernavigationsubnavigation {
+    position: absolute;
+    top: 78px;
+    left: 2px;
+    width: 748px;
+    text-align: center;
+    font-variant:small-caps;
+    }
+
+#headernavigationsubnavigation a {
+        padding: 0px 6px 0px 6px;
+        text-align: center;
+        font-weight: normal;
+        font-family: verdana;
+        font-size: 1.2em;
+        text-decoration: none;
+}
+
+#headerextra a {
+	float:right;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1em;
+}
+
+#headernavigationsubnavigation li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            float: left;
+            font: bold 11px arial;
+            background: transparent;
+}
+
+#horizontal_main_menu {
+    position: absolute;
+    top:  29px;
+    left: 152px;
+    width: 590px;
+    height: 40px;
+    }
+#horizontal_main_menu a.menu1,
+#horizontal_main_menu a.menu2,
+#horizontal_main_menu a.menu3,
+#horizontal_main_menu a.menu4,
+#horizontal_main_menu a.menu5 {
+  dismenu2: inline;
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 41px;
+  text-decoration: none;
+}
+
+#horizontal_main_menu a.menu1 span,
+#horizontal_main_menu a.menu2 span,
+#horizontal_main_menu a.menu3 span,
+#horizontal_main_menu a.menu4 span,
+#horizontal_main_menu a.menu5 span {
+  line-height: 41px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-family: verdana;
+  font-variant:small-caps;
+}
+
+
+#horizontal_main_menu a.menu1 {
+  color: black;
+  width: 178px ;
+  background: url(../images/orangebutton.jpg);
+}
+#horizontal_main_menu a.menu2 {
+  color: black;
+  width: 106px ;
+  background: url(../images/greenbutton.jpg);
+}
+#horizontal_main_menu a.menu3 {
+  color: black;
+  width: 106px ;
+  background:  url(../images/redbutton.jpg);
+}
+#horizontal_main_menu a.menu4 {
+  color: black;
+  width: 106px ;
+  background:  url(../images/purplebutton.jpg);
+}
+#horizontal_main_menu a.menu5 {
+  color: black;
+  width: 89px ;
+  background:  url(../images/bluebutton.jpg);
+}
+
+/* **** END TOPNAVIGATION **** */   
+    
+    
  
 
 /* **** END SPOTLIGHT **** */

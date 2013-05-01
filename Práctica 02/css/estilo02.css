@@ -1,4 +1,10 @@
-#body_bg_img {	background:  url(../images/bg_image7.jpg) center 0px no-repeat;}
+#body_bg_img {	
+	leftmargin:0px; 
+	topmargin:0px; 
+	marginwidth:0px; 
+	marginheight:0px;
+	background:  url(../images/bg_image7.jpg) center 0px;
+}
 
 #tabulae {font-weight: bold; font-size:11px;}
 
@@ -77,17 +83,12 @@
 	height:300px;
 	border: 0px solid green;
 	float: left;
-	
-	
-	
 }
 .rightcolumn {
 	width: 330px;
 	height:300px;
 	border: 0px solid yellow;
 	float: right;
-	
-	
 }
 
 .box258left {

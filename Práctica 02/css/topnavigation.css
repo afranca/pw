@@ -30,9 +30,6 @@
         font-weight: bold;
         font-size: 1.1em;
 }
-     
-
-
 
 #headernavigationsubnavigation li {
             margin: 0;
@@ -42,11 +39,6 @@
             font: bold 11px arial;
             background: transparent;
 }
-
-
-
-
-
 
 #horizontal_main_menu {
     position: absolute;
@@ -80,37 +72,32 @@
   font-family: verdana;
   font-variant:small-caps;
 }
-#horizontal_main_menu a.menu1:hover,
-#horizontal_main_menu a.menu2:hover,
-#horizontal_main_menu a.menu3:hover,
-#horizontal_main_menu a.menu4:hover,
-#horizontal_main_menu a.menu5:hover {background-position: 0px 0px;}
 
 
 #horizontal_main_menu a.menu1 {
   color: black;
   width: 178px ;
-  background: transparent url(../images/orangebutton.jpg) no-repeat;
+  background: url(../images/orangebutton.jpg);
 }
 #horizontal_main_menu a.menu2 {
   color: black;
   width: 106px ;
-  background: transparent url(../images/greenbutton.jpg)  no-repeat;
+  background: url(../images/greenbutton.jpg);
 }
 #horizontal_main_menu a.menu3 {
   color: black;
   width: 106px ;
-  background: transparent url(../images/redbutton.jpg) no-repeat;
+  background:  url(../images/redbutton.jpg);
 }
 #horizontal_main_menu a.menu4 {
   color: black;
   width: 106px ;
-  background: transparent url(../images/purplebutton.jpg) no-repeat;
+  background:  url(../images/purplebutton.jpg);
 }
 #horizontal_main_menu a.menu5 {
   color: black;
   width: 89px ;
-  background: transparent url(../images/bluebutton.jpg) no-repeat;
+  background:  url(../images/bluebutton.jpg);
 }
 
 /* **** END TOPNAVIGATION **** */
