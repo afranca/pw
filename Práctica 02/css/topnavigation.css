@@ -25,14 +25,13 @@
 }
 
 #headerextra a {
+	float:right;
         text-decoration: none;
         font-weight: bold;
         font-size: 1.1em;
 }
      
-.headerextramyaccount {
-      float:right;
- }
+
 
 
 #headernavigationsubnavigation li {
@@ -44,5 +43,74 @@
             background: transparent;
 }
 
+
+
+
+
+
+#horizontal_main_menu {
+    position: absolute;
+    top:  29px;
+    left: 152px;
+    width: 590px;
+    height: 40px;
+    }
+#horizontal_main_menu a.menu1,
+#horizontal_main_menu a.menu2,
+#horizontal_main_menu a.menu3,
+#horizontal_main_menu a.menu4,
+#horizontal_main_menu a.menu5 {
+  dismenu2: inline;
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 41px;
+  text-decoration: none;
+}
+
+#horizontal_main_menu a.menu1 span,
+#horizontal_main_menu a.menu2 span,
+#horizontal_main_menu a.menu3 span,
+#horizontal_main_menu a.menu4 span,
+#horizontal_main_menu a.menu5 span {
+  line-height: 41px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-family: verdana;
+  font-variant:small-caps;
+}
+#horizontal_main_menu a.menu1:hover,
+#horizontal_main_menu a.menu2:hover,
+#horizontal_main_menu a.menu3:hover,
+#horizontal_main_menu a.menu4:hover,
+#horizontal_main_menu a.menu5:hover {background-position: 0px 0px;}
+
+
+#horizontal_main_menu a.menu1 {
+  color: black;
+  width: 178px ;
+  background: transparent url(../images/orangebutton.jpg) no-repeat;
+}
+#horizontal_main_menu a.menu2 {
+  color: black;
+  width: 106px ;
+  background: transparent url(../images/greenbutton.jpg)  no-repeat;
+}
+#horizontal_main_menu a.menu3 {
+  color: black;
+  width: 106px ;
+  background: transparent url(../images/redbutton.jpg) no-repeat;
+}
+#horizontal_main_menu a.menu4 {
+  color: black;
+  width: 106px ;
+  background: transparent url(../images/purplebutton.jpg) no-repeat;
+}
+#horizontal_main_menu a.menu5 {
+  color: black;
+  width: 89px ;
+  background: transparent url(../images/bluebutton.jpg) no-repeat;
+}
 
 /* **** END TOPNAVIGATION **** */

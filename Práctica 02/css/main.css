@@ -14,30 +14,7 @@ html, body {
     font-family: Verdana, Sans-Serif, Arial;
     }
 
- 
-#sitewrapper {
-    display:block; 
-    width:100%; 
-    height:100%; 
-    margin:0; 
-    padding:0; 
-    _overflow-x:hidden;
-}
-#sitecontainer {
-    position: relative;
-    width: 760px;
-    margin: 0 auto;
-    background: #fff;
-    }
 
-
-#headernavigation {
-    position: relative;
-    width: 760px;
-    height: 105px;
-    z-index:100;
-    background: transparent url(../images/mainback.gif) top left no-repeat;
-    }
 
     #logo {
         position: absolute;
@@ -68,37 +45,10 @@ html, body {
     background-color: #fff;
     }  
 
-#centercolumn {
-  position: relative;
-  left: 10px;
-  width: 740px;
-}
 
-#leftcolumn {
-  float: left;
-  display: inline;
-  width: 540px;
-}
     
-#rightcolumn {
-  float: right;
-  display: inline;
-  width: 200px;
-}
-    
-#footer {
-  position: relative;
-  width: 760px;
-  background-color: #fff;
-  text-align: center;
-}
 
-#footerclose {
-  display: block;
-  position: relative;
-  width: 760px;
-  height: 23px;
-}
+
         
  
 #tagline {
@@ -182,19 +132,7 @@ ul, ol {
     }
     
     
-#footer .footerlinks,
-#footer .footercountrylinks,
-#footer .footerpromotext,
-#footer h2.new,
-#footer .footercopyright {
-        display: block;
-        text-align: center;
-        padding: 0 10px;
-        }        
-#footer .footercopyright {margin-bottom: 12px;}
-.footerlogos img {vertical-align: middle;}
 
-     
       
 
 
@@ -203,16 +141,7 @@ ul, ol {
     #headerextra a:hover {color: #5e7850;}
 
 
-
-
-
-#footer .footerlinks,
-#footer .footercountrylinks,
-#footer .footerpromotext,
-#footer h2.new,
-#footer .footercopyright {
-        font-size: 0.9em;	
-        }          
+        
 .clearer {
     display:block;
     height:1px;
@@ -245,60 +174,15 @@ ul, ol {
   }
 
 
-
-
-
 .clearfix {
     display: inline-block;
 }
 
 
 
-
-
-#headernavigation.grey, .headerbar.grey,
-#headernavigation.grey #headernavigationbuttons a{background-image: url(../images/header_grey.png)}
-#headernavigation.green, .headerbar.green,
-#headernavigation.green #headernavigationbuttons a{background-image: url(../images/header_green.png)}
-#headernavigation.orange, .headerbar.orange,
-#headernavigation.orange #headernavigationbuttons a{background-image: url(../images/header_grey.png)}
-#headernavigation.blue, .headerbar.blue,
-
-
-
-#headernavigation .mainback { background-position: -0px -0px; }
-
-#headernavigation #headernavigationbuttons a.download { background-position: -305px -105px; }
-#headernavigation #headernavigationbuttons a.play { background-position: -0px -105px; }
-#headernavigation #headernavigationbuttons a.offer { background-position: -478px -105px; }
-#headernavigation #headernavigationbuttons a.funpass { background-position: -197px -105px; }
-#headernavigation #headernavigationbuttons a.support { background-position: -108px -105px; }
-
-#headernavigation #headernavigationbuttons a:hover.download { background-position: -305px -146px; }
-#headernavigation #headernavigationbuttons a:hover.play { background-position: -0px -146px; }
-#headernavigation #headernavigationbuttons a:hover.offer { background-position: -478px -146px; }
-#headernavigation #headernavigationbuttons a:hover.funpass { background-position: -197px -146px; }
-#headernavigation #headernavigationbuttons a:hover.support { background-position: -108px -146px; }
-
-#headernavigation.orange #headernavigationbuttons a.download { cursor:default }
-#headernavigation.green #headernavigationbuttons a.play { cursor:default }
-#headernavigation.episodic #headernavigationbuttons a.episodic { cursor:default }
-#headernavigation.purple #headernavigationbuttons a.funpass { cursor:default }
-#headernavigation.blue #headernavigationbuttons a.support { cursor:default }
-#headernavigation.red #headernavigationbuttons a.offer{ cursor:default }
-
-.orange #headernavigationsubnavigation a, 
-#headernavigation.orange  #headernavigationsubnavigation a, 
-#headernavigation.orange  #headernavigationchoosecountry a:hover, 
-#headerextra.orange a:hover {color: #GREY;}
-
-
-
-
-
-
-.sprite_common_image {background-image: url(../images/mag-glass.png); }
-
+#top_menu_container.orange, .headerbar.orange,
+#top_menu_container.orange 
+#top_menu_button a{background-image: url(../images/header_grey.png)}
 
 
 
