@@ -199,7 +199,7 @@
 	float: left; 	
 	width: 6px;	
 	background-image:url(../images/border_left_brown.png);
-	height:20px;
+	height:45px;
 	border:0px;	
 } 
 
@@ -210,7 +210,7 @@
 	float: left; 	
 	width: 6px;	
 	background-image:url(../images/border_right_brown.png);
-	height:20px;
+	height:45px;
 	border:0px;	
 } 
   
@@ -320,7 +320,7 @@
   border: 0px solid #808080;  
   width: 194px;
   margin: 0 10px 10px 0;
-  height: 58px;
+  height: 80px;
   
   }
   
@@ -331,7 +331,7 @@
 	float: left; 	
 	width: 6px;	
 	background-image:url(../images/border_left_brown.png);
-	height:20px;
+	height:45px;
 	border:0px;	
 } 
 
@@ -342,7 +342,7 @@
 	float: left; 	
 	width: 6px;	
 	background-image:url(../images/border_right_brown.png);
-	height:20px;
+	height:45px;
 	border:0px;	
 } 
   
@@ -443,7 +443,7 @@
 	float: left; 	
 	width: 6px;	
 	background-image:url(../images/border_left_green.png);
-	height:20px;
+	height:45px;
 	border:0px;	
 } 
 
@@ -454,7 +454,7 @@
 	float: left; 	
 	width: 6px;	
 	background-image:url(../images/border_right_green.png);
-	height:20px;
+	height:45px;
 	border:0px;	
 } 
   
