@@ -1,3 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.4em;	
+    font-family: Verdana, Sans-Serif, Arial;
+    }
+
+
+#content {
+    position: relative;
+    width: 760px;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 1.1em;    
+    background-color: #fff;
+    }  
+
 #body_bg_img {	
 	leftmargin:0px; 
 	topmargin:0px; 
@@ -27,7 +52,7 @@
     position: relative;
     width: 760px;
     height: 105px;
-    background:  url(../images/mainback.gif);
+    background:  url(../images/main_menu.png);
 }
     
 #centercolumn {
@@ -49,7 +74,76 @@
 }
 
 
-.mag_glass {background-image: url(../images/mag-glass.png); }
+#search_tabulae_line {
+	position: relative;
+    width: 740px;
+    height: 20px;
+    margin: 3px auto 5px auto;
+    z-index: 1;
+}
+#search_tabulae_line a {
+	float:right;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1em;
+}
+#search_tabulae_line a {color: #5e7850 ;}
+#search_tabulae_line a:hover {color: black;}
+
+#search_input {margin-top: 2px; border: 1px solid #ccdcee; width: 155px;}
+#search_form {float: left; padding-bottom: 5px;}
+      
+#text_under_small_boxes {
+        margin-bottom:8px;
+        text-align:center;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.under_spotlight_text{
+    color: #9f9f9f;
+    height:55px;
+}
+
+
+.under_spotlight_text h1{
+    color: #747474;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.ludere_vencire_rightside_image {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 318px;
+    margin-bottom: 5px;
+    background: transparent url(../images/hs-2010-13-a-web.jpg) top center no-repeat;
+}
+  
+.under_ludere_vencire_text{
+    height:55px;
+}
+
+.spotlightbox {
+  position: relative;
+  display: block;
+  width: 528px;
+  height: 323px  
+}
+
+.mag_glass {
+        height: 23px;
+        width: 23px;       
+        margin-left:10px;
+        position: absolute;
+        top: 0;
+        left: 155px;	
+	background-image: url(../images/mag-glass.png); 	
+}
 
 .box_header_brown{
 	width:100px;	
