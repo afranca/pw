@@ -1,16 +1,14 @@
-* {
+
+/* body properties, font size and bgimage*/
+body {
     margin: 0;
     padding: 0;
-    }
-
-html, body {
     height: 100%;
     width: 100%;
-    text-align: center;
-    font-size: 10px;
-    line-height: 1.4em;	
-    font-family: Verdana, Sans-Serif, Arial;
-    }
+    font-size: 11px;   	
+    font-family: Verdana;
+    background:  url(../images/bg_image7.jpg) center 0px;
+}
 
 
 #content {
@@ -19,19 +17,11 @@ html, body {
     padding: 0px 0px 0px 0px;
     margin-bottom: 40px;
     text-align: left;
-    font-size: 1.1em;    
-    background-color: #fff;
-    }  
+}  
 
-#body_bg_img {	
-	leftmargin:0px; 
-	topmargin:0px; 
-	marginwidth:0px; 
-	marginheight:0px;
-	background:  url(../images/bg_image7.jpg) center 0px;
-}
 
-#tabulae {font-weight: bold; font-size:11px;}
+
+
 
 #main_div {
     display:block; 
@@ -73,31 +63,35 @@ html, body {
   width: 200px;
 }
 
+/* aligns the search box*/
 
 #search_tabulae_line {
-	position: relative;
+    position: relative;
     width: 740px;
     height: 20px;
     margin: 3px auto 5px auto;
-    z-index: 1;
+   
 }
 #search_tabulae_line a {
 	float:right;
         text-decoration: none;
-        font-weight: bold;
-        font-size: 1.1em;
+	font-weight: bold;        
 }
+#tabulae {font-weight: bold; font-size:11px;}
+
 #search_tabulae_line a {color: #5e7850 ;}
 #search_tabulae_line a:hover {color: black;}
 
-#search_input {margin-top: 2px; border: 1px solid #ccdcee; width: 155px;}
-#search_form {float: left; padding-bottom: 5px;}
+#search_input {width: 155px;}
+#search_form {float: left; padding-bottom: 8px;}
       
 #text_under_small_boxes {
         margin-bottom:8px;
         text-align:center;
 }
 
+
+/* from http://css-tricks.com/snippets/css/clear-fix/ */
 .clearfix {
     display: inline-block;
 }
@@ -107,13 +101,11 @@ html, body {
     height:55px;
 }
 
-
 .under_spotlight_text h1{
     color: #747474;
     font-size: 11px;
     font-weight: bold;
 }
-
 
 .ludere_vencire_rightside_image {
     position: relative;
@@ -125,8 +117,12 @@ html, body {
 }
   
 .under_ludere_vencire_text{
+    color:  #747474;
     height:55px;
+    font-weight: bold;
 }
+
+/* box for spotlight screen shot*/
 
 .spotlightbox {
   position: relative;
@@ -135,6 +131,7 @@ html, body {
   height: 323px  
 }
 
+/* magnifying glass for search input*/
 .mag_glass {
         height: 23px;
         width: 23px;       
@@ -155,7 +152,7 @@ html, body {
 }
 
 
-
+/* clear line*/
 .clearer {
     display:block;
     height:1px;
@@ -164,6 +161,8 @@ html, body {
     clear:both;
 }
 
+
+/* one big container split in 2 columns, for big boxes (to the left) and small ones (to the right)*/
 .main_container {
 	width: 980px;
 	height:500px;
