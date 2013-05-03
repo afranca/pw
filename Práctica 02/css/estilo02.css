@@ -250,9 +250,9 @@
 .box200brown {
   float: right;
   border: 1px solid black;
-  height:120px;  
+  height:150px;  
   width: 200px;
-  margin: 5px 10px 10px 5px;	
+  margin: 1px 10px 10px 5px;	
 }
 
 .box200brown_fill {
@@ -305,7 +305,7 @@
   margin: 0px 0px 0px 0px;
   border: 0px solid #808080;  
   width: 188px;
-   height: 80px;
+  height: 95px;
   
   }
   
@@ -344,7 +344,7 @@
 .box200brown_bottom_left {
 	position:relative;
 	top: 0px;	
-	left:-11px;
+	left:1px;
 	width: 13px;	
 	float: left; 	
 	background-image:url(../images/bottom_left_brown.png);
@@ -354,7 +354,7 @@
 }
 .box200brown_bottom_fill {
 	position:relative;
-	left:-11px;
+	left: 1px;
 	float: left; 	
 	width: 164px;	
 	background-image:url(../images/bottom_brown.png);
@@ -366,8 +366,8 @@
 
 .box200brown_bottom_right {
 	position:relative;
-	left:178px;
-	top: -25px;
+	left:1px;
+	top: 0px;
 	float: left; 	
 	width: 13px;	
 	background-image:url(../images/bottom_right_brown.png);
