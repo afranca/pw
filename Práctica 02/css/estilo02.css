@@ -29,7 +29,7 @@
     width: 760px;
     height: 105px;
     z-index:100;
-    background: transparent url(../images/mainback.gif) top left no-repeat;
+    background:  url(../images/mainback.gif);
 }
     
 #centercolumn {
@@ -129,7 +129,7 @@
   }
   
 
-/*  brown box */
+/*  brown box 258px*/
 
 .box258brown_fill {
 	float: left;
@@ -244,7 +244,7 @@
 
 
 
-/*  small box */
+/*  brown box 200px  */
 
 
 .box200brown {
@@ -379,7 +379,7 @@
 
 
 
-/*  green box */
+/*  green box 258px */
 
 .box258green_fill {
 	float: left; 
