@@ -14,7 +14,6 @@
     height:100%; 
     margin:0; 
     padding:0; 
-    _overflow-x:hidden;
 }
 
 #main_container {
@@ -28,7 +27,6 @@
     position: relative;
     width: 760px;
     height: 105px;
-    z-index:100;
     background:  url(../images/mainback.gif);
 }
     
@@ -111,10 +109,10 @@
 
 
 .boxlist {
-  border: 2px solid #808080;
+  border: 0px solid #808080;
   display: inline;
   width: 254px;
-  margin: 0 10px 10px 0;
+  margin: 0 0px 0px 0;
 	
 }
 
@@ -123,22 +121,75 @@
   margin: 0px 0px 0px 0px;
   border: 0px solid #808080;  
   width: 252px;
-  margin: 0 0px 10px 0;
+  margin: 0 0px 0px 0;
   height: 58px;
   
   }
-  
+
+
+
+
+
+
+.box_content {
+	float: left;
+ 	width: 180px;	
+	height:40px;
+	border:0px solid red;
+	margin: 0 0 0 10px;
+}
+.box_image {
+	float: left;
+ 	width: 60px;	
+	height:40px;
+	border: 0px solid green;
+}
+.box_copy {	
+	display: inline;
+ 	width: 10px;	
+	height:40px;
+	border: 0px solid red;
+}
+
+
+.box200_content {
+	float: left;
+	display: inline;
+ 	width: 160px;	
+	height:40px;
+	border:1px solid transparent;
+	margin: 0 0px 0 10px;
+}
+
+.box200_image {
+	
+	float: left;
+ 	width: 60px;	
+	height:40px;
+	border: 0px solid black;
+}
+.box200_copy {	
+	
+	float: left;
+	margin: 0 0 0 10px;
+	width: 60px;	
+	height:40px;
+	border: 0px solid red;
+}
+
+
+
+
 
 /*  brown box 258px*/
 
 .box258brown_fill {
 	float: left;
- 	
-	width: 222px;	
+ 	width: 222px;	
 	background-image:url(../images/box_header_brown.jpg);
 	background-repeat:repeat-x;
 	height:35px;
-	border:1px;
+	border:0px;
 	color:#243356;
 }
 
@@ -159,58 +210,36 @@
 	border:0px;	
 }
 
-
-
-.box258brown_bottom_left {
-	width: 13px;	
-	float: left; 	
-	background-image:url(../images/bottom_left_brown.png);
-	height:25px;
-	border:0px;
-	
-}
-
-.box258brown_bottom_right {
-	float: left;
- 	
-	width: 13px;	
-	background-image:url(../images/bottom_right_brown.png);
-	height:25px;
-	border:0px;
-	
-}
-
 .box258brown_bottom_fill {
 	float: left;
- 	
 	width: 222px;	
 	background-image:url(../images/bottom_brown.png);
 	background-repeat:repeat-x;
 	height:25px;
-	border:1px;
+	border:0px;
 	color:#243356;
 }
 
 
  .box258brown_middle_left {
  	position:relative;
- 	top: -3px;	
+ 	top: 0px;	
 	left: 0px;
 	float: left; 	
 	width: 6px;	
 	background-image:url(../images/border_left_brown.png);
-	height:45px;
-	border:0px;	
+	height:52px;
+		
 } 
 
  .box258brown_middle_right	 {
 	position:relative;
-	top: -3px;	
-	left:238px;
+	top: 0px;	
+	left:178px;
 	float: left; 	
 	width: 6px;	
 	background-image:url(../images/border_right_brown.png);
-	height:45px;
+	height:52px;
 	border:0px;	
 } 
   
@@ -221,7 +250,6 @@
   border: 0px solid blue; 
   width: 252px;
   height:40px
-  margin: 0 10px 10px 0;
 	
 }
 
@@ -232,16 +260,28 @@
 }
 
 .box258brown_footer {
-  margin: 1px 1px 1px 1px;
+  margin: 0px 1px 0px 1px;
   border: 0px solid green; 
   width: 252px;
   height:40px
-  margin: 0 10px 10px 0;
-  	
 }
 
 
+.box258brown_bottom_left {
+	width: 13px;	
+	float: left; 	
+	background-image:url(../images/bottom_left_brown.png);
+	height:25px;
+	border:0px;
+}
 
+.box258brown_bottom_right {
+	float: left;
+	width: 13px;	
+	background-image:url(../images/bottom_right_brown.png);
+	height:25px;
+	border:0px;
+}
 
 
 /*  brown box 200px  */
@@ -249,7 +289,7 @@
 
 .box200brown {
   float: right;
-  border: 1px solid red;
+  border: 0px solid red;
   height:230px;  
   width: 200px;
   margin: 1px 10px 10px 5px;	
@@ -261,7 +301,7 @@
 	background-image:url(../images/box_header_brown.jpg);
 	background-repeat:repeat-x;
 	height:35px;
-	border:1px;
+	border:0px;
 	color:#243356;
 }
 
@@ -290,8 +330,6 @@
   border: 0px solid blue; 
   width: 194px;
   height:40px
-  margin: 0 10px 10px 0;
-	
 }
 
 .box200brown_header_title{
@@ -317,18 +355,18 @@
 	float: left; 	
 	width: 6px;	
 	background-image:url(../images/border_left_brown.png);
-	height:45px;
+	height:48px;
 	border:0px;	
 } 
 
  .box200brown_middle_right	 {
 	position:relative;
 	top: 0px;	
-	left: 180px;
+	left: 8px;
 	float: left; 	
 	width: 6px;	
 	background-image:url(../images/border_right_brown.png);
-	height:45px;
+	height:48px;
 	border:0px;	
 } 
   
@@ -455,7 +493,7 @@
  .box258green_middle_right	 {
 	position:relative;
 	top: -3px;	
-	left:238px;
+	left:178px;
 	float: left; 	
 	width: 6px;	
 	background-image:url(../images/border_right_green.png);
@@ -481,11 +519,10 @@
 }
 
 .box258green_footer {
-  margin: 1px 0px 0px 0px;
+  margin: 0px 1px 0px 1px;
   border: 0px solid green; 
   width: 252px;
   height:40px
-  margin: 0 0px 0px 0;
   	
 }
 
