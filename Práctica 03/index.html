@@ -26,34 +26,48 @@ Practica 3 Ejecicio 1  - Alexandre Franca
 
 
 		<ul>
-			<li id="foli0" class="notranslate      ">
-				<label class="desc" id="title0" for="Field0">
-				Name
-				</label>
+			<li id="foli0" class="notranslate">
+
 				<span>
-					<input id="Field0" name="Field0" type="text" class="field text fn" value="" size="8" tabindex="1" />
-					<label for="Field0">First</label>
+					<label for="firstname">Nombre</label>
+					<input id="firstname" name="firstname" type="text" class="field text fn" value="" size="48" tabindex="1" />
+
 				</span>
 				<span>
-					<input id="Field1" name="Field1" type="text" class="field text ln" value="" size="14" tabindex="2" />
-					<label for="Field1">Last</label>
+					<label for="surname">Apellidos</label>
+					<input id="surname" name="surname" type="text" class="field text ln" value="" size="84" tabindex="2" />
 				</span>
+
+
+				<div>
+					<label for="age">Edad</label>
+					<input id="age" name="age" type="text" class="field text fn" value="" size="5" tabindex="1" />
+					<label for="nif">NIF</label>
+					<input id="nif" name="nif" type="text" class="field text fn" value="" size="5" tabindex="1" />
+					<label for="email">Email</label>
+					<input id="email" name="email" type="text" class="field text fn" value="" size="50" tabindex="1" />
+					<label for="city">Localidad</label>
+					<input id="city" name="city" type="text" class="field text fn" value="" size="50" tabindex="1" />
+					<label id="region" for="region">Provincia</label>
+					<select id="region" name="region" class="field select medium" tabindex="3" >
+						<option value="andalucia" selected="selected">Andalucia</option>
+						<option value="almeria" >Almeria	</option>
+					</select>
+
+				</div>
+
 			</li>
 			<li id="foli25" class="notranslate leftHalf      ">
-				<label class="desc" id="title25" for="Field25">
-				Gender
-				</label>
+				<label class="desc" id="title25" for="Field25">	Gender	</label>
 				<div>
-				<select id="Field25" name="Field25" class="field select medium" tabindex="3" >
-				<option value="Male" selected="selected">
-				Male
-				</option>
-				<option value="Female" >
-				Female
-				</option>
-				</select>
+					<select id="Field25" name="Field25" class="field select medium" tabindex="3" >
+						<option value="Male" selected="selected">Male</option>
+						<option value="Female" >Female	</option>
+					</select>
 				</div>
 			</li>
+
+			<!--
 			<li id="foli2" class="date notranslate rightHalf     ">
 				<label class="desc" id="title2" for="Field2">
 				Date of Birth
@@ -155,6 +169,7 @@ Practica 3 Ejecicio 1  - Alexandre Franca
 					<input id="saveForm" name="saveForm" class="btTxt submit"	type="submit" value="Submit" />
 				</div>
 			</li>
+			-->
 		</ul>
 	</form>
 
