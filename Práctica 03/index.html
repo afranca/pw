@@ -11,6 +11,7 @@ Practica 3 Ejecicio 1  - Alexandre Franca
 
 
 <script src="scripts/wufoo.js"></script>
+<script src="scripts/lib.js"></script>
 
 </head>
 
@@ -30,24 +31,27 @@ Practica 3 Ejecicio 1  - Alexandre Franca
 
 				<span>
 					<label for="firstname">Nombre</label>
-					<input id="firstname" name="firstname" type="text" class="field text fn" value="" size="48" tabindex="1" />
+					<input id="firstname" name="firstname" type="text" class="field text fn" value="" size="48" tabindex="1" onblur="javascript:validateFields(this)"  />
 
 				</span>
 				<span>
 					<label for="surname">Apellidos</label>
-					<input id="surname" name="surname" type="text" class="field text ln" value="" size="84" tabindex="2" />
+					<input id="surname" name="surname" type="text" class="field text ln" value="" size="84" tabindex="2" onblur="javascript:validateFields(this)"  />
 				</span>
 
 
 				<div>
 					<label for="age">Edad</label>
-					<input id="age" name="age" type="text" class="field text fn" value="" size="5" tabindex="1" />
+					<input id="age" name="age" type="text" class="field text fn" value="" size="5" tabindex="1" onblur="javascript:validateFields(this)"   />
 					<label for="nif">NIF</label>
-					<input id="nif" name="nif" type="text" class="field text fn" value="" size="5" tabindex="1" />
+					<input id="nif" name="nif" type="text" class="field text fn" value="" size="5" tabindex="1" onblur="javascript:validateFields(this)"  />
+					<label for="dob">Fecha de Nascimiento</label>
+					<input id="dob" name="dob" type="text" class="field text fn" value="" size="10" tabindex="1"  onblur="javascript:validateFields(this)" />
+					<img id="pick1" class="datepicker" src="images/calendar.png" alt="Pick a date." />
 					<label for="email">Email</label>
-					<input id="email" name="email" type="text" class="field text fn" value="" size="50" tabindex="1" />
+					<input id="email" name="email" type="text" class="field text fn" value="" size="50" tabindex="1" onblur="javascript:validateFields(this)"  />
 					<label for="city">Localidad</label>
-					<input id="city" name="city" type="text" class="field text fn" value="" size="50" tabindex="1" />
+					<input id="city" name="city" type="text" class="field text fn" value="" size="50" tabindex="1"  onblur="javascript:validateFields(this)" />
 					<label id="region" for="region">Provincia</label>
 					<select id="region" name="region" class="field select medium" tabindex="3" >
 						<option value="andalucia" selected="selected">Andalucia</option>
@@ -57,14 +61,20 @@ Practica 3 Ejecicio 1  - Alexandre Franca
 				</div>
 
 			</li>
+
+
+
 			<li id="foli25" class="notranslate leftHalf      ">
-				<label class="desc" id="title25" for="Field25">	Gender	</label>
-				<div>
-					<select id="Field25" name="Field25" class="field select medium" tabindex="3" >
-						<option value="Male" selected="selected">Male</option>
-						<option value="Female" >Female	</option>
-					</select>
-				</div>
+
+
+				<label for="dob">Fecha de llegada</label>
+				<input id="doa" name="doa" type="text" class="field text fn" value="" size="10" tabindex="1"  onblur="javascript:validateFields(this)" />
+
+				<img id="pick2" class="datepicker" src="images/calendar.png" alt="Pick a date." />
+
+				<label for="dob">Hora de llegada</label>
+				<input id="toa" name="toa" type="text" class="field text fn" value="" size="10" tabindex="1" onblur="javascript:validateFields(this)" />
+
 			</li>
 
 			<!--
@@ -89,8 +99,8 @@ Practica 3 Ejecicio 1  - Alexandre Franca
 				<span id="cal2">
 				<img id="pick2" class="datepicker" src="images/calendar.png" alt="Pick a date." />
 				</span>
-				</li>
-				<li id="foli13" class="notranslate leftHalf     ">
+			</li>
+			<li id="foli13" class="notranslate leftHalf     ">
 				<label class="desc" id="title13" for="Field13">
 				Name
 				</label>
@@ -110,7 +120,8 @@ Practica 3 Ejecicio 1  - Alexandre Franca
 				<div>
 				<input id="Field15" name="Field15" type="text" class="field text medium" value="" maxlength="255" tabindex="9" onkeyup="" />
 				</div>
-				</li><li id="foli16" class="complex notranslate      ">
+			</li>
+			<li id="foli16" class="complex notranslate      ">
 				<label class="desc" id="title16" for="Field16">
 				Address
 				</label>
