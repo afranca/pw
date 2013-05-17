@@ -1,0 +1,12 @@
+/* CSS Document */
+
+
+table 	{
+	border-color:#400040;
+	border-style:solid;
+	background-color:#99F;
+}
+
+td	{
+	font-weight:bold;
+}

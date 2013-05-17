@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="lib.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form</title>
+<link href="formato.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<form name="form1" action="TEST.HTML" onsubmit="javascript:Validar()" method="post">
+<table width="358" height="450" border="5">
+  <tr>
+    <td height="446"><table width="355" height="356" border="0">
+      <tr>
+        <td width="145">Nombre:</td>
+        <td width="164"><input type="text" name="txtNombre" id="txtNombre" onblur="Mayuscula()" /></td>
+      </tr>
+      <tr>
+        <td>Apellidos:</td>
+        <td><input type="text" name="txtApellidos" id="txtApellidos" onblur="Mayuscula()" /></td>
+      </tr>
+      <tr>
+        <td>Edad:</td>
+        <td><input type="text" name="txtEdad" id="txtEdad" /></td>
+      </tr>
+      <tr>
+        <td>NIF:</td>
+        <td><input type="text" name="txtNIF" id="textfield17" /></td>
+      </tr>
+      <tr>
+        <td>E-mail:</td>
+        <td><input type="text" name="txtEmail" id="textfield16" /></td>
+      </tr>
+      <tr>
+        <td>Localidad:</td>
+        <td><input type="text" name="txtLocalidad" id="textfield15" /></td>
+      </tr>
+      <tr>
+        <td>Provincia:</td>
+        <td><select name="slcProvincia" required="required" id="Provincia" style="width:144px">
+          <option selected="selected">Almería</option>
+          <option>Cádiz</option>
+          <option>Córdoba</option>
+          <option>Granada</option>
+          <option>Huelva</option>
+          <option>Jáen</option>
+          <option>Málaga</option>
+          <option>Sevilla</option>
+</select></td>
+      </tr>
+      <tr>
+        <td>Fecha de Nacimiento:</td>
+        <td><input type="text" name="txtFechaNacimiento" id="textfield14" /></td>
+      </tr>
+      <tr>
+        <td>Teléfono:</td>
+        <td><input type="text" name="txtTelefono" id="textfield13" /></td>
+      </tr>
+      <tr>
+        <td>Fecha de Llegada:</td>
+        <td><input type="text" name="txtFechaLlegada" id="textfield12" /></td>
+      </tr>
+      <tr>
+        <td>Hora de Llegada:</td>
+        <td><input type="text" name="txtHoraLlegada" id="textfield11" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" button="Limpiar" style="width:144px" id="btnLimpiar" value="Limpiar" /></td>
+        <td><input type="button" name="Enviar" style="width:144px" id="bntEnviar" value="Enviar" onclick="javascript:Validar()" /> </td>
+      </tr>
+    </table>
+
+<span id= "label"> draw </span>
+    <p>&nbsp;</p></td>
+
+  </tr>
+</table>
+</form>
+</body>
+</html>
