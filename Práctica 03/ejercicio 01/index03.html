@@ -15,44 +15,47 @@
     <td height="446"><table width="355" height="356" border="0">
       <tr>
         <td width="145">Nombre:</td>
-        <td width="164"><input type="text" name="Nombre" id="name" onblur="toUp(this);" /></td>
+        <td width="164"><input type="text" name="Nombre" id="name" onblur="toUp(this);" value="alexandre" /></td>
       </tr>
       <tr>
         <td>Apellidos:</td>
-        <td><input type="text" name="Apellidos" id="surname" onblur="toUp(this);" /></td>
+        <td><input type="text" name="Apellidos" id="surname" onblur="toUp(this);"  value="franca"/></td>
       </tr>
       <tr>
         <td>Edad:</td>
-        <td><input type="text" name="Edad" id="age" /></td>
+        <td><input type="text" name="Edad" id="age" value="52" ></td>
       </tr>
       <tr>
         <td>NIF:</td>
-        <td><input type="text" name="NIF" id="nif" /></td>
+        <td><input type="text" name="NIF" id="nif" value="12345678-R"/></td>
       </tr>
       <tr>
         <td>E-mail:</td>
-        <td><input type="text" name="E-mail" id="email" /></td>
+        <td><input type="text" name="E-mail" id="email" value="alexandre@franca.com"/></td>
       </tr>
       <tr>
         <td>Localidad:</td>
-        <td><input type="text" name="Localidad" id="city" /></td>
+        <td><input type="text" name="Localidad" id="city" value="Edimburgo"/></td>
       </tr>
       <tr>
         <td>Provincia:</td>
-        <td><select name="Provincia" required="required" id="region" style="width:144px">
-          <option selected="selected">Almería</option>
-          <option>Cádiz</option>
-          <option>Córdoba</option>
-          <option>Granada</option>
-          <option>Huelva</option>
-          <option>Jáen</option>
-          <option>Málaga</option>
-          <option>Sevilla</option>
-</select></td>
+        <td>
+        	<select name="Provincia" id="region" style="width:144px">
+				<option value="" >Selecione Provincia</option>
+				<option value='1'>Almería</option>
+				<option value='12'>Cádiz</option>
+				<option value='13'>Córdoba</option>
+				<option value='14'>Granada</option>
+				<option value='15'>Huelva</option>
+				<option value='16'>Jáen</option>
+				<option value='17'>Málaga</option>
+				<option value='18' selected="selected">Sevilla</option>
+			</select>
+		</td>
       </tr>
       <tr>
         <td>Fecha de Nacimiento:</td>
-        <td><input type="text" name="Fecha de Nacimiento" id="dob" /></td>
+        <td><input type="text" name="Fecha de Nacimiento" id="dob"  /></td>
       </tr>
       <tr>
         <td>Teléfono:</td>
