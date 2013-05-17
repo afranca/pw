@@ -8,31 +8,6 @@ function toUp(el){
 
 
 
-function validateName(){
- 	var element = document.getElementById("name");
- 	var name=element.value;
-
-	if (name==null || name=="") {
-	  	document.getElementById("error_message").innerHTML = "El campo nombre no puede estar en blanco";
-	  	element.focus();
-	  	return false;
-	}
-	document.getElementById("error_message").innerHTML = "";
-	return true;
-}
-
-function ValidarApellidos(){
- 	var element=document.getElementById("surname");
- 	var x=element.value;
-
-	if (x==null || x=="") {
-	  	document.getElementById("error_message").innerHTML = "El campo apellidos no puede estar en blanco";
-	  	element.focus();
-	  	return false;
-  	}
-  	document.getElementById("error_message").innerHTML = "";
-  	return true;
-}
 
 
 function ValidarEdad(){
@@ -55,13 +30,19 @@ function ValidarEdad(){
 	return true;
 }
 
+function checkMinLength(str,minLength){
+	if (str.length < minLength){
+		return false;
+	}
+	return true;
+}
 
 
 
 
 function validateFieldNotBlank(fieldId){
 
-	var errorMessage = document.getElementById("error_message").innerHTML;
+	var errorMessage = document.getElementById("error_message");
  	var field = document.getElementById(fieldId);
  	var fieldValue = field.value;
  	var fieldName  = field.name;
@@ -71,16 +52,12 @@ function validateFieldNotBlank(fieldId){
 	  	return false;
   	}
 
-	if (fieldName == 'name'){
-
-		if (fieldValue.length < 2){
-			errorMessage = "El campo <font color='red'>"+fieldName+" </font> minimo de 2 letras";
+	if (fieldId == 'name'){
+		if ( !checkMinLength(fieldValue,2) ){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> minimo de 2 letras";
 		  	field.focus();
-
 			return false;
 		}
-
-
 	}
 
 	if (fieldName == 'surname'){
