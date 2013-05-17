@@ -1,16 +1,16 @@
 <?php
 	include('includes/conexion.php');
-	class Antecedente	{
+	class Atributo	{
 
 		var $id;
-		var $id_atr-val;
-
+		var $atributo;
+		var $valor;
 
 
 
 		public function create ()	{
 
-			$sql = "INSERT INTO antecedente (id_atr-val)	VALUES (".$this->id_atr-val."); ";
+			$sql = "INSERT INTO atributo (atributo,valor)	VALUES (".$this->atributo.",".$this->valor."); ";
 
 			return mysql_query($sql) OR die(mysql_error());
 		}
@@ -18,21 +18,23 @@
 
 		public function read ($id){
 
-			$sql = "SELECT id, id_atr-val FROM antecedente WHERE id = ".$id
+			$sql = "SELECT id, atributo,valor FROM atributo WHERE id = ".$id
 
 			$result = mysql_query($sql);
 			$resultArr = mysql_fetch_array($result);
 
 			$this->id = $resultArr["id"];
-			$this->id_atr-val = $resultArr["id_atr-val"];
+			$this->id_antecedente = $resultArr["atributo"];
+			$this->id_atr-val = $resultArr["valor"];
+
 
 			return $this;
 
 		}
 
-		public function readAll ($id){
+		public function readAll (){
 
-			$sql = "SELECT id,id_atr-val  FROM antecedente";
+			$sql = "SELECT id,atributo,valor   FROM atributo";
 			$result = mysql_query($sql);
 
 			if(mysql_num_rows($result)>0){
@@ -41,8 +43,9 @@
 
 					$resultArr[$i] = $options[0];
 					$resultArr[$i+1] = $options[1];
+					$resultArr[$i+2] = $options[2];
 
-					$i = $i+ 2;
+					$i = $i+ 3;
 				}
 			}else {
 				$resultArr;
@@ -54,21 +57,18 @@
 		}
 
 		public function update ($id){
-			$sql = "UPDATE antecedente SET id_atr-val=".$this->id_atr-val." WHERE id=".$id;
+			$sql = "UPDATE atributo SET atributo=".$this->atributo.",valor=".$this->valor." WHERE id=".$id;
 
 			return mysql_query($sql) OR die(mysql_error());
 		}
 
 		public function delete ($id){
 
-			$sql = "DELETE FROM antecedente WHERE  id=".$id;
+			$sql = "DELETE FROM atributo WHERE  id=".$id;
 
 			return mysql_query($sql) OR die(mysql_error());
 
 		}
-
-
-
 
 
 	}
