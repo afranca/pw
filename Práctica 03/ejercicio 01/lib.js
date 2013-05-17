@@ -37,7 +37,15 @@ function checkMinLength(str,minLength){
 	return true;
 }
 
+function checkIfStringContainsNumber(str){
 
+	var reg = /\d+/;   // regular Expression to find one or more digits
+
+	if ( str.match(reg)!= null){
+		return true;  // that means numbers were found
+	}
+	return false;  // no numbers found
+}
 
 
 function validateFieldNotBlank(fieldId){
@@ -58,11 +66,27 @@ function validateFieldNotBlank(fieldId){
 		  	field.focus();
 			return false;
 		}
+		if (checkIfStringContainsNumber(fieldValue)){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> no puede tener numeros";
+		  	field.focus();
+			return false;
+		}
 	}
 
-	if (fieldName == 'surname'){
-		alert('Test Name');
+	if ( fieldId == 'surname'){
+		if ( !checkMinLength(fieldValue,2) ){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> minimo de 2 letras";
+		  	field.focus();
+			return false;
+		}
+		if (checkIfStringContainsNumber(fieldValue)){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> no puede tener numeros";
+		  	field.focus();
+			return false;
+		}
 	}
+
+
 
 	if (fieldName == 'age'){
 		alert('Test Name');
