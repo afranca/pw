@@ -30,6 +30,21 @@ function ValidarEdad(){
 	return true;
 }
 
+
+function isNumber(n) {
+  return !isNaN(parseInt(n)) && isFinite(n);
+}
+
+function isBetweenRange(low,high,numb) {
+	var numb_int = parseInt(numb);
+
+	if (numb_int >= low && numb_int <= high)
+		return true;
+
+	return false;
+
+}
+
 function checkMinLength(str,minLength){
 	if (str.length < minLength){
 		return false;
@@ -86,13 +101,20 @@ function validateFieldNotBlank(fieldId){
 		}
 	}
 
-
-
-	if (fieldName == 'age'){
-		alert('Test Name');
+	if (fieldId == 'age'){
+		if (!isNumber(fieldValue)){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> debe ser numerico";
+		  	field.focus();
+			return false;
+		}
+		if (!isBetweenRange(18,105,fieldValue)){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> debe estar entre 18 y 105";
+		  	field.focus();
+			return false;
+		}
 	}
 
-	if (fieldName == 'nif'){
+	if (fieldId == 'nif'){
 		alert('Test Name');
 	}
 
