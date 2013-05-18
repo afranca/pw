@@ -1,4 +1,15 @@
 
+function time_mask(key_in_time){
+	var time = '';
+	time = time + key_in_time;
+	if (time.length == 2){
+		time = time + ':';
+		document.getElementById("toa").value = time;
+	}
+	if (time.length >= 5){
+		document.getElementById("toa").value = time.substring(0,5);
+	}
+}
 
 function toUp(el){
 	el.value = el.value.toUpperCase();
@@ -42,8 +53,8 @@ function validateFieldNotBlank(fieldId){
  	var field = document.getElementById(fieldId);
  	var fieldValue = field.value;
  	var fieldName  = field.name;
- 	if (field == null || fieldValue == null || fieldValue == "") {
 
+ 	if (field == null || fieldValue == null || fieldValue == "") {
 		if (fieldId!='region'){
 	  		errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font>no puede estar en blanco";
 		} else {
@@ -96,6 +107,13 @@ function validateFieldNotBlank(fieldId){
 
 	}
 	if (fieldId == 'email'){
+
+		var regEx =/^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/;
+		if(!regEx.test(fieldValue)){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> no es valido";
+		  	field.focus();
+			return false;
+		}
 
 	}
 	if (fieldId == 'city'){
@@ -165,6 +183,37 @@ function validateFieldNotBlank(fieldId){
 
 	if (fieldId == 'toa'){
 
+		// tests length of the time  for the hh:mm format
+		if (fieldValue.length < 5 ){
+			errorMessage.innerHTML = "Para el campo <font color='red'>"+fieldName+" </font> use el formato <font color='red'>hh:mm </font>.";
+			field.focus();
+			return false;
+		}
+
+
+		//brakes down date into array of hours and mins
+		var timeArr = fieldValue.split(":");
+		var hrs = timeArr[0];
+		var min = timeArr[1];
+
+		if (hrs==null && min==null ){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> contiene valores nulos.";
+			field.focus();
+			return false;
+		}
+
+		if (!isNumber(hrs) || !isNumber(min) ){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> contiene valores invalidos, use el formato <font color='red'>hh:mm </font>.";
+			field.focus();
+			return false;
+		}
+
+		if ((hrs < 00 ) || (hrs > 23) || ( min < 00) ||( min > 59)){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> contiene valores invalidos.";
+			field.focus();
+			return false;
+		}
+
 	}
 
   	document.getElementById("error_message").innerHTML = "";
@@ -233,3 +282,27 @@ function validateAndSubmitForm(){
 }
 
 
+
+
+function Verifica_Hora(){
+
+	//brakes down date into day, month and year
+	var timeArr = document.getElementById("toa").value.split(":");
+
+	var hrs = timeArr[0];
+	var min = timeArr[1];
+
+	estado = "";
+	if ((hrs < 00 ) || (hrs > 23) || ( min < 00) ||( min > 59)){
+		estado = "errada";
+	}
+
+	if (document.getElementById("tod").value == "") {
+		estado = "errada";
+	}
+
+	if (estado == "errada") {
+		alert("Hora inválida!");
+		document.getElementById("tod").focus();
+	}
+}
