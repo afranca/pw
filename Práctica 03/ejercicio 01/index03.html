@@ -4,7 +4,7 @@
 <script type="text/javascript" src="lib.js"></script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Form</title>
+<title>Practica03 - Ejercicio01</title>
 <link href="style03.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -15,11 +15,11 @@
     <td height="446"><table width="355" height="356" border="0">
       <tr>
         <td width="145">Nombre:</td>
-        <td width="164"><input type="text" name="Nombre" id="name" onblur="toUp(this);" value="alexandre" /></td>
+        <td width="164"><input type="text" name="Nombre" id="name" onblur="toUp(this);" value="fafafa" /></td>
       </tr>
       <tr>
         <td>Apellidos:</td>
-        <td><input type="text" name="Apellidos" id="surname" onblur="toUp(this);"  value="franca"/></td>
+        <td><input type="text" name="Apellidos" id="surname" onblur="toUp(this);"  value="hahahah"/></td>
       </tr>
       <tr>
         <td>Edad:</td>
@@ -67,7 +67,7 @@
       </tr>
       <tr>
         <td>Hora de Llegada:</td>
-        <td><input type="text" name="Hora de Llegada" id="toa" OnKeyUp="time_mask(this.value)" size="1"/></td>
+        <td><input type="text" name="Hora de Llegada" id="toa" OnKeyUp="time_mask(this.value)" size="1" value="11:11"/></td>
       </tr>
       <tr>
         <td><input type="button" button="Limpiar" style="width:144px" id="btnLimpiar" value="Limpiar" /></td>
@@ -75,11 +75,22 @@
       </tr>
     </table>
 
-	<span id= "error_message">  </span>
-    <p>&nbsp;</p></td>
+	 <p><span id= "error_message"></span></p>
+	 <p>Numero de Intentos:<span id= "submit_attempt_number"></span></p>
 
+
+    <p>&nbsp;</p></td>
   </tr>
 </table>
 </form>
+<script>
+	var cookieValue = getCookieValue("pw_cookie");
+	if (isNaN(cookieValue)) {
+		cookieValue = 0;
+		setCookieValue(0);
+	}
+	document.getElementById("submit_attempt_number").innerHTML = cookieValue;
+</script>
+
 </body>
 </html>

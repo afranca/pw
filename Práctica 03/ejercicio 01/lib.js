@@ -240,15 +240,21 @@ function validateAndSubmitForm(){
 	fields[9] = "doa";
 	fields[10] = "toa";
 
-	for (i=0;fields.length;i++){
+	for (i=0;i < fields.length-1;i++){
 		if ( !validateFieldNotBlank(fields[i]) ){
 			return;
 		}
 	}
 
-
-
+	incrementCookie();
 	/*
+	var cookieValue = getCookieValue("pw_cookie");
+	var cookieValueInt = parseInt(cookieValue);
+	cookieValueInt++;
+	setCookieValue(cookieValueInt);
+
+
+
 
 	if (!validateName()){
 		return false;
@@ -272,37 +278,56 @@ function validateAndSubmitForm(){
 	if (!ValidarEmail()){
 		return false;
 	}
+	*/
+
 
 	var form1 =  document.getElementById('form1');
-	form1.action = 'result.html';
+	form1.action = 'index03.html';
 	form1.submit();
-	*/
+
 
 
 }
 
+function incrementCookie(){
+	var cookieValue = getCookieValue("pw_cookie");
+	var cookieValueInt = parseInt(cookieValue);
+	cookieValue++;
+	setCookieValue(cookieValue);
+}
 
 
+function setCookieValue(value){
+	//alert("document.cookie:"+document.cookie);
+	document.cookie="pw_cookie=" + value;
+	//alert("document.cookie:"+document.cookie);
+}
 
-function Verifica_Hora(){
 
-	//brakes down date into day, month and year
-	var timeArr = document.getElementById("toa").value.split(":");
+function getCookieValue(key){
+    var kookie = document.cookie;
 
-	var hrs = timeArr[0];
-	var min = timeArr[1];
+    //alert("document.cookie:"+kookie);
 
-	estado = "";
-	if ((hrs < 00 ) || (hrs > 23) || ( min < 00) ||( min > 59)){
-		estado = "errada";
+	if (kookie.length > 0) {
+		var cookieArr = kookie.split(";");
+		//alert("cookieArr[0]:"+cookieArr[0]);
+		//alert("isNaN(cookieArr[0]:"+isNaN(cookieArr[0]));
+		if (cookieArr[0] != null && cookieArr[0]!= "" ){
+			//alert("cookieArr[0]:"+cookieArr[0]);
+			var cookiePairValueArr = cookieArr[0].split("=");
+			//alert("cookiePairValueArr:"+cookiePairValueArr);
+			if (cookiePairValueArr!=null){
+				var cookieName  = cookiePairValueArr[0];
+				var cookieValue = cookiePairValueArr[1];
+				//alert("cookieValue="+cookieValue);
+				if (cookieValue != null) {
+					//alert(cookieName+"="+cookieValue);
+					return cookieValue;
+    			}
+			}
+		}
 	}
 
-	if (document.getElementById("tod").value == "") {
-		estado = "errada";
-	}
-
-	if (estado == "errada") {
-		alert("Hora inválida!");
-		document.getElementById("tod").focus();
-	}
+    return "0";
 }
