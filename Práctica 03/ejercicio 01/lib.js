@@ -1,4 +1,18 @@
 
+function phone_mask(key_in_value){
+	var phone = '';
+	phone = phone + key_in_value;
+	if (phone.length == 3 || phone.length == 6 || phone.length == 9){
+		phone = phone + ' ';
+		document.getElementById("phone").value = phone;
+	}
+
+	if (phone.length > 12){
+		document.getElementById("phone").value = phone.substring(0,12);
+	}
+}
+
+
 function time_mask(key_in_time){
 	var time = '';
 	time = time + key_in_time;
@@ -155,6 +169,45 @@ function validateFieldNotBlank(fieldId){
 
 	if (fieldId == 'phone'){
 
+		if (fieldValue.length !=12){
+
+			if (fieldValue.length < 12)
+				errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> faltan numeros ";
+			else
+				errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> contiene muchos numeros";
+
+			field.focus();
+			return false;
+		}
+
+		var phoneNumbers = fieldValue.split(" ");
+		if (phoneNumbers.legnth !=4){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> contiene formato invalido.";
+			field.focus();
+			return false;
+		}
+
+
+		for (var i=0;i<phoneNumbers.length-1;i++){
+			if (!isNumber(phoneNumbers[i])){
+				errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> contiene valores invalidos:<font color='red'>"+phoneNumbers[i]+"</font>.";
+				field.focus();
+				return false;
+			}
+			if (i==0){
+				if (phoneNumbers[i].length != 3){
+					errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> contiene formato invalido.";
+					field.focus();
+					return false;
+				}
+			} else {
+				if (phoneNumbers[i].length != 2){
+					errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> contiene formato invalido.";
+					field.focus();
+					return false;
+				}
+			}
+		}
 	}
 
 	if (fieldId == 'doa'){
