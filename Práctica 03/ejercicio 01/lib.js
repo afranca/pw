@@ -118,6 +118,11 @@ function validateFieldNotBlank(fieldId){
 	}
 
 	if (fieldId == 'nif'){
+		if (!checkNifFirstCharacter(fieldValue)){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> no es valido";
+		  	field.focus();
+			return false;
+		}
 
 	}
 	if (fieldId == 'email'){
@@ -181,7 +186,7 @@ function validateFieldNotBlank(fieldId){
 		}
 
 		var phoneNumbers = fieldValue.split(" ");
-		if (phoneNumbers.legnth !=4){
+		if (phoneNumbers.length !=4){
 			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> contiene formato invalido.";
 			field.focus();
 			return false;
@@ -384,3 +389,17 @@ function getCookieValue(key){
 
     return "0";
 }
+
+function checkNifFirstCharacter(fullValue){
+	var fchar = fullValue.substring(0,1);
+
+	var validDigits = ["0","1","2","3","4","5","6","7","8","9","K","L","M","X","Y","Z"];
+
+	for (var a =0; a < validDigits.length; a++){
+		if (fchar == validDigits[a])
+			return true;
+	}
+	return false;
+}
+
+
