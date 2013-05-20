@@ -118,15 +118,17 @@ function validateFieldNotBlank(fieldId){
 	}
 
 	if (fieldId == 'nif'){
-		if (!checkNifFirstCharacter(fieldValue)){
-			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> no es valido";
+
+		var regEx=/^[0-9KLMXYZklmxyz]\d{7}\d{1}$/;
+		//if (!checkNifFirstCharacter(fieldValue)){
+		if (!regEx.test(fieldValue)){
+			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> tiene valor invalido";
 		  	field.focus();
 			return false;
 		}
 
 	}
 	if (fieldId == 'email'){
-
 		var regEx =/^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/;
 		if(!regEx.test(fieldValue)){
 			errorMessage.innerHTML = "El campo <font color='red'>"+fieldName+" </font> no es valido";
