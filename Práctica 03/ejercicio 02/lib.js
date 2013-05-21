@@ -44,6 +44,17 @@ function putBorder(pallete_colour_div){
 
 }
 
+
+function paintCell(cell_div){
+
+	var newStyle ="background:"+SELECTED_COLOUR;
+	cell_div.setAttribute("style",newStyle);
+
+}
+
+
+
+
 function buildColourPalette(){
 
 	var colours = new Array();
@@ -94,6 +105,8 @@ function buildEmptyCanvas(){
 			newdiv.setAttribute('id',divIdName);
 			newdiv.setAttribute('class','canvas_cell');
 			newdiv.setAttribute('TITLE',row+""+col);
+			newdiv.setAttribute('onclick',"javascript:paintCell(this);");
+
 			canvas.appendChild(newdiv);
 		}
 	}
