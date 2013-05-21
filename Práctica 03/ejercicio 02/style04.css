@@ -35,7 +35,7 @@
 #palette{
     background: white;
     height:100px;
-    width:500px;
+    width:550px;
     border:0px solid blue;
     
 }
@@ -44,7 +44,7 @@
     margin: 10px 0px 0px 10px;
     background: white;
     height:40px;
-    width:400px;
+    width:500px;
     border:0px solid #808080;
     
 }
@@ -63,5 +63,8 @@
     width:30px;
     float: left;
     background: #243356;
-    border:0px solid #808080;
+    border:4px solid white;
+    margin: 0px 2px 0px 2px;
+    padding: 0px 0px 0px 0px;
+    
 }

@@ -15,71 +15,21 @@
 
 	<div id="palette" >
 
-		<div id="palette_colours" >
-			<script>
-				var colours = new Array();
-				colours[0] = "red";
-				colours[1] = "blue";
-				colours[2] = "grey";
-				colours[3] = "green";
-				colours[4] = "white";
-				colours[5] = "black";
-
-				colours[6] = "BlueViolet";
-				colours[7] = "Brown ";
-				colours[8] = "BurlyWood ";
-				colours[9] = "CadetBlue ";
-
-
-
-				var palette = document.getElementById("palette_colours");
-				for (var j = 0; j<colours.length;j++){
-					var palettediv = document.createElement('div');
-					palettediv.innerHTML = "";
-					var palettedivName = "color_"+j;
-					palettediv.setAttribute('id',colours[j]);
-					palettediv.setAttribute('class','palette_cell');
-					palettediv.setAttribute('TITLE',"color");
-					palettediv.setAttribute('style',"background: "+colours[j]+";");
-					palettediv.setAttribute('onclick',"javascript:putBorder(this);");
-
-					palette.appendChild(palettediv);
-				}
-			</script>
-		</div>
+		<div id="palette_colours"></div>
 		<div id="palette_label" >
-				desactivado
+			desactivado
 		</div>
 	</div>
 
 	<div id="canvas" >
 
-		<script>
 
-			var canvas = document.getElementById("canvas");
-
-			for (var i = 1; i<51;i++){
-				for (var j = 1; j<51;j++){
-					var newdiv = document.createElement('div');
-
-					var row = (i>9)?""+i:"0"+i;
-					var col = (j>9)?""+j:"0"+j;
-
-					newdiv.innerHTML = row+""+col;
-
-					var divIdName = row+""+col;
-					newdiv.setAttribute('id',divIdName);
-					newdiv.setAttribute('class','canvas_cell');
-					newdiv.setAttribute('TITLE',row+""+col);
-					canvas.appendChild(newdiv);
-				}
-			}
-
-		</script>
 
 	<div>
 
 </div>
 
+<script>buildColourPalette();</script>
+<script>buildEmptyCanvas();</script>
 </body>
 </html>
