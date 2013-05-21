@@ -1,16 +1,21 @@
 
+var DEFAULT_BORDER  = "border:4px solid black;";
+var SELECTED_BORDER = "border:4px solid #FFFF00 ;";
+
+var SELECTED_COLOUR = "";
 
 function clearBorderAll(){
 	var palette_colours_div = document.getElementById("palette_colours");
 
 	for (i=0;i<palette_colours_div.childNodes.length;i++){
+		// get all the colour cells
 		var colour_cell_div = palette_colours_div.childNodes[i];
 
-		var currentStyle=colour_cell_div.getAttribute("style");
-		var currentStyleArr = currentStyle.split(";");
-		var currentStyleBackground = currentStyleArr[0];
+		// get current style background by splitting the style property
+		var currentStyleBackground = colour_cell_div.getAttribute("style").split(";")[0];
 
-		var newStyle = currentStyleBackground+";border:4px solid white;";
+		//use it to build a new style property with white borders
+		var newStyle = currentStyleBackground+";"+DEFAULT_BORDER;
 
 		colour_cell_div.setAttribute("style",newStyle);
 	}
@@ -21,9 +26,22 @@ function clearBorderAll(){
 function putBorder(pallete_colour_div){
 	clearBorderAll();
 
-	var style = pallete_colour_div.getAttribute("style");
-	style = style + "border:4px solid yellow;";
-	pallete_colour_div.setAttribute("style",style);
+	var currentStyleBackground = pallete_colour_div.getAttribute("style").split(";")[0];
+
+	var newStyle = currentStyleBackground + ";"+SELECTED_BORDER;
+
+	pallete_colour_div.setAttribute("style",newStyle);
+
+
+	var bgArr = currentStyleBackground.split(" ");
+	SELECTED_COLOUR = bgArr[1];
+
+	if (SELECTED_COLOUR!='white'){
+		document.getElementById("colour_label").innerHTML = "Activado:"+SELECTED_COLOUR.toUpperCase();
+	}else{
+		document.getElementById("colour_label").innerHTML = "Desactivado";
+	}
+
 }
 
 function buildColourPalette(){
@@ -51,7 +69,7 @@ function buildColourPalette(){
 		palettediv.setAttribute('id',colours[j]);
 		palettediv.setAttribute('class','palette_cell');
 		palettediv.setAttribute('TITLE',"color");
-		palettediv.setAttribute('style',"background: "+colours[j]+";border:4px solid white;");
+		palettediv.setAttribute('style',"background: "+colours[j]+";"+DEFAULT_BORDER);
 		palettediv.setAttribute('onclick',"javascript:putBorder(this);");
 
 		palette.appendChild(palettediv);
