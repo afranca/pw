@@ -8,6 +8,50 @@
 <link href="style04.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+
+
+<div id="container" >
+
+
+	<div id="palette" >
+
+		<div id="palette_colours" >
+			<script>
+				var colours = new Array();
+				colours[0] = "red";
+				colours[1] = "blue";
+				colours[2] = "grey";
+				colours[3] = "green";
+				colours[4] = "white";
+				colours[5] = "black";
+
+				colours[6] = "BlueViolet";
+				colours[7] = "Brown ";
+				colours[8] = "BurlyWood ";
+				colours[9] = "CadetBlue ";
+
+
+
+				var palette = document.getElementById("palette_colours");
+				for (var j = 0; j<colours.length;j++){
+					var palettediv = document.createElement('div');
+					palettediv.innerHTML = "";
+					var palettedivName = "color_"+j;
+					palettediv.setAttribute('id',colours[j]);
+					palettediv.setAttribute('class','palette_cell');
+					palettediv.setAttribute('TITLE',"color");
+					palettediv.setAttribute('style',"background: "+colours[j]+";");
+					palettediv.setAttribute('onclick',"javascript:putBorder(this);");
+
+					palette.appendChild(palettediv);
+				}
+			</script>
+		</div>
+		<div id="palette_label" >
+				desactivado
+		</div>
+	</div>
+
 	<div id="canvas" >
 
 		<script>
@@ -34,6 +78,8 @@
 		</script>
 
 	<div>
+
+</div>
 
 </body>
 </html>
