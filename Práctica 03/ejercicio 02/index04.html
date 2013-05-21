@@ -15,14 +15,20 @@
 
 			var canvas = document.getElementById("canvas");
 
-			for (var i = 1; i<2501;i++){
-				var newdiv = document.createElement('div');
-				newdiv.innerHTML = ''+i;
-				var divIdName = 'div_'+i;
-				newdiv.setAttribute('id',divIdName);
-				newdiv.setAttribute('class','canvas_cell');
-				canvas.appendChild(newdiv);
+			for (var i = 1; i<51;i++){
+				for (var j = 1; j<51;j++){
+					var newdiv = document.createElement('div');
 
+					var row = (i>9)?""+i:"0"+i;
+					var col = (j>9)?""+j:"0"+j;
+
+					newdiv.innerHTML = row+""+col;
+
+					var divIdName = row+""+col;
+					newdiv.setAttribute('id',divIdName);
+					newdiv.setAttribute('class','canvas_cell');
+					canvas.appendChild(newdiv);
+				}
 			}
 
 		</script>
