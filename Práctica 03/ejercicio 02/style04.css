@@ -1,0 +1,27 @@
+
+#canvas{
+    background: white;
+    height:500px;
+    width:567px;
+    border:0px solid #808080;
+    
+}
+
+.canvas_cell{
+    	
+    background: white;
+    height:10px;
+    width:10px;
+    float: left;
+    border:1px solid #808080;
+    
+}
+
+.canvas_cell_gray{
+    	
+    background: gray;
+    height:10px;
+    width:10px;
+    float: left;
+    
+}
