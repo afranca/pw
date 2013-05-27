@@ -9,80 +9,84 @@
 </head>
 
 <body>
-<form name="form1" id="form1" action="alert('blah')"  method="post">
-<table width="358" height="450" border="5">
-  <tr>
-    <td height="446"><table width="355" height="356" border="0">
-      <tr>
-        <td width="145">Nombre:</td>
-        <td width="164"><input type="text" name="Nombre" id="name" onblur="toUp(this);" value="fafafa" /></td>
-      </tr>
-      <tr>
-        <td>Apellidos:</td>
-        <td><input type="text" name="Apellidos" id="surname" onblur="toUp(this);"  value="hahahah"/></td>
-      </tr>
-      <tr>
-        <td>Edad:</td>
-        <td><input type="text" name="Edad" id="age" value="52" ></td>
-      </tr>
-      <tr>
-        <td>NIF:</td>
-        <td><input type="text" name="NIF" id="nif" value=""/></td>
-      </tr>
-      <tr>
-        <td>E-mail:</td>
-        <td><input type="text" name="E-mail" id="email" value="alexandre@franca.com"/></td>
-      </tr>
-      <tr>
-        <td>Localidad:</td>
-        <td><input type="text" name="Localidad" id="city" value="Edimburgo"/></td>
-      </tr>
-      <tr>
-        <td>Provincia:</td>
-        <td>
-        	<select name="Provincia" id="region" style="width:144px">
-				<option value="" >Selecione Provincia</option>
-				<option value='1'>Almería</option>
-				<option value='12'>Cádiz</option>
-				<option value='13'>Córdoba</option>
-				<option value='14'>Granada</option>
-				<option value='15'>Huelva</option>
-				<option value='16'>Jáen</option>
-				<option value='17'>Málaga</option>
-				<option value='18' selected="selected">Sevilla</option>
-			</select>
-		</td>
-      </tr>
-      <tr>
-        <td>Fecha de Nacimiento:</td>
-        <td><input type="text" name="Fecha de Nacimiento" id="dob"  value="12/05/2013" /></td>
-      </tr>
-      <tr>
-        <td>Teléfono:</td>
-        <td><input type="text" name="Teléfono" id="phone"  value="929 99 29 11" OnKeyUp="phone_mask(this.value)"/></td>
-      </tr>
-      <tr>
-        <td>Fecha de Llegada:</td>
-        <td><input type="text" name="Fecha de Llegada" id="doa"  value="12/12/2013"/></td>
-      </tr>
-      <tr>
-        <td>Hora de Llegada:</td>
-        <td><input type="text" name="Hora de Llegada" id="toa" OnKeyUp="time_mask(this.value)" size="1" value="11:11"/></td>
-      </tr>
-      <tr>
-        <td><input type="button" button="Limpiar" style="width:144px" id="btnLimpiar" value="Limpiar" /></td>
-        <td><input type="button" name="Enviar" style="width:144px" id="bntEnviar" value="Enviar" onclick="javascript:validateAndSubmitForm()" /> </td>
-      </tr>
-    </table>
 
-	 <p><span id= "error_message"></span></p>
-	 <p>Numero de Intentos:<span id= "submit_attempt_number"></span></p>
+<div id="container">
+
+	<form name="form1" id="form1" action="alert('blah')"  method="post">
+		<table width="358" height="450" border="5">
+		  <tr>
+			<td height="446"><table width="355" height="356" border="0">
+			  <tr>
+				<td width="145">Nombre:</td>
+				<td width="164"><input type="text" name="Nombre" id="name" onblur="toUp(this);" value="" /></td>
+			  </tr>
+			  <tr>
+				<td>Apellidos:</td>
+				<td><input type="text" name="Apellidos" id="surname" onblur="toUp(this);"  value=""/></td>
+			  </tr>
+			  <tr>
+				<td>Edad:</td>
+				<td><input type="text" name="Edad" id="age" value="" ></td>
+			  </tr>
+			  <tr>
+				<td>NIF:</td>
+				<td><input type="text" name="NIF" id="nif" value=""/></td>
+			  </tr>
+			  <tr>
+				<td>E-mail:</td>
+				<td><input type="text" name="E-mail" id="email" value=""/></td>
+			  </tr>
+			  <tr>
+				<td>Localidad:</td>
+				<td><input type="text" name="Localidad" id="city" value=""/></td>
+			  </tr>
+			  <tr>
+				<td>Provincia:</td>
+				<td>
+					<select name="Provincia" id="region" style="width:144px">
+						<option value="" selected="selected">Selecione Provincia</option>
+						<option value='1'>Almería</option>
+						<option value='12'>Cádiz</option>
+						<option value='13'>Córdoba</option>
+						<option value='14'>Granada</option>
+						<option value='15'>Huelva</option>
+						<option value='16'>Jáen</option>
+						<option value='17'>Málaga</option>
+						<option value='18' >Sevilla</option>
+					</select>
+				</td>
+			  </tr>
+			  <tr>
+				<td>Fecha de Nacimiento:</td>
+				<td><input type="text" name="Fecha de Nacimiento" id="dob"  value="" /></td>
+			  </tr>
+			  <tr>
+				<td>Teléfono:</td>
+				<td><input type="text" name="Teléfono" id="phone"  value="" OnKeyUp="phone_mask(this.value)"/></td>
+			  </tr>
+			  <tr>
+				<td>Fecha de Llegada:</td>
+				<td><input type="text" name="Fecha de Llegada" id="doa"  value=""/></td>
+			  </tr>
+			  <tr>
+				<td>Hora de Llegada:</td>
+				<td><input type="text" name="Hora de Llegada" id="toa" OnKeyUp="time_mask(this.value)" size="1" value=""/></td>
+			  </tr>
+			  <tr>
+				<td><input type="reset" button="Limpiar" style="width:144px" id="btnLimpiar" value="Limpiar" /></td>
+				<td><input type="button" name="Enviar" style="width:144px" id="bntEnviar" value="Enviar" onclick="javascript:validateAndSubmitForm()" /> </td>
+			  </tr>
+			</table>
+
+			 <p><span id= "error_message"></span></p>
+			 <p>Numero de Intentos:<span id= "submit_attempt_number"></span></p>
 
 
-    <p>&nbsp;</p></td>
-  </tr>
-</table>
-</form>
+			<p>&nbsp;</p></td>
+		  </tr>
+		</table>
+	</form>
+</div>
 <script>
 	var cookieValue = getCookieValue("pw_cookie");
 	if (isNaN(cookieValue)) {

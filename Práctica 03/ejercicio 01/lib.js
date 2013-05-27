@@ -243,6 +243,7 @@ function validateFieldNotBlank(fieldId){
 
 	if (fieldId == 'toa'){
 
+
 		// tests length of the time  for the hh:mm format
 		if (fieldValue.length < 5 ){
 			errorMessage.innerHTML = "Para el campo <font color='red'>"+fieldName+" </font> use el formato <font color='red'>hh:mm </font>.";
@@ -300,7 +301,7 @@ function validateAndSubmitForm(){
 	fields[9] = "doa";
 	fields[10] = "toa";
 
-	for (i=0;i < fields.length-1;i++){
+	for (i=0;i < fields.length;i++){
 		if ( !validateFieldNotBlank(fields[i]) ){
 			return;
 		}

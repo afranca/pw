@@ -1,0 +1,17 @@
+
+Matt Kruse. Javascript Date Functions [Online]. Available from: http://www.mattkruse.com/javascript/date/ [Accessed 27 May 2013].
+
+About.COM. Validate and Format Date. [Online]. Available from: http://javascript.about.com/library/blvfdate.htm [Accessed 15 May 2013].
+
+Wikipedia. Número de identificación fiscal. [Online]. Available from: http://es.wikipedia.org/wiki/N%C3%BAmero_de_identificaci%C3%B3n_fiscal#NIF_de_Personas_f.C3.ADsicas [Accessed 17 May 2013].
+
+Junior, Angelo. Máscara e Validação de Hora. [Online]. Available from: http://codigofonte.uol.com.br/codigo/js-dhtml/formulario/mascara-e-validacao-de-hora [Accessed 16 May 2013].
+
+W3 Schools. JavaScript Cookies [Online]. Available from: http://www.w3schools.com/js/js_cookies.asp/ [Accessed 18 May 2013].
+
+W3 Schools. HTML Color Picker [Online]. Available from: http://www.w3schools.com/tags/ref_colorpicker.asp[Accessed 21 May 2013].
+
+W3 Schools. HTML Color Names [Online]. Available from: http://www.w3schools.com/tags/ref_colornames.asp [Accessed 21 May 2013].
+
+Dustin Diaz. Add and Remove HTML elements dynamically with Javascript [Online]. Available from:http://www.dustindiaz.com/add-and-remove-html-elements-dynamically-with-javascript/ [Accessed 23 May 2013].
+
