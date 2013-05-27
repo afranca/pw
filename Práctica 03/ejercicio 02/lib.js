@@ -1,6 +1,6 @@
 
-var DEFAULT_BORDER  = "border:4px solid black;";
-var SELECTED_BORDER = "border:4px solid #FFFF00 ;";
+var DEFAULT_BORDER  = "border:4px solid transparent;";
+var SELECTED_BORDER = "border:4px solid Azure ;";
 
 var SELECTED_COLOUR = "";
 
