@@ -1,4 +1,8 @@
 
+/* ******************************************************** */
+/* 	mask function for phone                                 */
+/* ******************************************************** */
+
 function phone_mask(key_in_value){
 	var phone = '';
 	phone = phone + key_in_value;
@@ -13,6 +17,9 @@ function phone_mask(key_in_value){
 }
 
 
+/* ******************************************************** */
+/* 	mask function for time		                            */
+/* ******************************************************** */
 function time_mask(key_in_time){
 	var time = '';
 	time = time + key_in_time;
@@ -25,14 +32,26 @@ function time_mask(key_in_time){
 	}
 }
 
+
+/* ******************************************************** */
+/* 	to upper case function                                  */
+/* ******************************************************** */
 function toUp(el){
 	el.value = el.value.toUpperCase();
 }
 
+
+/* ******************************************************** */
+/* 	check whether n is a number or not                      */
+/* ******************************************************** */
 function isNumber(n) {
   return !isNaN(parseInt(n)) && isFinite(n);
 }
 
+
+/* ******************************************************** */
+/* 	check whether numb is in between the range passed in    */
+/* ******************************************************** */
 function isBetweenRange(low,high,numb) {
 	var numb_int = parseInt(numb);
 
@@ -43,6 +62,10 @@ function isBetweenRange(low,high,numb) {
 
 }
 
+
+/* ******************************************************** */
+/* 	check whether string has minimun length passed in       */
+/* ******************************************************** */
 function checkMinLength(str,minLength){
 	if (str.length < minLength){
 		return false;
@@ -50,6 +73,9 @@ function checkMinLength(str,minLength){
 	return true;
 }
 
+/* ******************************************************** */
+/* 	check whether string contains number                    */
+/* ******************************************************** */
 function checkIfStringContainsNumber(str){
 
 	var reg = /\d+/;   // regular Expression to find one or more digits
@@ -60,7 +86,9 @@ function checkIfStringContainsNumber(str){
 	return false;  // no numbers found
 }
 
-
+/* ******************************************************** */
+/* 	main validation function - validates all fields         */
+/* ******************************************************** */
 function validateFieldNotBlank(fieldId){
 
 	var errorMessage = document.getElementById("error_message");
@@ -349,7 +377,9 @@ function validateAndSubmitForm(){
 
 
 }
-
+/* ******************************************************** */
+/* 	 cookie couter	   									    */
+/* ******************************************************** */
 function incrementCookie(){
 	var cookieValue = getCookieValue("pw_cookie");
 	var cookieValueInt = parseInt(cookieValue);
@@ -392,7 +422,9 @@ function getCookieValue(key){
 
     return "0";
 }
-
+/* ******************************************************** */
+/* 	check first character of NIF						    */
+/* ******************************************************** */
 function checkNifFirstCharacter(fullValue){
 	var fchar = fullValue.substring(0,1);
 

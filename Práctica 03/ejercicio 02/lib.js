@@ -1,9 +1,13 @@
-
+/* ******************************************************** */
+/* 	Gcolol variable to store selected colour				*/
+/* ******************************************************** */
 var DEFAULT_BORDER  = "border:4px solid transparent;";
 var SELECTED_BORDER = "border:4px solid Azure ;";
-
 var SELECTED_COLOUR = "";
 
+/* ******************************************************** */
+/* 	Clear borders of colour pallete cells					*/
+/* ******************************************************** */
 function clearBorderAll(){
 	var palette_colours_div = document.getElementById("palette_colours");
 
@@ -23,6 +27,10 @@ function clearBorderAll(){
 }
 
 
+/* ******************************************************** */
+/* 	Put border around the select colour cell  				*/
+/*  Update status label 									*/
+/* ******************************************************** */
 function putBorder(pallete_colour_div){
 	clearBorderAll();
 
@@ -45,6 +53,9 @@ function putBorder(pallete_colour_div){
 }
 
 
+/* ******************************************************** */
+/* 	Pain cell of canvas, with selected colour 				*/
+/* ******************************************************** */
 function paintCell(cell_div){
 
 	var newStyle ="background:"+SELECTED_COLOUR;
@@ -55,6 +66,9 @@ function paintCell(cell_div){
 
 
 
+/* ******************************************************** */
+/* 	Build colour palette, run once at start up				*/
+/* ******************************************************** */
 function buildColourPalette(){
 
 	var colours = new Array();
@@ -85,10 +99,14 @@ function buildColourPalette(){
 
 		palette.appendChild(palettediv);
 	}
-
+	document.getElementById("colour_label").innerHTML = "Desactivado";
 }
 
 
+
+/* ******************************************************** */
+/* 	Build canvas, run once at start up						*/
+/* ******************************************************** */
 function buildEmptyCanvas(){
 	var canvas = document.getElementById("canvas");
 
@@ -99,7 +117,7 @@ function buildEmptyCanvas(){
 			var row = (i>9)?""+i:"0"+i;
 			var col = (j>9)?""+j:"0"+j;
 
-			newdiv.innerHTML = row+""+col;
+			//newdiv.innerHTML = row+""+col;
 
 			var divIdName = row+""+col;
 			newdiv.setAttribute('id',divIdName);
