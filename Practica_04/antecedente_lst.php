@@ -18,8 +18,9 @@
 
 						<tr>
 
-							<td colspan="3" align="left">id</td>
-							<td align="left">atributo</td>
+							<td align="left">antecedente id</td>
+							<td align="left">atributo id</td>
+							<td align="left">valor</td>
 
 						</tr>
 
@@ -33,11 +34,12 @@
 						while($i<$max){
 
 							echo('<tr>');
-							echo('	<td colspan="3" align="left"><a href="blah.php?id='.$resultArr[$i].'">'.$resultArr[$i].'</a></td>');
+							echo('	<td colspan="1" align="left"><a href="antecedente_edt.php?id='.$resultArr[$i].'">'.$resultArr[$i].'</a></td>');
 							echo('	<td colspan="1" align="left">'.$resultArr[$i+1].'</td>');
+							echo('	<td colspan="1" align="left">'.$resultArr[$i+2].'='.$resultArr[$i+3].'</td>');
 
 							echo('</tr>');
-							$i = $i + 2;
+							$i = $i + 4;
 						}
 					?>
 					</table>

@@ -32,7 +32,7 @@
 
 		public function readAll (){
 
-			$sql = "SELECT id,id_atributo  FROM antecedente";
+			$sql = "SELECT a.id,a.id_atributo,b.atributo,b.valor  FROM antecedente a, atributo b WHERE a.id_atributo = b.id";
 			$result = mysql_query($sql);
 			//echo("antecedente:".$result);
 			if(mysql_num_rows($result)>0){
@@ -41,8 +41,10 @@
 
 					$resultArr[$i] = $options[0];
 					$resultArr[$i+1] = $options[1];
+					$resultArr[$i+2] = $options[2];
+					$resultArr[$i+3] = $options[3];
 
-					$i = $i+ 2;
+					$i = $i+ 4;
 				}
 			}else {
 				$resultArr;
