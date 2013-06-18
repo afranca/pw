@@ -2,10 +2,10 @@
 
 <?php
 
-	echo("id:".$_POST.length);
+	echo("id:".$_GET['id']);
 	$entity = New Atributo();
 
-	$entity = $entity->read($_POST['id']);
+	$entity = $entity->read($_GET['id']);
 
 ?>
 

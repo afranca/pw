@@ -10,9 +10,9 @@
 
 		public function create ()	{
 
-			$sql = "INSERT INTO atributo (atributo,valor)	VALUES ('".$this->atributo."',".$this->valor."); ";
+			$sql = "INSERT INTO atributo (atributo,valor)	VALUES ('".$this->atributo."','".$this->valor."'); ";
 
-			return mysql_query($sql) OR die(mysql_error());
+			return mysql_query($sql) OR die("create():".mysql_error());
 		}
 
 
@@ -24,8 +24,8 @@
 			$resultArr = mysql_fetch_array($result);
 
 			$this->id = $resultArr["id"];
-			$this->id_antecedente = $resultArr["atributo"];
-			$this->id_atributo = $resultArr["valor"];
+			$this->atributo = $resultArr["atributo"];
+			$this->valor = $resultArr["valor"];
 
 
 			return $this;
@@ -56,17 +56,17 @@
 
 		}
 
-		public function update ($id){
-			$sql = "UPDATE atributo SET atributo=".$this->atributo.",valor=".$this->valor." WHERE id=".$id;
+		public function update (){
+			$sql = "UPDATE atributo SET atributo='".$this->atributo."',valor='".$this->valor."' WHERE id=".$this->id;
 
-			return mysql_query($sql) OR die(mysql_error());
+			return mysql_query($sql) OR die("update():".mysql_error());
 		}
 
-		public function delete ($id){
+		public function delete (){
 
-			$sql = "DELETE FROM atributo WHERE  id=".$id;
+			$sql = "DELETE FROM atributo WHERE  id=".$this->id;
 
-			return mysql_query($sql) OR die(mysql_error());
+			return mysql_query($sql) OR die("delete():".mysql_error());
 
 		}
 

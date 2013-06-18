@@ -1,9 +1,8 @@
 <?php include('classes/Atributo.class.php'); ?>
 
 <?php
-
 	$entity = New Atributo();
-
+	$entity = $entity->read($_GET['id']);
 ?>
 
 <html>
@@ -15,7 +14,7 @@
 
 				<div class="menu">
 
-					<h1>Nuevo Atributo</h1>
+					<h1>Editar Atributo</h1>
 
 					<br>
 					<form name="form1" method="post"  action="atributo_save_or_update.php">
@@ -40,7 +39,7 @@
 
 								</td>
 								<td align="left">
-									<input type="button" id="cancel_btn" value="Cancelar"> | <input type="submit" id="create_btn" value="Crear">
+									<input type="button" id="cancel_btn" value="Cancelar" onclick="javascript:location.href='atributo_lst.php'"> | <input type="submit" id="create_btn" value="Crear">
 								</td>
 							</tr>
 						</table>
