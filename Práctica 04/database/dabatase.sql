@@ -20,21 +20,21 @@ USE `016601`;
 DROP TABLE IF EXISTS `antecedente`;
 
 CREATE TABLE `antecedente` (
-  `id_antecedente` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `id_atributo` int(11) NOT NULL,
-  PRIMARY KEY (`id_antecedente`,`id_atributo`)
+  PRIMARY KEY (`id`,`id_atributo`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Data for the table `antecedente` */
 
 LOCK TABLES `antecedente` WRITE;
 
-insert  into `antecedente`(`id_antecedente`,`id_atributo`) values (1,1);
-insert  into `antecedente`(`id_antecedente`,`id_atributo`) values (1,2);
-insert  into `antecedente`(`id_antecedente`,`id_atributo`) values (2,2);
-insert  into `antecedente`(`id_antecedente`,`id_atributo`) values (2,4);
-insert  into `antecedente`(`id_antecedente`,`id_atributo`) values (3,1);
-insert  into `antecedente`(`id_antecedente`,`id_atributo`) values (3,6);
+insert  into `antecedente`(`id`,`id_atributo`) values (1,1);
+insert  into `antecedente`(`id`,`id_atributo`) values (1,2);
+insert  into `antecedente`(`id`,`id_atributo`) values (2,2);
+insert  into `antecedente`(`id`,`id_atributo`) values (2,4);
+insert  into `antecedente`(`id`,`id_atributo`) values (3,1);
+insert  into `antecedente`(`id`,`id_atributo`) values (3,6);
 
 UNLOCK TABLES;
 

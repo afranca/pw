@@ -1,4 +1,4 @@
-<?php include('classes/Regla.class.php'); ?>
+<?php include('classes/Atributo.class.php'); ?>
 
 <html>
 <body>
@@ -9,26 +9,24 @@
 
 				<div class="menu">
 
-					<h1>Lista Regla</h1>
-
-
+					<h1>Lista Atributo</h1>
 
 					<br>
 					<table width="94%" border="1" align="left">
 
 						<tr>
 
-							<td colspan="3" align="left">Regla</td>
-							<td align="left">Atecedente</td>
-							<td align="left">Consecuente</td>
-							<td align="left">CF</td>
+							<td colspan="3" align="left">Id</td>
+							<td align="left">Atributo</td>
+							<td align="left">Valor</td>
+
 						</tr>
 
 
 					<?PHP
 
-						$regla = New Regla();
-						$resultArr = $regla->readAll();
+						$atributo = New Atributo();
+						$resultArr = $atributo->readAll();
 						$max = count($resultArr);
 						$i = 0;
 						while($i<$max){
@@ -37,10 +35,9 @@
 							echo('	<td colspan="3" align="left"><a href="blah.php?id='.$resultArr[$i].'">'.$resultArr[$i].'</a></td>');
 							echo('	<td colspan="1" align="left">'.$resultArr[$i+1].'</td>');
 							echo('	<td colspan="1" align="left">'.$resultArr[$i+2].'</td>');
-							echo('	<td colspan="1" align="left">'.$resultArr[$i+3].'</td>');
 
 							echo('</tr>');
-							$i = $i + 4;
+							$i = $i + 3;
 						}
 					?>
 					</table>
