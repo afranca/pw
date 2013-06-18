@@ -1,1 +1,1 @@
-copy * C:\Users\alexandre\Documents\GitHub\pw\Práctica 04
+xcopy C:\xampp\htdocs\pw\*  C:\Users\alexandre\Documents\GitHub\pw\Practica_04  /s /e /y
