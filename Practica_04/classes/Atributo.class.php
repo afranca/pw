@@ -10,7 +10,7 @@
 
 		public function create ()	{
 
-			$sql = "INSERT INTO atributo (atributo,valor)	VALUES (".$this->atributo.",".$this->valor."); ";
+			$sql = "INSERT INTO atributo (atributo,valor)	VALUES ('".$this->atributo."',".$this->valor."); ";
 
 			return mysql_query($sql) OR die(mysql_error());
 		}

@@ -32,7 +32,7 @@
 						while($i<$max){
 
 							echo('<tr>');
-							echo('	<td colspan="3" align="left"><a href="blah.php?id='.$resultArr[$i].'">'.$resultArr[$i].'</a></td>');
+							echo('	<td colspan="3" align="left"><a href="atributo_ed.php?id='.$resultArr[$i].'">'.$resultArr[$i].'</a></td>');
 							echo('	<td colspan="1" align="left">'.$resultArr[$i+1].'</td>');
 							echo('	<td colspan="1" align="left">'.$resultArr[$i+2].'</td>');
 

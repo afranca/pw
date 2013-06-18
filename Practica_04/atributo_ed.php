@@ -2,7 +2,10 @@
 
 <?php
 
+	echo("id:".$_POST.length);
 	$entity = New Atributo();
+
+	$entity = $entity->read($_POST['id']);
 
 ?>
 
@@ -15,7 +18,7 @@
 
 				<div class="menu">
 
-					<h1>Nuevo Atributo</h1>
+					<h1>Editar Atributo</h1>
 
 					<br>
 					<form name="form1" method="post"  action="atributo_new_ex.php">
