@@ -12,7 +12,7 @@
 
 			$sql = "INSERT INTO antecedente (id_atributo)	VALUES (".$this->id_atributo."); ";
 
-			return mysql_query($sql) OR die(mysql_error());
+			return mysql_query($sql) OR die("create():".mysql_error());
 		}
 
 
@@ -55,17 +55,17 @@
 
 		}
 
-		public function update ($id){
-			$sql = "UPDATE antecedente SET id_atributo=".$this->id_atributo." WHERE id=".$id;
+		public function update (){
+			$sql = "UPDATE antecedente SET id_atributo=".$this->id_atributo." WHERE id=".$this->id;
 
-			return mysql_query($sql) OR die(mysql_error());
+			return mysql_query($sql) OR die("update():".mysql_error());
 		}
 
-		public function delete ($id){
+		public function delete (){
 
-			$sql = "DELETE FROM antecedente WHERE  id=".$id;
+			$sql = "DELETE FROM antecedente WHERE  id=".$this->id;
 
-			return mysql_query($sql) OR die(mysql_error());
+			return mysql_query($sql) OR die("delete():".mysql_error());
 
 		}
 
