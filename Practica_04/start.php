@@ -8,12 +8,12 @@
 	</head>
 
 	<body>
-		&nbsp;<br>
-	<h1></h1>
-	<b></b><p><p>
 
-	<b>++++ ++++ <i>A great thank you to hackattack142 for this new fine Control Panel!</i> ++++ ++++</b><p>
-	<img src="img/xampp-site-and-control-panel.jpg" alt="New Control Panel" /><p><p>
+	<h1>Pratica 04 - Alexandre A Franca</h1>
+
+	<p>
+		Email: gauchoescoces@correo.ugr.es
+	</p>
 
 
 

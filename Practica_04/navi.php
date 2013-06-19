@@ -12,28 +12,34 @@
 		<table border="0" cellpadding="0" cellspacing="0">
 			<tr valign="top">
 				<td align="right" class="navi">
-					<img src="img/blank.gif" alt="" width="145" height="15">
+					&nbsp;
 
 				</td>
 			</tr>
 			<tr>
-				<td height="1" bgcolor="#fb7922" colspan="1" style="background-image:url(img/strichel.gif)" class="white"></td>
+				<td height="1" bgcolor="#fb7922" colspan="1"  class="white"></td>
 			</tr>
 			<tr valign="top">
 				<td align="right" class="navi">
-					<a name="start" id="start" class="nh" target="content" onclick="h(this);" href="start.php">navi-welcome</a><br>
-					<a class="n" target="content" onclick="h(this);" href="status.php">navi-status</a><br>
-					<a class="n" target="new" onclick="h(this);" href="/security/lang.php">navi-security</a><br>
-					<a class="n" target="content" onclick="h(this);" href="manuals.php">'navi-doc</a><br>
-					<a class="n" target="content" onclick="h(this);" href="components.php">navi-components</a><br>
-					  </td>
-			</tr>
-
-			<tr valign="top">
-				<td align="right" class="navi"><br>
-
+					<a class="nh" target="content" name="start" id="start"  onclick="h(this);" href="start.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Inicio&nbsp;&nbsp;</a><br>
 				</td>
 			</tr>
+			<tr valign="top">
+				<td align="right" class="navi">
+					<a class="n"  target="content" onclick="h(this);" href="status.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reglas&nbsp;&nbsp;</a><br>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td align="right" class="navi">
+					<a class="n"  target="content" onclick="h(this);" href="status.php">&nbsp;&nbsp; &nbsp;Antecedentes&nbsp;&nbsp;</a><br>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td align="right" class="navi">
+					<a class="n"  target="content" onclick="h(this);" href="status.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Atributos&nbsp;&nbsp;</a><br>
+				</td>
+			</tr
+>
 		</table>
 	</body>
 </html>
