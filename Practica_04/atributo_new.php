@@ -7,6 +7,7 @@
 ?>
 
 <html>
+<?php include('head.php'); ?>
 <body>
 
 		<div class="page">
@@ -45,7 +46,6 @@
 							</tr>
 						</table>
 
-						<input type="hidden" name="id" id="id" value="<?php echo($entity->id); ?>">
 					</form>
 
 				</div>

@@ -6,6 +6,7 @@
 ?>
 
 <html>
+<?php include('head.php'); ?>
 <body>
 
 		<div class="page">
@@ -39,7 +40,7 @@
 
 								</td>
 								<td align="left">
-									<input type="button" id="cancel_btn" value="Cancelar" onclick="javascript:location.href='atributo_lst.php'"> | <input type="submit" id="create_btn" value="Crear">
+									<input type="button" id="cancel_btn" value="Cancelar" onclick="javascript:location.href='atributo_lst.php'"> | <input type="submit" id="create_btn" value="Guardar">
 								</td>
 							</tr>
 						</table>
