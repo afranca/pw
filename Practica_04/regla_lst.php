@@ -1,6 +1,7 @@
 <?php include('classes/Regla.class.php'); ?>
 
 <html>
+<?php include('head.php'); ?>
 <body>
 
 		<div class="page">
@@ -14,6 +15,8 @@
 
 
 					<br>
+					<a href="regla_new.php">Crear Novo</a>
+					<br><br>
 					<table width="94%" border="1" align="left">
 
 						<tr>

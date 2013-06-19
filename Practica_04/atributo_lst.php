@@ -1,6 +1,7 @@
 <?php include('classes/Atributo.class.php'); ?>
 
 <html>
+<?php include('head.php'); ?>
 <body>
 
 		<div class="page">
@@ -12,6 +13,8 @@
 					<h1>Lista Atributo</h1>
 
 					<br>
+					<a href="atributo_new.php"> Crear Novo</a>
+					<br><br>
 					<table width="94%" border="1" align="left">
 
 						<tr>

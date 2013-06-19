@@ -1,6 +1,7 @@
 <?php include('classes/Antecedente.class.php'); ?>
 
 <html>
+<?php include('head.php'); ?>
 <body>
 
 		<div class="page">
@@ -11,9 +12,11 @@
 
 					<h1>Lista Antecedente</h1>
 
-
-
 					<br>
+					<a href="antecedente_new.php">Crear Novo</a>
+					<br><br>
+
+
 					<table width="94%" border="1" align="left">
 
 						<tr>
