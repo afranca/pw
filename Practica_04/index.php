@@ -1,53 +1,18 @@
-<?php include('includes/constantes.php'); ?>
-<?php include('sesion_profesor.php'); ?>
+<html>
+	<head>
+		<meta name="author" content="Kai Oswald Seidler">
+		<meta http-equiv="cache-control" content="no-cache">
 
-<?php include('clases/Alumno.class.php'); ?>
+		<title>XAMPP</title>
 
-<?php include('header.php'); ?>
-
-		<div class="page">
-			<div class="main">
-				<?php  include('css_valido_box.php'); ?>
-				<?php  include('menu_principal.php'); ?>
-				<div class="menu">
-
-					<h1>VER ALUMNO RESULT</h1>
-
-					<?php include('error_message.php'); ?>
-					<p><a href="alumno_crear_form.php"> Nuevo Alumno</a></p>
-
-					<br>
-					<table width="94%" border="1" align="left">
-
-						<tr>
-
-							<td colspan="3" align="left">NOMBRE</td>
-							<td align="left">CORREO</td>
-						</tr>
-
-
-					<?PHP
-
-						$alumno = New Alumno();
-						$resultArr = $alumno->verTodos();
-						$max = count($resultArr);
-						$i = 0;
-						while($i<$max){
-
-							echo('<tr>');
-							echo('	<td colspan="3" align="left"><a href="alumno_ver_result.php?al_cod_alumno='.$resultArr[$i].'">'.$resultArr[$i+1].' '.$resultArr[$i+2].' '.$resultArr[$i+3].'</a></td>');
-							echo('	<td colspan="1" align="left">'.$resultArr[$i+4].'</td>');
-
-							echo('</tr>');
-							$i = $i + 6;
-						}
-					?>
-					</table>
-				</div>
-
-				<?php include('logoff_box.php'); ?>
-
-			</div>
-		</div>
-
-<?php include('footer.php'); ?>
+		<frameset rows="74,*" marginwidth="0" marginheight="0" frameborder="0" border="0" borderwidth="0">
+			<frame name="head" src="head.php" scrolling=no>
+			<frameset cols="150,*" marginwidth="0" marginheight="0" frameborder="0" border="0" borderwidth="0">
+				<frame name="navi" src="navi.php" scrolling=no>
+				<frame name="content" src="start.php" marginwidth=20>
+			</frameset>
+		</frameset>
+	</head>
+	<body bgcolor=#ffffff>
+	</body>
+</html>
