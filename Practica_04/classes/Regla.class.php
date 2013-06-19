@@ -13,7 +13,7 @@
 
 			$sql = "INSERT INTO regla (id_antecedente,id_atributo,cf)	VALUES (".$this->id_antecedente.",".$this->id_atributo.",".$this->cf."); ";
 
-			return mysql_query($sql) OR die(mysql_error());
+			return mysql_query($sql) OR die("create():".mysql_error());
 		}
 
 
@@ -57,17 +57,18 @@
 
 		}
 
-		public function update ($id){
-			$sql = "UPDATE regla SET id_antecedente=".$this->id_antecedente.",id_atributo=".$this->id_atributo.",cf=".$this->cf." WHERE id=".$id;
+		public function update (){
+			//$sql = "UPDATE regla SET id_antecedente=".$this->id_antecedente.",id_atributo=".$this->id_atributo.",cf=".$this->cf." WHERE id=".$this->id;
+			$sql = "UPDATE regla SET id_atributo=".$this->id_atributo.",cf=".$this->cf." WHERE id=".$this->id;
 
-			return mysql_query($sql) OR die(mysql_error());
+			return mysql_query($sql) OR die("update():".mysql_error());
 		}
 
-		public function delete ($id){
+		public function delete (){
 
-			$sql = "DELETE FROM regla WHERE  id=".$id;
+			$sql = "DELETE FROM regla WHERE  id=".$this->id;
 
-			return mysql_query($sql) OR die(mysql_error());
+			return mysql_query($sql) OR die("delete():".mysql_error());
 
 		}
 
