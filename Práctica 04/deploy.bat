@@ -1,1 +1,0 @@
-copy * C:\Users\alexandre\Documents\GitHub\pw\Práctica 04
