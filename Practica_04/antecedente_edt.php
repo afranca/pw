@@ -40,15 +40,13 @@
 
 							while($i<count($atributo_lst)){
 								$checked = "";
-								$j=1;
+								$j=0;
 								while($j<count($entityAtrLst)){
-									//echo("while <br>");
 									if ($entityAtrLst[$j] == $atributo_lst[$i]){
-										echo("checked ".$atributo_lst[$i]." <br>");
+										//echo("checked ".$atributo_lst[$i]." <br>");
 										$checked="checked";
 									}
-									$j = $j + 4;
-									//echo("final $j=".$j."<br>");
+									$j = $j+1;
 								}
 
 								echo('<tr>');

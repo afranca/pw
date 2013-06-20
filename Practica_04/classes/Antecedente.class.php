@@ -80,19 +80,16 @@
 		}
 
 		public function findAtributos (){
-			$sql = "SELECT a.id,a.id_atributo,b.atributo,b.valor  FROM antecedente a, atributo b WHERE a.id_atributo = b.id and a.id=".$this->id;
+			//$sql = "SELECT a.id,a.id_atributo,b.atributo,b.valor  FROM antecedente a, atributo b WHERE a.id_atributo = b.id and a.id=".$this->id;
+			$sql = "SELECT a.id_atributo FROM antecedente a, atributo b WHERE a.id_atributo = b.id and a.id=".$this->id;
+
 			$result = mysql_query($sql);
-			echo($sql);
+
 			if(mysql_num_rows($result)>0){
 				$i=0;
 				while ($options=mysql_fetch_row($result)){
-
 					$resultArr[$i] = $options[0];
-					$resultArr[$i+1] = $options[1];
-					$resultArr[$i+2] = $options[2];
-					$resultArr[$i+3] = $options[3];
-
-					$i = $i+ 4;
+					$i = $i+ 1;
 				}
 			}else {
 				$resultArr;
