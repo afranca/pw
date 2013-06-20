@@ -25,25 +25,29 @@
 					<form name="form1" method="post"  action="antecedente_save_or_update.php">
 
 						<table width="94%" border="1" align="left">
+
+
+
 							<tr>
 								<td align="left">Atributo / Valor</td>
 								<td align="left">
-									<select name="id_atributo" id="id_atributo">
-										<option value="0" SELECTED>Selecione</option>
-										<?php
-										$i=0;
-										while($i<count($atributo_lst)){
-
-											echo('<option value="'.$atributo_lst[$i].'"> '.$atributo_lst[$i+1].'='.$atributo_lst[$i+2].' </option>');
-
-											$i = $i + 3;
-										}
-										?>
-									</select>
 
 								</td>
 							</tr>
 
+
+							<?php
+							$i=0;
+							while($i<count($atributo_lst)){
+								echo('<tr>');
+								echo('	<td> </td>');
+								echo('	<td>');
+								echo('		<input type="checkbox" name="id_atributo[]" id="id_atributo[]" value="'.$atributo_lst[$i].'"> '.$atributo_lst[$i+1].'='.$atributo_lst[$i+2]);
+								echo('	</td>');
+								echo('</tr>');
+								$i = $i + 3;
+							}
+							?>
 
 							<tr>
 								<td align="left">

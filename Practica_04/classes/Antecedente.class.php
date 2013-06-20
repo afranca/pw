@@ -8,9 +8,9 @@
 
 
 
-		public function create ()	{
+		public function create ($id_antecedente,$id_atributo)	{
 
-			$sql = "INSERT INTO antecedente (id_atributo)	VALUES (".$this->id_atributo."); ";
+			$sql = "INSERT INTO antecedente (id,id_atributo)	VALUES (".$id_antecedente.",".$id_atributo."); ";
 
 			return mysql_query($sql) OR die("create():".mysql_error());
 		}
@@ -70,6 +70,19 @@
 		}
 
 
+		public function findLastId (){
+
+			$sql = "SELECT MAX(id) as last FROM antecedente";
+
+			$result = mysql_query($sql);
+			$resultArr = mysql_fetch_array($result);
+
+			$lastId = $resultArr["last"];
+
+
+			return $lastId;
+
+		}
 
 
 
