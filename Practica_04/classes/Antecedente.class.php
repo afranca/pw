@@ -55,17 +55,21 @@
 
 		}
 
-		public function update (){
-			$sql = "UPDATE antecedente SET id_atributo=".$this->id_atributo." WHERE id=".$this->id;
-
-			return mysql_query($sql) OR die("update():".mysql_error());
+		public function update ($id,$id_atributo){
+			return $this->create($id,$id_atributo);
 		}
 
 		public function delete (){
 
 			$sql = "DELETE FROM antecedente WHERE  id=".$this->id;
-
 			return mysql_query($sql) OR die("delete():".mysql_error());
+
+		}
+
+		public function deleteEntries ($id){
+
+			$sql = "DELETE FROM antecedente WHERE  id=".$id;
+			mysql_query($sql)  OR die("deleteEntries():".mysql_error());
 
 		}
 

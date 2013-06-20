@@ -6,8 +6,12 @@
 
 	$ret = false;
 	if (isset($_POST['id'])){
-		$entity->id = $_POST['id'];
-		$ret = $entity->update();
+		$currentId = $_POST['id'];
+		$ret = $entity->deleteEntries($currentId);
+		foreach($_POST['id_atributo'] as $key => $value){
+			//$ret = $entity->create($currentId,$value);
+			$ret = $entity->update($currentId,$value);
+		}
 	}else {
 		$currentId = $entity->findLastId() +1 ;
 		foreach($_POST['id_atributo'] as $key => $value){
