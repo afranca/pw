@@ -102,6 +102,29 @@
 			return $resultArr;
 		}
 
+		public function findAntecedentesById ($antecedenteId){
+			$sql = "SELECT b.atributo,b.valor  FROM antecedente a, atributo b WHERE a.id_atributo = b.id and a.id=".$antecedenteId;
+			//$sql = "SELECT a.id_atributo FROM antecedente a, atributo b WHERE a.id_atributo = b.id and a.id=".$this->id;
+
+			$result = mysql_query($sql);
+
+			if(mysql_num_rows($result)>0){
+				$i=0;
+				while ($options=mysql_fetch_row($result)){
+					$resultArr[$i] = $options[0];
+					$resultArr[$i+1] = $options[1];
+					$i = $i+ 2;
+				}
+			}else {
+				$resultArr;
+			}
+
+			return $resultArr;
+		}
+
+
+
+
 	}
 
 ?>

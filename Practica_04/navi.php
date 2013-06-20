@@ -21,7 +21,7 @@
 			</tr>
 			<tr valign="top">
 				<td align="right" class="navi">
-					<a class="nh" target="content" name="start" id="start"  onclick="h(this);" href="cover.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Inicio&nbsp;&nbsp;</a><br>
+					<a class="nh" target="content" name="start" id="start"  onclick="h(this);" href="list_regla.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Inicio&nbsp;&nbsp;</a><br>
 				</td>
 			</tr>
 			<tr valign="top">
