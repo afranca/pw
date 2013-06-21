@@ -25,6 +25,7 @@
 							<td align="left">Atecedente</td>
 							<td align="left">Consecuente</td>
 							<td align="left">CF</td>
+							<td align="left">Accion</td>
 						</tr>
 
 
@@ -41,6 +42,7 @@
 							echo('	<td colspan="1" align="left">'.$resultArr[$i+1].'</td>');
 							echo('	<td colspan="1" align="left">'.$resultArr[$i+2].'</td>');
 							echo('	<td colspan="1" align="left">'.$resultArr[$i+3].'</td>');
+							echo('	<td colspan="1" align="left"> <a href="javascript:deleteEntry(\'regla\','.$resultArr[$i].');">del</a></td>');
 
 							echo('</tr>');
 							$i = $i + 6;

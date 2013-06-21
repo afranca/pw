@@ -1,12 +1,19 @@
+function deleteEntry(entityName,entityId){
 
-function valida_login()	{
-	var form = document.getElementById("Formulario");
-	var user = document.getElementById("usuario");
-	var passwd = document.getElementById("pass");
+	if (entityName == 'regla'){
+		alert('delete regla '+entityId);
 
-	if(usuario.value == "" || pass.value == "" )	{
-		alert("Por favor, rellena los datos para ingresar en la página.");
-		return ;
 	}
-	form.submit();
+
+	if (entityName == 'antecedente'){
+		alert('delete antecedente '+entityId);
+
+	}
+
+
+	if (entityName == 'atributo'){
+		alert('delete atributo '+entityId);
+
+	}
+
 }

@@ -39,7 +39,8 @@
 							echo('<tr>');
 							echo('	<td colspan="1" align="left"><a href="antecedente_edt.php?id='.$resultArr[$i].'"> Antecedente');
 							echo('	 '.$resultArr[$i].'</a></td>');
-							echo('	<td colspan="1" align="left"> delete</td>');
+							//echo('	<td colspan="1" align="left"> delete</td>');
+							echo('	<td colspan="1" align="left"> <a href="javascript:deleteEntry(\'antecedente\','.$resultArr[$i].');">del</a></td>');
 
 							echo('</tr>');
 							$i = $i + 4;
