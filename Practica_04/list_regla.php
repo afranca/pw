@@ -1,5 +1,6 @@
 <?php include('classes/Regla.class.php'); ?>
 <?php include('classes/Antecedente.class.php'); ?>
+<?php include('classes/Atributo.class.php'); ?>
 
 <html>
 <?php include('head.php'); ?>
@@ -53,11 +54,11 @@
 							}
 							echo('	<td colspan="1" align="left">'.$antecedenteStr.'</td>');
 
-							echo('	<td colspan="1" align="left">'.$resultArr[$i+2].'</td>');
+							echo('	<td colspan="1" align="left">'.$resultArr[$i+4].'='.$resultArr[$i+5].'</td>');
 							echo('	<td colspan="1" align="left">'.$resultArr[$i+3].'</td>');
 
 							echo('</tr>');
-							$i = $i + 4;
+							$i = $i + 6;
 						}
 					?>
 					</table>

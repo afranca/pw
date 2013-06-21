@@ -35,7 +35,7 @@
 
 		public function readAll (){
 
-			$sql = "SELECT id,id_antecedente,id_atributo,cf  FROM regla";
+			$sql = "SELECT a.id,a.id_antecedente,a.id_atributo,a.cf,b.atributo,b.valor  FROM regla a, atributo b WHERE a.id_atributo=b.id";
 			$result = mysql_query($sql);
 
 			if(mysql_num_rows($result)>0){
@@ -46,7 +46,9 @@
 					$resultArr[$i+1] = $options[1];
 					$resultArr[$i+2] = $options[2];
 					$resultArr[$i+3] = $options[3];
-					$i = $i+ 4;
+					$resultArr[$i+4] = $options[4];
+					$resultArr[$i+5] = $options[5];
+					$i = $i+ 6;
 				}
 			}else {
 				$resultArr;

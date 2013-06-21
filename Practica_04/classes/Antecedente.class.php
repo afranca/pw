@@ -105,7 +105,7 @@
 		public function findAntecedentesById ($antecedenteId){
 			$sql = "SELECT b.atributo,b.valor  FROM antecedente a, atributo b WHERE a.id_atributo = b.id and a.id=".$antecedenteId;
 			//$sql = "SELECT a.id_atributo FROM antecedente a, atributo b WHERE a.id_atributo = b.id and a.id=".$this->id;
-
+			//echo($sql.'<br>');
 			$result = mysql_query($sql);
 
 			if(mysql_num_rows($result)>0){

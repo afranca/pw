@@ -43,7 +43,7 @@
 							echo('	<td colspan="1" align="left">'.$resultArr[$i+3].'</td>');
 
 							echo('</tr>');
-							$i = $i + 4;
+							$i = $i + 6;
 						}
 					?>
 					</table>
