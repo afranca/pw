@@ -122,6 +122,25 @@
 			return $resultArr;
 		}
 
+		public function findAllDistinctAntecedentesId (){
+
+			$sql = "SELECT DISTINCT a.id  FROM antecedente a";
+			$result = mysql_query($sql);
+			//echo("antecedente:".$result);
+			if(mysql_num_rows($result)>0){
+				$i=0;
+				while ($options=mysql_fetch_row($result)){
+					$resultArr[$i] = $options[0];
+					$i = $i+ 1;
+				}
+			}else {
+				$resultArr;
+			}
+
+			return $resultArr;
+
+
+		}
 
 
 

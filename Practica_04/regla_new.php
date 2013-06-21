@@ -5,7 +5,7 @@
 
 <?php
 	$antecedenteEnt = New Antecedente();
-	$antecedente_lst = $antecedenteEnt->readAll();
+	$antecedente_lst = $antecedenteEnt->findAllDistinctAntecedentesId();
 
 	$atributoEnt = New Atributo();
 	$atributo_lst = $atributoEnt->readAll();
@@ -32,7 +32,14 @@
 								<td align="left">Antecedente</td>
 								<td align="left">
 									<select name="id_antecedente" id="id_antecedente">
-										<option value="1" SELECTED>Selecione</option>
+										<option value="0" SELECTED>Selecione</option>
+										<?php
+										$a=0;
+										while($a<count($antecedente_lst)){
+											echo('<option value="'.$antecedente_lst[$a].'"> Antecedente '.$antecedente_lst[$a].' </option>');
+											$a = $a + 1;
+										}
+										?>
 									</select>
 								</td>
 							</tr>

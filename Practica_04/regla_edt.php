@@ -8,7 +8,7 @@
 	$entity = $entity->read($_GET['id']);
 
 	$antecedenteEnt = New Antecedente();
-	$antecedente_lst = $antecedenteEnt->readAll();
+	$antecedente_lst = $antecedenteEnt->findAllDistinctAntecedentesId();
 
 	$atributoEnt = New Atributo();
 	$atributo_lst = $atributoEnt->readAll();
@@ -35,7 +35,19 @@
 								<td align="left">Antecedente</td>
 								<td align="left">
 									<select name="id_antecedente" id="id_antecedente">
-										<option value="1" SELECTED>Selecione</option>
+										<option value="0" SELECTED>Selecione</option>
+										<?php
+										$a=0;
+										while($a<count($antecedente_lst)){
+											$selected = "";
+											if ($antecedente_lst[$a] == $entity->id_antecedente){
+												$selected = " SELECTED ";
+											}
+
+											echo('<option value="'.$antecedente_lst[$a].'" '.$selected.'> Antecedente '.$antecedente_lst[$a].' </option>');
+											$a = $a + 1;
+										}
+										?>
 									</select>
 
 								</td>
