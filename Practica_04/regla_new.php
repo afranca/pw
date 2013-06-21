@@ -13,6 +13,15 @@
 
 <html>
 <?php include('head.php'); ?>
+
+<script>
+	function confirmForm(){
+		var form1 = document.getElementById('form1');
+		if (confirm('seguro que queres insertar un regla?')){
+			form1.submit();
+		}
+	}
+</script>
 <body>
 
 		<div class="page">
@@ -24,7 +33,7 @@
 					<h1>Crear Regla</h1>
 
 					<br>
-					<form name="form1" method="post"  action="regla_save_or_update.php">
+					<form id="form1" name="form1" method="post"  action="regla_save_or_update.php">
 
 						<table width="94%" border="1" align="left">
 
@@ -71,7 +80,7 @@
 								<td align="left">
 								</td>
 								<td align="left">
-									<input type="button" id="cancel_btn" value="Cancelar" onclick="javascript:location.href='regla_lst.php'"> | <input type="submit" id="create_btn" value="Crear">
+									<input type="button" id="cancel_btn" value="Cancelar" onclick="javascript:location.href='regla_lst.php'"> | <input type="button" id="create_btn" value="Crear" onclick="javascript:confirmForm();">
 								</td>
 							</tr>
 						</table>
