@@ -143,6 +143,24 @@
 		}
 
 
+		public function checkAntecedenteIsUsed(){
+
+			$sql = "SELECT COUNT(*) as numb FROM regla WHERE id_antecedente = ".$this->id;
+
+			$result = mysql_query($sql);
+			$resultArr = mysql_fetch_array($result);
+
+			$number = $resultArr["numb"];
+
+			if ($number > 0){
+				return true;
+			}
+
+			return false;
+		}
+
+
+
 
 	}
 

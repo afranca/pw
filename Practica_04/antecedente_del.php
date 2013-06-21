@@ -3,16 +3,19 @@
 ?>
 
 <?php
-
-	$reglaEntity = New Regla();
 	$antecedenteEntity = New Antecedente();
 
 
 	$ret = false;
 	if (isset($_GET['id'])){
-		$reglaEntity = $reglaEntity->read($_GET['id']);
-		$ret = $reglaEntity->delete();
+		$antecedenteEntity = $antecedenteEntity->read($_GET['id']);
+
+		$ret = $antecedenteEntity->checkAntecedenteIsUsed();
+		if (!$ret){
+			$ret = $antecedenteEntity->delete();
+		}
+
 	}
-	header( 'Location: regla_lst.php?ret='.$ret) ;
+	header( 'Location: antecedente_lst.php?ret='.$ret);
 
 ?>

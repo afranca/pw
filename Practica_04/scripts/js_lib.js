@@ -9,7 +9,7 @@ function deleteEntry(entityName,entityId){
 		}
 
 		if (entityName == 'antecedente'){
-			alert('delete antecedente '+entityId);
+			location.href='antecedente_del.php?id='+entityId;
 
 		}
 
