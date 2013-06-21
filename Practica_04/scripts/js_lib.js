@@ -2,6 +2,10 @@ function deleteEntry(entityName,entityId){
 
 	if (confirm('seguro que queres borrar?')){
 
+		location.href= entityName+'_del.php?id='+entityId;
+
+
+	/*
 		if (entityName == 'regla'){
 			//alert('delete regla '+entityId);
 			location.href='regla_del.php?id='+entityId;
@@ -18,6 +22,8 @@ function deleteEntry(entityName,entityId){
 			alert('delete atributo '+entityId);
 
 		}
+
+		*/
 	}
 
 }
