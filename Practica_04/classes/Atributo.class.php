@@ -71,6 +71,27 @@
 		}
 
 
+		public function checkAtributoIsUsed(){
+
+			$sql = "SELECT COUNT(*) as numb FROM regla WHERE id_atributo = ".$this->id;
+			$result = mysql_query($sql);
+			$resultArr = mysql_fetch_array($result);
+			$numberRegla = $resultArr["numb"];
+
+			$sql = "SELECT COUNT(*) as numb FROM antecedente WHERE id_atributo = ".$this->id;
+			$result = mysql_query($sql);
+			$resultArr = mysql_fetch_array($result);
+			$numberAntecedente = $resultArr["numb"];
+
+
+			if ( ($numberRegla+$numberAntecedente) > 0){
+				return true;
+			}
+
+			return false;
+		}
+
+
 	}
 
 ?>
