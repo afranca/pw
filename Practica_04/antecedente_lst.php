@@ -12,6 +12,8 @@
 
 					<h1>Lista Antecedente</h1>
 
+					<?php include('error_message.php'); ?>
+
 					<br>
 					<a href="antecedente_new.php">Crear Novo</a>
 					<br><br>

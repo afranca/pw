@@ -4,18 +4,25 @@
 
 	$entity = New Antecedente();
 
-	$ret = false;
+	$ret = 0;
+	$retLocal = false;
+
 	if (isset($_POST['id'])){
 		$currentId = $_POST['id'];
-		$ret = $entity->deleteEntries($currentId);
+		$retLocal = $entity->deleteEntries($currentId);
 		foreach($_POST['id_atributo'] as $key => $value){
-			//$ret = $entity->create($currentId,$value);
-			$ret = $entity->update($currentId,$value);
+			$retLocal = $entity->update($currentId,$value);
+			if (!$retLocal){
+				$ret = 3;
+			}
 		}
 	}else {
 		$currentId = $entity->findLastId() +1 ;
 		foreach($_POST['id_atributo'] as $key => $value){
-			$ret = $entity->create($currentId,$value);
+			$retLocal = $entity->create($currentId,$value);
+			if (!$retLocal){
+					$ret = 3;
+			}
 		}
 	}
 

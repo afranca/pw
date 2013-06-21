@@ -11,7 +11,7 @@
 				<div class="menu">
 
 					<h1>Lista Atributo</h1>
-
+					<?php include('error_message.php'); ?>
 					<br>
 					<a href="atributo_new.php"> Crear Novo</a>
 					<br><br>

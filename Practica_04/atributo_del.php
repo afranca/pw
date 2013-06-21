@@ -9,14 +9,20 @@
 	$reglaEntity = New Regla();
 	$atributoEntity = New Atributo();
 
-	$ret = false;
+	$retLocal = false;
+	$ret=1;
 	if (isset($_GET['id'])){
 		$atributoEntity = $atributoEntity->read($_GET['id']);
 
-
-		$ret = $atributoEntity->checkAtributoIsUsed();
-		if (!$ret){
-			$ret = $atributoEntity->delete();
+		$retLocal = $atributoEntity->checkAtributoIsUsed();
+		if (!$retLocal){
+			if ($atributoEntity->delete()){
+				$ret=0;
+			} else {
+				$ret=4;
+			}
+		}else{
+			$ret=2;
 		}
 
 	}

@@ -9,12 +9,19 @@
 	$entity->id_antecedente = $_POST['id_antecedente'];
 
 
-	$ret = false;
+	$ret = 0;
+	$retLocal = false;
 	if (isset($_POST['id'])){
 		$entity->id = $_POST['id'];
-		$ret = $entity->update();
+		$retLocal = $entity->update();
+
 	}else {
-		$ret = $entity->create();
+		$retLocal = $entity->create();
+
+	}
+
+	if (!$retLocal){
+		$ret = 3;
 	}
 
 	header( 'Location: regla_lst.php?ret='.$ret) ;

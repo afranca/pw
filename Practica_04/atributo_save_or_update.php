@@ -9,13 +9,17 @@
 	$entity->atributo = $_POST['atributo'];
 	$entity->valor = $_POST['valor'];
 
-	$ret = false;
+	$ret = 0;
+	$retLocal = false;
 	if (isset($_POST['id'])){
-		$ret = $entity->update();
+		$retLocal = $entity->update();
 	}else {
-		$ret = $entity->create();
+		$retLocal = $entity->create();
 	}
 
+	if (!$retLocal){
+		$ret = 3;
+	}
 	header( 'Location: atributo_lst.php?ret='.$ret) ;
 
 ?>

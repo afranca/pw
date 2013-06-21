@@ -1,6 +1,6 @@
 function deleteEntry(entityName,entityId){
 
-	if (confirm('seguro que queres borrar?')){
+	if (confirm('seguro que queres borrar?'+entityId)){
 
 		location.href= entityName+'_del.php?id='+entityId;
 
