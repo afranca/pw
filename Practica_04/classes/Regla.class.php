@@ -75,6 +75,24 @@
 		}
 
 
+		public function findDuplicate(){
+
+			$sql = "SELECT count(*) as duplicate FROM regla WHERE id_antecedente = ".$this->id_antecedente." AND id_atributo=".$this->id_atributo." AND cf=".$this->cf;
+			//echo("sql:".$sql);
+			$result = mysql_query($sql);
+			$resultArr = mysql_fetch_array($result);
+
+			$duplicate = $resultArr["duplicate"];
+			//echo("duplicate:".$duplicate);
+			if ($duplicate > 0){
+				return true;
+			}
+
+			return false;
+
+		}
+
+
 	}
 
 ?>
