@@ -18,6 +18,34 @@
 	function confirmForm(){
 		var form1 = document.getElementById('form1');
 		if (confirm('seguro que queres insertar un regla?')){
+
+			var id_antecedente = document.getElementById('id_antecedente');
+			if (id_antecedente.value=='' || id_antecedente.value==0){
+				alert("Antecedente es campo obligatorio");
+				return;
+			}
+
+			var id_atributo = document.getElementById('id_atributo');
+			if (id_atributo.value=='' || id_atributo.value==0){
+				alert("Consecuente es campo obligatorio");
+				return;
+			}
+
+			var cf = document.getElementById('cf');
+			if (cf.value==''){
+				alert("CF es campo obligatorio");
+				return;
+			}
+			if (!isNumber(cf.value)){
+				alert("CF es un campo numerico [-1,1]");
+				return;
+			}
+			if (cf.value >1 || cf <-1){
+				alert("CF tiene que estar entre -1 y 1");
+				return;
+			}
+
+
 			form1.submit();
 		}
 	}

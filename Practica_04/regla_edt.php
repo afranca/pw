@@ -16,6 +16,43 @@
 
 <html>
 <?php include('head.php'); ?>
+
+
+<script>
+	function confirmForm(){
+
+		var id_antecedente = document.getElementById('id_antecedente');
+		if (id_antecedente.value=='' || id_antecedente.value==0){
+			alert("Antecedente es campo obligatorio");
+			return;
+		}
+
+		var id_atributo = document.getElementById('id_atributo');
+		if (id_atributo.value=='' || id_atributo.value==0){
+			alert("Consecuente es campo obligatorio");
+			return;
+		}
+
+		var cf = document.getElementById('cf');
+		if (cf.value==''){
+			alert("CF es campo obligatorio");
+			return;
+		}
+		if (!isNumber(cf.value)){
+			alert("CF es un campo numerico [-1,1]");
+			return;
+		}
+		if (cf.value >1 || cf <-1){
+			alert("CF tiene que estar entre -1 y 1");
+			return;
+		}
+
+		var form1 = document.getElementById('form1');
+		form1.submit();
+
+	}
+</script>
+
 <body>
 
 		<div class="page">
@@ -27,7 +64,7 @@
 					<h1>Editar Regla</h1>
 
 					<br>
-					<form name="form1" method="post"  action="regla_save_or_update.php">
+					<form name="form1" id="form1" method="post"  action="regla_save_or_update.php">
 						<input type="hidden" name="id" id="id" value="<?php echo($entity->id); ?>">
 						<table width="94%" border="1" align="left">
 
@@ -35,7 +72,7 @@
 								<td align="left">Antecedente</td>
 								<td align="left">
 									<select name="id_antecedente" id="id_antecedente">
-										<option value="0" SELECTED>Selecione</option>
+										<!-- <option value="0" SELECTED>Selecione</option> -->
 										<?php
 										$a=0;
 										while($a<count($antecedente_lst)){
@@ -84,7 +121,7 @@
 								<td align="left">
 								</td>
 								<td align="left">
-									<input type="button" id="cancel_btn" value="Cancelar" onclick="javascript:location.href='antecedente_lst.php'"> | <input type="submit" id="create_btn" value="Guardar">
+									<input type="button" id="cancel_btn" value="Cancelar" onclick="javascript:location.href='antecedente_lst.php'"> | <input type="button"  onclick="javascript:confirmForm();" id="create_btn" value="Guardar">
 								</td>
 							</tr>
 						</table>

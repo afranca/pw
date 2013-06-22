@@ -5,13 +5,13 @@
 	$entity = New Atributo();
 
 
-	$entity->id = $_POST['id'];
-	$entity->atributo = $_POST['atributo'];
-	$entity->valor = $_POST['valor'];
+	$entity->atributo = strtoupper($_POST['atributo']);
+	$entity->valor = strtoupper($_POST['valor']);
 
 	$ret = 0;
 	$retLocal = false;
 	if (isset($_POST['id'])){
+		$entity->id = $_POST['id'];
 		$retLocal = $entity->update();
 	}else {
 		$retLocal = $entity->create();
