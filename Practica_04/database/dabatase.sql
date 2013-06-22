@@ -33,12 +33,11 @@ CREATE TABLE `atr-val` (
 
 
 
+
 CREATE TABLE `regla` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `id_antecedente` int(11) DEFAULT NULL,
-  `id_atr-val` int(11) DEFAULT NULL,
-  `cf` int(11) DEFAULT NULL,
+  `id_atributo` int(11) DEFAULT NULL,
+  `cf` float DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-
+)
