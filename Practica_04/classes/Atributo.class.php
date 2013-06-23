@@ -91,6 +91,24 @@
 			return false;
 		}
 
+		public function findDuplicate(){
+
+			$sql = "SELECT count(*) as duplicate FROM atributo WHERE atributo = '".$this->atributo."' AND valor='".$this->valor."'";
+			//echo("sql:".$sql);
+			$result = mysql_query($sql);
+			$resultArr = mysql_fetch_array($result);
+
+			$duplicate = $resultArr["duplicate"];
+			//echo("duplicate:".$duplicate);
+			if ($duplicate > 0){
+				return true;
+			}
+
+			return false;
+
+		}
+
+
 
 	}
 

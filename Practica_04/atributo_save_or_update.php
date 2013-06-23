@@ -10,15 +10,19 @@
 
 	$ret = 0;
 	$retLocal = false;
-	if (isset($_POST['id'])){
-		$entity->id = $_POST['id'];
-		$retLocal = $entity->update();
-	}else {
-		$retLocal = $entity->create();
-	}
+	if (!$entity->findDuplicate()){
+		if (isset($_POST['id'])){
+			$entity->id = $_POST['id'];
+			$retLocal = $entity->update();
+		}else {
+			$retLocal = $entity->create();
+		}
 
-	if (!$retLocal){
-		$ret = 3;
+		if (!$retLocal){
+			$ret = 3;
+		}
+	} else {
+		$ret = 4;
 	}
 	header( 'Location: atributo_lst.php?ret='.$ret) ;
 
