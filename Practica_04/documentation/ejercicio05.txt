@@ -1,0 +1,33 @@
+
+
+Problema:
+
+
+
+
+Solucion:
+
+Hay mucha maneras diferentes de hacer el "approaching" del problema propuesto, como tengo una buena experiencia con JAVA y estoy muy familiarizado Orientacion a Objetos, intente aplicar al maximo su filosofia en esta practica.
+
+Primeramente la indetificacion de las entidades, que ya estava bastante evidentes: Regla, Atributo y Antecedente.
+
+Cada entidade da origen a una clases, y sus funciones especificas seran desarrollada en metodos, que usaran encapsulamento en su funcionamento.
+
+Regla
+
+En la clase Regla, a parte del propular CRUD (create,read,update y delete), fueran desarrollados metodos para verificar se una regla no es duplicada. Conforme las descripcion de la practica, una regla duplicada es un regla que tiene mismo antecedente, consecuente y cf. Caso el usuario intente insertar una regla duplicada, el sistema retornara a la zona de edicion de reglas y un mensaje ser mostrado en la pantalle, alertando el usuario que tal regla es duplicada. Para saber si la regla a ser insertada ya existe, una consulta a la base de datos es necesaria. Una Regla puede ser removida a cualquier momento, sin implicar problemas para el sistema.
+
+
+Atributo
+En la clase Atributo a parte del propular CRUD (create,read,update y delete), fueran desarrollados metodos para verificar se una atributo no es duplicado y si un atributo esta sendo usado por alguna Regla o Antecedente. Al insertar nuevo atributo, si un atributo con el mismo nombre y valor ya existe en la base de datos, al usuario sera mostrado un mensaje de error. Para remover un Atributo, es necesario que tal Atributo no este relacionado con ninguna entidad de sistema. Caso el usuario intente borrar un atributo que esta sendo usado por un Regla, el sistema mostara un mensaje de error y la accion no sera efectuado.
+Nombre y Valor son campos obligatios para un atributo, no sera permitido guardar atributos sin unos de estes campos.
+
+Antecedente
+En la clase Antecedente a parte del propular CRUD (create,read,update y delete), fueran desarrollados metodos para buscar     el ultimo id en la tabla de antecedentes, buscar todos los Atributos de un Antecedente, y si un Antecedente  esta sendo usado com  alguna Regla.
+
+Para asignar atributos a un antecedente fueran usados checkboxes y la solucion adoptada, fue que a cada vez que se haga un cambion de un antecedente, todos sus atributos son reovidos y nuevamente insertados en la base de datos. En primera instancia puede parecer una solucion no tan inteligente pero el costo de probar cada uno de los atributos para saber si fue removido o no  y entonces insertar los nuevos, caso haya, tendria un costo mucho mayor.
+
+Para excluir un Antecedente, tal Antecedente no puede estar asignado a ninguna Regla, caso haya por lo menos una Regla que usa el Antecedente que se desea exluir, un mensaje de error sera mostrado en la pantalla, para alerta el usuario que removiendo tal entrada de la base de datos, la dejaria en estado inconscistente.
+
+
+
