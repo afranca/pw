@@ -2,7 +2,7 @@
 body.n {
 	font-family: verdana,helvetica;
 	color: #000000;
-	background-color: #f87820; 
+	background-color: #ad7ce5; 
 	margin-left:-8px; 
 	margin-top:-8px;
 	font-size: 10px;
@@ -17,14 +17,14 @@ body.white {
 body {
 	font-family: verdana,helvetica;
 	color: #000000;
-	background-color: #f8e8a0;
+	background-color: #f0e5f8;
 	font-size: 12px;
 }
 h1 {
 	font-family: verdana,helvetica;
 	font-size: 16px;
 	font-weight: bold;
-	color: #bb3902;
+	color: #5a1784;
 }
 h2 {
 	font-family: verdana,helvetica;
@@ -79,7 +79,7 @@ p {
 }
 .navi {
 	font-family: verdana,helvetica;
-	background-color: #fb7922;
+	background-color: #ad7ce5;
 	color: #ffffff;
 	font-size: 10px;
 }
@@ -93,22 +93,22 @@ a.n:link:focus, a.n:visited:focus {-moz-outline:0px;}
 a.n:link { font-size: 10pt; color: #ffffff; font-weight:normal; text-decoration:none;}
 a.n:visited { font-size: 10pt; color: #ffffff; font-weight:normal; text-decoration:none;}
 a.n:active { font-size: 10pt; color: #ffffff; font-weight:normal; text-decoration:none;}
-a.n:hover { font-size: 10pt; background-color: #ffffff; color: #fb7822; font-weight:normal; text-decoration:none;}
+a.n:hover { font-size: 10pt; background-color: #ffffff; color: #ad7ce4; font-weight:normal; text-decoration:none;}
 a.nh:link:focus, a.nh:visited:focus {-moz-outline:0px;}
 
-a.nh:link { font-size: 10pt; background-color: #ffffff; color: #fb7822; font-weight:normal; text-decoration:none;}
-a.nh:visited { font-size: 10pt; background-color: #ffffff; color: #fb7822; font-weight:normal; text-decoration:none;}
-a.nh:active { font-size: 10pt; background-color: #ffffff; color: #fb7822; font-weight:normal; text-decoration:none;}
-a.nh:hover { font-size: 10pt; background-color: #ffffff; color: #fb7822; font-weight:normal; text-decoration:none;}
+a.nh:link { font-size: 10pt; background-color: #ffffff; color: #ad7ce4; font-weight:normal; text-decoration:none;}
+a.nh:visited { font-size: 10pt; background-color: #ffffff; color: #ad7ce4; font-weight:normal; text-decoration:none;}
+a.nh:active { font-size: 10pt; background-color: #ffffff; color: #ad7ce4; font-weight:normal; text-decoration:none;}
+a.nh:hover { font-size: 10pt; background-color: #ffffff; color: #ad7ce4; font-weight:normal; text-decoration:none;}
 
-a:link { color: #bb3902; font-weight:normal; text-decoration:underline;}
-a:visited { color: #bb3902; font-weight:normal; text-decoration:underline;}
-a:active { color: #bb3902; font-weight:normal; text-decoration:underline;}
-a:hover { color: #bb3902; font-weight:normal; text-decoration:underline;}
+a:link { color: #4aa2e6; font-weight:normal; text-decoration:underline;}
+a:visited { color: #4aa2e6; font-weight:normal; text-decoration:underline;}
+a:active { color: #4aa2e6; font-weight:normal; text-decoration:underline;}
+a:hover { color: #4aa2e6; font-weight:normal; text-decoration:underline;}
 
 .h {
 	font-family: verdana,helvetica;
-	color: #3c3c5c;
+	color: #f80a3c;
 	background-color: #ffffff;
 	font-size: 12px;
 }

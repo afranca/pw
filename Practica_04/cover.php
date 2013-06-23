@@ -2,7 +2,7 @@
 	"http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-		<link href="practica04.css" rel="stylesheet" type="text/css">
+		<link href="estilo05.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
