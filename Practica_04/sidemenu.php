@@ -17,9 +17,27 @@
 			<tr>
 				<td height="1"  colspan="1"  class="white"></td>
 			</tr>
+
 			<tr valign="top">
 				<td align="right" class="menu_item_td">
-					<a class="menu_item" target="content" href="list_regla.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Inicio&nbsp;&nbsp;</a><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;[visualización]&nbsp;&nbsp;
+				</td>
+			</tr>
+			<tr valign="top">
+				<td align="right" class="menu_item_td">
+					<a class="menu_item" target="content" href="list_regla.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Reglas&nbsp;&nbsp;</a><br>
+				</td>
+			</tr>
+
+			<tr>
+				<td height="12"  colspan="1"  class="white"></td>
+			</tr>
+
+
+
+			<tr valign="top">
+				<td align="right" class="menu_item_td">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;[edición]&nbsp;&nbsp;
 				</td>
 			</tr>
 			<tr valign="top">
