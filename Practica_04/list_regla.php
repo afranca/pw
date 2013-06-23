@@ -39,7 +39,7 @@
 						while($i<$max){
 
 							echo('<tr>');
-							echo('	<td colspan="3" align="left"><a href="regla_edt.php?id='.$resultArr[$i].'">'.$resultArr[$i].'</a></td>');
+							echo('	<td colspan="3" align="left">REGLA '.$resultArr[$i].'</td>');
 
 							$resultArrAntecedente = $antecedente->findAntecedentesById($resultArr[$i+1]);
 							$maxAntecedente = count($resultArrAntecedente);
@@ -49,7 +49,7 @@
 								$antecedenteStr = $antecedenteStr.' '.$resultArrAntecedente[$j].'='.$resultArrAntecedente[$j+1];
 								$j=$j+2;
 								if ($j<$maxAntecedente){
-									$antecedenteStr = $antecedenteStr .' AND <br>';
+									$antecedenteStr = $antecedenteStr .' <br> &nbsp;&nbsp;&nbsp; AND <br>';
 								}
 							}
 							echo('	<td colspan="1" align="left">'.$antecedenteStr.'</td>');
