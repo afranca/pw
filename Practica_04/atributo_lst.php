@@ -10,7 +10,7 @@
 
 				<div class="menu">
 
-					<h1>Lista Atributo</h1>
+					<h1>Atributo Edicion</h1>
 					<?php include('error_message.php'); ?>
 					<br>
 					<a href="atributo_new.php"> Crear Novo</a>

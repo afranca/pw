@@ -10,7 +10,7 @@
 
 				<div class="menu">
 
-					<h1>Lista Regla</h1>
+					<h1>Regla Edicion</h1>
 
 
 					<?php include('error_message.php'); ?>

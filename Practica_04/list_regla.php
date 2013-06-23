@@ -12,7 +12,7 @@
 
 				<div class="menu">
 
-					<h1>Lista Reglas</h1>
+					<h1>Reglas Visualizacion</h1>
 
 
 

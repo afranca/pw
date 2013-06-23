@@ -10,7 +10,7 @@
 
 				<div class="menu">
 
-					<h1>Lista Antecedente</h1>
+					<h1>Antecedente Edicion</h1>
 
 					<?php include('error_message.php'); ?>
 
