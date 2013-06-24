@@ -49,3 +49,105 @@ Error Cod 3  - DB Error: Usuario intenta ejecutar alguna accion en la base de da
 
 Error Cod 4  - Datos Duplicados: Usuario intenta insertar alguna Regla, Antecedente o Atributo que ya existe en la base de  datos.
 
+
+
+
+1. introducion
+
+Se desea desarrollar un sistema de gestión de bases de conocimiento para sistemas
+expertos que pueda trabajar a través de la red. El sistema tendra una parte de visualizacion, donde el usuario puede solamente ver la base de conocimiento y una parte de edicion, donde el usuario pueder ver y alterar relgas, atributos y antecedentes.
+
+2.2 2.2	Funcionalidad del producto
+
+El estara dividido en dos partes:
+· Zona de edición 
+· Zona de visualización 
+
+La zona de edición de la base de conocimiento:
+· La zona de edición permitirá insertar y borrar reglas.
+o La acción a realizar se seleccionará mediante pulsación en un botón.
+o En el caso de la inserción no se solicitará número, puesto que se generará
+automáticamente.
+o En el caso del borrado se solicitará confirmación antes de ejecutarlo.
+· El formato de las reglas a insertar es el siguiente:
+
+  IF antecedente THEN consecuente CF = número
+
+donde:
+· antecedente: nombre de atributo = valor AND nombre de atributo = valor AND ...
+o nombre de atributo: es un atributo de la tabla atr-valor
+o valor: es un valor que según la tabla atr-valor pueda tomar el atributo
+especificado
+· consecuente: nombre de atributo = valor
+o nombre de atributo: es un atributo de la tabla atr-valor
+o valor: es un valor que según la tabla atr-valor pueda tomar el atributo
+especificado
+· número: real en el intervalo [-1, 1] con dos decimales
+· Lo hará mediante desplegables (select) en los que se permitirá o bien seleccionar uno
+de los valores existentes para cada uno de los campos o bien añadir uno nuevo
+· Conforme se va insertando la regla se debe de ir mostrando la regla que se va
+generando en formato similar al siguiente (o mejor)
+· Antes de insertar la regla se pedirá confirmación.
+· Antes de insertar cadenas de texto se convertirán a mayúsculas.
+· No se permitirá insertar reglas repetidas (caso de producirse se debe avisar del error)
+o Una regla repetida es aquella que tienen igual antecedente, consecuente y CF
+· El identificador de la regla no se generará hasta que se confirme la inserción.
+· No se añadirá ningún dato a la base de datos hasta que no se haya confirmado la
+inserción.
+· El nombre de la base de datos será el dni del autor del ejercicio.
+· Las reglas de la base de conocimiento se almacenarán en una base de datos con las
+siguientes tablas:
+· Reglas: ID_regla(entero), ID_Antecedente(entero), ID_atr-val(entero), CF(real)
+· Atr-Val: ID_Atr-Val(entero), Atributo(cadena de texto de 40 caracteres),
+Valor(cadena de texto de 40 caracteres)
+· Antecendente: ID_Antecedente(entero), ID_Atr-Val(entero)
+· Por ejemplo supongamos que tenemos una base de conocimiento compuesta por
+las siguientes reglas:
+1. IF nublado=si AND viento=oeste THEN lluvia=si CF=1.0
+2. IF nublado=no AND viento=oeste THEN sol=si CF=1.0
+3. IF nublado=si AND viento=noroeste THEN lluvia=si CF=1.0
+4. IF nublado=si AND viento=oeste THEN frio=si CF=1.0
+Se representará mediante los siguientes valores en las tablas
+antecedente
+ID_antecedente ID_atr-valor
+1 1
+1 2
+2 4
+2 2
+3 1
+3 6
+La zona de visualización de la base de conocimiento:
+· Mostrará un listado formateado de la base de conocimiento mostrando una regla por
+línea en el siguiente formato:
+Reglas
+ID_regla ID_antecedente ID_atr-val CF
+1 1 3 1.0
+2 2 5 1.0
+3 3 3 1.0
+4 1 7 1.0
+atr-val
+ID_atr-val Atributo valor
+1 Nublado si
+2 Viento oeste
+3 Lluvia si
+4 Nublado no
+5 Sol Si
+6 Viento Noroeste
+7 Frio si
+número_regla IF antecedente THEN consecuente CF = número
+donde:
+· número_regla: es el identificador de la regla, es un entero que debe de mostrar
+tantos dígitos como sea necesario para representa la regla de identificador más
+alto
+· antecedente: nombre de atributo = valor AND nombre de atributo = valor AND ...
+o nombre de atributo: es un atributo de la tabla atr-valor
+o valor: es un valor que según la tabla atr-valor pueda tomar el atributo
+especificado
+o pueden existir tantos pares atributo-valor como sean necesarios
+· consecuente: nombre de atributo = valor
+o nombre de atributo: es un atributo de la tabla atr-valor
+o valor: es un valor que según la tabla atr-valor pueda tomar el atributo
+especificado
+· El aspecto visual del listado de la base de conocimiento debe de ser similar o
+mejorar el que se muestra a continuación
+Mejoras opcionales
