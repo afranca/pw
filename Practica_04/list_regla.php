@@ -19,16 +19,23 @@
 					<br>
 
 					<br><br>
-					<table width="94%" border="1" align="left">
 
+					<table width="94%" border="0" align="left">
+						<!--
 						<tr>
 
-							<td colspan="3" align="left">Regla</td>
-							<td align="left">Atecedente</td>
+							<td colspan="4" align="left">Regla</td>
+
+							<td  colspan="4" align="left">Atecedente</td>
+
 							<td align="left">Consecuente</td>
+							<td align="left">&nbsp;</td>
 							<td align="left">CF</td>
 						</tr>
 
+						-->
+
+					<!-- <div class="div_reglas"> -->
 
 					<?PHP
 						$antecedente = New Antecedente();
@@ -38,8 +45,8 @@
 						$i = 0;
 						while($i<$max){
 
-							echo('<tr>');
-							echo('	<td colspan="3" align="left">REGLA '.$resultArr[$i].'</td>');
+							echo('<tr> <td> <div class="div_reglas_row">');
+							echo('	<div class="div_id">REGLA '.$resultArr[$i].'</div>');
 
 							$resultArrAntecedente = $antecedente->findAntecedentesById($resultArr[$i+1]);
 							$maxAntecedente = count($resultArrAntecedente);
@@ -52,16 +59,31 @@
 									$antecedenteStr = $antecedenteStr .' <br> &nbsp;&nbsp;&nbsp; AND <br>';
 								}
 							}
-							echo('	<td colspan="1" align="left">'.$antecedenteStr.'</td>');
+							echo('	<div class="div_gap"> &nbsp;</div>');
+							echo('	<div class="div_if"> IF </div>');
+							echo('	<div class="div_gap"> &nbsp;</div>');
+							echo('	<div class="div_antecedente">'.$antecedenteStr.'</div>');
+							echo('	<div class="div_gap"> &nbsp;</div>');
+							echo('	<div class="div_then"> THEN</div>');
+							echo('	<div class="div_gap"> &nbsp;</div>');
+							echo('	<div class="div_consecuente">'.$resultArr[$i+4].'='.$resultArr[$i+5].'</div>');
+							echo('	<div class="div_gap"> &nbsp;</div>');
+							echo('	<div class="div_cf">'.$resultArr[$i+3].'</div>');
 
-							echo('	<td colspan="1" align="left">'.$resultArr[$i+4].'='.$resultArr[$i+5].'</td>');
-							echo('	<td colspan="1" align="left">'.$resultArr[$i+3].'</td>');
-
-							echo('</tr>');
+							echo(' </div> </td></tr>');
 							$i = $i + 6;
+
+							echo('<tr>  <td colspan="11"> &nbsp;</td> </tr>');
+
+
 						}
 					?>
-					</table>
+					<!--</table>  </div>-->
+
+
+
+
+
 				</div>
 
 

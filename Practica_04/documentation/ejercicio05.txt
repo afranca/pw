@@ -30,4 +30,22 @@ Para asignar atributos a un antecedente fueran usados checkboxes y la solucion a
 Para excluir un Antecedente, tal Antecedente no puede estar asignado a ninguna Regla, caso haya por lo menos una Regla que usa el Antecedente que se desea exluir, un mensaje de error sera mostrado en la pantalla, para alerta el usuario que removiendo tal entrada de la base de datos, la dejaria en estado inconscistente.
 
 
+Frontend
+La parte de "look and feel" no fue el foco del desarrollo por lo tanto es muy simples y poco sofisticada con relacion al uso de CSS. Consiste de una pagina principal com algunos frames para dividir la pantalla en parte superior (titulo), parte lateral (navegacion) y parte central (contenido). 
+
+Tanto la parte de edicion cuanto la de visualizacion estan visibles en el menu lateral. 
+
+El uso de  javascript tambien fue limitado a la validacion de formularios y alguna funcion generica para excluir entrada en la base de datos. 
+
+
+Base de Datos
+Caso accion en la base de datos tiene un retorno al usuario, si la accion fue efectuada con suceso, en codigo de retorno es 0, caso contrario, sigo abaixo los codigos de errores:
+
+Error Cod 1  - Falta de ID:  Usuario intenta editar alguna entrada en la base de datos pero no pasa un ID como parametro
+
+Error Cod 2  - Hay Dependencias : Usuario intenta remover alguna entrada en la base de datos pero tal entrada esta relacionado con datos en otras tablas y no puede ser excluido.
+
+Error Cod 3  - DB Error: Usuario intenta ejecutar alguna accion en la base de datos pero esta por alguna razon no puede hacerlo (contrasena invalida, bd no esta conectado, base de datos no existe y etc)
+
+Error Cod 4  - Datos Duplicados: Usuario intenta insertar alguna Regla, Antecedente o Atributo que ya existe en la base de  datos.
 

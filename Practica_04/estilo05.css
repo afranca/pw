@@ -82,3 +82,132 @@ a:active { color: #4aa2e6; font-weight:normal; text-decoration:underline;}
 a:hover { color: #4aa2e6; font-weight:normal; text-decoration:underline;}
 
 
+.blue_bg {
+	font-family: verdana,helvetica;
+	background-color:yellow;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.div_reglas {
+	
+	margin-right: 15px
+	float: left;
+	width: 800px;
+	background-color:yellow;
+	
+}
+.div_reglas_row {
+
+	font-size: 10pt;	
+	float: inline;
+	width: 800px;
+	border: 1px;
+	
+	
+}
+
+
+.div_gap {
+	width:20px;
+	float: left;
+	background-color:#f0e5f8;
+	
+	
+}
+.div_id {
+	font-family: verdana,helvetica;
+	background-color:blue;	
+	font-size: 10pt;	
+	float: left;
+	
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:5px;
+	width: 65px;
+	height: 30px;
+}	
+
+
+.div_if {
+	font-family: verdana,helvetica;
+	background-color:red;	
+	font-size: 10pt;	
+	float: left;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:8px;
+	padding-left:8px;
+	width: 15px;
+	height: 15px;	
+}
+
+.div_antecedente {
+	font-family: verdana,helvetica;
+	background-color:green;	
+	font-size: 10pt;	
+	float: left;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:5px;
+	padding-left:5px;
+	width: 105px;
+}
+
+
+
+.div_then {
+	font-family: verdana,helvetica;
+	background-color:red;	
+	font-size: 10pt;	
+	float: left;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:8px;
+	padding-left:8px;	
+}
+
+
+.div_cf {
+	font-family: verdana,helvetica;
+	background-color:purple;	
+	font-size: 10pt;	
+	float: left;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+	width: 40px;
+}
+
+
+.div_consecuente {
+	font-family: verdana,helvetica;
+	background-color:blue;	
+	font-size: 10pt;	
+	float: left;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+	width: 105px;
+	height: 30px;	
+}
+
+
+
+/* from http://css-tricks.com/snippets/css/clear-fix/ */
+.clearfix {
+    display: inline-block;
+}
+
+/* clear line*/
+.clearer {
+    display:block;
+    height:1px;
+    line-height:0px;
+    font-size:0px;
+    clear:both;
+    float: inline;
+}
