@@ -36,7 +36,9 @@
 				alert("CF es campo obligatorio");
 				return;
 			}
-			if (isNaN(cf.value)){
+
+
+			if (!isNumber(cf.value)){
 				alert("CF es un campo numerico [-1,1] ");
 				return;
 			}
@@ -66,7 +68,8 @@ function showAntecedente(str){
 
 	xmlhttp.onreadystatechange=function(){
   		if (xmlhttp.readyState==4 && xmlhttp.status==200){
-    		document.getElementById("antecedente").innerHTML=xmlhttp.responseText;
+    		document.getElementById("div_antecedente").innerHTML=xmlhttp.responseText;
+    		document.getElementById("id_atributo").disabled =false;
     	}
   	}
 
@@ -90,7 +93,8 @@ function showConsecuente(str){
 
 	xmlhttp.onreadystatechange=function(){
   		if (xmlhttp.readyState==4 && xmlhttp.status==200){
-    		document.getElementById("consecuente").innerHTML=xmlhttp.responseText;
+    		document.getElementById("div_consecuente").innerHTML=xmlhttp.responseText;
+    		document.getElementById("cf").disabled =false;
     	}
   	}
 
@@ -103,7 +107,7 @@ function showConsecuente(str){
 
 function setCF(str){
 
-    document.getElementById("cf").innerHTML=str;
+    document.getElementById("div_cf").innerHTML=str;
 }
 </script>
 <body>
@@ -125,13 +129,13 @@ function setCF(str){
 										<div class="div_gap"> &nbsp;</div>
 										<div class="div_if"> IF </div>
 										<div class="div_gap"> &nbsp;</div>
-										<div class="div_antecedente" id="antecedente"> </div>
+										<div class="div_antecedente" id="div_antecedente"> </div>
 										<div class="div_gap"> &nbsp;</div>
 										<div class="div_then"> THEN</div>
 										<div class="div_gap"> &nbsp;</div>
-										<div class="div_consecuente" id="consecuente"></div>
+										<div class="div_consecuente" id="div_consecuente"></div>
 										<div class="div_gap"> &nbsp;</div>
-										<div class="div_cf" id="cf"></div>
+										<div class="div_cf" id="div_cf"></div>
 									</div>
 								</td>
 							</tr>
@@ -162,7 +166,7 @@ function setCF(str){
 							<tr>
 								<td align="left">Consecuente / Valor</td>
 								<td align="left">
-									<select name="id_atributo" id="id_atributo" onchange="showConsecuente(this.value)">
+									<select name="id_atributo" id="id_atributo" onchange="showConsecuente(this.value)" disabled>
 										<option value="0" SELECTED>Selecione</option>
 										<?php
 										$i=0;
@@ -178,7 +182,7 @@ function setCF(str){
 							<tr>
 								<td align="left">CF</td>
 								<td align="left">
-									<input type="text" name="cf" id="cf" value="" size="6" onkeyup="javascript:setCF(this.value)"   onblur="javascript:setCF(this.value)">
+									<input type="text" name="cf" id="cf" value="" size="6" onkeyup="javascript:setCF(this.value)"   onblur="javascript:setCF(this.value)" disabled>
 								</td>
 							</tr>
 
