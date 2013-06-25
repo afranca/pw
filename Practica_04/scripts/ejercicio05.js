@@ -23,5 +23,5 @@ function toUp(str){
 /* 	check whether n is a number or not                      */
 /* ******************************************************** */
 function isNumber(n) {
-  return !isNaN(parseInt(n)) && isFinite(n);
+  return !isNaN((parseFloat(n)) && isFinite(n);
 }

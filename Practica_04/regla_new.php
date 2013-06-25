@@ -36,8 +36,8 @@
 				alert("CF es campo obligatorio");
 				return;
 			}
-			if (!isNumber(cf.value)){
-				alert("CF es un campo numerico [-1,1]");
+			if (isNaN(cf.value)){
+				alert("CF es un campo numerico [-1,1] ");
 				return;
 			}
 			if (cf.value >1 || cf <-1){
@@ -50,6 +50,62 @@
 		}
 	}
 </script>
+
+<script>
+function showAntecedente(str){
+	if (str=="") {
+	  document.getElementById("txtHint").innerHTML=" AJAX ERROR";
+	  return;
+	}
+
+	if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
+	  xmlhttp=new XMLHttpRequest();
+	}else {// code for IE6, IE5
+	  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+
+	xmlhttp.onreadystatechange=function(){
+  		if (xmlhttp.readyState==4 && xmlhttp.status==200){
+    		document.getElementById("antecedente").innerHTML=xmlhttp.responseText;
+    	}
+  	}
+
+	xmlhttp.open("GET","test_ajax.php?q="+str,true);
+	xmlhttp.send();
+}
+
+
+function showConsecuente(str){
+
+	if (str=="") {
+	  document.getElementById("txtHint").innerHTML=" AJAX ERROR";
+	  return;
+	}
+
+	if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
+	  xmlhttp=new XMLHttpRequest();
+	}else {// code for IE6, IE5
+	  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+
+	xmlhttp.onreadystatechange=function(){
+  		if (xmlhttp.readyState==4 && xmlhttp.status==200){
+    		document.getElementById("consecuente").innerHTML=xmlhttp.responseText;
+    	}
+  	}
+
+	xmlhttp.open("GET","consecuente_ajax.php?q="+str,true);
+	xmlhttp.send();
+
+
+}
+
+
+function setCF(str){
+
+    document.getElementById("cf").innerHTML=str;
+}
+</script>
 <body>
 
 		<div class="page">
@@ -60,6 +116,28 @@
 
 					<h1>Crear Regla</h1>
 
+					<div id="txtHint">
+						<table width="94%" border="0" align="left">
+							<tr>
+								<td>
+									<div class="div_reglas_row">
+										<div class="div_id">REGLA </div>
+										<div class="div_gap"> &nbsp;</div>
+										<div class="div_if"> IF </div>
+										<div class="div_gap"> &nbsp;</div>
+										<div class="div_antecedente" id="antecedente"> </div>
+										<div class="div_gap"> &nbsp;</div>
+										<div class="div_then"> THEN</div>
+										<div class="div_gap"> &nbsp;</div>
+										<div class="div_consecuente" id="consecuente"></div>
+										<div class="div_gap"> &nbsp;</div>
+										<div class="div_cf" id="cf"></div>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+
 					<br>
 					<form id="form1" name="form1" method="post"  action="regla_save_or_update.php">
 
@@ -68,7 +146,7 @@
 							<tr>
 								<td align="left">Antecedente</td>
 								<td align="left">
-									<select name="id_antecedente" id="id_antecedente">
+									<select name="id_antecedente" id="id_antecedente"  onchange="showAntecedente(this.value)">
 										<option value="0" SELECTED>Selecione</option>
 										<?php
 										$a=0;
@@ -84,7 +162,7 @@
 							<tr>
 								<td align="left">Consecuente / Valor</td>
 								<td align="left">
-									<select name="id_atributo" id="id_atributo">
+									<select name="id_atributo" id="id_atributo" onchange="showConsecuente(this.value)">
 										<option value="0" SELECTED>Selecione</option>
 										<?php
 										$i=0;
@@ -100,7 +178,7 @@
 							<tr>
 								<td align="left">CF</td>
 								<td align="left">
-									<input type="text" name="cf" id="cf" value="" size="6">
+									<input type="text" name="cf" id="cf" value="" size="6" onkeyup="javascript:setCF(this.value)"   onblur="javascript:setCF(this.value)">
 								</td>
 							</tr>
 
@@ -121,7 +199,9 @@
 
 
 			</div>
+
 		</div>
+
 
 </body>
 </html>
